@@ -13,7 +13,7 @@ const Hero = () => {
         <section id="hero" className={classes.hero}>
           <div className={classes.imageWrapper}>
             <Image
-              src={HeroImage} // TYLKO JEDNO ZDJĘCIE
+              src={HeroImage}
               alt="2K Detailing Opole - profesjonalny auto detailing"
               fill
               style={{ objectFit: "cover" }}

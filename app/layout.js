@@ -19,7 +19,7 @@ export const metadata = {
     description: "Kompleksowe usługi auto detailingu w Opolu",
     images: [
       {
-        url: "/2k-logo-black-biale-tlo.svg",
+        url: "/2k-detailing-og-image.png",
         width: 1200,
         height: 630,
         alt: "2K Detailing Opole - logo",
