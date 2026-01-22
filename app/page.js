@@ -1,9 +1,10 @@
 import Hero from "../components/Main/Hero";
 
 export const metadata = {
-  title: "2K Detailing Opole – korekta lakieru, folia PPF, powłoka ceramiczna",
+  title:
+    "2K Auto Detailing Opole – korekta lakieru, folia PPF, powłoka ceramiczna",
   description:
-    "2K Detailing specjalizuje się w kompleksowym autodetailingu: korekta lakieru, folia PPF, powłoki ceramiczne i pranie tapicerki w Opolu.",
+    "2K Auto Detailing specjalizuje się w kompleksowym autodetailingu:  korekta lakieru, folia PPF i powłoki ceramiczne  w Opolu.",
   alternates: { canonical: "/" },
 };
 
