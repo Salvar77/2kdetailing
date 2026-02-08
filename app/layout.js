@@ -1,4 +1,5 @@
 import "./globals.scss";
+import LayoutClient from "../components/More/LayoutClient";
 
 export const metadata = {
   metadataBase: new URL("https://www.2kdetailing.opole.pl"),
@@ -34,7 +35,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pl">
-      <body>{children}</body>
+      <body>
+        <LayoutClient>{children}</LayoutClient>
+      </body>
     </html>
   );
 }

@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import classes from "./Hero.module.scss";
-import HeroImage from "../../assets/images/2k-logo-black-biale-tlo.svg";
+import HeroImage from "../../assets/images/2k-logo-white-czarne-tlo.svg";
 
 const Hero = () => {
   const description = "STRONA W BUDOWIE";
@@ -14,7 +14,7 @@ const Hero = () => {
           <div className={classes.imageWrapper}>
             <Image
               src={HeroImage}
-              alt="2K Auto Detailing Opole - profesjonalny auto detailing"
+              alt="2K Auto Detailing Opole - Auto detailing - Korekta lakieru - Polerowanie lakieru"
               fill
               style={{ objectFit: "cover" }}
               priority
