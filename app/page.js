@@ -1,4 +1,10 @@
 import Hero from "../components/Main/Hero";
+import Services from "../components/Main/Services";
+import SliderSection from "@/components/SliderSection/SliderSection";
+import Pricelist from "@/components/Main/PriceList";
+import AboutMe from "@/components/Main/AboutMe";
+import Blog from "@/components/Main/Blog";
+import Contact from "@/components/Main/Contact";
 
 export const metadata = {
   title:
@@ -12,6 +18,12 @@ export default function Home() {
   return (
     <main>
       <Hero />
+      <Services />
+      <SliderSection />
+      <Pricelist />
+      <AboutMe />
+      <Blog showReadMoreLink={true} />
+      <Contact />
     </main>
   );
 }
