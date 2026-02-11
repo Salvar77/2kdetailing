@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import styles from "./Logo.module.scss";
-import Logo2KAutodetailing from "../../assets/images/2k-logo-black-biale-tlo.svg";
+import Logo2KAutodetailing from "../../assets/images/2k-logo-white-bez-tla.png";
 
 const Logo = () => (
   <div className={styles.logo}>

@@ -2,7 +2,8 @@
 import React from "react";
 import Image from "next/image";
 import classes from "./Hero.module.scss";
-import HeroImage from "../../assets/images/2k-logo-white-czarne-tlo.svg";
+import HeroImage from "../../assets/images/2k-logo-black-bez-tla.svg";
+import Link from "next/link";
 
 const Hero = () => {
   const description = "STRONA W BUDOWIE";
@@ -14,7 +15,7 @@ const Hero = () => {
           <div className={classes.imageWrapper}>
             <Image
               src={HeroImage}
-              alt="2K Auto Detailing Opole - Auto detailing - Korekta lakieru - Polerowanie lakieru"
+              alt="2K Auto Detailing Opole - Korekta lakieru - Powłoki ceramiczne - Folie PPF"
               fill
               style={{ objectFit: "cover" }}
               priority
@@ -27,10 +28,24 @@ const Hero = () => {
               <span className={classes.hero__titleGold}>2K Auto Detailing</span>
               <br />
               <span className={classes.hero__titleWhite}>
-                Auto detailing - Korekta lakieru - Polerowanie lakieru
+                Korekta lakieru - Powłoki ceramiczne - Folie PPF
               </span>
             </h1>
             <p className={classes.hero__description}>{description}</p>
+            <Link
+              href="/realizacje"
+              className={classes.button}
+              aria-label="Zobacz realizacje 2K Auto Detailing"
+            >
+              <span
+                className={classes.button__surface}
+                aria-hidden="true"
+              ></span>
+              <span className={classes.button__icon} aria-hidden="true">
+                <span></span>
+              </span>
+              <span className={classes.button__text}>Realizacje</span>
+            </Link>
           </div>
         </section>
         {/* <div className={classes.whiteBlockWrapper}></div> */}

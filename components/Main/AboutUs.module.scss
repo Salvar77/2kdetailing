@@ -1,0 +1,221 @@
+@import "../../styles/colors";
+
+.about {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+
+  @media (min-width: 992px) {
+    min-height: 70rem;
+  }
+}
+
+.about__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+
+  img {
+    filter: brightness(0.65) contrast(1.1);
+    transition: transform 0.3s ease;
+  }
+}
+
+.about__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    115deg,
+    rgba($new-black, 0.96) 0%,
+    rgba($new-black, 0.85) 60%,
+    rgba($grey-smooth, 0.7) 100%
+  );
+  z-index: 2;
+
+  @media (max-width: 991px) {
+    background: linear-gradient(
+      165deg,
+      rgba($new-black, 0.98) 0%,
+      rgba($new-black, 0.92) 100%
+    );
+  }
+}
+
+.about__content {
+  position: relative;
+  z-index: 3;
+  max-width: 128rem;
+  width: 100%;
+  padding: 6rem 2rem;
+  margin: 0 auto;
+  color: $white-smooth;
+
+  @media (min-width: 768px) {
+    padding: 8rem 4rem;
+  }
+
+  @media (min-width: 1200px) {
+    padding: 10rem 6rem;
+  }
+}
+
+.about__title {
+  font-size: clamp(2.8rem, 5vw, 4.2rem);
+  font-weight: 800;
+  color: $red-main;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  max-width: 90rem;
+  text-shadow: 0.2rem 0.2rem 0.4rem rgba($dark-smooth, 0.6);
+}
+
+.about__subtitle {
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  font-weight: 600;
+  color: $white-smooth;
+  margin-bottom: 3rem;
+  line-height: 1.5;
+  max-width: 85rem;
+  border-left: 0.5rem solid $red-main;
+  padding-left: 2rem;
+  text-shadow: 0.1rem 0.1rem 0.3rem rgba($dark-smooth, 0.5);
+
+  @media (min-width: 768px) {
+    margin-bottom: 4rem;
+  }
+}
+
+.about__text {
+  max-width: 95rem;
+  margin-bottom: 4rem;
+}
+
+.about__paragraph {
+  font-size: clamp(1.5rem, 2vw, 1.8rem);
+  line-height: 1.75;
+  margin-bottom: 2rem;
+  color: rgba($white-smooth, 0.95);
+  font-weight: 400;
+  text-shadow: 0.1rem 0.1rem 0.2rem rgba($dark-smooth, 0.3);
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  @media (min-width: 768px) {
+    font-size: 1.7rem;
+    line-height: 1.8;
+  }
+}
+
+/* ----- NOWA SEKCJA: DLACZEGO WARTO (TYLKO TO JEST DODANE) ----- */
+.about__why {
+  margin: 4rem 0 2rem;
+  width: 100%;
+}
+
+.about__whyTitle {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: $red-main;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-shadow: 0.2rem 0.2rem 0.3rem rgba($dark-smooth, 0.5);
+
+  @media (min-width: 768px) {
+    font-size: 2.4rem;
+  }
+}
+
+.about__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about__item {
+  display: flex;
+  align-items: center;
+  color: $white-smooth;
+  margin-bottom: 1.2rem;
+  font-size: 1.6rem;
+
+  @media (min-width: 768px) {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.about__icon {
+  color: $red-main;
+  margin-right: 1.2rem;
+  flex-shrink: 0;
+  font-size: 2rem;
+
+  @media (min-width: 768px) {
+    font-size: 2.2rem;
+    margin-right: 1.5rem;
+  }
+}
+/* ------------------------------------------------------------ */
+
+.about__buttonWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.about__phoneButton {
+  gap: 1.2rem;
+  padding: 1.5rem 3rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+
+  .about__phoneIcon {
+    font-size: 1.8rem;
+    margin-left: 0.7rem;
+    padding-bottom: 0.1rem;
+    filter: drop-shadow(0 0.2rem 0.2rem rgba(0, 0, 0, 0.2));
+  }
+
+  svg {
+    font-size: 1.8rem;
+    filter: drop-shadow(0 0.2rem 0.2rem rgba(0, 0, 0, 0.2));
+  }
+
+  @media (max-width: 767px) {
+    width: 100%;
+    padding: 1.4rem 2rem;
+    font-size: 1.7rem;
+    justify-content: space-between;
+  }
+}
+
+.about__hours {
+  font-size: 1.5rem;
+  color: rgba($white-smooth, 0.9);
+  font-weight: 500;
+  padding-left: 1rem;
+  border-left: 0.2rem solid $red-main;
+  text-shadow: 0.1rem 0.1rem 0.2rem rgba($dark-smooth, 0.4);
+  letter-spacing: 0.02em;
+
+  @media (min-width: 768px) {
+    font-size: 1.6rem;
+  }
+}

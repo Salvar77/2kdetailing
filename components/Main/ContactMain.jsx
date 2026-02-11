@@ -18,20 +18,19 @@ const ContactMain = () => {
       <div className={classes.column}>
         <h2 className={classes.heading}>Dane kontaktowe:</h2>
         <p>
-          2K Auto Detailing <br />- Auto Detailing - Korekta lakieru <br />-
-          Polerowanie lakieru
+          2K Auto Detailing <br />- Korekta lakieru <br />- Powłoki ceramiczne
         </p>
         <p className={classes.address}>ul. Prószkowska 43</p>
         <p className={classes.addressTwo}>45-758 Opole</p>
-        <p className={classes.phone}>Tel: 690 570 800</p>
-        <p className={classes.email}>2kautodetailing.opole@gmail.com</p>
+        <p className={classes.phone}>Tel: 797 234 734</p>
+        <p className={classes.email}>2kdetailingopole@gmail.com</p>
         <p className={classes.hours}>Godziny otwarcia:</p>
         <p className={classes.hoursDetails}>
           pon. - pt.{" "}
-          <span className={classes.hoursDetailsSpan}>07:00 - 20:00</span>
+          <span className={classes.hoursDetailsSpan}>08:00 - 17:00</span>
         </p>
         <p className={classes.hoursDetails}>
-          sob. <span className={classes.hoursDetailsSpan}>08:00 - 18:00</span>
+          sob. <span className={classes.hoursDetailsSpan}>09:00 - 14:00</span>
         </p>
       </div>
 
@@ -39,7 +38,7 @@ const ContactMain = () => {
         <div className={classes.logoBlock}>
           <Image
             src={Logo}
-            alt="Logo firmy 2K Auto Detailing - auto detailing, pranie tapicerki, korekta lakieru"
+            alt="Logo firmy 2K Auto Detailing Opole - korekta lakieru, powłoki ceramiczne"
             className={classes.logo}
             width={350}
             height={250}

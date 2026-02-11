@@ -57,7 +57,7 @@
     text-shadow: 0.5rem 0.5rem 0.5rem $dark-smooth;
 
     &Gold {
-      color: $red-main;
+      color: $new-red;
     }
     &White {
       color: $white-smooth;
@@ -123,27 +123,326 @@
 }
 
 .button {
-  display: inline-block;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
   margin: 0 auto;
-  padding: 0.8rem 1.4rem;
-  font-size: 1.8rem;
-  border-radius: 0.4rem;
-  color: $dark-smooth;
-  background-color: $white-smooth;
-  box-shadow: 0.2rem 0.4rem 0.6rem rgba(56, 201, 34, 0.2);
+  padding: 1.4rem 3.2rem 1.4rem 3.8rem;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
   text-decoration: none;
-  transition:
-    background-color 0.3s,
-    box-shadow 0.3s,
-    transform 0.3s;
-  z-index: 4;
+  color: $white-smooth;
+  background: transparent;
+  border: none;
+  z-index: 10;
+  isolation: isolate;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 
-  &:hover {
-    color: $red-main;
+  // --- GŁÓWNE TŁO: MOCNA CZERWIEŃ Z OSTRYM CIĘCIEM ---
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(145deg, $red-main 0%, #c00100 80%);
+    z-index: -3;
+    clip-path: polygon(
+      24px 0,
+      calc(100% - 24px) 0,
+      100% 50%,
+      calc(100% - 24px) 100%,
+      24px 100%,
+      0 50%
+    );
     box-shadow:
-      0.5rem 0.8rem 1rem rgba($blue-main, 0.4),
-      0 0 1rem rgba($red-main, 0.5);
-    transform: scale(1.05);
+      0 10px 25px -5px rgba($red-main, 0.7),
+      0 0 0 1px rgba($white-smooth, 0.3);
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  // --- WARSTWA KONTRASTUJĄCA: GŁĘBOKA CZERŃ Z PRZEŚWITEM CZERWIENI ---
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    background: linear-gradient(
+      125deg,
+      rgba($new-black, 0.95) 0%,
+      $new-black 100%
+    );
+    z-index: -2;
+    clip-path: polygon(
+      21px 0,
+      calc(100% - 21px) 0,
+      100% 50%,
+      calc(100% - 21px) 100%,
+      21px 100%,
+      0 50%
+    );
+    box-shadow: inset 0 0 15px rgba($red-main, 0.3);
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  // --- WARSTWA WIERZCHNIA: SZKLANY POŁYSK / WET LOOK ---
+  .button__surface {
+    position: absolute;
+    inset: 6px;
+    background: linear-gradient(
+      105deg,
+      rgba($white-smooth, 0.25) 0%,
+      rgba($white-smooth, 0.05) 30%,
+      transparent 70%
+    );
+    clip-path: polygon(
+      18px 0,
+      calc(100% - 18px) 0,
+      100% 50%,
+      calc(100% - 18px) 100%,
+      18px 100%,
+      0 50%
+    );
+    z-index: -1;
+    pointer-events: none;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  // --- IKONA: PAD POLERSKI / NARZĘDZIE ---
+  .button__icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.8rem;
+    height: 2.8rem;
+    transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+    filter: drop-shadow(0 0 8px rgba($red-main, 0.8));
+
+    // Tarcza polerki - mocna poświata
+    &::before {
+      content: "";
+      position: absolute;
+      width: 3.2rem;
+      height: 3.2rem;
+      background: rgba($red-main, 0.9);
+      border-radius: 50%;
+      filter: blur(6px);
+      opacity: 0.7;
+      transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    // Pierścień narzędzia - ostra biel
+    &::after {
+      content: "";
+      position: absolute;
+      width: 2.4rem;
+      height: 2.4rem;
+      border: 2.5px solid $white-smooth;
+      border-radius: 50%;
+      border-top-color: $red-main;
+      border-right-color: $red-main;
+      transform: rotate(45deg);
+      transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+      box-shadow: 0 0 20px rgba($white-smooth, 0.8);
+    }
+
+    // Centralna kropka - oś maszyny
+    span {
+      position: relative;
+      width: 0.8rem;
+      height: 0.8rem;
+      background: $white-smooth;
+      border-radius: 50%;
+      z-index: 2;
+      box-shadow: 0 0 20px rgba($white-smooth, 1);
+    }
+  }
+
+  // --- TEKST: MOCNY, KONTRASTOWY, METALICZNY ---
+  .button__text {
+    position: relative;
+    z-index: 2;
+    color: $white-smooth;
+    text-shadow:
+      0 0 15px rgba($red-main, 0.9),
+      0 0 30px rgba($red-main, 0.5),
+      2px 2px 2px rgba($new-black, 0.8);
+    letter-spacing: 0.25em;
+    font-weight: 900;
+  }
+
+  // --- HOVER: ROZPALONA POLERKA, JESZCZE WIĘCEJ KONTRASTU ---
+  &:hover {
+    transform: translateY(-3px) scale(1.03);
+
+    &::before {
+      background: linear-gradient(145deg, #ff1a1a 0%, $red-main 100%);
+      box-shadow:
+        0 15px 35px -5px rgba($red-main, 0.9),
+        0 0 0 2px rgba($white-smooth, 0.6);
+      filter: brightness(1.2);
+    }
+
+    &::after {
+      background: $new-black;
+      inset: 4px;
+      box-shadow: inset 0 0 25px rgba($red-main, 0.6);
+    }
+
+    .button__surface {
+      background: linear-gradient(
+        105deg,
+        rgba($white-smooth, 0.4) 0%,
+        rgba($white-smooth, 0.1) 30%,
+        transparent 70%
+      );
+      inset: 5px;
+    }
+
+    .button__icon {
+      transform: rotate(180deg) scale(1.15);
+
+      &::before {
+        background: rgba($red-main, 1);
+        filter: blur(10px);
+        width: 4rem;
+        height: 4rem;
+        opacity: 0.9;
+      }
+
+      &::after {
+        border-top-color: $white-smooth;
+        border-right-color: $white-smooth;
+        transform: rotate(225deg);
+        box-shadow: 0 0 30px rgba($white-smooth, 1);
+        border-width: 3px;
+      }
+
+      span {
+        background: $white-smooth;
+        box-shadow: 0 0 30px rgba($white-smooth, 1);
+        width: 1rem;
+        height: 1rem;
+      }
+    }
+
+    .button__text {
+      text-shadow:
+        0 0 25px rgba($red-main, 1),
+        0 0 45px rgba($red-main, 0.8),
+        2px 2px 3px rgba($new-black, 0.9);
+    }
+  }
+
+  // --- ACTIVE: WCIŚNIĘCIE POLERKI W LAKIER ---
+  &:active {
+    transform: translateY(5px) scale(0.98);
+
+    &::before {
+      filter: brightness(0.9);
+      box-shadow:
+        0 5px 15px -2px rgba($red-main, 0.8),
+        0 0 0 1px rgba($white-smooth, 0.5);
+    }
+
+    .button__icon {
+      transform: rotate(360deg) scale(0.95);
+    }
+  }
+
+  // --- RESPONSYWNOŚĆ ---
+  @media (max-width: 767px) {
+    padding: 1.2rem 2.6rem 1.2rem 3.2rem;
+    font-size: 1.7rem;
+    gap: 1.2rem;
+
+    &::before {
+      clip-path: polygon(
+        18px 0,
+        calc(100% - 18px) 0,
+        100% 50%,
+        calc(100% - 18px) 100%,
+        18px 100%,
+        0 50%
+      );
+    }
+
+    &::after {
+      clip-path: polygon(
+        15px 0,
+        calc(100% - 15px) 0,
+        100% 50%,
+        calc(100% - 15px) 100%,
+        15px 100%,
+        0 50%
+      );
+    }
+
+    .button__surface {
+      clip-path: polygon(
+        12px 0,
+        calc(100% - 12px) 0,
+        100% 50%,
+        calc(100% - 12px) 100%,
+        12px 100%,
+        0 50%
+      );
+    }
+
+    .button__icon {
+      width: 2.4rem;
+      height: 2.4rem;
+
+      &::before {
+        width: 2.8rem;
+        height: 2.8rem;
+      }
+
+      &::after {
+        width: 2rem;
+        height: 2rem;
+      }
+    }
+  }
+
+  @media (min-width: 992px) {
+    padding: 1.6rem 3.8rem 1.6rem 4.4rem;
+    font-size: 2.2rem;
+
+    &::before {
+      clip-path: polygon(
+        28px 0,
+        calc(100% - 28px) 0,
+        100% 50%,
+        calc(100% - 28px) 100%,
+        28px 100%,
+        0 50%
+      );
+    }
+
+    &::after {
+      clip-path: polygon(
+        24px 0,
+        calc(100% - 24px) 0,
+        100% 50%,
+        calc(100% - 24px) 100%,
+        24px 100%,
+        0 50%
+      );
+    }
+
+    .button__surface {
+      clip-path: polygon(
+        20px 0,
+        calc(100% - 20px) 0,
+        100% 50%,
+        calc(100% - 20px) 100%,
+        20px 100%,
+        0 50%
+      );
+    }
   }
 }
 

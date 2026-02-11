@@ -51,7 +51,7 @@ export default function Nav({ isOpen, toggleNav }) {
           <AnimatedButton
             onClick={() => (window.location.href = "tel:+48690570800")}
           >
-            +48 690 570 800
+            +48 797 234 734
           </AnimatedButton>
         </div>
 

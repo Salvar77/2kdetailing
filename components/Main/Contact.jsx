@@ -80,12 +80,10 @@ const Contact = () => {
             <h2>Kontakt</h2>
             <p>
               <strong>
-                2K Auto Detailing - Auto Detailing - Korekta lakieru
+                2K Auto Detailing - Korekta lakieru <br />- Powłoki ceramiczne
               </strong>
               <br />
-              Polerowanie lakieru Opole
-              <br />
-              Opole
+              Auto Detailing Opole
             </p>
             <p className={classes.contact__address}>
               Ulica: Prószkowska 43
@@ -100,16 +98,16 @@ const Contact = () => {
                 href="tel:+48690570800"
                 className={classes.contact__phone_link}
               >
-                690 570 800
+                797 234 734
               </a>
             </div>
             <div className={classes.contact__info_row}>
               <AtSign className={classes.icon} />
               <a
-                href="mailto:mkstudio.opole@gmail.com"
+                href="mailto:2kdetailingopole@gmail.com"
                 className={classes.contact__email_link}
               >
-                2kautodetailing.opole@gmail.com
+                2kdetailingopole@gmail.com
               </a>
             </div>
 
@@ -118,12 +116,12 @@ const Contact = () => {
             <h3>Godziny otwarcia:</h3>
             <ul className={classes.contact__hours}>
               {[
-                ["Poniedziałek", "07:00–20:00"],
-                ["Wtorek", "07:00–20:00"],
-                ["Środa", "07:00–20:00"],
-                ["Czwartek", "07:00–20:00"],
-                ["Piątek", "07:00–20:00"],
-                ["Sobota", "08:00–18:00"],
+                ["Poniedziałek", "08:00–17:00"],
+                ["Wtorek", "08:00–17:00"],
+                ["Środa", "08:00–17:00"],
+                ["Czwartek", "08:00–17:00"],
+                ["Piątek", "08:00–17:00"],
+                ["Sobota", "09:00–14:00"],
                 ["Niedziela", "Zamknięte"],
               ].map(([day, hours]) => (
                 <li key={day}>
