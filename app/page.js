@@ -1,16 +1,16 @@
 import Hero from "../components/Main/Hero";
 import Services from "../components/Main/Services";
-import SliderSection from "@/components/SliderSection/SliderSection";
-import Pricelist from "@/components/Main/PriceList";
-import AboutUs from "@/components/Main/AboutUs";
-import Blog from "@/components/Main/Blog";
-import Contact from "@/components/Main/Contact";
+import SliderSection from "../components/SliderSection/SliderSection";
+import Pricelist from "../components/Main/PriceList";
+import AboutUs from "../components/Main/AboutUs";
+import Blog from "../components/Main/Blog";
+import Contact from "../components/Main/Contact";
 
 export const metadata = {
   title:
-    "2K Auto Detailing Opole – korekta lakieru, folia PPF, powłoka ceramiczna",
+    "2K Auto Detailing Opole – korekta lakieru, powłoki ceramiczne, folia PPF",
   description:
-    "2K Auto Detailing specjalizuje się w kompleksowym autodetailingu:  korekta lakieru, folia PPF i powłoki ceramiczne  w Opolu.",
+    "2K Auto Detailing specjalizuje się w kompleksowym autodetailingu:  korekta lakieru, powłoki ceramiczne i folia PPF  w Opolu.",
   alternates: { canonical: "/" },
 };
 

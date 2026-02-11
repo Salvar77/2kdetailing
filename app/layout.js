@@ -8,7 +8,7 @@ export const metadata = {
     template: "%s | 2K Auto Detailing Opole",
   },
   description:
-    "2K Auto Detailing Opole: korekta lakieru, folia PPF, powłoki ceramiczne. Doświadczeni specjaliści z Opola.",
+    "2K Auto Detailing Opole: korekta lakieru, powłoki ceramiczne, folia PPF. Doświadczeni specjaliści z Opola.",
   alternates: {
     canonical: "/",
   },

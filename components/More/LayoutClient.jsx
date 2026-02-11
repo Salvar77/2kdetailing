@@ -4,7 +4,7 @@ import classes from "./LayoutClient.module.scss";
 import { usePathname } from "next/navigation";
 import Nav from "../Nav/Nav";
 import Footer from "../Footer/Footer";
-import ContactBubble from "@/components/More/ContactBubble";
+import ContactBubble from "../../components/More/ContactBubble";
 
 export default function LayoutClient({ children }) {
   const pathname = usePathname();
