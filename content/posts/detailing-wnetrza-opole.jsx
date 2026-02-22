@@ -12,61 +12,56 @@ import {
 import classes from "../../app/blog/[slug]/page.module.scss";
 
 export const meta = {
-  id: 6,
-  slug: "folia-ppf-opole",
-  title: "Najwyższa Klasa Ochrony: Folia PPF w Detailingowaniu",
-  subtitle: "ZAAWANSOWANA ŚCIANA NA KAMYKI",
-  date: "2026-02-18",
+  id: 8,
+  slug: "detailing-wnetrza-opole",
+  title: "Ekskluzywny Detailing Wnętrza w Opolu",
+  subtitle: "CZYSTOŚĆ I HIGIENA KABINY",
+  date: "2026-02-21",
   image: "/2k-logo-black-biale-tlo.png",
   dynamicImage: "/2k-logo-black-biale-tlo.png",
-  mainImageAltText: "Nakładanie przezroczystej folii PPF na maskę",
+  mainImageAltText: "Idealnie czyste wnętrze samochodu",
   images: [
     "/2k-logo-black-biale-tlo.png",
     "/2k-logo-black-biale-tlo.png",
     "/2k-logo-black-biale-tlo.png",
     "/2k-logo-black-biale-tlo.png",
   ],
-  imagesAltText: [
-    "Aplikacja PPF",
-    "Efekt uodpornienia lakieru",
-    "Foliowanie Opolskiego warsztatu",
-    "Zakończona praca",
-  ],
+  imagesAltText: ["Wnętrze po detailingu", "Odkurzanie zakamarków"],
   description:
-    "Zabezpiecz auto najbardziej zaawansowaną folią poliuretanową o właściwościach samoregenerujących.",
+    "Przywróć swojemu autu zapach nowości. Kompleksowe odświeżenie plastików, kratek i wyświetlaczy.",
 };
 
 export default function PostComponent() {
   return (
     <>
       <h2 className={classes.blogTitle}>
-        Pancerna Bariera Chroniąca Lakier Nawet pod Ostrzałem Z Kamieni
+        Cofnij czas do pierwszego wyjazdu z salonu
       </h2>
       <p className={classes.textShadow}>
-        Powłoki ceramiczne poprawiają twardość i minimalizują rysy np. od
-        przypadkowego piasku w gąbce z myjni, jednakże z prawami mocnej fizyki
-        kiedy w stronę Twojego zderzaka na autostradzie leci kilkumilimetrowy
-        kawałek gruzu – lakier uratuje wyłącznie bardzo elastyczna a co
-        najważniejsze gruba i wytrzymała{" "}
-        <strong>
-          <Link href="/oferta/folia-ppf" className={classes.textLink}>
-            Folia PPF
-          </Link>
-        </strong>
-        . Oferowana przez nas folia to wysoce wytrzymała samoregenerująca
-        uretanowa struktura, znikająca uszkodzenia pod wpływem promieni ciepła
-        słońca - która fizycznie przyjmuje cios i pochłania siłę potężnych
-        uderzeń punktowych.
+        Brud zazwyczaj gromadzi się w najciaśniejszych punktach - w szczelinach
+        drzwi, porach kierownicy i zakamarkach kratek nawiewowych. Używamy
+        pędzelków z delikatnym włosiem, by skutecznie uporać się z twardymi,
+        osiadłymi osadami kurzu, nie zostawiając przy tym ani grama zarysowań na
+        fortepianowej czerni (tzw. piano black). Nasz{" "}
+        <Link href="/oferta/detailing-wnetrza" className={classes.textLink}>
+          detailing wnętrza
+        </Link>{" "}
+        to aptekarska precyzja, obejmująca mycie z zewnątrz, czyszczenie paneli,
+        konserwację uszczelek oraz głębokie odkurzanie szybowe.
       </p>
 
-      <h2 className={classes.blogTitle}>Zabezpiecz Front lub Cały Karbon </h2>
+      <h2 className={classes.blogTitle}>
+        Antystatyczny, nowy charakter Twoich plastików
+      </h2>
       <p className={classes.textShadow}>
-        Używamy technologii w której przed nałożeniem wycinamy komputerowym
-        ploterem gotowe już kształty poszczególnych "plastronów" dla Twojego
-        pojazdu, na podstawie ogromnej bazy gotowych maskownic formatek modeli
-        samochodów. Aplikujemy pełny bezszwowy zestaw na przód, aby zabezpieczyć
-        maskę, lampy, lusterka oraz często mocno profilowane zderzaki –
-        minimalizując konieczność ostrego ciącia przy rantu elementu pojazdu.
+        W 2K Auto Detailing na koniec każdej usługi mycia pokrywamy elementy
+        kokpitu dedykowanymi w tym celu dressingami z dodatkiem silnych filtrów
+        UV. Posiadają w sobie ładunek antystatyczny, przez co odpychają kurz
+        oraz zapobiegają szybkiemu płowieniu plastików od żaru słonecznego.
+        Stosujemy tylko rozwiązania, które zachowują matowe bądź lekko satynowe
+        odbicia światła, broniąc się stanowczo przeciwko tanim "dressingom" ze
+        stacji benzynowych pozostawiającym świecący się i lepki od tłuszczu
+        błysk.
       </p>
 
       <h2 className={classes.blogContactTitle}>

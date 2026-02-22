@@ -23,15 +23,12 @@ export default function PrzyciemnianieSzybPage() {
         <div className={classes.contentSection__text}>
           <h2>Przyciemnianie szyb – styl, komfort i ochrona w jednym</h2>
           <p>
-            <Link href="/blog/przyciemnianie-szyb-opole">
-              Przyciemnianie szyb
-            </Link>{" "}
-            to profesjonalna usługa, która łączy walory estetyczne z realnymi
-            korzyściami użytkowymi. W 2K Auto Detailing Opole stosujemy
-            wyłącznie wysokiej jakości folie premium, które nie tylko nadają
-            samochodowi elegancki, sportowy charakter, ale przede wszystkim
-            chronią Ciebie i wnętrze Twojego auta przed szkodliwym
-            promieniowaniem UV oraz nadmiernym nagrzewaniem.
+            <strong>Przyciemnianie szyb</strong> to profesjonalna usługa, która
+            łączy walory estetyczne z realnymi korzyściami użytkowymi. W 2K Auto
+            Detailing Opole stosujemy wyłącznie wysokiej jakości folie premium,
+            które nie tylko nadają samochodowi elegancki, sportowy charakter,
+            ale przede wszystkim chronią Ciebie i wnętrze Twojego auta przed
+            szkodliwym promieniowaniem UV oraz nadmiernym nagrzewaniem.
           </p>
 
           {/* ✅ H2 Z INSTRUKCJI – KOMFORT, STYL I OCHRONA WNĘTRZA AUTA */}
@@ -42,10 +39,13 @@ export default function PrzyciemnianieSzybPage() {
           <p className={classes.description}>
             Folia przyciemniająca to nie tylko modny dodatek. To przede
             wszystkim
-            <strong> realna ochrona przed słońcem</strong>. Dzięki zaawansowanym
-            technologiom produkcji, nowoczesne folie odbijają nawet do 99%
-            promieniowania UV, chroniąc tapicerkę, skórę i elementy plastikowe
-            przed blaknięciem, pękaniem i przedwczesnym starzeniem się.
+            <strong> realna ochrona przed słońcem</strong>, która doskonale
+            uzupełnia twój{" "}
+            <Link href="/blog/detailing-wnetrza-opole">detailing wnętrza</Link>.
+            Dzięki zaawansowanym technologiom produkcji, nowoczesne folie
+            odbijają nawet do 99% promieniowania UV, chroniąc tapicerkę, skórę i
+            elementy plastikowe przed blaknięciem, pękaniem i przedwczesnym
+            starzeniem się.
           </p>
 
           <p className={classes.description}>
@@ -112,9 +112,10 @@ export default function PrzyciemnianieSzybPage() {
           <h2>Jak wygląda profesjonalny montaż folii w 2K Auto Detailing?</h2>
           <p>
             Przyciemnianie szyb to nie naklejanie folii na mokro i wyciskanie
-            wody. To precyzyjny rzemieślniczy proces, który wymaga
-            doświadczenia, cierpliwości i odpowiednich warunków. W 2K Auto
-            Detailing pracujemy w czystym, bezpyłowym pomieszczeniu, z
+            wody. To precyzyjny rzemieślniczy proces, który wymaga prawdziwej
+            pasji i najwyższych standardów, jakie wyznacza pełen{" "}
+            <Link href="/blog/auto-detailing-opole">auto detailing</Link>. W 2K
+            Auto Detailing pracujemy w czystym, bezpyłowym pomieszczeniu, z
             kontrolowaną temperaturą i wilgotnością.
           </p>
           <ul>
@@ -176,7 +177,9 @@ export default function PrzyciemnianieSzybPage() {
               <li>
                 <strong>Szyby przednie (laminowane):</strong> Wymagana
                 przepuszczalność minimum 75% światła. Stosujemy przezroczyste
-                folie ochronne UV, które nie zmieniają wyglądu szyby.
+                folie ochronne UV – niewidzialne bariery, które chronią szybę
+                podobnie jak <Link href="/blog/folia-ppf-opole">folia PPF</Link>{" "}
+                lakier – nie zmieniając jej pierwotnego wyglądu.
               </li>
               <li>
                 <strong>Szyby boczne przednie:</strong> Przepuszczalność minimum
@@ -205,91 +208,6 @@ export default function PrzyciemnianieSzybPage() {
             layout="responsive"
             objectFit="cover"
           />
-        </div>
-      </section>
-
-      {/* ✅ SEKCJA: 5 POWODÓW, DLA KTÓRYCH WARTO PRZYCIEMNIĆ SZYBY */}
-      <section className={classes.benefitsSection}>
-        <div className={classes.benefitsSection__content}>
-          <h2>5 powodów, dla których warto przyciemnić szyby</h2>
-          <div className={classes.benefitsGrid}>
-            <div className={classes.benefitItem}>
-              <div className={classes.benefitIcon}>☀️</div>
-              <h4>Redukcja temperatury</h4>
-              <p>
-                Nawet o 60% niższa temperatura wnętrza w słoneczne dni.
-                Klimatyzacja pracuje wydajniej, zużywasz mniej paliwa.
-              </p>
-            </div>
-            <div className={classes.benefitItem}>
-              <div className={classes.benefitIcon}>🛡️</div>
-              <h4>Ochrona przed UV</h4>
-              <p>
-                99% blokady promieniowania UV. Tapicerka, skóra i plastiki nie
-                blakną, nie pękają i dłużej zachowują świeży wygląd.
-              </p>
-            </div>
-            <div className={classes.benefitItem}>
-              <div className={classes.benefitIcon}>👁️</div>
-              <h4>Większa prywatność</h4>
-              <p>
-                Ochrona przed ciekawskimi spojrzeniami. Wnętrze auta staje się
-                Twoją prywatną przestrzenią.
-              </p>
-            </div>
-            <div className={classes.benefitItem}>
-              <div className={classes.benefitIcon}>⚡</div>
-              <h4>Elegancki wygląd</h4>
-              <p>
-                Auto zyskuje sportowy, agresywny charakter. Nawet kilkuletnie
-                modele wyglądają świeżo i nowocześnie.
-              </p>
-            </div>
-            <div className={classes.benefitItem}>
-              <div className={classes.benefitIcon}>🔄</div>
-              <h4>Bezpieczeństwo</h4>
-              <p>
-                Folia zwiększa odporność szyby na stłuczenie. W razie kolizji
-                odłamki pozostają na folii, nie raniąc pasażerów.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ✅ SEKCJA: RODZAJE FOLII – PORÓWNANIE */}
-      <section className={classes.comparisonSection}>
-        <div className={classes.comparisonSection__content}>
-          <h2>Folia standardowa czy ceramiczna? Pomagamy wybrać</h2>
-          <div className={classes.comparisonGrid}>
-            <div className={classes.comparisonItem}>
-              <h4>Folie standardowe (barwione)</h4>
-              <ul>
-                <li>✅ Dobra redukcja UV (ok. 95%)</li>
-                <li>✅ Dobra redukcja ciepła</li>
-                <li>✅ Szeroka gama odcieni</li>
-                <li>❌ Mogą interferować z sygnałem GPS/GSM</li>
-                <li>❌ Z czasem możliwe płowienie koloru</li>
-              </ul>
-              <p className={classes.priceTag}>
-                Idealne do aut używanych, szyb bocznych i tylnej
-              </p>
-            </div>
-            <div className={`${classes.comparisonItem} ${classes.highlighted}`}>
-              <h4>Folie ceramiczne (premium)</h4>
-              <ul>
-                <li>✅ 99% redukcji UV</li>
-                <li>✅ 60% redukcji ciepła</li>
-                <li>✅ Neutralny odcień, nie zmienia koloru szyby</li>
-                <li>✅ Brak interferencji z sygnałem</li>
-                <li>✅ Odporne na zarysowania i płowienie</li>
-                <li>✅ Dożywotnia gwarancja</li>
-              </ul>
-              <p className={classes.priceTag}>
-                Rekomendacja 2K Auto Detailing – auta nowe i premium
-              </p>
-            </div>
-          </div>
         </div>
       </section>
 

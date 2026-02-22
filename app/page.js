@@ -5,6 +5,7 @@ import Pricelist from "../components/Main/PriceList";
 import AboutUs from "../components/Main/AboutUs";
 import Blog from "../components/Main/Blog";
 import Contact from "../components/Main/Contact";
+import ElfsightLazyWrapper from "../components/More/ElfsightLazyWrapper";
 
 export const metadata = {
   title:
@@ -23,6 +24,7 @@ export default function Home() {
       <SliderSection />
       <Pricelist />
       <Blog showReadMoreLink={true} />
+      <ElfsightLazyWrapper />
       <Contact />
     </main>
   );

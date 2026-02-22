@@ -43,6 +43,7 @@ const Blog = ({ showReadMoreLink = false }) => {
               href={`/blog/${post.link.split("/").pop()}`}
               className={classes.blog__readMore}
               aria-label={`Przeczytaj więcej o: ${post.title}`}
+              onClick={() => window.scrollTo(0, 0)}
             >
               Czytaj dalej
             </Link>

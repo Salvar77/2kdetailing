@@ -1,5 +1,13 @@
+import { Kanit } from "next/font/google";
 import "./globals.scss";
 import LayoutClient from "../components/More/LayoutClient";
+
+const kanit = Kanit({
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  subsets: ["latin", "latin-ext"],
+  display: "swap",
+  variable: "--font-kanit",
+});
 
 export const metadata = {
   metadataBase: new URL("https://www.2kdetailing.opole.pl"),
@@ -34,7 +42,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="pl">
+    <html lang="pl" className={kanit.variable}>
       <body>
         <LayoutClient>{children}</LayoutClient>
       </body>

@@ -45,7 +45,7 @@ export default function AboutUs() {
       <div className={classes.about__background}>
         <Image
           src={AboutImage}
-          alt="2K Auto Detailing Opole – Kamil, właściciel. Specjalista korekty lakieru i powłok ceramicznych w Opolu."
+          alt="2K Auto Detailing Opole – zespół, specjaliści korekty lakieru i powłok ceramicznych w Opolu."
           fill
           style={{ objectFit: "cover" }}
           priority

@@ -38,9 +38,8 @@ export default function CtaSection() {
             </h2>
 
             <p className={classes.text}>
-              Wypełnij formularz kontaktowy, a ja,{" "}
-              <span className={classes.name}>Kamil</span>, skontaktuję się z
-              Tobą w ciągu godziny, aby ustalić szczegóły. Nie czekaj z
+              Wypełnij formularz kontaktowy, a nasz zespół skontaktuje się z
+              Tobą w ciągu 24 godzin, aby ustalić szczegóły. Nie czekaj z
               rezerwacją!
             </p>
           </div>

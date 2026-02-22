@@ -1,8 +1,9 @@
 import React from "react";
 import Link from "next/link";
 import {
-  Wrench,
   Droplet,
+  Wrench,
+  Feather,
   PhoneCall as Phone,
   Mail,
   MapPin,
@@ -13,169 +14,97 @@ import classes from "../../app/blog/[slug]/page.module.scss";
 export const meta = {
   id: 5,
   slug: "powloka-ceramiczna-opole",
-  title:
-    "Powłoka ceramiczna samochodu w Opolu – trwała ochrona i głęboki połysk",
-  subtitle: "CERAMICZNA POWŁOKA OCHRONNA",
-  date: "2025-06-15",
-  image: "/galeria-powloka-ceramiczna-3.jpg",
-  dynamicImage: "/galeria-powloka-ceramiczna-3.jpg",
+  title: "Powłoka Ceramiczna – Hydrofobowość w Deszczu i Olśnienie",
+  subtitle: "ZACHWYCAJĄCA CERAMIKA NA LAKIER ",
+  date: "2026-02-10",
+  image: "/2k-logo-black-biale-tlo.png",
+  dynamicImage: "/2k-logo-black-biale-tlo.png",
   mainImageAltText:
-    "Główny obraz bloga. Dwa samochody, BMW E30 i nowoczesny SUV, z nałożoną powłoką ceramiczną, prezentujące głęboki połysk w studiu detailingowym w Opolu.",
+    "Efekt hydrofobowy wody na powłoce ceramicznej 2K Detailing",
   images: [
-    "/galeria-powloka-ceramiczna-1.jpg",
-    "/galeria-powloka-ceramiczna-2.jpg",
-    "/galeria-powloka-ceramiczna-1.jpg",
-    "/galeria-powloka-ceramiczna-3.jpg",
+    "/2k-logo-black-biale-tlo.png",
+    "/2k-logo-black-biale-tlo.png",
+    "/2k-logo-black-biale-tlo.png",
+    "/2k-logo-black-biale-tlo.png",
   ],
   imagesAltText: [
-    "Samochód Skoda Superb z nałożoną powłoką ceramiczną. Widoczny głęboki połysk lakieru i efekt odbicia światła w MK Studio Opole.",
-    "Powłoka ceramiczna na lakierze czarnego sedana. Zdjęcie z góry ukazujące hydrofobowy efekt i ochronę przed brudem.",
-    "BMW po nałożeniu powłoki ceramicznej. Zdjęcie przedstawia lśniący lakier, bez zarysowań, gotowy do jazdy.",
-    "Efekt finalny po nałożeniu powłoki ceramicznej. Skoda z lśniącym lakierem, zabezpieczone na lata.",
+    "Woda perląca się na masce",
+    "Auto po wyjeździe",
+    "Detailing Opole",
+    "Struktura powłoki w Opolu",
   ],
   description:
-    "Odkryj zalety powłoki ceramicznej w Opolu: długotrwała ochrona lakieru, odporność na zabrudzenia i promieniowanie UV oraz efekt głębokiego połysku.",
+    "Zafunduj profesjonalną ceramikę i ogranicz potrzebę trudnych uciążliwych myć, zyskując potężny, wieloletni blask oraz rewelacyjny zrzut brudnej wody.",
 };
 
-export default function CeramicCoatingPost() {
+export default function PostComponent() {
   return (
     <>
       <h2 className={classes.blogTitle}>
-        Powłoka ceramiczna w Opolu: Niezawodna tarcza dla lakieru Twojego auta
+        Brud Który Automatycznie Spływa z Twojego Ulubionego Wozu
       </h2>
       <p className={classes.textShadow}>
-        W <strong>MK Studio Auto Detailing</strong> doskonale rozumiem, że
-        lakier samochodowy to coś więcej niż tylko sam kolor. To wizytówka
-        Twojego pojazdu, która z czasem traci blask i jest narażona na
-        uszkodzenia. Właśnie dlatego postawiłem na profesjonalną{" "}
+        Mycie auta z czystą pedanterią w deszczowe jesienne lub pyłowe letnie
+        dni potrafi zamieniać chęci na powstrzymywanie złości... A co jeśli do
+        odmycia warstwy lepkiego piasku użyć by w głównej mierze jedynie
+        ciśnienia czystej demineralizowanej wody, w przysłowiowe 15 minut... -
+        gdy karoseria potyczek odpiera zabrudzenia dzięki założonemu niewidoczną
+        "zbroi" czyli{" "}
         <strong>
-          <Link href="/oferta/powloka-ceramiczna">powłokę ceramiczną</Link>
+          <Link href="/oferta/powloka-ceramiczna" className={classes.textLink}>
+            Ochronie Ceramicznej
+          </Link>
         </strong>
-        , która działa jak druga skóra dla Twojego auta. To zaawansowana
-        technologia, która tworzy na lakierze niewidoczną, twardą warstwę
-        ochronną, znacząco wydłużając jego żywotność i estetykę. W moim studio w
-        Opolu, ja, Kamil, osobiście zajmuję się każdym etapem aplikacji,
-        gwarantując tym najwyższą jakość i trwałość.
+        . Dobrze zaaplikowana u nas chemia wgryza się gęsto w niewidzialne pory
+        powłoki bezbarwnej z fabryki, dając chemiczną ochroną przed agresywnymi
+        kwasami m.in owadzimi odchodami ptasimi lub solą na mocno obłożonych
+        białych szosach dojazdowych.
       </p>
 
       <h2 className={classes.blogTitle}>
-        Mój proces aplikacji powłoki ceramicznej – precyzja i doświadczenie
+        Zyskany Czas, Oraz Głęboki Efekt "Szklistej Tafli"
       </h2>
       <p className={classes.textShadow}>
-        Aplikacja powłoki ceramicznej to skomplikowany, wieloetapowy proces,
-        który wymaga precyzji i odpowiednich warunków. W{" "}
-        <strong> MK Studio Auto Detailing</strong> nie idę na skróty – każdy
-        krok jest dla mnie kluczowy aby uzyskać perfekcję i trwały efekt.
+        Stosunkowo do ogromnej redukcji niszczącego promieniowania UV czy
+        ochrony mikrorys na wozie przed mikrouszkodzeniami ręczników ze szczotki
+        czy samej chłonności kwaśnego zjawiska ptasiego zanieczyszczenia,
+        ceramika to estetyczny krok giełdowy! Położona trwała powłoka kwarcowa
+        fizycznie zwiększa optyczną grubość zmatowienia odblaskowego i znacząco
+        podnosi kolor oraz barwnik samego pigmentu w warstwoce odcinającej
+        karoserii.
       </p>
-      <ul>
-        <li>
-          <Wrench className="icon" /> <strong>Przygotowanie powierzchni</strong>{" "}
-          – Zaczynam od dokładnego mycia i osuszania, a następnie
-          przeprowadzanego ręcznie{" "}
-          <Link href="/oferta/korekta-lakieru">korekty lakieru</Link>. To
-          kluczowy etap, który usuwa wszelkie mikrorysy, hologramy i defekty,
-          zapewniając idealnie gładką powierzchnię. Tylko na takim podłożu
-          powłoka może w pełni związać się z lakierem.
-        </li>
-        <li>
-          <Droplet className="icon" />{" "}
-          <strong>Deironizacja i odtłuszczanie</strong> – Następnie usuwam
-          wszelkie zanieczyszczenia chemiczne, takie jak cząstki metaliczne
-          (opiłki z klocków hamulcowych) oraz osady drogowe, używając
-          specjalistycznych preparatów. Proces ten zapewnia, że lakier jest
-          absolutnie czysty i gotowy do przyjęcia powłoki.
-        </li>
-        <li>
-          <Wrench className="icon" />{" "}
-          <strong>Aplikacja warstwy ceramicznej</strong> – Przy użyciu
-          specjalnych aplikatorów, nakładam powłokę ceramiczną, dbając o
-          równomierne pokrycie każdego elementu. To praca wymagająca spokoju i
-          precyzji, aby uniknąć smug i nierówności.
-        </li>
-        <li>
-          <Droplet className="icon" /> <strong>Wypalanie i utwardzanie</strong>{" "}
-          – Po nałożeniu powłoki, pozostawiam samochód w kontrolowanych
-          warunkach, aby powłoka mogła prawidłowo związać się z lakierem i w
-          pełni się utwardzić. Odpowiednia temperatura i wilgotność są tu
-          kluczowe.
-        </li>
-        <li>
-          <Wrench className="icon" /> <strong>Kontrola jakości</strong> – Zanim
-          oddam Ci kluczyki, dokładnie sprawdzam każdy element, upewniając się,
-          że uzyskaliśmy pożądany efekt hydrofobowy, głębię koloru i lustrzany
-          połysk.
-        </li>
-      </ul>
-
-      <h2 className={classes.blogTitle}>
-        Dlaczego warto wybrać moje powłoki ceramiczne?
-      </h2>
-      <p className={classes.textShadow}>
-        Aplikacja powłoki ceramicznej w moim studio{" "}
-        <strong>MK Studio Auto Detailing</strong> w Opolu to inwestycja w
-        przyszłość Twojego samochodu. Zyskujesz:
-        <br />- <strong>Długotrwała ochrona</strong>: Powłoka chroni lakier
-        przed drobnymi zarysowaniami, ptasimi odchodami, solą drogową,
-        promieniowaniem UV i kwaśnymi deszczami.
-        <br />- <strong>Niesamowity efekt hydrofobowy</strong>: Brud i woda nie
-        przylegają do lakieru, co sprawia, że mycie jest znacznie łatwiejsze i
-        szybsze.
-        <br />- <strong>Głębia koloru i połysk</strong>: Powłoka ceramiczna
-        wydobywa z lakieru jego naturalną głębię i nadaje mu szklisty, lustrzany
-        połysk, który przyciąga wzrok.
-        <br />- <strong>Trwałość na lata</strong>: Moje powłoki ceramiczne
-        zapewniają ochronę nawet do 3 lat, co sprawia, że Twój samochód będzie
-        wyglądał jak nowy przez długi czas.
-      </p>
-
-      <h2 className={classes.blogTitle}>Opinie zadowolonych klientów</h2>
-      <blockquote>
-        <p className={classes.textShadowD}>
-          „Mila profesjonalna obsluga auto Jak z salonu polecam”
-        </p>
-        <cite>– Piotr - Pavel Konobrock</cite>
-      </blockquote>
-      <blockquote>
-        <p className={classes.textShadowD}>
-          „Polecam firmę. Jestem zadowolona z wykonanych usług w moim aucie, I
-          profesjonalnym podejściu do klienta. Szybki termin , niskie ceny.”
-        </p>
-        <cite>– Joanna Dec</cite>
-      </blockquote>
 
       <h2 className={classes.blogContactTitle}>
-        Chcesz zabezpieczyć swój samochód? Skontaktuj się ze mną!
+        Pielęgnacja uszyta na miarę dla Ciebie
       </h2>
       <p className={classes.contactInfo}>
-        Zapraszam do kontaktu, jeśli chcesz dowiedzieć się więcej o{" "}
-        <Link href="/oferta/powloka-ceramiczna" className={classes.textLink}>
-          powłoce ceramicznej
-        </Link>
-        , omówić szczegóły oferty lub umówić się na indywidualną wycenę w moim
-        studio w Opolu.
+        Chcesz porozmawiać o możliwościach jakie drzemią pod warstwą ubytków
+        zarysowań Twojej karoserii? Odwiedź nas na konsultacji wzrokowej Twojego
+        auta i dzwoń śmiało!
       </p>
       <div className={classes.contactDetails}>
         <div className={classes.contactItem}>
           <Phone className={classes.iconDownP} />{" "}
-          <a href="tel:+48690570800">690 570 800</a>
+          <a href="tel:+48797234734">797 234 734</a>
         </div>
         <div className={classes.contactItem}>
           <Mail className={classes.iconDownP} />{" "}
-          <a href="mailto:mkstudio.opole@gmail.com">mkstudio.opole@gmail.com</a>
+          <a href="mailto:2kdetailingopole@gmail.com">
+            2kdetailingopole@gmail.com
+          </a>
         </div>
         <div className={classes.contactItem}>
-          <MapPin className={classes.iconDownP} /> ul. Częstochowska 44, 45-020
-          Opole
+          <MapPin className={classes.iconDownP} /> Opole i Okolice
         </div>
         <div className={classes.contactItem}>
-          <Clock className={classes.iconDownP} /> Pon–Pt: 07:00–20:00, Sob:
-          08:00–18:00
+          <Clock className={classes.iconDownP} /> Pon–Pt: 08:00–18:00, Sob:
+          09:00–15:00
         </div>
       </div>
       <div className={classes.ctaWrapper}>
         <Link href="/kontakt">
           <span className={classes.ctaButton}>
-            Przejdź do formularza kontaktowego
+            Skontaktuj się ze specjalistami 2K
           </span>
         </Link>
       </div>

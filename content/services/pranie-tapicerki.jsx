@@ -51,10 +51,11 @@ export default function PranieTapicerkiPage() {
           </p>
 
           <p className={classes.description}>
-            Nasza usługa obejmuje{" "}
+            Nasz pełen{" "}
+            <Link href="/blog/detailing-wnetrza-opole">detailing wnętrza</Link>{" "}
+            obejmuje{" "}
             <strong>
-              pełne przygotowanie wnętrza, czyszczenie trudno dostępnych miejsc
-              i impregnację
+              kompleksowe czyszczenie trudno dostępnych miejsc i impregnację
             </strong>
             , co wydłuża żywotność materiałów i sprawia, że wnętrze auta
             pozostaje czyste na dłużej. Stosujemy profesjonalne środki
@@ -81,8 +82,9 @@ export default function PranieTapicerkiPage() {
             <li>
               <strong>Czyszczenie i impregnacja tapicerki skórzanej:</strong>{" "}
               Jeśli Twój samochód posiada elementy skórzane, zostaną one
-              wyczyszczone, odżywione i zabezpieczone przed wysychaniem i
-              pękaniem.
+              wyczyszczone, odżywione i zabezpieczone przed wysychaniem. W
+              przypadku mocnych uszkodzeń i ubytków oferujemy również{" "}
+              <Link href="/blog/renowacja-skor-opole">renowację skór</Link>.
             </li>
             <li>
               <strong>Ozonowanie wnętrza:</strong> Dezynfekcja i całkowita
@@ -136,9 +138,10 @@ export default function PranieTapicerkiPage() {
             </li>
             <li>
               <strong>Doświadczenie i precyzja:</strong> Posiadamy wieloletnią
-              praktykę w detailingu wnętrz. Wiemy, jak dobrać odpowiednią metodę
-              i preparaty do rodzaju tkaniny, stopnia zabrudzenia i rodzaju
-              plam.
+              praktykę obejmującą pełen{" "}
+              <Link href="/blog/auto-detailing-opole">auto detailing</Link>.
+              Wiemy, jak dobrać odpowiednią metodę i preparaty do rodzaju
+              tkaniny, stopnia zabrudzenia i rodzaju plam.
             </li>
             <li>
               <strong>Kompleksowość usługi:</strong> Nie ograniczamy się tylko

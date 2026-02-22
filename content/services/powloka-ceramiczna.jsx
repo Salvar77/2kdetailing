@@ -124,9 +124,10 @@ export default function PowlokaCeramicznaPage() {
             </li>
             <li>
               <strong>Korekta lakieru (opcjonalnie):</strong> W zależności od
-              stanu lakieru wykonujemy jedno- lub wieloetapową korektę, aby
-              usunąć rysy, hologramy i zmatowienia. Czysty, pozbawiony defektów
-              lakier to podstawa perfekcyjnego przylegania powłoki.
+              stanu lakieru wykonujemy jedno- lub wieloetapową{" "}
+              <Link href="/blog/korekta-lakieru-opole">korektę lakieru</Link>,
+              aby usunąć rysy, hologramy i zmatowienia. Czysty, pozbawiony
+              defektów lakier to podstawa perfekcyjnego przylegania powłoki.
             </li>
             <li>
               <strong>Dokładne odtłuszczanie:</strong> Używamy specjalistycznych
@@ -163,11 +164,11 @@ export default function PowlokaCeramicznaPage() {
           <h3>Dlaczego warto wybrać 2K Auto Detailing?</h3>
           <div>
             <p className={classes.contentSection__textP}>
-              W 2K Auto Detailing stawiamy na{" "}
-              <strong>jakość, doświadczenie i sprawdzone produkty</strong>. Nasz
-              zespół posiada wieloletnią praktykę w aplikacji powłok
-              ceramicznych, a używane przez nas linie Cleantle Admire i Aqua 9H
-              Self Healing to gwarancja trwałości i spektakularnych efektów.
+              W 2K Auto Detailing stawiamy na zespół powierza pełen{" "}
+              <Link href="/blog/auto-detailing-opole">auto detailing</Link> z
+              wieloletnią praktyką w aplikacji powłok ceramicznych, a używane
+              przez nas linie Cleantle Admire i Aqua 9H Self Healing to
+              gwarancja trwałości i spektakularnych efektów.
             </p>
             <p className={classes.contentSection__textP}>
               Każde auto traktujemy indywidualnie – dobieramy rodzaj powłoki do
@@ -249,8 +250,9 @@ export default function PowlokaCeramicznaPage() {
               Powłoka ceramiczna zwiększa odporność na mikrozarysowania i drobne
               uszkodzenia mechaniczne, ale nie jest zabezpieczeniem przed
               uderzeniami kamieni czy głębokimi rysami. Do pełnej ochrony przed
-              odpryskami zalecamy połączenie powłoki ceramicznej z folią PPF na
-              elementach szczególnie narażonych (maska, zderzak, lusterka).
+              odpryskami zalecamy połączenie powłoki ceramicznej z{" "}
+              <Link href="/blog/folia-ppf-opole">folią PPF</Link> na elementach
+              szczególnie narażonych (maska, zderzak, lusterka).
             </p>
           </details>
 

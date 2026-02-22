@@ -12,14 +12,16 @@ import {
 import classes from "../../app/blog/[slug]/page.module.scss";
 
 export const meta = {
-  id: 4,
-  slug: "korekta-lakieru-opole",
-  title: "Korekta Lakieru w Opolu – wyeliminuj niekończące się zarysowania",
-  subtitle: "USUWANIE HOLOGRÓM I ZMATOWIEŃ ŚWIETLNYCH",
-  date: "2026-02-15",
+  id: 2,
+  slug: "pranie-tapicerki-opole",
+  title:
+    "Definitywne Zwalczenie Zagnieceń i Żółcią Siłą Ekstrakcyjnego Prania Tapicerki",
+  subtitle: "MISTRZOSTWO W CZYSTOŚCI FOTELI",
+  date: "2026-02-05",
   image: "/2k-logo-black-biale-tlo.png",
   dynamicImage: "/2k-logo-black-biale-tlo.png",
-  mainImageAltText: "Polerowanie maszyną polerską lakieru samochodowego",
+  mainImageAltText:
+    "Przezroczysta rura odkurzacza z wypieraną silnie zanieczyszczoną wodą wprost z wypranego fotela",
   images: [
     "/2k-logo-black-biale-tlo.png",
     "/2k-logo-black-biale-tlo.png",
@@ -27,51 +29,49 @@ export const meta = {
     "/2k-logo-black-biale-tlo.png",
   ],
   imagesAltText: [
-    "Praca polerką 2K",
-    "Zarysowania przed i po",
-    "Maszyny orbitalne do polerowania",
-    "Moc pracy oświetleniowej",
+    "Pranie ekstrakcyjne",
+    "Czysty dywan pasażera",
+    "Auto po sprzątaniu foteli",
+    "Odkurzacz pracujący",
   ],
   description:
-    "Przywracamy fabryczną wielobarwność w mocnym słońcu eliminując osłabiające połysk hologramy i mocne uszkodzenia lakieru.",
+    "Zapewniamy najnowocześniejsze techniki podnoszące skuteczność ostatecznego wydobycia wylanych soków napojów czy tłustych zanieczyszczeń.",
 };
 
 export default function PostComponent() {
   return (
     <>
       <h2 className={classes.blogTitle}>
-        Trzeci Wymiar - Tajemnica Szklistego Odbicia
+        Pewne, Technologiczne Rozpuszczanie Żółtych Plam z Wody i Tytoniu
       </h2>
       <p className={classes.textShadow}>
-        Powód, dla którego zupełnie nowe auta prosto od uśmiechniętego dilera
-        wyglądają zniewalająco, polega w głównej mierze na warstwie absolutnie
-        nienaruszonego i mikroskopijnie płaskiego lakieru (tzw. powłoki
-        bezbarwnej, klaru), z którego światło odbija się niczym z czystego
-        lustra. Z czasem brud używanie twardych miejń, rysują ją w taką
-        poszarpaną strukturę a mikrorysy działają jako swoiste załomacze
-        promieniusłonecznych, trwale mętowiąc i skażając cały wygląd wozu
-        powłoką "mgły". Nasza precyzowana usługa tj.{" "}
+        Domowe wcieranie piankowej "rewolucyjnie piorącej gąbki z internetu"
+        polega głównie na wepchnięciu naelektryzowanych tłustych zatorów w głąb
+        samego fizycznego splotu nitki na gąbce siedzenia! Z pozoru staje się
+        wyczyszczone, ale na następny dzień słońce paruje włożoną piankę
+        zostawiając po bokach wżarty powracający szmatławy okrąg brudnych plam.
+        Nasze dedykowane, zawodowe{" "}
         <strong>
-          <Link href="/oferta/korekta-lakieru" className={classes.textLink}>
-            Korekta Lakieru
+          <Link href="/oferta/pranie-tapicerki" className={classes.textLink}>
+            Ekstrakcyjne Pranie Tapicerki
           </Link>
         </strong>{" "}
-        polega na niezwykle delikatnym spolerowaniu fizycznej wady by otrzymać
-        lustrzaną prostą taflę twardo zmatowionego materiału.
+        bazuje na wstępnym namoczeniu plam silną i obficie spiętrzoną
+        szczotkarką oraz bezstresowym "wyrywaniem" breji brudnej ściekowej
+        cieczy za pomocą niezwykle potężnego próżniowego odkurzacza wyciągowego
+        który u samej fizyki uwalnia materiał.
       </p>
 
       <h2 className={classes.blogTitle}>
-        Od Odświeżających "One-Stepów" po Pełną Wieloetapową Chirurgię
-        Cięcia{" "}
+        Pełne Odsysanie dla Braku Smrodu Wilgoci
       </h2>
       <p className={classes.textShadow}>
-        Zależy od warunku aut. Dla większości pojazdów które u nas witają,
-        idealnym, i wysoce opłacalnym kosztowo rozwiązaniem będzie odświeżające
-        spolerowanie całości technologią "One-Stepu" gdzie przy jednym paście
-        łączymy tnące wygładzenie i polerujące rozświetlenie udręczonego koloru,
-        ścinając bezpieczną setną warstwę utlenionego klaru - pozostawiając
-        nadal potężną zapasową porcję grubości ochronnej na fabrycznej powłoce
-        elementu blachy.
+        Nikt nie lubi zapachu mokrej, kwaśnej gąbki. My po głębokiej ekstrakcji
+        podłączamy specjalistyczne pompy, na nagrzewanie siedzeń obiegowym
+        wirowanym powietrzem po warsztacie po to, aby pozbawić wóz chłodu w
+        porannych dowozach dzieci. Zlecenie uwieńczamy możliwością dedykowanego
+        wdrożenia preparatu do zrzutu hydrofobowej osłony na wypraną tkaninę
+        fotelową by utrudnić zadomowianie nowo ulanego płynu na dłużej.
       </p>
 
       <h2 className={classes.blogContactTitle}>

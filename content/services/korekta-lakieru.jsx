@@ -24,9 +24,9 @@ export default function KorektaLakieruPage() {
           <h2>Profesjonalna Korekta Lakieru – Od Rys do Lustra</h2>
           <p>
             <Link href="/blog/korekta-lakieru-opole">Korekta lakieru</Link> to
-            serce auto detailingu – proces, który przywraca karoserii samochodu
-            jej pierwotny blask i gładkość. W 2K Auto Detailing w Opolu
-            precyzyjnie usuwamy wszelkie niedoskonałości lakiernicze, od
+            serce motoryzacyjnej dbałości – proces, który przywraca karoserii
+            samochodu jej pierwotny blask i gładkość. W 2K Auto Detailing w
+            Opolu precyzyjnie usuwamy wszelkie niedoskonałości lakiernicze, od
             drobnych zarysowań po głębokie rysy i nieestetyczne hologramy.
             Efektem jest idealnie lśniąca powierzchnia, gotowa na długotrwałe
             zabezpieczenie.
@@ -79,8 +79,12 @@ export default function KorektaLakieruPage() {
             <li>
               <strong>Przygotowanie Lakieru pod Powłokę Ochronną:</strong> Każda
               korekta lakieru w 2K Auto Detailing jest kluczowym etapem przed
-              aplikacją powłoki ceramicznej. Czysty, pozbawiony defektów lakier
-              zapewnia maksymalną trwałość i przyleganie zabezpieczenia.
+              aplikacją{" "}
+              <Link href="/blog/powloka-ceramiczna-opole">
+                powłoki ceramicznej
+              </Link>
+              . Czysty, pozbawiony defektów lakier zapewnia maksymalną trwałość
+              i przyleganie zabezpieczenia.
             </li>
             <li>
               <strong>Detailingowe Mycie i Dekontaminacja:</strong> Przed każdą
@@ -97,11 +101,13 @@ export default function KorektaLakieruPage() {
           </h2>
           <p className={classes.description}>
             Korekta lakieru w 2K Auto Detailing Opole pozwala skutecznie
-            przywrócić estetykę i połysk samochodu. Proces obejmuje ocenę stanu
-            lakieru, precyzyjne mycie i dekontaminację, a następnie dopasowaną
-            korektę jedno- lub wieloetapową. Efekt to gładki, jednolity lakier
-            bez mikrozarysowań, z głębią koloru i trwałym połyskiem, co również
-            wpływa na wartość pojazdu.
+            przywrócić estetykę i połysk samochodu. Pełen{" "}
+            <Link href="/blog/auto-detailing-opole">auto detailing</Link>{" "}
+            zewnętrza obejmuje ocenę stanu lakieru, precyzyjne mycie i
+            dekontaminację, a następnie dopasowaną korektę jedno- lub
+            wieloetapową. Efekt to gładki, jednolity lakier bez mikrozarysowań,
+            z głębią koloru i trwałym połyskiem, co również wpływa na wartość
+            pojazdu.
           </p>
         </div>
 
@@ -131,9 +137,8 @@ export default function KorektaLakieruPage() {
           <ul>
             <li>
               <strong>Wieloletnie Doświadczenie:</strong> Posiadamy ponad 10 lat
-              praktyki w detailingu, specjalizując się w{" "}
-              <Link href="/blog/korekta-lakieru-opole">korekcie lakieru</Link>.
-              Każdy projekt to dla nas wyzwanie i dowód na to, co można osiągnąć
+              praktyki w detailingu, specjalizując się w korekcie lakieru. Każdy
+              projekt to dla nas wyzwanie i dowód na to, co można osiągnąć
               dzięki pasji i precyzji.
             </li>
             <li>
@@ -163,9 +168,11 @@ export default function KorektaLakieruPage() {
 
           <blockquote className={classes.blockquote}>
             <p>
-              &bdquo;Polecam! Skorzystałem z prania tapicerki samochodowej i
-              polerowania lakieru wraz z nałożeniem powłoki ceramicznej.
-              Profesjonalnie, solidnie i w terminie. Zdecydowanie warto!&rdquo;
+              &bdquo;Polecam! Skorzystałem z{" "}
+              <Link href="/blog/pranie-tapicerki-opole">prania tapicerki</Link>{" "}
+              samochodowej i polerowania lakieru wraz z nałożeniem powłoki
+              ceramicznej. Profesjonalnie, solidnie i w terminie. Zdecydowanie
+              warto!&rdquo;
             </p>
             <footer>
               &mdash; <cite>DrKatushimero, Opole</cite>

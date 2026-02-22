@@ -127,10 +127,7 @@ const ContactMain = () => {
               </Link>
             </li>
             <li>
-              <Link
-                href="/oferta/renowacja-i-czyszczenie-skor"
-                onClick={toggleServices}
-              >
+              <Link href="/oferta/renowacja-skor" onClick={toggleServices}>
                 Renowacja skór
               </Link>
             </li>
@@ -141,10 +138,7 @@ const ContactMain = () => {
               </Link>
             </li>
             <li>
-              <Link
-                href="/oferta/folia-ppf-ochrona-lakieru"
-                onClick={toggleServices}
-              >
+              <Link href="/oferta/folia-ppf" onClick={toggleServices}>
                 Folia PPF
               </Link>
             </li>

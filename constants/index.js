@@ -23,7 +23,7 @@ export const servicesData = [
     gradient: "linear-gradient(rgba(63,59,59,.5), rgba(40,31,31,.5))",
     additionalInfo:
       "<strong>Korekta lakieru</strong> – przywracamy fabryczny połysk i głębię koloru. Usuwamy hologramy, mikrozarysowania i zmatowienia. Pracujemy na maszynach Rupes, a efekty utrwalamy powłokami ochronnymi.",
-    relatedBlogPost: "/korekta-lakieru-opole",
+    relatedBlogPost: "/blog/korekta-lakieru-opole",
     altText:
       "Polerowanie lakieru podczas korekty w 2K Auto Detailing Opole. Specjalista usuwa mikrozarysowania i hologramy, przywracając głębię koloru.",
   },
@@ -35,7 +35,7 @@ export const servicesData = [
     gradient: "linear-gradient(rgba(63,59,59,.5), rgba(40,31,31,.5))",
     additionalInfo:
       "<strong>Powłoka ceramiczna i elastomerowa</strong> – nawet 3 lata ochrony przed UV, solą drogową i chemią. Oferujemy linie Cleantle Admire i Aqua 9H Self Healing. Efekt „wodnego liścia” i szklisty połysk.",
-    relatedBlogPost: "/powloka-ceramiczna-opole",
+    relatedBlogPost: "/blog/powloka-ceramiczna-opole",
     altText:
       "Aplikacja powłoki ceramicznej na karoserię. Auto detailing Opole – Cleantle Admire, efekt hydrofobowy i szklisty połysk.",
   },
@@ -47,7 +47,7 @@ export const servicesData = [
     gradient: "linear-gradient(rgba(63,59,59,.5), rgba(40,31,31,.5))",
     additionalInfo:
       "<strong>Folia PPF</strong> – najbardziej zaawansowana ochrona lakieru. Zabezpiecza przed odpryskami, zarysowaniami i czynnikami atmosferycznymi. Precyzyjny montaż, niewidoczne krawędzie, nawet 10 lat ochrony.",
-    relatedBlogPost: "/folia-ppf-opole",
+    relatedBlogPost: "/blog/folia-ppf-opole",
     altText:
       "Zabezpieczenie lakieru folią PPF w Opolu. Precyzyjna aplikacja folii ochronnej na maskę samochodu.",
   },
@@ -59,7 +59,7 @@ export const servicesData = [
     gradient: "linear-gradient(rgba(63,59,59,.5), rgba(40,31,31,.5))",
     additionalInfo:
       "<strong>Pranie tapicerki materiałowej</strong> – ekstrakcyjne czyszczenie z użyciem saniteru. Usuwamy plamy, alergeny i nieprzyjemne zapachy. Impregnacja hydrofobowa przedłuża efekt czystości.",
-    relatedBlogPost: "/pranie-tapicerki-opole",
+    relatedBlogPost: "/blog/pranie-tapicerki-opole",
     altText:
       "Pranie tapicerki samochodowej – ekstrakcyjne czyszczenie foteli i usuwanie plam w Opolu.",
   },
@@ -71,7 +71,7 @@ export const servicesData = [
     gradient: "linear-gradient(rgba(90,42,42,.5), rgba(0,0,0,.5))",
     additionalInfo:
       "<strong>Renowacja skór</strong> – kompleksowe odnowienie tapicerki skórzanej. System Colourlock: czyszczenie, odtłuszczanie, dogłębne nawilżenie, rebarwienie i ochrona przed przetarciami.",
-    relatedBlogPost: "/renowacja-skor-opole",
+    relatedBlogPost: "/blog/renowacja-skor-opole",
     altText:
       "Renowacja skórzanej tapicerki – przywracanie koloru, nawilżanie i zabezpieczanie skór w 2K Auto Detailing.",
   },
@@ -83,7 +83,7 @@ export const servicesData = [
     gradient: "linear-gradient(rgba(63,59,59,.5), rgba(40,31,31,.5))",
     additionalInfo:
       "<strong>Detailing wnętrza</strong> – kompleksowa pielęgnacja kabiny. Czyszczenie parowe, odkurzanie zakamarków, pranie tapicerki, impregnacja plastików i ozonowanie. Auto świeże jak po wyjeździe z salonu.",
-    relatedBlogPost: "/detailing-wnetrza-opole",
+    relatedBlogPost: "/blog/detailing-wnetrza-opole",
     altText:
       "Kompleksowe czyszczenie wnętrza samochodu – detailing tapicerki, plastików i trudno dostępnych miejsc w Opolu.",
   },
@@ -95,7 +95,7 @@ export const servicesData = [
     gradient: "linear-gradient(rgba(63,59,59,.5), rgba(40,31,31,.5))",
     additionalInfo:
       "<strong>Regeneracja reflektorów</strong> – usuwamy żółknięcie, zmatowienia i drobne rysy. Przywracamy przejrzystość kloszy i skuteczność oświetlenia. Bezpieczeństwo i estetyka w jednym.",
-    relatedBlogPost: "/regeneracja-reflektorow-opole",
+    relatedBlogPost: "/blog/auto-detailing-opole",
     altText:
       "Regeneracja reflektorów samochodowych – polerowanie kloszy i przywracanie przejrzystości lamp.",
   },
@@ -107,7 +107,7 @@ export const servicesData = [
     gradient: "linear-gradient(rgba(63,59,59,.5), rgba(40,31,31,.5))",
     additionalInfo:
       "<strong>Przyciemnianie szyb</strong> – folie premium. Redukcja nagrzewania wnętrza nawet o 60%, ochrona przed UV, większa prywatność i elegancki wygląd. Precyzyjny montaż bez pęcherzy.",
-    relatedBlogPost: "/przyciemnianie-szyb-opole",
+    relatedBlogPost: "/blog/auto-detailing-opole",
     altText:
       "Przyciemnianie szyb samochodowych folią – montaż folii przeciwsłonecznej i ochronnej.",
   },
@@ -119,7 +119,7 @@ export const servicesData = [
     gradient: "linear-gradient(rgba(63,59,59,.5), rgba(40,31,31,.5))",
     additionalInfo:
       "<strong>Auto Detailing – pakiet kompleksowy</strong> – pełna metamorfoza Twojego auta. Łączymy korektę lakieru, zabezpieczenie powłoką ceramiczną lub folią PPF oraz kompleksowy detailing wnętrza. Oszczędzasz czas i pieniądze, zyskując auto w idealnym stanie – od karoserii po ostatni zakamarek kabiny.",
-    relatedBlogPost: "/auto-detailing-opole",
+    relatedBlogPost: "/blog/auto-detailing-opole",
     altText:
       "Kompleksowy auto detailing w 2K Auto Detailing Opole – korekta lakieru, powłoka ceramiczna i detailing wnętrza w jednym pakiecie.",
   },
@@ -233,76 +233,76 @@ export const blogPosts = [
   {
     id: 7,
     title:
-      "Kompleksowe usługi auto detailingu w Opolu – od prania po korektę lakieru",
+      "Kompleksowe usługi auto detailingu w Opolu – pakiet usług od A do Z",
     subtitle: "AUTO DETAILING",
-    date: "2025-07-16",
+    date: "2026-02-22",
     description:
-      "Zapewnij swojemu samochodowi kompleksową pielęgnację: pranie tapicerki, renowację skóry, korektę lakieru, aplikację folii PPF i powłoki ceramicznej. Dowiedz się, na czym polega pełny detailing.",
-    link: "/auto-detailing-opole",
+      "Zapewnij swojemu samochodowi kompleksową pielęgnację. Dowiedz się, na czym polega pełny detailing w 2K Detailing: korekta, ochrona i dbałość o detale.",
+    link: "/blog/auto-detailing-opole",
     image: autodetailing2,
   },
   {
     id: 1,
-    title: "Jak zabezpieczyć tapicerkę samochodową przed trwałymi plamami?",
-    subtitle: "OCHRONA I PIELĘGNACJA TAPICERKI",
-    date: "2025-07-08",
+    title:
+      "Detailing wnętrza w Opolu – kompleksowa pielęgnacja plastików i tapicerki",
+    subtitle: "PIELĘGNACJA WNĘTRZA",
+    date: "2026-02-21",
     description:
-      "Uniknij uciążliwych zabrudzeń — poznaj sprawdzone metody zabezpieczania i konserwacji tapicerki samochodowej. Dowiedz się, jak stosować impregnaty i odplamiacze, by cieszyć się czystym wnętrzem na dłużej.",
-    link: "/jak-zabezpieczyc-tapicerke-przed-plamami",
+      "Uniknij uciążliwych zabrudzeń i powierz nam pielęgnację od foteli, przez plastiki po dywaniki. Odśwież wnętrze by czuć się jak w nowym aucie.",
+    link: "/blog/detailing-wnetrza-opole",
     image: blogPost,
   },
   {
     id: 2,
     title:
       "Głębokie pranie tapicerki w Opolu – usuń uporczywe plamy i nieprzyjemne zapachy",
-    subtitle: "PROFESJONALNE PRANIE TAPICERKI SAMOCHODOWEJ",
-    date: "2025-07-01",
+    subtitle: "PRANIE TAPICERKI",
+    date: "2026-02-18",
     description:
-      "Poznaj zaawansowane metody głębokiego prania tapicerki w Opolu, które skutecznie usuwają nawet najbardziej uporczywe zabrudzenia i przywracają wnętrzu auta świeżość oraz higienę na długi czas.",
-    link: "/glebokie-pranie-tapicerki-opole",
+      "Poznaj zaawansowane metody mycia ekstrakcyjnego, które skutecznie usunie nawet największy i najstarszy brud przygotowując auto na długą trasę.",
+    link: "/blog/pranie-tapicerki-opole",
     image: upholstery,
   },
   {
     id: 3,
     title:
       "Renowacja i czyszczenie skórzanej tapicerki w Opolu – przywróć jej blask",
-    subtitle: "RENOWACJA I CZYSZCZENIE SKÓRZANEJ TAPICERKI",
-    date: "2025-06-28",
+    subtitle: "RENOWACJA SKÓRZANEJ TAPICERKI",
+    date: "2026-02-15",
     description:
-      "Profesjonalne zabiegi renowacyjne i czyszczące skórzaną tapicerkę samochodową – dowiedz się, jak usunąć zarysowania, odżywić skórę i przedłużyć jej żywotność.",
-    link: "/renowacja-i-czyszczenie-skorzanej-tapicerki-opole",
+      "Profesjonalne zabiegi renowacyjne systemami Colourlock – dowiedz się, jak usunąć zarysowania, odżywić skórę i zabezpieczyć ją przed zniszczeniem.",
+    link: "/blog/renowacja-skor-opole",
     image: blogPost2,
   },
   {
     id: 4,
-    title: "Korekta lakieru samochodowego w Opolu – usuń rysy i hologramy",
+    title: "Korekta lakieru samochodowego w Opolu – odzyskaj fabryczny połysk",
     subtitle: "KOREKTA LAKIERU",
-    date: "2025-06-25",
+    date: "2026-02-10",
     description:
-      "Zaawansowane techniki korekty lakieru pozwolą na wygładzenie powierzchni, usunięcie rys i przywrócenie głębi koloru. Zobacz, jak przebiega proces polerowania w profesjonalnym studiu auto detailingu.",
-    link: "/korekta-lakieru-opole",
+      "Usuwamy zarysowania po szczotkach i twardej myjni, pozbywając się hologramów. Przywracamy lakier do czasów jego świetności przed sprzedażą z salonu.",
+    link: "/blog/korekta-lakieru-opole",
     image: blogPost3,
   },
-
   {
     id: 5,
     title:
-      "Powłoka ceramiczna samochodu w Opolu – trwała ochrona i głęboki połysk",
+      "Powłoka ceramiczna samochodu w Opolu – zabezpieczenie i niesamowity zrzut wody",
     subtitle: "POWŁOKA CERAMICZNA",
-    date: "2025-06-09",
+    date: "2026-02-05",
     description:
-      "Odkryj, jak powłoka ceramiczna zwiększa odporność lakieru na zabrudzenia, promieniowanie UV i ułatwia jego mycie. Sprawdź etapy aplikacji oraz korzyści z długotrwałej ochrony.",
-    link: "/powloka-ceramiczna-opole",
+      'Odkryj efekt "wodnego liścia". Powłoki zmniejszają zużycie auta od zarysowań mikroskopijnych, ograniczają brudzenie i niesamowicie podbijają szklistość.',
+    link: "/blog/powloka-ceramiczna-opole",
     image: blogPost5,
   },
   {
     id: 6,
-    title: "Folia PPF w Opolu – ochrona lakieru przed uszkodzeniami",
+    title: "Folia PPF w Opolu – ostateczna zbroja Twojego auta",
     subtitle: "FOLIA OCHRONNA PPF",
-    date: "2025-06-15",
+    date: "2026-02-01",
     description:
-      "Poznaj zalety folii PPF chroniącej lakier przed kamieniami, zarysowaniami i działaniem czynników atmosferycznych. Dowiedz się, jak dbać o folię i jakie są jej rodzaje.",
-    link: "/folia-ppf-opole",
+      "Ochrona lakieru, która zniesie uderzenia kamieni parkingowe obcierki. Niewidoczna osłona Twojego lakieru stosowana przez dziesiątki lat.",
+    link: "/blog/folia-ppf-opole",
     image: blogPost4,
   },
 ];

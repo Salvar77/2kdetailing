@@ -1,0 +1,19 @@
+@import "../../styles/colors";
+
+.recenzje {
+  text-align: center;
+  color: $white-smooth;
+
+  h1 {
+    margin-bottom: 2rem;
+  }
+
+  @media (min-width: 992px) {
+    background: linear-gradient(
+      95deg,
+      $dark-smooth,
+      $dark-smooth,
+      $white-smooth
+    );
+  }
+}

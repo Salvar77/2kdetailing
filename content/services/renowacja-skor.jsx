@@ -42,8 +42,10 @@ export default function RenowacjaSkorPage() {
             latem, wysycha zimą, jest narażona na pot, kurz, tłuszcz i
             promieniowanie UV. Bez regularnej pielęgnacji traci elastyczność,
             pojawiają się przetarcia, pęknięcia i nieestetyczny, błyszczący
-            nalot. Nasza renowacja skór to kompleksowe przywrócenie tapicerce
-            życia i zabezpieczenie jej na przyszłość.
+            nalot. Nasza renowacja skór, która wyśmienicie uzupełnia standardowy{" "}
+            <Link href="/blog/detailing-wnetrza-opole">detailing wnętrza</Link>,
+            to kompleksowe przywrócenie tapicerce życia i zabezpieczenie jej na
+            przyszłość.
           </p>
 
           <h3>Jak wygląda renowacja skór w 2K Auto Detailing?</h3>
@@ -108,9 +110,11 @@ export default function RenowacjaSkorPage() {
             <li>
               <strong>Specjalizacja i doświadczenie:</strong> Pracujemy ze skórą
               samochodową od ponad 10 lat. Znamy jej rodzaje, potrzeby i
-              zagrożenia. Wiemy, jak odnowić delikatną skórę nappa, jak
-              zabezpieczyć perforowaną tapicerkę i jak przywrócić kolor
-              wyblakłym fotelom.
+              zagrożenia niezależnie czy robimy szybkie{" "}
+              <Link href="/blog/pranie-tapicerki-opole">pranie tapicerki</Link>{" "}
+              czy wyciągamy przetarcia. Wiemy, jak odnowić delikatną skórę
+              nappa, jak zabezpieczyć perforowaną tapicerkę i jak przywrócić
+              kolor wyblakłym fotelom.
             </li>
             <li>
               <strong>System Colourlock:</strong> Używamy certyfikowanych

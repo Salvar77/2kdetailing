@@ -61,14 +61,15 @@ const SliderSection = ({
       }
       style={style}
     >
-      {showTitle && <h2 className={classes.titleSlide}>Moje realizacje</h2>}
+      {showTitle && <h2 className={classes.titleSlide}>Nasze realizacje</h2>}
 
       <p className={classes.sliderDescription}>
         Przesuń suwak, aby porównać efekt <strong>przed</strong> i&nbsp;
-        <strong>po</strong> profesjonalnych zabiegach: ekstrakcyjnym praniu
-        tapicerki, renowacji elementów skórzanych oraz jednokrokowej korekcie
-        lakieru. Tak&nbsp;przywracam fabryczną świeżość, głębię koloru i wysoki
-        połysk.
+        <strong>po</strong> zaawansowanych pracach autodetailingowych, w tym:
+        precyzyjnej korekcie lakieru, aplikacji trwałych powłok ceramicznych
+        oraz zabezpieczaniu bezbarwnymi foliami PPF. Zobacz,
+        jak&nbsp;przywracamy fabryczną świeżość, niesamowitą głębię koloru i
+        szklisty połysk.
       </p>
       <div className={`${classes.sliderGrid} ${gridClass}`}>
         {images
@@ -95,6 +96,7 @@ const SliderSection = ({
             href="/galeria"
             className={classes.realizationButton}
             aria-label="Zobacz realizacje 2K Auto Detailing w galerii"
+            onClick={() => window.scrollTo(0, 0)}
           >
             Galeria
           </Link>

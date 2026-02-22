@@ -52,21 +52,32 @@ export default function AutoDetailingPage() {
               lakieru. To podstawa każdej profesjonalnej pielęgnacji.
             </li>
             <li>
-              <strong>Korekta lakieru (jedno- lub wieloetapowa):</strong>{" "}
+              <strong>
+                <Link href="/blog/korekta-lakieru-opole">Korekta lakieru</Link>{" "}
+                (jedno- lub wieloetapowa):
+              </strong>{" "}
               Usuwamy rysy, hologramy i zmatowienia. Przywracamy głębię koloru i
               idealną gładkość. Efekt lustra – perfekcyjny połysk.
             </li>
             <li>
-              <strong>Zabezpieczenie lakieru:</strong> Aplikujemy powłokę
-              ceramiczną (Cleantle Admire / Aqua 9H Self Healing) lub folię PPF,
-              aby chronić lakier przed UV, solą, chemią i uszkodzeniami
+              <strong>Zabezpieczenie lakieru:</strong> Aplikujemy{" "}
+              <Link href="/blog/powloka-ceramiczna-opole">
+                powłokę ceramiczną
+              </Link>{" "}
+              (Cleantle Admire / Aqua 9H Self Healing) lub folię PPF, aby
+              chronić lakier przed UV, solą, chemią i uszkodzeniami
               mechanicznymi.
             </li>
             <li>
-              <strong>Detailing wnętrza:</strong> Kompleksowe czyszczenie
-              tapicerki, plastików, szyb, podsufitki i bagażnika. Pranie
-              ekstrakcyjne, impregnacja, ozonowanie – wnętrze staje się świeże,
-              higieniczne i pachnące.
+              <strong>
+                <Link href="/blog/detailing-wnetrza-opole">
+                  Detailing wnętrza
+                </Link>
+                :
+              </strong>{" "}
+              Kompleksowe czyszczenie tapicerki, plastików, szyb, podsufitki i
+              bagażnika. Pranie ekstrakcyjne, impregnacja, ozonowanie – wnętrze
+              staje się świeże, higieniczne i pachnące.
             </li>
             <li>
               <strong>Detailing kół i opon:</strong> Gruntowne czyszczenie felg,

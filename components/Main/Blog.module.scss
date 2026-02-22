@@ -94,7 +94,7 @@
     }
 
     &:hover {
-      color: $blue-main;
+      color: darken($red-main, 10%);
     }
   }
 

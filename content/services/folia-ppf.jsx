@@ -131,9 +131,10 @@ export default function FoliaPpfPage() {
               <strong>Szczegółowa inspekcja i przygotowanie lakieru:</strong>{" "}
               Przed aplikacją folii dokładnie myjemy samochód, usuwamy wszelkie
               zanieczyszczenia, smołę, naloty metaliczne. W razie potrzeby
-              wykonujemy jednoetapową korektę lakieru, aby usunąć istniejące
-              rysy. Folia PPF utrwala defekty pod spodem – dlatego lakier musi
-              być idealny.
+              wykonujemy jednoetapową{" "}
+              <Link href="/blog/korekta-lakieru-opole">korektę lakieru</Link>,
+              aby usunąć istniejące rysy. Folia PPF utrwala defekty pod spodem –
+              dlatego lakier musi być idealny.
             </li>
             <li>
               <strong>Komputerowe docinanie folii (ploter):</strong> Korzystamy
@@ -189,8 +190,12 @@ export default function FoliaPpfPage() {
                 długoterminowe zachowanie idealnego lakieru.
               </li>
               <li>
-                <strong>Powłoka ceramiczna</strong> to doskonały wybór, jeśli
-                priorytetem jest
+                <strong>
+                  <Link href="/blog/powloka-ceramiczna-opole">
+                    Powłoka ceramiczna
+                  </Link>
+                </strong>{" "}
+                to doskonały wybór, jeśli priorytetem jest
                 <strong>
                   łatwość utrzymania czystości, efekt hydrofobowy i szklisty
                   połysk
@@ -249,7 +254,7 @@ export default function FoliaPpfPage() {
         <div className={classes.faqListWrapper}>
           <details className={classes.faqItem}>
             <summary className={classes.faqSummary}>
-              Czym różni się folia PPF od powłoki ceramicznej?
+              Czym różni się folia PPF od powłoki ceramicznej ?
             </summary>
             <p className={classes.faqAnswer}>
               <strong>Folia PPF</strong> to fizyczna, elastyczna warstwa o

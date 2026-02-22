@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import Nav from "../Nav/Nav";
 import Footer from "../Footer/Footer";
 import ContactBubble from "../../components/More/ContactBubble";
+import ScrollToTop from "./ScrollToTop";
 
 export default function LayoutClient({ children }) {
   const pathname = usePathname();
@@ -15,6 +16,7 @@ export default function LayoutClient({ children }) {
 
   return (
     <>
+      <ScrollToTop />
       <header>
         <Nav isOpen={isOpen} toggleNav={toggleNav} />
       </header>

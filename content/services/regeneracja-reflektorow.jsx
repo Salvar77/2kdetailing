@@ -25,15 +25,12 @@ export default function RegeneracjaReflektorowPage() {
             Regeneracja reflektorów – przejrzystość i bezpieczeństwo na drodze
           </h2>
           <p>
-            <Link href="/blog/regeneracja-reflektorow-opole">
-              Regeneracja reflektorów
-            </Link>{" "}
-            to profesjonalna usługa przywracająca reflektorom przejrzystość,
-            funkcjonalność i estetyczny wygląd. Z czasem klosze reflektorów
-            matowieją, żółkną i pokrywają się mikrorysami pod wpływem promieni
-            UV, soli drogowej, owadów i zwykłego użytkowania. W 2K Auto
-            Detailing Opole skutecznie odwracamy te procesy, przywracając
-            reflektorom fabryczną klarowność.
+            <strong>Regeneracja reflektorów</strong> to profesjonalna usługa
+            przywracająca reflektorom przejrzystość, funkcjonalność i estetyczny
+            wygląd. Z czasem klosze reflektorów matowieją, żółkną i pokrywają
+            się mikrorysami pod wpływem promieni UV, soli drogowej, owadów i
+            zwykłego użytkowania. W 2K Auto Detailing Opole skutecznie odwracamy
+            te procesy, przywracając reflektorom fabryczną klarowność.
           </p>
 
           {/* ✅ H2 Z INSTRUKCJI – PRZYWRÓĆ PRZEJRZYSTOŚĆ I BEZPIECZEŃSTWO JAZDY */}
@@ -79,7 +76,9 @@ export default function RegeneracjaReflektorowPage() {
               zależności od stopnia uszkodzeń stosujemy od 3 do 5 etapów
               szlifowania papierem ściernym o różnej gradacji (od P400 do
               P3000), a następnie polerujemy klosze profesjonalnymi pastami i
-              maszynami. Proces przywraca idealną gładkość i przejrzystość.
+              maszynami. Proces ten to istota jakiej wymaga skuteczna{" "}
+              <Link href="/blog/korekta-lakieru-opole">korekta lakieru</Link>,
+              co przywraca idealną gładkość i przejrzystość.
             </li>
             <li>
               <strong>Aplikacja powłoki ochronnej z filtrem UV:</strong> Po
@@ -132,7 +131,12 @@ export default function RegeneracjaReflektorowPage() {
               <strong>Profesjonalny sprzęt i materiały:</strong> Używamy
               specjalistycznych maszyn polerskich, papierów ściernych 3M oraz
               past dedykowanych do regeneracji reflektorów. Stosujemy wyłącznie
-              sprawdzone powłoki UV, które gwarantują długotrwałą ochronę.
+              sprawdzone powłoki UV, które gwarantują długotrwałą ochronę lub w
+              wielu przypadkach jest to solidna{" "}
+              <Link href="/blog/powloka-ceramiczna-opole">
+                powłoka ceramiczna
+              </Link>
+              .
             </li>
             <li>
               <strong>Oszczędność pieniędzy:</strong> Regeneracja reflektorów to
@@ -189,40 +193,6 @@ export default function RegeneracjaReflektorowPage() {
             layout="responsive"
             objectFit="cover"
           />
-        </div>
-      </section>
-
-      {/* ✅ SEKCJA: CZYTAJ RÓWNIEŻ / PODOBNE USŁUGI */}
-      <section className={classes.relatedServices}>
-        <div className={classes.relatedServices__content}>
-          <h2>Zadbaj również o inne elementy swojego auta</h2>
-          <p>
-            Kompleksowa pielęgnacja samochodu to nie tylko reflektory. Sprawdź
-            nasze pozostałe usługi:
-          </p>
-          <div className={classes.relatedServices__grid}>
-            <Link
-              href="/oferta/korekta-lakieru"
-              className={classes.relatedServiceItem}
-            >
-              <span className={classes.relatedServiceIcon}>🔧</span>
-              <span>Korekta lakieru</span>
-            </Link>
-            <Link
-              href="/oferta/powloka-ceramiczna"
-              className={classes.relatedServiceItem}
-            >
-              <span className={classes.relatedServiceIcon}>🛡️</span>
-              <span>Powłoka ceramiczna</span>
-            </Link>
-            <Link
-              href="/oferta/przyciemnianie-szyb"
-              className={classes.relatedServiceItem}
-            >
-              <span className={classes.relatedServiceIcon}>🪟</span>
-              <span>Przyciemnianie szyb</span>
-            </Link>
-          </div>
         </div>
       </section>
 

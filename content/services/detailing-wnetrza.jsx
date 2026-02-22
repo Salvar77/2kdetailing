@@ -24,11 +24,13 @@ export default function DetailingWnetrzaPage() {
           <h2>Detailing wnętrza – kompleksowa pielęgnacja kabiny</h2>
           <p>
             <Link href="/blog/detailing-wnetrza-opole">Detailing wnętrza</Link>{" "}
-            to kompleksowa usługa, która obejmuje dokładne czyszczenie
-            tapicerki, plastików, szczelin i trudno dostępnych miejsc. W 2K Auto
-            Detailing Opole przywracamy wnętrzu Twojego auta świeżość, higienę i
-            estetyczny wygląd. To nie tylko mycie – to prawdziwa metamorfoza
-            kabiny.
+            to kompleksowa usługa, która obejmuje systematyczne czyszczenie
+            każdego elementu kabiny. W 2K Auto Detailing Opole zajmujemy się
+            zarówno trudnymi plamami, jak i drobnoustrojami. Używamy
+            profesjonalnych narzędzi, w tym rewolucyjnego ekstrakcyjnego{" "}
+            <Link href="/blog/pranie-tapicerki-opole">prania tapicerki</Link>,
+            które ożywia kolory materiału i głęboko eliminuje brud z siedzeń
+            oraz dywaników.
           </p>
 
           {/* ✅ H2 Z INSTRUKCJI */}
@@ -40,18 +42,23 @@ export default function DetailingWnetrzaPage() {
             Detailing wnętrza to proces, który usuwa zabrudzenia, kurz, alergeny
             i nieprzyjemne zapachy z każdego zakamarka Twojego samochodu.
             Działamy kompleksowo – od podsufitki, przez fotele i kanapę, po
-            dywaniki, bagażnik i schowki. Efekt? Wnętrze, które wygląda i
-            pachnie jak nowe.
+            dywaniki, bagażnik i schowki. Pełnowymiarowy{" "}
+            <Link href="/blog/auto-detailing-opole">auto detailing</Link>{" "}
+            wnętrza nie tylko polepsza samopoczucie podczas podróży, ale przede
+            wszystkim podnosi ogólną wartość rynkową Twojego pojazdu.
           </p>
 
           <p className={classes.description}>
             <strong>
               Usługa zapewnia maksymalny komfort jazdy, wydłuża żywotność
-              materiałów oraz przygotowuje samochód do dalszej pielęgnacji lub
-              sprzedaży.
+              materiałów.
             </strong>{" "}
-            Detailing wnętrza w 2K Auto Detailing Opole gwarantuje precyzję
-            wykonania i długotrwały efekt wizualny.
+            Zależy nam na perfekcji. W przypadkach wymagających szczególnej
+            uwagi, kiedy na fotelach widoczne są pęknięcia czy wyblaknięcia
+            materiału, wdrażamy bezpieczną{" "}
+            <Link href="/blog/renowacja-skor-opole">renowację skór</Link>,
+            zachowując oryginalną fakturę. Detailing wnętrza to precyzja i
+            długotrwały efekt wizualny w Opolu.
           </p>
 
           <h3>Co dokładnie wchodzi w skład detailingu wnętrza?</h3>

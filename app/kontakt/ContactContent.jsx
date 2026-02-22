@@ -26,39 +26,43 @@ const ContactContent = () => (
     viewport={{ once: true, amount: 0.3 }}
   >
     <motion.h1 className={classes.contactContent__h1} variants={textVariant(0)}>
-      Skontaktuj się z 2K Detailing – Opole
+      Skontaktuj się z 2K Auto Detailing – Opole
     </motion.h1>
     <div className={classes.contactContent__textWrapper}>
       <motion.p variants={fadeIn("up", "spring", 0.2, 0.7)}>
-        Cześć! Jesteśmy <span className={classes.bold}>2K Detailing</span> z
-        Opola. Codziennie pomagamy kierowcom przywracać ich samochodom świeżość
-        – od <span className={classes.bold}>korekty lakieru</span>, przez{" "}
-        <span className={classes.bold}>powłoki ceramiczne</span>, aż po{" "}
+        Cześć! Jesteśmy <span className={classes.bold}>2K Auto Detailing</span>{" "}
+        z Opola. Codziennie pomagamy kierowcom przywracać ich samochodom
+        świeżość – od <span className={classes.bold}>korekty lakieru</span>,
+        przez <span className={classes.bold}>powłoki ceramiczne</span>, aż po{" "}
         <span className={classes.bold}>folie PPF</span>.
       </motion.p>
 
       <motion.p variants={fadeIn("up", "spring", 0.4, 0.7)}>
-        Masz pytanie? Chcesz zapytać nas o termin, zakres usługi lub cenę?{" "}
+        Zastanawiasz się nad wyborem odpowiednich usług dla swojego auta?{" "}
         <span className={classes.bold}>
-          Zadzwoń lub napisz – odpowiemy w ciągu godziny
-        </span>{" "}
-        i przedstawimy darmową wycenę. Kontaktujesz się bezpośrednio z nami –
-        bez pośredników, bez presji, z pełnym zaangażowaniem.
+          Napisz do nas lub zadzwoń – chętnie doradzimy i przygotujemy
+          spersonalizowaną ofertę
+        </span>
+        . Każdy samochód traktujemy z najwyższą dbałością, oferując
+        profesjonalne zabezpieczenie lakieru i pełen detailing dostosowany do
+        Twoich oczekiwań.
       </motion.p>
 
       <motion.h3 variants={textVariant(0.6)}>Dane kontaktowe</motion.h3>
 
       <motion.p variants={fadeIn("up", "spring", 0.8, 0.7)}>
-        <span className={classes.bold}>2K Detailing – Opole</span>
+        <span className={classes.bold}>2K Auto Detailing – Opole</span>
         <br />
         <FaMapMarkerAlt className={classes.icon1} /> ul. Prószkowska 43, 45-758
         Opole
         <br />
         <FaPhone className={classes.icon} />{" "}
-        <a href="tel:WpiszTel">797 234 734</a>
+        <a href="tel:+48797234734">797 234 734</a>
         <br />
         <FaEnvelope className={classes.icon} />{" "}
-        <a href="mailto:kontakt@2kdetailing.pl">2kdetailingopole@gmail.com</a>
+        <a href="mailto:2kdetailingopole@gmail.com">
+          2kdetailingopole@gmail.com
+        </a>
       </motion.p>
 
       <motion.h3 variants={textVariant(1.0)}>Godziny otwarcia</motion.h3>
@@ -72,10 +76,13 @@ const ContactContent = () => (
       </motion.p>
 
       <motion.p variants={fadeIn("up", "spring", 1.4, 0.7)}>
-        💬 Wycena jest{" "}
-        <span className={classes.bold}>bezpłatna i niezobowiązująca</span> –
-        możesz też do nas napisać poprzez formularz kontaktowy. Twoje dane są
-        bezpieczne – szanujemy prywatność naszych klientów.
+        💬 Każda wycena jest u nas{" "}
+        <span className={classes.bold}>
+          całkowicie darmowa i niezobowiązująca
+        </span>
+        . Skorzystaj z poniższego formularza, aby opisać stan swojego auta, a my
+        wrócimy z propozycją najlepszych rozwiązań autodetalingowych.
+        Gwarantujemy pełną poufność i bezpieczeństwo Twoich danych.
       </motion.p>
 
       <motion.h3 variants={textVariant(1.6)}>

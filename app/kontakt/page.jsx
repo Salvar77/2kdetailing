@@ -3,13 +3,13 @@ import classes from "./page.module.scss";
 import { ContactWithAnimation, ContactContent } from "./DynamicComponents";
 
 export const metadata = {
-  title: "Kontakt | 2K Detailing Opole",
+  title: "Kontakt | 2K Auto Detailing Opole",
   description:
-    "Umów wizytę lub zadaj pytanie – sprawdź dane kontaktowe do 2K Detailing w Opolu: telefon, e‑mail i adres warsztatu.",
+    "Umów wizytę lub zadaj pytanie – sprawdź dane kontaktowe do 2K Auto Detailing w Opolu: telefon, e‑mail i adres warsztatu.",
   alternates: { canonical: "/kontakt" },
   openGraph: {
     url: "/kontakt",
-    title: "Kontakt | 2K Detailing  Opole",
+    title: "Kontakt | 2K Auto Detailing  Opole",
     description:
       "Skontaktuj się z nami, aby zarezerwować termin korekty lakieru, folii PPF, powłoki ceramicznej lub prania tapicerki.",
     images: [
@@ -17,7 +17,7 @@ export const metadata = {
         url: "/og/logo-2kdetailing-opole.png",
         width: 1200,
         height: 630,
-        alt: "Dane kontaktowe 2K Detailing - Pranie tapicerki - Korekta lakieru",
+        alt: "Dane kontaktowe 2K Auto Detailing - Pranie tapicerki - Korekta lakieru",
       },
     ],
   },

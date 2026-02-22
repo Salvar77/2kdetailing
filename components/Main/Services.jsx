@@ -51,6 +51,7 @@ const Services = () => {
                     href={`/${service.id}`}
                     className={classes.card__button}
                     aria-label={`Sprawdź usługę: ${service.title}`}
+                    onClick={() => window.scrollTo(0, 0)}
                   >
                     Sprawdź
                   </Link>

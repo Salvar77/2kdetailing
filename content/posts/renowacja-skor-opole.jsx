@@ -12,14 +12,14 @@ import {
 import classes from "../../app/blog/[slug]/page.module.scss";
 
 export const meta = {
-  id: 4,
-  slug: "korekta-lakieru-opole",
-  title: "Korekta Lakieru w Opolu – wyeliminuj niekończące się zarysowania",
-  subtitle: "USUWANIE HOLOGRÓM I ZMATOWIEŃ ŚWIETLNYCH",
-  date: "2026-02-15",
+  id: 3,
+  slug: "renowacja-skor-opole",
+  title: "Zwróć Miękkość w Dotyku i Pełen Mat: Ekspert od Renowacji Skór",
+  subtitle: "ODŻYWIAMY TWOJE SKÓRZANE WNĘTRZE",
+  date: "2026-02-02",
   image: "/2k-logo-black-biale-tlo.png",
   dynamicImage: "/2k-logo-black-biale-tlo.png",
-  mainImageAltText: "Polerowanie maszyną polerską lakieru samochodowego",
+  mainImageAltText: "Precyzyjne Pędzelkowanie Skóry i szczotkowanie brudu",
   images: [
     "/2k-logo-black-biale-tlo.png",
     "/2k-logo-black-biale-tlo.png",
@@ -27,51 +27,50 @@ export const meta = {
     "/2k-logo-black-biale-tlo.png",
   ],
   imagesAltText: [
-    "Praca polerką 2K",
-    "Zarysowania przed i po",
-    "Maszyny orbitalne do polerowania",
-    "Moc pracy oświetleniowej",
+    "Czysta biała skóra auta",
+    "Odnowiona kierownica skórzana",
+    "Brud pod mydelkiem",
+    "Zestaw do zniszczonej struktury",
   ],
   description:
-    "Przywracamy fabryczną wielobarwność w mocnym słońcu eliminując osłabiające połysk hologramy i mocne uszkodzenia lakieru.",
+    "Skórę w Twoim samochodzie traktować trzeba nie mniej gorzej niż ciało po wysuszonym plażowaniu! Odżywiaj, regeneruj matuj.",
 };
 
 export default function PostComponent() {
   return (
     <>
       <h2 className={classes.blogTitle}>
-        Trzeci Wymiar - Tajemnica Szklistego Odbicia
+        Szklany Błysk Naturalnej Skóry Boczku to Tylko Twojer Złudzenie
       </h2>
       <p className={classes.textShadow}>
-        Powód, dla którego zupełnie nowe auta prosto od uśmiechniętego dilera
-        wyglądają zniewalająco, polega w głównej mierze na warstwie absolutnie
-        nienaruszonego i mikroskopijnie płaskiego lakieru (tzw. powłoki
-        bezbarwnej, klaru), z którego światło odbija się niczym z czystego
-        lustra. Z czasem brud używanie twardych miejń, rysują ją w taką
-        poszarpaną strukturę a mikrorysy działają jako swoiste załomacze
-        promieniusłonecznych, trwale mętowiąc i skażając cały wygląd wozu
-        powłoką "mgły". Nasza precyzowana usługa tj.{" "}
+        Panuje powszechne motoryzacyjne mniemanie, że gdy po wielu trasach
+        boczki drzwi z ciemnego pakietu czy fotele kierowcy omijające
+        czyszczenia wręcz mienią się na słońcu niczym nasmarowane oliwą, to jest
+        to fantastyczna wytyczna naturalnej "prestiżowej skóry". Absolutnie
+        odrzucamy ten mit! Taki lakierowany wygląd zyskał Twój samochód ze
+        względów tłuszczów na uboczu siedzących spod rąk, pleców - potu z
+        długiej jazdy. Naturalna, oddychająca warstwa i celowe zabiegi np. z{" "}
         <strong>
-          <Link href="/oferta/korekta-lakieru" className={classes.textLink}>
-            Korekta Lakieru
+          <Link href="/oferta/renowacja-skor" className={classes.textLink}>
+            Zakresu Renowacji Skóry
           </Link>
         </strong>{" "}
-        polega na niezwykle delikatnym spolerowaniu fizycznej wady by otrzymać
-        lustrzaną prostą taflę twardo zmatowionego materiału.
+        bazują na tym aby docrosać całe warstwy fizycznej kleistości uwalniając
+        piękny mat z jakiego wyjechały w fabryki i oddychającą bezwonną powłokę
+        bez chemii.
       </p>
 
       <h2 className={classes.blogTitle}>
-        Od Odświeżających "One-Stepów" po Pełną Wieloetapową Chirurgię
-        Cięcia{" "}
+        Odżywiaj a unikniesz Załamań i Pęknięć
       </h2>
       <p className={classes.textShadow}>
-        Zależy od warunku aut. Dla większości pojazdów które u nas witają,
-        idealnym, i wysoce opłacalnym kosztowo rozwiązaniem będzie odświeżające
-        spolerowanie całości technologią "One-Stepu" gdzie przy jednym paście
-        łączymy tnące wygładzenie i polerujące rozświetlenie udręczonego koloru,
-        ścinając bezpieczną setną warstwę utlenionego klaru - pozostawiając
-        nadal potężną zapasową porcję grubości ochronnej na fabrycznej powłoce
-        elementu blachy.
+        Posługujemy się systemami wyodrębnienia brudu dedykowanymi produktami
+        tworząc mięsnistą a bardzo luźną pianę pod pędzlem ujętym we
+        wgłębieniach by nie przemaczać płynem delikatnych szwów w aucie.
+        Następnie silny zastrzyk w postaci mleczek i olei naturalnych oddaje
+        wysuszonej promieniami latem kierownicy nową sprężystą miękkość
+        ograniczającą "pękanie i spękania" po długim nasilaniu zgniatających ich
+        ud w drodze do firmowej podróży przy tysiącach wsiadań.
       </p>
 
       <h2 className={classes.blogContactTitle}>
