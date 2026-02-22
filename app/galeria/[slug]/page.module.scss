@@ -3,7 +3,12 @@
 .realizationDetail {
   padding: 2rem 1rem;
   color: #333;
-  background: linear-gradient(195deg, $new-black, $new-black, $white-smooth);
+  background: linear-gradient(
+    195deg,
+    $dark-smooth,
+    $dark-smooth,
+    $white-smooth
+  );
 
   &__header {
     text-align: center;
@@ -79,16 +84,16 @@
 
 .resetButton {
   position: relative;
-  color: $new-black;
+  color: $dark-smooth;
   cursor: pointer;
   text-decoration: none;
   font-weight: bold;
   padding: 1rem 1.5rem;
-  border: 0.2rem solid $new-black;
+  border: 0.2rem solid $dark-smooth;
   border-radius: 0.4rem;
   display: inline-block;
   margin-bottom: 1rem;
-  background-color: $gold-main;
+  background-color: transparent;
   transition:
     background-color 0.3s,
     color 0.3s;
@@ -121,20 +126,20 @@
 
   &:hover {
     border: 1px solid transparent;
-    color: $new-black;
+    color: $dark-smooth;
   }
 
   &:hover::after {
     bottom: 0.3rem;
     left: 0.4rem;
-    border-bottom: 4px solid $new-black;
-    border-right: 4px solid $new-black;
+    border-bottom: 4px solid $dark-smooth;
+    border-right: 4px solid $dark-smooth;
   }
 
   &:hover::before {
     top: 0.3rem;
     right: 0.4rem;
-    border-top: 4px solid $new-black;
-    border-left: 4px solid $new-black;
+    border-top: 4px solid $dark-smooth;
+    border-left: 4px solid $dark-smooth;
   }
 }

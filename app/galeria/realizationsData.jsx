@@ -14,7 +14,7 @@ export const realizationsData = [
   },
   {
     id: "powloka-ceramiczna",
-    description: "Powłoka ceramiczna i elastomerowa",
+    description: "Powłoka ceramiczna",
     images: [placeholderImage, placeholderImage, placeholderImage],
     image: placeholderImage,
     largeImage: placeholderImage,
@@ -25,7 +25,7 @@ export const realizationsData = [
   },
   {
     id: "folia-ppf",
-    description: "Zabezpieczenie folią PPF",
+    description: "Folia PPF",
     images: [placeholderImage, placeholderImage],
     image: placeholderImage,
     largeImage: placeholderImage,
