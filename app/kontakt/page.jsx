@@ -1,15 +1,6 @@
 import React from "react";
 import classes from "./page.module.scss";
-import dynamic from "next/dynamic";
-
-const ContactWithAnimation = dynamic(
-  () => import("../../components/More/ContactWithAnimation"),
-  { ssr: false },
-);
-
-const ContactContent = dynamic(() => import("./ContactContent"), {
-  ssr: false,
-});
+import { ContactWithAnimation, ContactContent } from "./DynamicComponents";
 
 export const metadata = {
   title: "Kontakt | 2K Detailing Opole",
