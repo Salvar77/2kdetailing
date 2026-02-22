@@ -6,7 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-color: $new-black;
+  background-color: $dark-smooth;
   color: $white-smooth;
   padding: 1rem;
   text-shadow: 0.15rem 0.15rem 0.25rem rgba($dark-smooth, 0.9);
@@ -122,7 +122,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba($new-black, 0.9);
+  background-color: rgba($dark-smooth, 0.9);
   z-index: 9999;
   display: flex;
   flex-direction: column;
@@ -183,8 +183,8 @@
     gap: 2rem;
     background: linear-gradient(
       to right,
-      $new-black 2%,
-      darken($new-black, 8%) 35%,
+      $dark-smooth 2%,
+      darken($dark-smooth, 8%) 35%,
       $grey-smooth 60%,
       lighten($grey-smooth, 12%) 85%,
       $white-smooth 100%

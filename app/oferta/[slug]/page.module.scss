@@ -6,13 +6,13 @@ $spacing-unit: 1rem;
   position: relative;
   background: linear-gradient(
     195deg,
-    $new-black 0%,
-    darken($new-black, 10%) 25%,
+    $dark-smooth 0%,
+    darken($dark-smooth, 10%) 25%,
     $red-main 55%,
     lighten($red-main, 20%) 75%,
     $white-smooth 100%
   );
-  text-shadow: 0.07rem 0.07rem 0.15rem $new-black;
+  text-shadow: 0.07rem 0.07rem 0.15rem $dark-smooth;
 
   &::before {
     content: "";
@@ -77,14 +77,14 @@ $spacing-unit: 1rem;
 //     right: 0;
 //     width: 25%;
 
-//     background: $new-black;
+//     background: $dark-smooth;
 //     clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
 //   }
 
 //   &Left {
 //     top: 35%;
 //     left: 7rem;
-//     background: $new-black;
+//     background: $dark-smooth;
 //     clip-path: polygon(10% 0, 90% 0, 100% 100%, 0 100%);
 //   }
 
@@ -152,7 +152,7 @@ $spacing-unit: 1rem;
       background: linear-gradient(
         135deg,
         rgba($red-main, 0.1) 0%,
-        rgba($new-black, 0.4) 45%,
+        rgba($dark-smooth, 0.4) 45%,
         rgba($grey-smooth, 0.1) 100%
       );
       opacity: 0.7;
@@ -213,8 +213,8 @@ $spacing-unit: 1rem;
           ),
           radial-gradient(
             circle at center,
-            rgba($new-black, 0.9) 0%,
-            rgba($new-black, 0.7) 40%,
+            rgba($dark-smooth, 0.9) 0%,
+            rgba($dark-smooth, 0.7) 40%,
             transparent 80%
           );
         filter: blur(35px);
@@ -467,7 +467,7 @@ $spacing-unit: 1rem;
     }
 
     &P {
-      color: $new-black !important;
+      color: $dark-smooth !important;
       text-align: left;
       font-weight: bold;
       text-shadow: none;
@@ -670,7 +670,7 @@ $spacing-unit: 1rem;
   max-width: 800px;
   margin: calc($spacing-unit * 4) auto;
   padding: 0 calc($spacing-unit * 2);
-  color: $new-black;
+  color: $dark-smooth;
   line-height: 1.7;
 
   h1 {
@@ -730,7 +730,7 @@ $spacing-unit: 1rem;
   clip-path: polygon(10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
 
   &:hover {
-    background-color: darken($new-black, 10%);
+    background-color: darken($dark-smooth, 10%);
     transform: translateY(-0.4rem);
     color: $red-main;
   }
@@ -757,7 +757,7 @@ $spacing-unit: 1rem;
 
   p {
     font-size: 1.1em;
-    color: $new-black;
+    color: $dark-smooth;
     margin-bottom: calc($spacing-unit * 2);
     a {
       color: $white-smooth;
@@ -772,12 +772,12 @@ $spacing-unit: 1rem;
   max-width: 1000px;
   margin: calc($spacing-unit * 4) auto;
   padding: 0 calc($spacing-unit * 2);
-  color: $new-black;
+  color: $dark-smooth;
   text-shadow: none;
   font-weight: bold;
 
   h2 {
-    color: $new-black;
+    color: $dark-smooth;
     margin-bottom: $spacing-unit;
   }
 }
@@ -786,7 +786,7 @@ $spacing-unit: 1rem;
   text-align: center;
   margin-bottom: calc($spacing-unit * 2);
   font-size: 1.1em;
-  color: $new-black !important;
+  color: $dark-smooth !important;
 
   a {
     color: $red-main;
@@ -835,7 +835,7 @@ $spacing-unit: 1rem;
   }
 
   &[open] summary {
-    background-color: lighten($new-black, 2%);
+    background-color: lighten($dark-smooth, 2%);
     &::after {
       content: "-";
       transform: translateY(-0.1em) rotate(0deg);
@@ -846,7 +846,7 @@ $spacing-unit: 1rem;
     padding: $spacing-unit * 1.2;
     padding-top: 0;
     margin-bottom: 0;
-    color: $new-black;
+    color: $dark-smooth;
     line-height: 1.7;
     border-top: 1px solid lighten($grey-smooth, 10%);
     text-shadow: none;
@@ -876,18 +876,18 @@ $spacing-unit: 1rem;
 
   p {
     margin-bottom: $spacing-unit / 2;
-    color: $new-black;
+    color: $dark-smooth;
   }
   footer {
     text-align: right;
     font-size: 0.9em;
-    color: darken($new-black, 10%);
+    color: darken($dark-smooth, 10%);
     margin-top: $spacing-unit / 2;
     padding: 2rem;
   }
 
   &__p {
-    color: $new-black;
+    color: $dark-smooth;
   }
 
   .quoteText {

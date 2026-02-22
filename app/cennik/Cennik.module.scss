@@ -1,0 +1,13 @@
+@import "../../styles/colors";
+
+.cennik {
+  padding-top: 1rem;
+  text-align: center;
+  background: linear-gradient(
+    195deg,
+    $dark-smooth,
+    $dark-smooth,
+    $white-smooth
+  );
+  color: $white-smooth;
+}

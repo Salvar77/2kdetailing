@@ -95,7 +95,7 @@ const Contact = () => {
             >
               <PhoneCall className={classes.icon} />
               <a
-                href="tel:+48690570800"
+                href="tel:+48797234734"
                 className={classes.contact__phone_link}
               >
                 797 234 734

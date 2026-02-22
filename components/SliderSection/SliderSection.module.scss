@@ -1,17 +1,41 @@
 @import "../../styles/colors";
 
+// Dodaję brakującą animację dla paska pod tytułem, żeby kod był kompletny
+// @keyframes slideGlow {
+//   0% {
+//     background-position: 0% 50%;
+//   }
+//   100% {
+//     background-position: 200% 50%;
+//   }
+// }
+
+// // Nowa animacja dla tła sekcji, żeby "kolory przejścia" faktycznie się ruszały
+// @keyframes backgroundFlow {
+//   0% {
+//     background-position: 0% 50%;
+//   }
+//   50% {
+//     background-position: 100% 50%;
+//   }
+//   100% {
+//     background-position: 0% 50%;
+//   }
+// }
+
 .titleSlide {
   display: flex;
   flex-direction: column;
   align-items: center;
   color: $white-smooth;
-  text-shadow: 0.15rem 0.15rem 0.25rem $dark-smooth;
+  text-shadow: 0 0 6px rgba($new-black, 0.9);
   font-size: 2.9rem;
   padding: 2rem;
   font-weight: bold;
   z-index: 1;
-  text-shadow: 0 0 6px rgba($new-black, 0.9);
+  // TWOJE PRZESUNIĘCIE Y
   transform: translateY(13rem);
+  position: relative;
 
   &::after {
     content: "";
@@ -24,7 +48,8 @@
     background: linear-gradient(
       90deg,
       $red-main 0%,
-      lighten($red-main, 20%) 100%
+      lighten($red-main, 20%) 50%,
+      $red-main 100%
     );
     background-size: 200% 100%;
     animation: slideGlow 4s linear infinite;
@@ -39,14 +64,19 @@
   margin: 0 auto;
   z-index: 2000;
   margin-bottom: -6rem;
+
+  // POPRAWIONY GRADIENT (Logiczna kolejność % i animacja)
   background: linear-gradient(
     135deg,
     $new-black 0%,
-    darken($new-black, 10%) 25%,
-    $red-main 55%,
-    lighten($red-main, 20%) 25%,
+    darken($new-black, 10%) 20%,
+    $red-main 45%,
+    lighten($red-main, 20%) 70%,
+    // Poprawione z 25% na 70%
     $white-smooth 100%
   );
+  background-size: 400% 400%;
+  animation: backgroundFlow 15s ease infinite;
 }
 
 .sliderGrid {
@@ -54,6 +84,7 @@
   grid-template-columns: repeat(1, 1fr);
   justify-items: center;
   margin-bottom: 1rem;
+  // TWOJE PRZESUNIĘCIE Y
   transform: translateY(17rem);
 
   @media screen and (min-width: 992px) {
@@ -70,16 +101,15 @@
   text-decoration: none;
   border-radius: 0.4rem;
   font-weight: bold;
-  transition:
-    color 0.3s,
-    background-color 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   clip-path: polygon(10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
+  // TWOJE PRZESUNIĘCIE Y
   transform: translateY(17rem);
 
   &:hover {
     background-color: darken($new-black, 10%);
-    text-decoration: none;
     color: $red-main;
+    transform: translateY(17rem) scale(1.05); // Zachowujemy Y przy hoverze
   }
 }
 
@@ -87,20 +117,21 @@
   max-width: 62ch;
   margin: 0 1rem 3rem;
   font-size: 1.6rem;
-  line-height: 1.6;
+  line-height: 2;
   letter-spacing: 0.015em;
   text-align: center;
   padding: 1.8rem 2.2rem;
+  // TWOJE PRZESUNIĘCIE Y
   transform: translateY(16rem);
   color: $white-smooth;
-  border-bottom-right-radius: 2px solid rgba($red-main, 0.45);
-  background-color: rgba(0, 0, 0, 0.2);
-  line-height: 2;
+  background-color: rgba(0, 0, 0, 0.4); // Zwiększyłem opacity dla czytelności
+  border-bottom: 2px solid rgba($red-main, 0.45);
   text-shadow: 0.1rem 0.1rem 0.2rem rgba($dark-smooth, 0.95);
   box-shadow:
     -6px 6px 14px rgba($dark-smooth, 0.25),
     6px -6px 14px rgba($red-main, 0.2);
   backdrop-filter: blur(4px);
+  position: relative;
 
   strong {
     color: $red-main;
@@ -118,15 +149,14 @@
   }
 }
 
+// Responsywność - Tutaj też pilnujemy, by nic nie zniknęło
 @media (min-width: 768px) {
   .titleSlide {
     font-size: 2.8rem;
   }
-
   .realizationButton {
     font-size: 2rem;
   }
-
   .sliderDescription {
     font-size: 1.8rem;
   }
@@ -134,22 +164,24 @@
 
 @media (min-width: 992px) {
   .sliderSection {
-    background-color: $new-black;
+    // USUNĄŁEM background-color: $new-black, żeby gradient nie znikał na desktopie!
+    background-size: 200% 200%;
   }
 
   .titleSlide {
     font-size: 3rem;
   }
-
   .realizationButton {
     font-size: 2.3rem;
   }
 
   .fiveColumnsGrid {
+    display: grid;
     grid-template-columns: repeat(4, 1fr);
   }
 
   .defaultGrid {
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
 }

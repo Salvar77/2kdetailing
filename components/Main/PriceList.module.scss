@@ -1,19 +1,17 @@
 @import "../../styles/colors";
 
 .pricing {
-  position: relative;
-  padding: 4rem 1rem;
+  min-height: 100vh;
+  padding: 6rem 2rem;
   padding-top: 27rem;
-
-  background-image:
-    linear-gradient(135deg, rgba($new-black, 0.8) 0%, rgba($red-main, 0.1) 70%),
+  background:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.95), rgba(20, 0, 0, 0.95)),
     url("../../assets/images/2k-logo-black-biale-tlo.svg");
-
   background-attachment: fixed;
-  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  z-index: 2;
+  position: relative;
+  overflow: hidden;
 }
 
 .noTopPadding {
@@ -21,127 +19,221 @@
 }
 
 .pricingSection {
-  max-width: 1100px;
-  margin: 0 auto 3rem;
+  max-width: 1400px;
+  margin: 0 auto;
 
-  &__title {
-    font-size: 2.9rem;
-    color: $white-smooth;
+  &__mainTitle {
+    font-size: clamp(2.5rem, 5vw, 4.5rem);
     text-align: center;
-    margin-bottom: 2rem;
-  }
-}
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 5rem;
+    letter-spacing: -2px;
 
-.pricingGrid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  padding: 0 1rem;
-  justify-content: center;
-  align-items: stretch;
-
-  /* 3 kolumny na desktopie */
-  & > div {
-    flex: 1 1 calc(33.333% - 2rem);
-    max-width: calc(33.333% - 2rem);
-  }
-
-  /* przesunięcie drugiego kafla w dół */
-  @media (min-width: 992px) {
-    & > div:nth-child(2) {
-      /* możesz dostosować wartość */
-      margin-top: 10rem;
-    }
-  }
-
-  /* tablet: 2 kolumny */
-  @media (max-width: 992px) {
-    & > div {
-      flex: 1 1 calc(50% - 2rem);
-      max-width: calc(50% - 2rem);
-    }
-  }
-
-  /* mobile: 1 kolumna */
-  @media (max-width: 768px) {
-    & > div {
-      flex: 1 1 100%;
-      max-width: 100%;
+    span {
+      display: block;
+      color: $red-bright;
+      font-size: 1.4rem;
+      letter-spacing: 1rem;
+      margin-top: 1.5rem;
+      text-shadow: 0 0 20px rgba($red-bright, 0.6);
     }
   }
 }
 
-.priceItem {
+.categoryGroup {
+  margin-bottom: 8rem;
+}
+
+.categoryLabel {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 1rem;
-  margin: 0.5rem 0;
-  border-bottom: 2px solid $dark-smooth;
-  border-radius: 1rem;
-  font-weight: bold;
+  gap: 15px;
+  color: #fff;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  margin-bottom: 3rem; // Duży margines, żeby karty nie "skakały" na napisy
+  border-bottom: 2px solid $red-bright;
+  padding-bottom: 10px;
+  width: fit-content;
+
+  svg {
+    color: $red-bright;
+  }
+}
+
+.pricingFlex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  justify-content: flex-start;
 }
 
 .priceCard {
-  background: rgba(255, 255, 255, 0.85);
-  padding: 1.8rem;
-  border-radius: 1rem;
-  display: flex;
-  flex-direction: column;
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
+  flex: 1 1 calc(33.333% - 2.5rem);
+  min-width: 320px;
+  background: $carbon;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 4px; // Ostre, agresywne krawędzie
+  padding: 2.5rem;
+  position: relative;
+  transition: all 0.4s ease;
+  z-index: 1;
 
-  &__header {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1rem;
+  // Rozwiązanie problemu skakania: transform zamiast margin/top
+  &:hover {
+    z-index: 10;
+    transform: translateY(-15px) scale(1.02);
+    box-shadow:
+      0 20px 50px rgba(0, 0, 0, 1),
+      0 0 15px rgba($red-bright, 0.3);
+    border-color: $red-bright;
 
-    & > * {
-      margin-right: 0.8rem;
+    .priceCard__title {
+      color: $red-bright;
     }
   }
 
-  &__icon {
-    color: $dark-smooth;
-    font-size: 1.6rem;
+  &.premium {
+    border: 1px solid rgba($red-bright, 0.4);
+    background: linear-gradient(145deg, #151515, #250000);
   }
 
-  &__range {
-    font-weight: 600;
-    color: $dark-smooth;
-  }
-
-  &__line {
-    flex-grow: 1;
-    height: 2px;
-    background: $red-main;
+  &__header {
+    margin-bottom: 2rem;
+    height: 80px; // Stała wysokość nagłówka dla wyrównania
   }
 
   &__title {
-    font-size: 1.8rem;
-    color: $new-black;
+    font-size: 1.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 1.1;
+    transition: color 0.3s;
+  }
+
+  &__subtitle {
+    color: $red-bright;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+}
+
+.priceTable {
+  margin: 2rem 0;
+
+  &__row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
     margin-bottom: 1rem;
-  }
 
-  &__list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    flex: 1;
+    .sizeLabel {
+      color: $white-smooth;
+      font-size: 0.9rem;
+      font-weight: 700;
+    }
+    .dots {
+      flex: 1;
+      border-bottom: 1px dashed #333;
+      margin: 0 10px;
+    }
+    .amount {
+      color: #fff;
+      font-size: 1.4rem;
+      small {
+        font-size: 1rem;
+        color: $red-bright;
+      }
+    }
   }
+}
 
-  &__item {
-    color: $dark-smooth;
-    line-height: 1.9;
-    margin-bottom: 1rem;
-    border-bottom: 2px solid $red-main;
-    border-radius: 0.7rem;
-    // font-weight: bold;
-  }
+.mainPrice {
+  margin: 2rem 0;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 1rem;
 
-  &:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  .amountLarge {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #fff;
+    text-shadow: 0 0 15px rgba($red-bright, 0.4);
   }
+}
+
+.cardBadge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: $red-bright;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 900;
+  padding: 4px 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.checkList {
+  list-style: none;
+  padding: 0;
+  margin-top: 2rem;
+  border-top: 1px solid #222;
+  padding-top: 1.5rem;
+
+  li {
+    font-size: 1.1rem;
+    color: #aaa;
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+
+    svg {
+      color: $red-bright;
+      margin-top: 3px;
+      min-width: 14px;
+    }
+  }
+}
+
+// Media Queries dla Flexboxa
+@media (max-width: 1100px) {
+  .priceCard {
+    flex: 1 1 calc(50% - 2.5rem);
+  }
+}
+
+@media (max-width: 768px) {
+  .priceCard {
+    flex: 1 1 100%;
+  }
+  .pricingSection__mainTitle {
+    font-size: 2.5rem;
+  }
+}
+
+.extraPriceBadge {
+  margin-top: 1rem;
+  padding: 0.8rem;
+  background: rgba($red-bright, 0.15); // Delikatna czerwona poświata tła
+  border: 1px dashed rgba($red-bright, 0.4); // Przerywana ramka podkreślająca, że to opcja
+  border-radius: 4px;
+
+  color: $white-smooth; // To zmienia czarną czcionkę na Twoją białą
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  // Możesz dodać lekką łunę pod tekstem, żeby jeszcze lepiej czytało się na ciemnym tle
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }

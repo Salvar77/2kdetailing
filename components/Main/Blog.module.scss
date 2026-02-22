@@ -6,7 +6,7 @@
   margin-bottom: 1rem;
   max-width: 1100px;
   margin: 0 auto;
-  background-color: $new-black;
+  background-color: $dark-smooth;
   z-index: 3;
 
   &__header {
@@ -117,10 +117,10 @@
     box-shadow: 0.2rem 0.4rem 0.6rem rgba($red-main, 0.4);
     text-decoration: none;
     transition: 0.3s;
-    color: $new-black;
+    color: $dark-smooth;
     &:hover {
       color: $red-main;
-      background-color: $new-black;
+      background-color: $dark-smooth;
       box-shadow:
         0.2rem 0.1rem 1rem rgba($red-main, 0.4),
         0 0 1rem rgba($red-main, 0.5);

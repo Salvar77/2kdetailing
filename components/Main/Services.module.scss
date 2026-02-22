@@ -1,7 +1,12 @@
 @import "../../styles/colors";
 
 .servicesBackground {
-  background: linear-gradient(195deg, $new-black, $new-black, $white-smooth);
+  background: linear-gradient(
+    195deg,
+    $dark-smooth,
+    $dark-smooth,
+    $white-smooth
+  );
   position: relative;
   width: calc(100vw - (100vw - 100%));
 
@@ -151,7 +156,7 @@
     display: flex;
     flex-direction: column;
     flex: 1;
-    background: $new-black;
+    background: $dark-smooth;
     border-radius: 1.2rem;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);

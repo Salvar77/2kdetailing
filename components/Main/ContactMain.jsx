@@ -99,7 +99,7 @@ const ContactMain = () => {
           </li>
           <li>
             <a
-              href="https://www.facebook.com/mkstudioautokosmetyka"
+              href="https://www.facebook.com/people/2K-Auto-Detailing-Opole/61587187552980/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Odwiedź mnie na Facebooku"

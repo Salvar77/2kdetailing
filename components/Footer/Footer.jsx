@@ -35,7 +35,7 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <div className={classes.policy}>
+      {/* <div className={classes.policy}>
         <Link
           href="/obszary-mojej-dzialalnosci"
           className={classes.policy__link}
@@ -43,7 +43,7 @@ const Footer = () => {
         >
           <span>Obszary Mojej Działalności</span>
         </Link>
-      </div>
+      </div> */}
     </footer>
   );
 };

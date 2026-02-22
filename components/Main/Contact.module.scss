@@ -5,9 +5,9 @@
 .contact {
   position: relative;
   padding: 4rem 1rem;
-  background-color: $new-black;
+  background-color: $dark-smooth;
   font-size: 1.9rem;
-  background: linear-gradient(325deg, $new-black, $new-black, $grey-smooth);
+  background: linear-gradient(325deg, $dark-smooth, $dark-smooth, $grey-smooth);
 }
 
 .contact__container {
@@ -214,7 +214,12 @@
 
 @media (min-width: 992px) {
   .contact {
-    background: linear-gradient(165deg, $new-black, $new-black, $grey-smooth);
+    background: linear-gradient(
+      165deg,
+      $dark-smooth,
+      $dark-smooth,
+      $grey-smooth
+    );
     height: 61rem;
     display: flex;
     align-items: center;

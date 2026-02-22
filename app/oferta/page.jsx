@@ -14,7 +14,7 @@ export const metadata = {
       "Pełen zakres auto detailingu w Opolu: korekta lakieru, powłoka ceramiczna, folia PPF i więcej.",
     images: [
       {
-        url: "/2k-detailing-og-image.png",
+        url: "/og/logo-2kdetailing-opole.png",
         width: 1200,
         height: 630,
         alt: "Oferta usług 2K Auto Detailing - Korekta lakieru - Powłoki ceramiczne - Folie PPF Opole",

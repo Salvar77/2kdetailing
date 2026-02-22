@@ -28,7 +28,7 @@ export async function generateMetadata({ params }) {
     typeof mod?.meta?.hero === "string" ? mod.meta.hero : mod?.meta?.hero?.src;
   const heroSvc =
     typeof svc.largeImage === "string" ? svc.largeImage : svc.largeImage?.src;
-  const ogImage = heroMeta ?? heroSvc ?? "/2k-detailing-og-image.png";
+  const ogImage = heroMeta ?? heroSvc ?? "/og/logo-2kdetailing-opole.png";
 
   const url = `/oferta/${slug}`;
 

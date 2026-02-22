@@ -59,7 +59,10 @@ export default function OfertaClient({ slugFromParent }) {
   }
 
   const { title, hero, lead, heroAltText } = meta;
-  const heroSrc = typeof hero === "string" ? hero : (hero?.src ?? "/logo2.jpg");
+  const heroSrc =
+    typeof hero === "string"
+      ? hero
+      : (hero?.src ?? "/2k-logo-black-biale-tlo.png");
 
   return (
     <div className={classes.pageWrapper}>
