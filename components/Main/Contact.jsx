@@ -1,7 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import classes from "./Contact.module.scss";
-import { PhoneCall, AtSign } from "lucide-react";
+import { PhoneCall, AtSign, CheckCircle, XCircle } from "lucide-react";
+import clsx from "clsx";
 
 const Contact = () => {
   const [form, setForm] = useState({
@@ -14,6 +15,7 @@ const Contact = () => {
   const [messageStatus, setMessageStatus] = useState(null);
   const [showModal, setShowModal] = useState(false);
   const [isSending, setIsSending] = useState(false);
+  const [isSuccess, setIsSuccess] = useState(false);
 
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -26,11 +28,13 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSending(true);
+    setIsSuccess(false);
 
     if (!form.consent) {
       setMessageStatus(
         "Musisz wyrazić zgodę na przetwarzanie danych osobowych.",
       );
+      setIsSuccess(false);
       setShowModal(true);
       setIsSending(false);
       return;
@@ -52,15 +56,18 @@ const Contact = () => {
       const data = await response.json();
       if (response.ok) {
         setMessageStatus("Wiadomość wysłana pomyślnie!");
+        setIsSuccess(true);
         setForm({ name: "", email: "", message: "", consent: false });
       } else {
         setMessageStatus(
           data.error || "Wystąpił błąd przy wysyłaniu wiadomości.",
         );
+        setIsSuccess(false);
       }
     } catch (error) {
       console.error("Błąd wysyłania: ", error);
       setMessageStatus("Wystąpił błąd przy wysyłaniu wiadomości.");
+      setIsSuccess(false);
     } finally {
       setShowModal(true);
       setIsSending(false);
@@ -190,7 +197,10 @@ const Contact = () => {
       </section>
 
       {showModal && (
-        <div className={classes.modal} onClick={closeModal}>
+        <div
+          className={clsx(classes.modal, !isSuccess && classes.modalError)}
+          onClick={closeModal}
+        >
           <button className={classes.modalCloseButton} onClick={closeModal}>
             &times;
           </button>
@@ -198,6 +208,13 @@ const Contact = () => {
             className={classes.modalContent}
             onClick={(e) => e.stopPropagation()}
           >
+            <div className={classes.modalIconWrapper}>
+              {isSuccess ? (
+                <CheckCircle size={48} color="#228b22" />
+              ) : (
+                <XCircle size={48} color="#e31e24" />
+              )}
+            </div>
             {messageStatus && <p>{messageStatus}</p>}
           </div>
         </div>
