@@ -1,0 +1,78 @@
+@import "../../styles/colors";
+
+.policy {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: $white-smooth;
+  box-shadow: 0.3rem 0.4rem 0.8rem rgba(255, 255, 255, 0.05);
+
+  margin-bottom: 5rem;
+  border-radius: 0.8rem;
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+
+  h1 {
+    font-size: 3rem;
+    color: $white-smooth;
+    margin-bottom: 3rem;
+    text-align: center;
+    border-bottom: 2px solid $red-main;
+    padding-bottom: 1rem;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+    color: $red-main;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  p,
+  li {
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem;
+    line-height: 1.7;
+    color: $white-smooth-3;
+  }
+
+  ul {
+    margin: 1.5rem 0;
+    padding-left: 2rem;
+    list-style-type: disc;
+
+    li {
+      margin-bottom: 0.8rem;
+    }
+  }
+
+  a {
+    color: $red-main;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: lighten($red-main, 10%);
+      text-decoration: underline;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .policy {
+    padding: 1.5rem;
+
+    h1 {
+      font-size: 2.4rem;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+    }
+
+    p,
+    li {
+      font-size: 1.4rem;
+    }
+  }
+}

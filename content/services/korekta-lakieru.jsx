@@ -21,100 +21,97 @@ export default function KorektaLakieruPage() {
         <div className={classes.circleContainer4}></div>
 
         <div className={classes.contentSection__text}>
-          <h2>Profesjonalna Korekta Lakieru – Od Rys do Lustra</h2>
+          <h2>Renowacja powłoki lakierniczej – odśwież wygląd swojego auta</h2>
           <p>
             <Link href="/blog/korekta-lakieru-opole">Korekta lakieru</Link> to
-            serce motoryzacyjnej dbałości – proces, który przywraca karoserii
-            samochodu jej pierwotny blask i gładkość. W 2K Auto Detailing w
-            Opolu precyzyjnie usuwamy wszelkie niedoskonałości lakiernicze, od
-            drobnych zarysowań po głębokie rysy i nieestetyczne hologramy.
-            Efektem jest idealnie lśniąca powierzchnia, gotowa na długotrwałe
-            zabezpieczenie.
+            proces, który potrafi zdziałać cuda. Zamiast lakierować element na
+            nowo, poddajemy go precyzyjnemu polerowaniu mechanicznemu, które
+            trwale usuwa niedoskonałości. W 2K Auto Detailing Opole przywracamy
+            karoserii głębię, gładkość i blask, niwelując skutki nieprawidłowego
+            mycia, czynników atmosferycznych oraz codziennej eksploatacji.
           </p>
 
           {/* ✅ SEKCJA 1: JEDNOETAPOWA KOREKTA (ONE-STEP) */}
           <h2 className={classes.subtitle}>
-            Szybkie polerowanie i usunięcie do 60% rys powierzchniowych
+            One-Step – szybki lifting lakieru i wysoki połysk
           </h2>
           <p className={classes.description}>
-            Jednoetapowa korekta lakieru to szybki sposób na odświeżenie lakieru
-            i usunięcie do 60% drobnych rys powstałych m.in. podczas mycia w
-            myjniach szczotkowych lub samoobsługowych. Zabieg przywraca
-            lakierowi połysk i poprawia estetykę auta bez nadmiernej ingerencji
-            w strukturę powłoki.
+            Jednoetapowe polerowanie lakieru (tzw. One-Step) to idealne
+            rozwiązanie dla właścicieli aut, których lakier stracił blask, ale
+            nie wymaga głębokiej renowacji. Podczas tej usługi usuwamy do 60%
+            powierzchownych zarysowań i zmatowień, znacząco podbijając estetykę
+            auta. To ekonomiczny sposób na odświeżenie wyglądu przed sprzedażą
+            lub aplikacją wosku.
           </p>
 
-          <h3>Rodzaje Korekty Lakieru, które Oferujemy:</h3>
+          <h3>Metody korekty lakieru w naszej ofercie:</h3>
           <ul>
             <li>
-              <strong>Jednoetapowa Korekta Lakieru (One-Step):</strong> Idealna
-              dla lakierów w dobrym stanie, wymagających odświeżenia i usunięcia
-              delikatnych zarysowań czy zmatowień. Skutecznie poprawiamy wygląd
-              lakieru, nadając mu większą głębię i blask w krótszym czasie.
+              <strong>Odświeżenie One-Step:</strong> Skupiamy się na wydobyciu
+              połysku i usunięciu najdrobniejszych defektów. Lakier staje się
+              śliski, klarowny i odzyskuje "salonową" prezencję w krótkim
+              czasie.
             </li>
             <li>
-              <strong>Wieloetapowa Korekta Lakieru:</strong> Kompleksowy proces,
-              który pozwala usunąć od 80% do nawet 95% rys i defektów lakieru.
-              Obejmuje kilka etapów polerowania z użyciem różnych past i padów,
-              co pozwala na stopniowe wykończenie powierzchni do perfekcji.
-              Efektem jest idealna gładkość i efekt &bdquo;lustra&rdquo;.
+              <strong>Pełna renowacja wieloetapowa:</strong> Zaawansowany proces
+              wycinania głębszych rys i wielostopniowego wykańczania powierzchni
+              do stanu idealnego. Pozwala na usunięcie nawet 95% defektów, dając
+              niesamowity efekt "lustra".
             </li>
           </ul>
 
           {/* ✅ SEKCJA 2: WIELOETAPOWA KOREKTA */}
           <h2 className={classes.subtitle}>
-            Usunięcie do 90–100% rys i perfekcyjne wykończenie
+            Wieloetapowe polerowanie – dążenie do perfekcji
           </h2>
           <p className={classes.description}>
-            Wieloetapowa korekta lakieru to profesjonalny proces dla aut
-            wymagających pełnej odnowy lakieru. Zaczynamy od diagnostyki stanu
-            lakieru oraz dokładnego mycia i dekontaminacji. Następnie
-            bezpiecznie usuwamy mikrorysy, hologramy i zmatowienia, przywracając
-            głębię koloru i szklisty połysk. Usługa jest idealna przed sprzedażą
-            auta, aplikacją powłok ochronnych lub gdy samochód ma odzyskać
-            reprezentacyjny wygląd.
+            Dla najbardziej wymagających klientów przygotowaliśmy proces pełnej
+            korekty. Każdy element karoserii jest wielokrotnie polerowany
+            różnymi kombinacjami past i padów. Dzięki temu bezpiecznie usuwamy
+            mikrorysy, wżery po owadach czy hologramy. To jedyny sposób, aby
+            ciemne lakiery odzyskały swoją szlachetną czerń bez żadnych skaz
+            widocznych pod słońce.
           </p>
 
           <ul>
             <li>
-              <strong>Przygotowanie Lakieru pod Powłokę Ochronną:</strong> Każda
-              korekta lakieru w 2K Auto Detailing jest kluczowym etapem przed
-              aplikacją{" "}
+              <strong>Gruntowne przygotowanie pod ochronę:</strong> Każda
+              profesjonalna{" "}
               <Link href="/blog/powloka-ceramiczna-opole">
-                powłoki ceramicznej
-              </Link>
-              . Czysty, pozbawiony defektów lakier zapewnia maksymalną trwałość
-              i przyleganie zabezpieczenia.
+                powłoka ceramiczna
+              </Link>{" "}
+              wymaga idealnie przygotowanego podłoża. Korekta lakieru w naszym
+              wykonaniu gwarantuje, że zabezpieczenie będzie trzymać się mocno i
+              wyglądać bezbłędnie.
             </li>
             <li>
-              <strong>Detailingowe Mycie i Dekontaminacja:</strong> Przed każdą
-              korektą lakieru samochód przechodzi przez szczegółowy proces mycia
-              detailingowego i dekontaminacji. Usuwamy wszelkie
-              zanieczyszczenia, smołę, naloty metaliczne i żywicę, aby zapewnić
-              idealnie czystą powierzchnię do pracy.
+              <strong>Bezpieczna dekontaminacja:</strong> Zanim maszyna dotknie
+              lakieru, auto przechodzi przez proces chemicznego i mechanicznego
+              oczyszczania (glinkowanie), co eliminuje ryzyko porysowania
+              lakieru przez drobinki brudu podczas polerowania.
             </li>
           </ul>
 
           {/* ✅ SEKCJA 3: KOREKTA LAKIERU OPOLE – 2K AUTO DETAILING */}
           <h2 className={classes.subtitle}>
-            Korekta lakieru w Opolu – 2K Auto Detailing
+            Ekspercka renowacja lakieru w sercu Opola
           </h2>
           <p className={classes.description}>
-            Korekta lakieru w 2K Auto Detailing Opole pozwala skutecznie
-            przywrócić estetykę i połysk samochodu. Pełen{" "}
+            W 2K Auto Detailing Opole łączymy doświadczenie z pasją do
+            motoryzacji. Profesjonalny{" "}
             <Link href="/blog/auto-detailing-opole">auto detailing</Link>{" "}
-            zewnętrza obejmuje ocenę stanu lakieru, precyzyjne mycie i
-            dekontaminację, a następnie dopasowaną korektę jedno- lub
-            wieloetapową. Efekt to gładki, jednolity lakier bez mikrozarysowań,
-            z głębią koloru i trwałym połyskiem, co również wpływa na wartość
-            pojazdu.
+            zewnętrzny zaczynamy od inspekcji grubości lakieru miernikiem, co
+            pozwala nam pracować z zachowaniem pełnego bezpieczeństwa dla
+            Twojego auta. Efekt naszej pracy to nie tylko połysk, ale przede
+            wszystkim zdrowszy i lepiej zabezpieczony lakier, co bezpośrednio
+            podnosi wartość rynkową pojazdu.
           </p>
         </div>
 
         <div className={classes.contentSection__image}>
           <Image
             src="/2k-logo-black-biale-tlo.png"
-            alt="Profesjonalna jednoetapowa korekta lakieru samochodowego w 2K Auto Detailing Opole"
+            alt="Profesjonalne polerowanie i korekta lakieru w 2K Auto Detailing Opole – usuwanie rys"
             width={600}
             height={400}
             layout="responsive"
@@ -128,41 +125,40 @@ export default function KorektaLakieruPage() {
         className={`${classes.contentSection} ${classes["contentSection--reverse"]}`}
       >
         <div className={classes.contentSection__text}>
-          <h2>Dlaczego Warto Wybrać Korektę Lakieru w 2K Auto Detailing?</h2>
+          <h2>Dlaczego Twój lakier zasługuje na wizytę u nas?</h2>
           <p>
-            Perfekcyjny lakier to wizytówka każdego samochodu. W 2K Auto
-            Detailing, dzięki wieloletniemu doświadczeniu i precyzyjnemu
-            podejściu, gwarantujemy efekty, które przerosną Twoje oczekiwania.
+            Nie boimy się trudnych wyzwań. Pracujemy na twardych lakierach marek
+            premium oraz delikatnych lakierach aut azjatyckich, dobierając
+            technologię pracy do konkretnej specyfiki materiału.
           </p>
           <ul>
             <li>
-              <strong>Wieloletnie Doświadczenie:</strong> Posiadamy ponad 10 lat
-              praktyki w detailingu, specjalizując się w korekcie lakieru. Każdy
-              projekt to dla nas wyzwanie i dowód na to, co można osiągnąć
-              dzięki pasji i precyzji.
+              <strong>Lata praktyki i setki realizacji:</strong> Polerowanie
+              lakieru to sztuka, której uczyliśmy się latami. Wiemy, jak usunąć
+              rysę, nie niszcząc bezpowrotnie struktury lakieru bezbarwnego.
             </li>
             <li>
-              <strong>Specjalistyczny Sprzęt i Kosmetyki:</strong> Używamy
-              wyłącznie profesjonalnych maszyn polerskich Rupes, padów i past
-              najwyższej jakości (Menzerna, Koch-Chemie), co zapewnia
-              bezpieczeństwo lakieru i spektakularne efekty bez hologramów.
+              <strong>Park maszynowy klasy światowej:</strong> Korzystamy z
+              maszyn Rupes i past Menzerna oraz Koch-Chemie. To standardy, które
+              nie dopuszczają kompromisów jakościowych i gwarantują brak
+              hologramów.
             </li>
             <li>
-              <strong>Praca Wykonywana Osobiście przez Właściciela:</strong>{" "}
-              Cały proces korekty lakieru wykonujemy osobiście. Masz pewność, że
-              Twoje auto jest w rękach doświadczonego eksperta, który dba o
-              każdy, nawet najmniejszy detal.
+              <strong>Osobisty nadzór nad każdym centymetrem:</strong> Wszystkie
+              etapy prac wykonujemy z pełnym zaangażowaniem. Jakość jest dla nas
+              ważniejsza niż czas – auto oddajemy dopiero wtedy, gdy sami
+              jesteśmy zachwyceni efektem.
             </li>
             <li>
-              <strong>Indywidualna Ocena Stanu Lakieru:</strong> Przed
-              przystąpieniem do pracy dokładnie oceniamy stan lakieru i
-              dobieramy optymalną metodę korekty, dostosowaną do jego specyfiki
-              i Twoich oczekiwań.
+              <strong>Profesjonalne oświetlenie inspekcyjne:</strong> Pracujemy
+              w warunkach studyjnych, używając specjalistycznych lamp
+              imitujących światło słoneczne. Widzimy to, czego nie widać na
+              zwykłej myjni.
             </li>
             <li>
-              <strong>Gwarancja Satysfakcji:</strong> Naszym priorytetem jest
-              Twoje pełne zadowolenie z efektów. Działamy z pasją i precyzją,
-              aby każdy klient opuścił 2K Auto Detailing z uśmiechem na twarzy.
+              <strong>Satysfakcja potwierdzona efektami:</strong> Naszym celem
+              jest moment, w którym klient przeciera oczy z niedowierzania po
+              odbiorze auta. Twoja radość to paliwo dla naszej pasji.
             </li>
           </ul>
 

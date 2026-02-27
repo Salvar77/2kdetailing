@@ -22,67 +22,65 @@ export default function AutoDetailingPage() {
         <div className={classes.circleContainer4}></div>
 
         <div className={classes.contentSection__text}>
-          <h2>Auto detailing – kompleksowa ochrona i metamorfoza</h2>
+          <h2>
+            Kompleksowy auto detailing – pełna metamorfoza Twojego pojazdu
+          </h2>
           <p>
-            <Link href="/blog/auto-detailing-opole">Auto detailing</Link> to
-            najwyższy standard pielęgnacji samochodu – połączenie zaawansowanych
-            technik czyszczenia, korekty lakieru i długotrwałego zabezpieczenia.
-            W 2K Auto Detailing Opole oferujemy kompleksowe usługi, które
-            przywracają Twojemu autu salonowy blask i chronią je na lata. To nie
-            zwykłe mycie – to prawdziwa metamorfoza.
+            <Link href="/blog/auto-detailing-opole">Auto detailing</Link> to dla
+            nas coś więcej niż zwykłe czyszczenie. To zaawansowany proces
+            renowacji i zabezpieczenia, który przywraca samochodom ich pierwotny
+            blask, a często sprawia, że wyglądają lepiej niż w dniu odbioru z
+            salonu. W 2K Auto Detailing Opole podchodzimy do każdego auta z
+            zegarmistrzowską precyzją, dbając o każdy centymetr kwadratowy
+            karoserii i wnętrza.
           </p>
 
           <h2 className={classes.subtitle}>
-            Kompleksowa pielęgnacja – od lakieru po wnętrze
+            Profesjonalna pielęgnacja premium – od A do Z
           </h2>
 
           <p className={classes.description}>
-            Auto detailing w 2K Auto Detailing to nie jedna usługa, a
-            <strong> zestaw zaawansowanych procesów</strong> dopasowanych do
-            stanu i potrzeb Twojego pojazdu. Łączymy technologie, produkty i
-            doświadczenie, aby osiągnąć efekt, który Cię zachwyci.
+            Nasza oferta kompleksowego detailingu to połączenie
+            najnowocześniejszych technologii z wieloletnim doświadczeniem. Nie
+            stosujemy rozwiązań szablonowych – każda realizacja zaczyna się od
+            wnikliwej analizy stanu lakieru i materiałów wykończeniowych, aby
+            dobrać optymalne metody pracy.
           </p>
 
-          <h3>Co wchodzi w skład auto detailingu?</h3>
+          <h3>Etapy profesjonalnego detailingu w naszym wykonaniu:</h3>
           <ul>
             <li>
-              <strong>Mycie detailingowe i dekontaminacja lakieru:</strong>{" "}
-              Usuwamy wszelkie zanieczyszczenia – smołę, naloty metaliczne,
-              żywicę, które są niewidoczne gołym okiem, ale niszczą strukturę
-              lakieru. To podstawa każdej profesjonalnej pielęgnacji.
+              <strong>Dekontaminacja i dogłębne oczyszczanie:</strong>{" "}
+              Eliminujemy trudne zabrudzenia, takie jak osady metaliczne, smoła
+              czy soki z drzew, które trwale wiążą się z lakierem. To fundament
+              bezpiecznej pracy nad estetyką auta.
             </li>
             <li>
-              <strong>
-                <Link href="/blog/korekta-lakieru-opole">Korekta lakieru</Link>{" "}
-                (jedno- lub wieloetapowa):
-              </strong>{" "}
-              Usuwamy rysy, hologramy i zmatowienia. Przywracamy głębię koloru i
-              idealną gładkość. Efekt lustra – perfekcyjny połysk.
+              <strong>Perfekcyjna korekta powłoki lakierniczej:</strong> Usuwamy
+              zarysowania, zmatowienia i niedoskonałości, wydobywając z lakieru
+              niesamowitą głębię i ziarno koloru. Stosujemy maszyny polerskie
+              Rupes dla uzyskania idealnego wykończenia.
             </li>
             <li>
-              <strong>Zabezpieczenie lakieru:</strong> Aplikujemy{" "}
+              <strong>Zaawansowane systemy ochronne:</strong> Zabezpieczamy
+              efekty naszej pracy, aplikując{" "}
               <Link href="/blog/powloka-ceramiczna-opole">
-                powłokę ceramiczną
+                powłoki ceramiczne i elastomerowe
               </Link>{" "}
-              (Cleantle Admire / Aqua 9H Self Healing) lub folię PPF, aby
-              chronić lakier przed UV, solą, chemią i uszkodzeniami
-              mechanicznymi.
+              (Cleantle, Aqua) lub folie ochronne PPF, które tworzą trwałą
+              barierę przed czynnikami atmosferycznymi.
             </li>
             <li>
-              <strong>
-                <Link href="/blog/detailing-wnetrza-opole">
-                  Detailing wnętrza
-                </Link>
-                :
-              </strong>{" "}
-              Kompleksowe czyszczenie tapicerki, plastików, szyb, podsufitki i
-              bagażnika. Pranie ekstrakcyjne, impregnacja, ozonowanie – wnętrze
-              staje się świeże, higieniczne i pachnące.
+              <strong>Renowacja i detailing kabiny:</strong>{" "}
+              <Link href="/blog/detailing-wnetrza-opole">Wnętrze auta</Link>{" "}
+              poddajemy pełnej regeneracji – od prania ekstrakcyjnego, przez
+              czyszczenie parowe, aż po impregnację skór i tworzyw sztucznych.
             </li>
             <li>
-              <strong>Detailing kół i opon:</strong> Gruntowne czyszczenie felg,
-              zabezpieczenie przed zabrudzeniem, dressing opon. Detal, który
-              robi różnicę.
+              <strong>Ochrona felg i detali:</strong> Nie zapominamy o kołach i
+              elementach ozdobnych. Felgi zabezpieczamy powłoką odporną na pył z
+              klocków hamulcowych, a oponom nadajemy fabryczny wygląd dzięki
+              dedykowanym dressingom.
             </li>
           </ul>
         </div>
@@ -90,7 +88,7 @@ export default function AutoDetailingPage() {
         <div className={classes.contentSection__image}>
           <Image
             src="/2k-logo-black-biale-tlo.png"
-            alt="Kompleksowy auto detailing w 2K Auto Detailing Opole – korekta lakieru i powłoka ceramiczna"
+            alt="Profesjonalny auto detailing w 2K Auto Detailing Opole – pełna metamorfoza samochodu"
             width={600}
             height={400}
             layout="responsive"
@@ -103,34 +101,36 @@ export default function AutoDetailingPage() {
         className={`${classes.contentSection} ${classes["contentSection--reverse"]}`}
       >
         <div className={classes.contentSection__text}>
-          <h2>Dlaczego warto wybrać 2K Auto Detailing?</h2>
+          <h2>Dlaczego warto powierzyć nam swój samochód?</h2>
           <p>
-            Wybierając 2K Auto Detailing, stawiasz na pasję, precyzję i
-            niekwestionowane doświadczenie. Każde auto traktujemy indywidualnie,
-            a naszym celem jest nie tylko wysoka jakość, ale także Twoja
-            satysfakcja.
+            W 2K Auto Detailing łączymy rzemieślniczą pasję z profesjonalizmem.
+            Wiemy, jak ważny jest dla Ciebie Twój samochód, dlatego traktujemy
+            go z takim samym szacunkiem, z jakim traktujemy własne maszyny.
+            Nasza filozofia opiera się na jakości, nie na ilości.
           </p>
           <ul>
             <li>
-              <strong>Ponad 10 lat doświadczenia:</strong> Specjalizujemy się w
-              auto detailingu od dekady. Doskonaliliśmy techniki, testowaliśmy
-              produkty i zdobywaliśmy wiedzę, aby zapewnić Ci najwyższy
-              standard.
+              <strong>Ekspercka wiedza i doświadczenie:</strong> Ponad dekada
+              pracy w branży detailingowej pozwoliła nam wypracować techniki,
+              które gwarantują bezpieczeństwo delikatnych elementów auta przy
+              jednoczesnym osiągnięciu spektakularnych efektów.
             </li>
             <li>
-              <strong>Certyfikowane kosmetyki premium:</strong> Pracujemy na
-              sprawdzonych produktach Koch-Chemie, Rupes, Cleantle, Aqua 9H,
-              Colourlock. Bezpieczeństwo lakieru i trwałe efekty.
+              <strong>Wyłącznie certyfikowana chemia:</strong> Korzystamy z
+              produktów liderów rynku: Koch-Chemie, Rupes, Cleantle, Aqua 9H,
+              Colourlock. To pewność, że materiały w Twoim aucie nie zostaną
+              uszkodzone przez tanią i agresywną chemię.
             </li>
             <li>
-              <strong>Indywidualne podejście:</strong> Zawsze diagnozujemy stan
-              pojazdu i dobieramy zakres usług do Twoich potrzeb i oczekiwań.
-              Nie ma szablonów – jest indywidualny plan.
+              <strong>Personalizacja każdej usługi:</strong> Zawsze słuchamy
+              Twoich potrzeb. Niezależnie czy przygotowujesz auto do sprzedaży,
+              czy chcesz cieszyć się nieskazitelnym blaskiem na co dzień –
+              przygotujemy plan działania szyty na miarę.
             </li>
             <li>
-              <strong>Transparentność i komunikacja:</strong> Informujemy na
-              bieżąco o postępach prac. Nie mamy ukrytych kosztów. Szanujemy
-              Twój czas i zaufanie.
+              <strong>Pełna przejrzystość:</strong> Dokumentujemy etapy naszych
+              prac i chętnie dzielimy się wiedzą, jak dbać o auto po wyjeździe z
+              naszego studia. U nas wiesz, za co płacisz.
             </li>
           </ul>
 

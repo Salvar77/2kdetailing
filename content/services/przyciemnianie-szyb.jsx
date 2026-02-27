@@ -21,73 +21,74 @@ export default function PrzyciemnianieSzybPage() {
         <div className={classes.circleContainer4}></div>
 
         <div className={classes.contentSection__text}>
-          <h2>Przyciemnianie szyb – styl, komfort i ochrona w jednym</h2>
+          <h2>
+            Przyciemnianie szyb – elegancja, dyskrecja i ochrona termiczna
+          </h2>
           <p>
-            <strong>Przyciemnianie szyb</strong> to profesjonalna usługa, która
-            łączy walory estetyczne z realnymi korzyściami użytkowymi. W 2K Auto
-            Detailing Opole stosujemy wyłącznie wysokiej jakości folie premium,
-            które nie tylko nadają samochodowi elegancki, sportowy charakter,
-            ale przede wszystkim chronią Ciebie i wnętrze Twojego auta przed
-            szkodliwym promieniowaniem UV oraz nadmiernym nagrzewaniem.
+            <strong>Przyciemnianie szyb samochodowych</strong> to jedna z
+            najczęściej wybieranych usług, która błyskawicznie zmienia sylwetkę
+            każdego auta. W 2K Auto Detailing Opole podchodzimy do tego zadania
+            bezkompromisowo – używamy folii, które nie tylko świetnie wyglądają,
+            ale realnie poprawiają komfort jazdy, redukując oślepienie i
+            nagrzewanie się wnętrza.
           </p>
 
-          {/* ✅ H2 Z INSTRUKCJI – KOMFORT, STYL I OCHRONA WNĘTRZA AUTA */}
           <h2 className={classes.subtitle}>
-            Komfort, styl i ochrona wnętrza auta
+            Twoja prywatna strefa komfortu w podróży
           </h2>
 
           <p className={classes.description}>
-            Folia przyciemniająca to nie tylko modny dodatek. To przede
-            wszystkim
-            <strong> realna ochrona przed słońcem</strong>, która doskonale
-            uzupełnia twój{" "}
+            Dobra folia to nie tylko zmiana koloru szkła. To zaawansowany filtr,
+            który doskonale uzupełnia profesjonalny{" "}
             <Link href="/blog/detailing-wnetrza-opole">detailing wnętrza</Link>.
-            Dzięki zaawansowanym technologiom produkcji, nowoczesne folie
-            odbijają nawet do 99% promieniowania UV, chroniąc tapicerkę, skórę i
-            elementy plastikowe przed blaknięciem, pękaniem i przedwczesnym
-            starzeniem się.
+            Nowoczesne powłoki potrafią zablokować niemal 100% szkodliwego
+            promieniowania UV, co chroni nie tylko Twoją skórę, ale i delikatne
+            materiały wykończeniowe kabiny przed płowieniem i pękaniem.
           </p>
 
           <p className={classes.description}>
             <strong>
-              Folia przyciemniająca obniża temperaturę wnętrza nawet o 60%
-            </strong>
-            , co docenisz szczególnie w upalne, letnie dni. Klimatyzacja pracuje
-            wydajniej, szybciej osiągasz komfortową temperaturę, a zużycie
-            paliwa spada. To ekologiczne i ekonomiczne rozwiązanie.
+              Odczuwalnie niższa temperatura to mniej pracy dla klimatyzacji.
+            </strong>{" "}
+            Dzięki redukcji przenikania energii słonecznej, wnętrze auta
+            nagrzewa się znacznie wolniej. To ulga dla pasażerów na tylnej
+            kanapie, szczególnie dzieci i zwierząt, które są bardziej wrażliwe
+            na upał. Dodatkowo, mniejsze obciążenie kompresora klimatyzacji
+            przekłada się na realne oszczędności w spalaniu paliwa.
           </p>
 
           <p className={classes.description}>
-            <strong>Większa prywatność i bezpieczeństwo</strong> – przyciemnione
-            szyby utrudniają zajrzenie do wnętrza, chroniąc pozostawione w aucie
-            przedmioty przed niepowołanym wzrokiem. Dodatkowo, folia zwiększa
-            odporność szyby na stłuczenie, utrzymując odłamki w razie kolizji.
+            <strong>Ochrona prywatności i cennych przedmiotów</strong> – czarna
+            lub grafitowa szyba skutecznie skrywa to, co zostawiasz na siedzeniu
+            czy w bagażniku. To prosta i skuteczna prewencja przed przypadkowymi
+            kradzieżami. W razie wypadku folia pełni też rolę wzmocnienia –
+            utrzymuje rozbitą szybę w całości, zapobiegając rozpryśnięciu się
+            tysięcy odłamków szkła do środka.
           </p>
 
-          <h3>Jakie folie oferujemy w 2K Auto Detailing?</h3>
+          <h3>Jakie technologie folii stosujemy w naszym studio?</h3>
           <ul>
             <li>
-              <strong>Folie przeciwsłoneczne (standard):</strong> Redukują
-              nagrzewanie i promieniowanie UV, dostępne w różnych stopniach
-              przyciemnienia (5%, 15%, 20%, 35%, 50%). Idealne do szyb bocznych
-              i tylnej.
+              <strong>Serie hybrydowe (wysoka trwałość):</strong> Klasyczny
+              wybór łączący metalizowane warstwy z głębokim barwnikiem. Bardzo
+              dobra redukcja ciepła i stabilność koloru przez wiele lat.
             </li>
             <li>
-              <strong>Folie ceramiczne (premium):</strong> Zaawansowana
-              technologia z nanocząsteczkami ceramicznymi. Jeszcze lepsza
-              redukcja ciepła, brak interferencji z sygnałem GPS/GSM, neutralny
-              odcień. Rekomendujemy na przednią szybę i do aut premium.
+              <strong>Folie nanoceramiczne (najwyższa półka):</strong> Nie
+              posiadają warstw metalu, dzięki czemu nie zakłócają działania
+              GPS-u czy telefonu. Oferują fenomenalną blokadę podczerwieni przy
+              zachowaniu idealnej przejrzystości od wewnątrz.
             </li>
             <li>
-              <strong>Folie ochronne (anty-uv):</strong> Całkowicie
-              przezroczyste, blokują 99% UV, nie zmieniają wyglądu szyby.
-              Idealne do szyb przednich, gdzie przepisy zabraniają
-              przyciemniania.
+              <strong>Folie "Clear" UV Protection:</strong> Specjalistyczne
+              folie na przednią szybę i szyby boczne przednie. Są niemal
+              przezroczyste, więc nie rzucają się w oczy policji, a blokują 99%
+              UV.
             </li>
             <li>
-              <strong>Folie grafitowe i czarne:</strong> Klasyczny, głęboki
-              odcień, doskonałe krycie i estetyka. Najpopularniejszy wybór
-              naszych klientów.
+              <strong>Pełna paleta odcieni:</strong> Od delikatnego dymienia
+              (50%), przez średnie (20%), aż po tzw. "limo black" (5%), które
+              gwarantuje całkowitą dyskrecję.
             </li>
           </ul>
         </div>
@@ -95,7 +96,7 @@ export default function PrzyciemnianieSzybPage() {
         <div className={classes.contentSection__image}>
           <Image
             src="/2k-logo-black-biale-tlo.png"
-            alt="Profesjonalne przyciemnianie szyb samochodowych w 2K Auto Detailing Opole – montaż folii ceramicznej"
+            alt="Profesjonalny montaż folii przyciemniających w studio 2K Auto Detailing Opole"
             width={600}
             height={400}
             layout="responsive"
@@ -109,46 +110,42 @@ export default function PrzyciemnianieSzybPage() {
         className={`${classes.contentSection} ${classes["contentSection--reverse"]}`}
       >
         <div className={classes.contentSection__text}>
-          <h2>Jak wygląda profesjonalny montaż folii w 2K Auto Detailing?</h2>
+          <h2>Warsztatowa precyzja i czystość montażu</h2>
           <p>
-            Przyciemnianie szyb to nie naklejanie folii na mokro i wyciskanie
-            wody. To precyzyjny rzemieślniczy proces, który wymaga prawdziwej
-            pasji i najwyższych standardów, jakie wyznacza pełen{" "}
-            <Link href="/blog/auto-detailing-opole">auto detailing</Link>. W 2K
-            Auto Detailing pracujemy w czystym, bezpyłowym pomieszczeniu, z
-            kontrolowaną temperaturą i wilgotnością.
+            Przyciemnianie szyb w standardzie{" "}
+            <Link href="/blog/auto-detailing-opole">auto detailingu</Link> to
+            proces wolny od kurzu i widocznych niedociągnięć. Każdy montaż
+            wykonujemy w warunkach studyjnych, dbając o to, by krawędzie folii
+            były docięte perfekcyjnie, a uszczelki prawidłowo przygotowane.
           </p>
           <ul>
             <li>
-              <strong>Dokładne mycie i przygotowanie szyb:</strong> Szyby są
-              wielokrotnie myte, odtłuszczane i osuszane z użyciem dedykowanych
-              preparatów. Nawet najmniejszy pyłek pod folią będzie widoczny –
-              dlatego prace odbywają się w sterylnych warunkach.
+              <strong>Dekalcyfikacja i oczyszczanie chemiczne szkła:</strong>{" "}
+              Usuwamy osady mineralne i drobinki, których nie widać na pierwszy
+              rzut oka. Czysta szyba to podstawa braku "pajączków" i pęcherzy.
             </li>
             <li>
-              <strong>Precyzyjne wycinanie folii:</strong> Każda folia jest
-              docinana ręcznie na sucho lub na mokro, z uwzględnieniem kształtu
-              i krzywizny konkretnej szyby. Nie używamy noży na szybie – ryzyko
-              zarysowania! Wszystkie cięcia wykonujemy na specjalnych matach.
+              <strong>Technika kurczenia termicznego na sucho:</strong>{" "}
+              Formujemy folię na zewnątrz szyby przy użyciu wysokiej
+              temperatury, by idealnie odwzorować każdą obłość szkła przed
+              ostatecznym naklejeniem od środka.
             </li>
             <li>
-              <strong>Aplikacja folii na mokro:</strong> Folia jest nakładana z
-              użyciem roztworu wody i mydła, co pozwala na swobodne
-              pozycjonowanie i usunięcie powietrza. Specjalnymi ściągaczkami
-              wypychamy wodę i pęcherzyki, uzyskując idealnie gładką
-              powierzchnię.
+              <strong>Aplikacja bezpyłowa:</strong> Korzystamy z dedykowanych
+              płynów instalacyjnych, które zapewniają poślizg i idealne
+              odessanie wody. Minimalizujemy użycie rąk na warstwie klejącej.
             </li>
             <li>
-              <strong>Dociskanie i wykończenie krawędzi:</strong> Używamy
-              profesjonalnych narzędzi do dociskania folii w trudno dostępnych
-              miejscach. Krawędzie są dokładnie wygładzane, aby folia nie
-              odklejała się z czasem.
+              <strong>Termiczne utrwalanie krawędzi:</strong> Dogrzewamy obrzeża
+              folii przy uszczelkach i na kropkowanych brzegach szyby (tzw.
+              matrix), co zapobiega ich zadzieraniu się podczas użytkowania
+              szyb.
             </li>
             <li>
-              <strong>Kontrola jakości i czas schnięcia:</strong> Po aplikacji
-              sprawdzamy każdą szybę pod światłem. Ewentualne niedoskonałości są
-              natychmiast korygowane. Klient odbiera auto z informacją, że przez
-              2-3 dni nie należy opuszczać szyb.
+              <strong>Serwis i instruktaż odbioru:</strong> Po usłudze
+              informujemy, jak pielęgnować folie i kiedy można bezpiecznie
+              opuścić szyby po raz pierwszy. Każdy montaż kończy się
+              rygorystyczną kontrolą pod ostrym oświetleniem.
             </li>
           </ul>
 

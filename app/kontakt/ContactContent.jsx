@@ -68,7 +68,7 @@ const ContactContent = () => (
       <motion.h3 variants={textVariant(1.0)}>Godziny otwarcia</motion.h3>
 
       <motion.p variants={fadeIn("up", "spring", 1.2, 0.7)}>
-        <FaRegClock className={classes.icon} /> Pon.–Pt. 08:00–18:00
+        <FaRegClock className={classes.icon} /> Pon.–Pt. 08:00–17:00
         <br />
         <FaClock className={classes.icon} /> Sobota 09:00–14:00
         <br />

@@ -17,7 +17,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main>
+    <>
       <Hero />
       <AboutUs />
       <Services />
@@ -26,6 +26,6 @@ export default function Home() {
       <Blog showReadMoreLink={true} />
       <ElfsightLazyWrapper />
       <Contact />
-    </main>
+    </>
   );
 }

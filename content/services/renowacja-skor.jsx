@@ -22,64 +22,64 @@ export default function RenowacjaSkorPage() {
         <div className={classes.circleContainer4}></div>
 
         <div className={classes.contentSection__text}>
-          <h2>Renowacja skór – luksusowa tapicerka znowu jak nowa</h2>
+          <h2>
+            Renowacja skór – przywróć wnętrzu luksusowy charakter i miękkość
+          </h2>
           <p>
-            <Link href="/blog/renowacja-skor-opole">Renowacja skór</Link> to
-            kompleksowy proces, który przywraca skórzanej tapicerce jej
-            pierwotny wygląd, miękkość i komfort użytkowania. W 2K Auto
-            Detailing Opole specjalizujemy się w odnawianiu skór samochodowych –
-            od delikatnego czyszczenia, przez odżywianie, aż po profesjonalne
-            usuwanie przetarć i przywracanie koloru. Efekt? Wnętrze Twojego auta
-            znów zachwyca.
+            <Link href="/blog/renowacja-skor-opole">Skórzana tapicerka</Link> to
+            symbol prestiżu, ale tylko wtedy, gdy jest zadbana. Często fotele,
+            które wyglądają na beznadziejnie zużyte, wymagają jedynie fachowej
+            renowacji zamiast kosztownej wymiany u tapicera. W 2K Auto Detailing
+            Opole specjalizujemy się w artystycznej odnowie skór – usuwamy
+            przetarcia, odbarwienia i pęknięcia, przywracając wnętrzu Twojego
+            auta fabryczną świeżość i matowe wykończenie.
           </p>
 
           <h2 className={classes.subtitle}>
-            Kompleksowe czyszczenie, odżywianie i ochrona skóry
+            Profesjonalna regeneracja – odżywianie, czyszczenie i kolorystyka
           </h2>
 
           <p className={classes.description}>
-            Skóra w samochodzie pracuje w trudnych warunkach – nagrzewa się
-            latem, wysycha zimą, jest narażona na pot, kurz, tłuszcz i
-            promieniowanie UV. Bez regularnej pielęgnacji traci elastyczność,
-            pojawiają się przetarcia, pęknięcia i nieestetyczny, błyszczący
-            nalot. Nasza renowacja skór, która wyśmienicie uzupełnia standardowy{" "}
-            <Link href="/blog/detailing-wnetrza-opole">detailing wnętrza</Link>,
-            to kompleksowe przywrócenie tapicerce życia i zabezpieczenie jej na
-            przyszłość.
+            Skóra to materiał naturalny, który "oddycha" i potrzebuje
+            nawilżenia. Codzienna eksploatacja sprawia, że staje się ona sucha i
+            podatna na uszkodzenia mechaniczne. Nasza usługa renowacji to nie
+            tylko estetyka, to przede wszystkim przedłużenie życia tapicerki.
+            Jest to idealny dodatek do pełnego{" "}
+            <Link href="/blog/detailing-wnetrza-opole">detailingu wnętrza</Link>
+            , który sprawi, że zapomnisz o wizualnych defektach kabiny.
           </p>
 
-          <h3>Jak wygląda renowacja skór w 2K Auto Detailing?</h3>
+          <h3>Etapy profesjonalnej renowacji skór w naszym studio:</h3>
           <ul>
             <li>
-              <strong>Dogłębne czyszczenie i degreasowanie:</strong> Usuwamy
-              wszelkie zabrudzenia, tłuszcz, silikony i stare impregnaty, które
-              blokują pory skóry. Stosujemy dedykowane środki Colourlock, które
-              są bezpieczne, a jednocześnie niezwykle skuteczne.
+              <strong>Bezpieczne czyszczenie i przygotowanie podłoża:</strong>{" "}
+              Usuwamy warstwy brudu i starych, tłustych preparatów, które
+              zatykają pory skóry. Pracujemy na systemie Colourlock, co
+              gwarantuje najwyższy standard bezpieczeństwa dla materiału.
             </li>
             <li>
-              <strong>Odżywianie i regeneracja:</strong> Nawilżamy skórę
-              specjalistycznymi preparatami, które przywracają jej elastyczność
-              i zapobiegają pękaniu. To kluczowy etap – sucha, spękana skóra nie
-              odzyska już pierwotnego wyglądu.
+              <strong>Głębokie odżywianie strukturalne:</strong> Wprowadzamy w
+              głąb skóry preparaty, które przywracają jej elastyczność i
+              zapobiegają dalszemu pękaniu. Dzięki temu fotele odzyskują swoją
+              naturalną miękkość.
             </li>
             <li>
-              <strong>Usuwanie przetarć i naprawa uszkodzeń:</strong>{" "}
-              Precyzyjnie uzupełniamy ubytki, wyrównujemy powierzchnię i
-              maskujemy drobne rysy. W przypadku większych uszkodzeń stosujemy
-              profesjonalne masy naprawcze, które idealnie wtapiają się w
-              strukturę skóry.
+              <strong>Naprawa ubytków i przetarć:</strong> Stosujemy elastyczne
+              szpachle i techniki naprawcze, które niwelują dziury, zadrapania
+              czy przetarcia od wsiadania. Uszkodzone miejsca stają się
+              praktycznie niewidoczne.
             </li>
             <li>
-              <strong>Przywracanie koloru (rebarwienie):</strong> Jeśli skóra
-              straciła kolor, jest wyblakła lub nierównomiernie zabarwiona –
-              przywracamy oryginalny odcień. Używamy elastycznych farb do skór,
-              które nie pękają i nie ścierają się pod wpływem użytkowania.
+              <strong>Personalizowane barwienie (rebarwienie):</strong>{" "}
+              Dobieramy kolor farby idealnie pod numer seryjny Twojej tapicerki
+              lub na podstawie próbki. Używamy farb, które trwale wiążą się z
+              podłożem, nie brudzą ubrań i są odporne na ścieranie.
             </li>
             <li>
-              <strong>Hydroizolacja i zabezpieczenie:</strong> Nakładamy warstwę
-              ochronną, która odpycha wodę, pot, tłuszcz i inne płyny. Tapicerka
-              staje się łatwiejsza w codziennej pielęgnacji, a ryzyko powstania
-              trudnych plam znacząco maleje.
+              <strong>Zabezpieczenie przed transferem koloru:</strong> Na koniec
+              nakładamy warstwę ochronną, która chroni jasne skóry przed
+              przebarwieniami od ubrań (np. jeansu) i ułatwia późniejsze
+              utrzymanie czystości.
             </li>
           </ul>
         </div>
@@ -87,7 +87,7 @@ export default function RenowacjaSkorPage() {
         <div className={classes.contentSection__image}>
           <Image
             src="/2k-logo-white-czarne-tlo.png"
-            alt="Profesjonalne czyszczenie i renowacja skórzanej tapicerki w 2K Auto Detailing Opole"
+            alt="Profesjonalna regeneracja i malowanie skór w 2K Auto Detailing Opole"
             width={600}
             height={400}
             layout="responsive"
@@ -100,39 +100,40 @@ export default function RenowacjaSkorPage() {
         className={`${classes.contentSection} ${classes["contentSection--reverse"]}`}
       >
         <div className={classes.contentSection__text}>
-          <h2>Dlaczego warto zaufać 2K Auto Detailing?</h2>
+          <h2>Dlaczego warto powierzyć skórę właśnie nam?</h2>
           <p>
-            Renowacja skór to nie zwykłe czyszczenie. To proces, który wymaga
-            wiedzy, doświadczenia i odpowiednich produktów. W 2K Auto Detailing
-            stawiamy na sprawdzone metody i pełną transparentność.
+            Renowacja skór to praca rzemieślnicza, wymagająca cierpliwości i
+            doskonałego oka do kolorów. W 2K Auto Detailing nie idziemy na
+            skróty – każda skóra jest dla nas inna i wymaga indywidualnego
+            podejścia.
           </p>
           <ul>
             <li>
-              <strong>Specjalizacja i doświadczenie:</strong> Pracujemy ze skórą
-              samochodową od ponad 10 lat. Znamy jej rodzaje, potrzeby i
-              zagrożenia niezależnie czy robimy szybkie{" "}
-              <Link href="/blog/pranie-tapicerki-opole">pranie tapicerki</Link>{" "}
-              czy wyciągamy przetarcia. Wiemy, jak odnowić delikatną skórę
-              nappa, jak zabezpieczyć perforowaną tapicerkę i jak przywrócić
-              kolor wyblakłym fotelom.
+              <strong>Ponad dekada pracy z tapicerkami premium:</strong>{" "}
+              Odnawialiśmy skóry w autach zabytkowych, sportowych i luksusowych
+              limuzynach. Niezależnie czy robimy{" "}
+              <Link href="/blog/pranie-tapicerki-opole">
+                czyszczenie tekstyliów
+              </Link>{" "}
+              czy renowację skóry nappa – znamy się na rzeczy.
             </li>
             <li>
-              <strong>System Colourlock:</strong> Używamy certyfikowanych
-              produktów renomowanej marki Colourlock – lidera w pielęgnacji
-              skór. To gwarancja skuteczności, bezpieczeństwa i trwałości
-              efektów.
+              <strong>Liderzy rynkowi w arsenale:</strong> Nasze studio opiera
+              się na produktach Colourlock. To światowa czołówka w dziedzinie
+              regeneracji skór, co daje Ci gwarancję trwałości i bezpieczeństwa
+              użytkowania.
             </li>
             <li>
-              <strong>Indywidualne podejście:</strong> Każde wnętrze oceniamy
-              osobno. Inaczej pracujemy przy lekkich zabrudzeniach, inaczej przy
-              głębokich przetarciach czy zmianie koloru tapicerki. Doradzamy,
-              nie wciskamy na siłę dodatkowych usług.
+              <strong>Indywidualny dobór technologii:</strong> Analizujemy typ
+              skóry (licowa, anilinowa, zamsz) i dobieramy proces tak, aby nie
+              zmienić jej naturalnej faktury i dotyku. Nie "zaklejamy" skóry
+              farbą – my ją odnawiamy.
             </li>
             <li>
-              <strong>Efekty, które widać i czuć:</strong> Po renowacji skóra
-              jest miękka, elastyczna i równomiernie wybarwiona. Nie jest
-              tłusta, nie lepi się, nie ma białych nalotów. Po prostu – jak
-              nowa.
+              <strong>Efekt "wow" połączony z trwałością:</strong> Nasza praca
+              wytrzymuje próbę czasu. Skóra po renowacji nie lepi się, nie pęka
+              i nie ma sztywnego, plastikowego wrażenia. Przywracamy jej
+              szlachetny, matowy wygląd.
             </li>
           </ul>
 

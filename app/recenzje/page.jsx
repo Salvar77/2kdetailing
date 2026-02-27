@@ -13,7 +13,7 @@ export const metadata = {
       "Autentyczne opinie kierowców korzystających z usług auto detailingu, korekty lakieru i aplikacji folii PPF w 2K Auto Detailing.",
     images: [
       {
-        url: "/2k-logo-black-biale-tlo.png",
+        url: "/og/logo-2kdetailing-opole.png",
         width: 1200,
         height: 630,
         alt: "Opinie klientów 2K Auto Detailing - Pranie tapicerki - Korekta lakieru",

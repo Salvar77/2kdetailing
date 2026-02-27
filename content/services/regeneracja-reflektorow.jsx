@@ -21,76 +21,74 @@ export default function RegeneracjaReflektorowPage() {
         <div className={classes.circleContainer4}></div>
 
         <div className={classes.contentSection__text}>
-          <h2>
-            Regeneracja reflektorów – przejrzystość i bezpieczeństwo na drodze
-          </h2>
+          <h2>Regeneracja reflektorów – odzyskaj blask i pewność po zmroku</h2>
           <p>
-            <strong>Regeneracja reflektorów</strong> to profesjonalna usługa
-            przywracająca reflektorom przejrzystość, funkcjonalność i estetyczny
-            wygląd. Z czasem klosze reflektorów matowieją, żółkną i pokrywają
-            się mikrorysami pod wpływem promieni UV, soli drogowej, owadów i
-            zwykłego użytkowania. W 2K Auto Detailing Opole skutecznie odwracamy
-            te procesy, przywracając reflektorom fabryczną klarowność.
+            <strong>Renowacja reflektorów</strong> to jedna z tych usług, które
+            mają bezpośredni wpływ na Twoje bezpieczeństwo. Zmatowiałe, pożółkłe
+            klosze potrafią drastycznie ograniczyć zasięg świateł, co po zmroku
+            staje się śmiertelnym zagrożeniem. W 2K Auto Detailing Opole
+            przywracamy lampom krystaliczną przejrzystość, sprawiając, że auto
+            wygląda na kilka lat młodsze, a jazda w nocy staje się komfortowa.
           </p>
 
-          {/* ✅ H2 Z INSTRUKCJI – PRZYWRÓĆ PRZEJRZYSTOŚĆ I BEZPIECZEŃSTWO JAZDY */}
           <h2 className={classes.subtitle}>
-            Przywróć przejrzystość i bezpieczeństwo jazdy
+            Przejrzyste lampy to lepsza widoczność i nowoczesny wygląd
           </h2>
 
           <p className={classes.description}>
-            Zabieg regeneracji reflektorów usuwa żółknięcie, zmatowienia i
-            drobne rysy, poprawiając jakość oświetlenia nawet o 80%. Lepiej
-            oświetlona droga to krótszy czas reakcji i większe bezpieczeństwo –
-            dla Ciebie, Twoich bliskich i innych uczestników ruchu. To nie tylko
-            kwestia estetyki, ale przede wszystkim Twojego bezpieczeństwa.
+            Proces utleniania poliwęglanu to naturalne zjawisko spowodowane
+            przez słońce i chemię drogową. Nasz zabieg regeneracji usuwa tę
+            zniszczoną warstwę, docierając do "zdrowego" plastiku. Dzięki temu
+            Twoje reflektory przestają być matowe i mleczne, a strumień światła
+            odzyskuje swoją pierwotną moc i skupienie. To najtańszy sposób na
+            uniknięcie problemów podczas przeglądu technicznego.
           </p>
 
           <p className={classes.description}>
             <strong>
-              W 2K Auto Detailing Opole reflektory są odnawiane z dbałością o
-              każdy detal, co pozwala uniknąć kosztownej wymiany lamp i
-              przywrócić samochodowi świeży, zadbany wygląd.
+              W 2K Auto Detailing Opole nie tylko polerujemy, ale przede
+              wszystkim trwale zabezpieczamy.
             </strong>{" "}
-            Oferujemy kompleksową regenerację – od dokładnego oczyszczenia,
-            przez wieloetapowe polerowanie, aż po trwałe zabezpieczenie powłoką
-            UV.
+            Samo spolerowanie lampy daje krótkotrwały efekt. My idziemy o krok
+            dalej – po przywróceniu klarowności nakładamy dedykowaną powłokę z
+            filtrem UV lub bezbarwną{" "}
+            <Link href="/blog/folia-ppf-opole">folię PPF</Link>, która trwale
+            chroni szkło przed ponownym zmatowieniem. Dzięki temu efekt naszej
+            pracy zostaje z Tobą na lata, a nie na miesiąc.
           </p>
 
-          <h3>Jak przebiega regeneracja reflektorów w 2K Auto Detailing?</h3>
+          <h3>Jak wygląda profesjonalny proces odnowy lamp w naszym studio?</h3>
           <ul>
             <li>
-              <strong>Dokładne mycie i zabezpieczenie karoserii:</strong> Przed
-              rozpoczęciem prac dokładnie myjemy reflektory i okolice, a
-              następnie zabezpieczamy lakier wokół kloszy taśmą maskującą, aby
-              uniknąć przypadkowych zarysowań podczas polerowania.
+              <strong>Precyzyjne maskowanie sąsiadujących elementów:</strong>{" "}
+              Lakier wokół reflektora zostaje grubą warstwą zabezpieczony
+              specjalistyczną taśmą. Pracujemy bezpiecznie, bez ryzyka
+              uszkodzenia karoserii.
             </li>
             <li>
-              <strong>Szczegółowa ocena stanu reflektorów:</strong> Każdy
-              reflektor jest indywidualnie diagnozowany. Sprawdzamy głębokość
-              zmatowienia, rodzaj uszkodzeń (żółknięcie, rysy, odpryski,
-              pęknięcia) i dobieramy odpowiednią metodę regeneracji.
+              <strong>Usuwanie zniszczonej powłoki (szlifowanie):</strong>{" "}
+              Stosujemy wieloetapowe szlifowanie "na mokro", zaczynając od
+              grubszych gradacji, a kończąc na papierach o ziarnistości 3000. To
+              fundament jakiej wymaga każda rzetelna{" "}
+              <Link href="/blog/korekta-lakieru-opole">korekta lakieru</Link> i
+              plastiku.
             </li>
             <li>
-              <strong>Wieloetapowe szlifowanie i polerowanie:</strong> W
-              zależności od stopnia uszkodzeń stosujemy od 3 do 5 etapów
-              szlifowania papierem ściernym o różnej gradacji (od P400 do
-              P3000), a następnie polerujemy klosze profesjonalnymi pastami i
-              maszynami. Proces ten to istota jakiej wymaga skuteczna{" "}
-              <Link href="/blog/korekta-lakieru-opole">korekta lakieru</Link>,
-              co przywraca idealną gładkość i przejrzystość.
+              <strong>Polerowanie mechaniczne do wysokiego połysku:</strong>{" "}
+              Przy użyciu maszyn typu Dual Action i dedykowanych past do
+              poliwęglanu wyprowadzamy powierzchnię na "lustro". Klosz staje się
+              idealnie gładki.
             </li>
             <li>
-              <strong>Aplikacja powłoki ochronnej z filtrem UV:</strong> Po
-              wypolerowaniu reflektory są odtłuszczane, a następnie
-              zabezpieczane specjalną powłoką z filtrem UV. To kluczowy etap –
-              zapobiega ponownemu żółknięciu i matowieniu nawet na 2-3 lata.
+              <strong>Odtłuszczanie i przygotowanie pod ochronę:</strong> Przed
+              nałożeniem warstwy końcowej klosz musi być sterylnie czysty.
+              Usuwamy wszelkie pozostałości past polerskich.
             </li>
             <li>
-              <strong>Polerowanie i zabezpieczenie wykończeniowe:</strong> Na
-              koniec nadajemy reflektorom głęboki połysk i sprawdzamy efekt pod
-              specjalistycznym oświetleniem. Klient otrzymuje auto z
-              reflektorami wyglądającymi jak nowe.
+              <strong>Aplikacja twardej bariery UV:</strong> Kończymy proces
+              zabezpieczeniem, które odcina dostęp słońca do plastiku. Możemy
+              zastosować powłokę ceramiczną lub najbardziej skuteczną folię
+              ochronną PPF.
             </li>
           </ul>
         </div>

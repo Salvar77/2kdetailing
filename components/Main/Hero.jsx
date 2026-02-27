@@ -6,7 +6,7 @@ import HeroImage from "../../assets/images/2k-logo-black-bez-tla.svg";
 import Link from "next/link";
 
 const Hero = () => {
-  const description = "STRONA W BUDOWIE";
+  const description = "Profesjonalny auto detailing w Opolu";
 
   return (
     <div>
@@ -33,9 +33,9 @@ const Hero = () => {
             </h1>
             <p className={classes.hero__description}>{description}</p>
             <Link
-              href="/realizacje"
+              href="/galeria"
               className={classes.button}
-              aria-label="Zobacz realizacje 2K Auto Detailing"
+              aria-label="Zobacz galerię realizacji 2K Auto Detailing"
             >
               <span
                 className={classes.button__surface}
@@ -44,7 +44,7 @@ const Hero = () => {
               <span className={classes.button__icon} aria-hidden="true">
                 <span></span>
               </span>
-              <span className={classes.button__text}>Realizacje</span>
+              <span className={classes.button__text}>Nasze realizacje</span>
             </Link>
           </div>
         </section>

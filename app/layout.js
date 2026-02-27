@@ -40,10 +40,84 @@ export const metadata = {
   },
 };
 
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://www.2kdetailing.opole.pl/#website",
+  url: "https://www.2kdetailing.opole.pl",
+  name: "2K Auto Detailing Opole",
+  description:
+    "Profesjonalny auto detailing, korekta lakieru i ochrona PPF w Opolu.",
+  publisher: { "@id": "https://www.2kdetailing.opole.pl/#business" },
+  inLanguage: "pl-PL",
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": ["LocalBusiness", "AutoRepair"],
+  "@id": "https://www.2kdetailing.opole.pl/#business",
+  name: "2K Auto Detailing Opole",
+  alternateName: "2K Detailing",
+  url: "https://www.2kdetailing.opole.pl",
+  logo: "https://www.2kdetailing.opole.pl/og/logo-2kdetailing-opole.png",
+  image: "https://www.2kdetailing.opole.pl/og/logo-2kdetailing-opole.png",
+  description:
+    "Profesjonalny auto detailing w Opolu – korekta lakieru, powłoki ceramiczne, folia PPF, pranie tapicerki, renowacja skór. Zadbamy o Twoje auto kompleksowo.",
+  telephone: "+48797234734",
+  email: "2kdetailingopole@gmail.com",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "ul. Prószkowska 43",
+    addressLocality: "Opole",
+    postalCode: "45-758",
+    addressCountry: "PL",
+  },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: 50.672357,
+    longitude: 17.985561,
+  },
+  openingHoursSpecification: [
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      opens: "08:00",
+      closes: "17:00",
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: "Saturday",
+      opens: "09:00",
+      closes: "14:00",
+    },
+  ],
+  priceRange: "zł zł",
+  currenciesAccepted: "PLN",
+  paymentAccepted: "Gotówka, Przelew bankowy, BLIK",
+  areaServed: {
+    "@type": "AdministrativeArea",
+    name: "Opole i okolice",
+  },
+  hasMap: "https://maps.google.com/?q=Prószkowska+43,+45-758+Opole",
+  sameAs: [
+    "https://www.facebook.com/people/2K-Auto-Detailing-Opole/61587187552980/",
+  ],
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="pl" className={kanit.variable}>
       <body>
+        <script
+          type="application/ld+json"
+          id="business-schema"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          id="website-schema"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+        />
         <LayoutClient>{children}</LayoutClient>
       </body>
     </html>

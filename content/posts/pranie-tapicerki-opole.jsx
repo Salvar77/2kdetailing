@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import Link from "next/link";
 import {
   Droplet,
@@ -97,8 +97,8 @@ export default function PostComponent() {
           <MapPin className={classes.iconDownP} /> Opole i Okolice
         </div>
         <div className={classes.contactItem}>
-          <Clock className={classes.iconDownP} /> Pon–Pt: 08:00–18:00, Sob:
-          09:00–15:00
+          <Clock className={classes.iconDownP} /> Pon–Pt: 08:00–17:00, Sob:
+          09:00–14:00
         </div>
       </div>
       <div className={classes.ctaWrapper}>

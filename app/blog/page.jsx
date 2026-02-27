@@ -13,7 +13,7 @@ export const metadata = {
       "Sprawdzone techniki detailingu, recenzje produktów i efekty naszych realizacji – wszystko w jednym miejscu.",
     images: [
       {
-        url: "/2k-logo-black-biale-tlo.png",
+        url: "/og/logo-2kdetailing-opole.png",
         width: 1200,
         height: 630,
         alt: "Nagłówek bloga 2K Auto Detailing - Pranie tapicerki - Korekta lakieru Opole",

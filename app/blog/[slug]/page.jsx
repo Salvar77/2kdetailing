@@ -31,5 +31,43 @@ export async function generateMetadata({ params }) {
 
 export default async function BlogPostPage({ params }) {
   const { slug } = await params;
-  return <BlogPostClient slugFromParent={slug} />;
+
+  let mod = null;
+  try {
+    mod = await import(`../../../content/posts/${slug}.jsx`);
+  } catch {
+    return notFound();
+  }
+
+  const { title, description, date, hero } = mod.meta;
+
+  const blogJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: title,
+    description: description,
+    datePublished: date,
+    image: `https://www.2kdetailing.opole.pl${hero}`,
+    author: {
+      "@type": "Organization",
+      name: "2K Auto Detailing Opole",
+    },
+    publisher: {
+      "@id": "https://www.2kdetailing.opole.pl/#business",
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://www.2kdetailing.opole.pl/blog/${slug}`,
+    },
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogJsonLd) }}
+      />
+      <BlogPostClient slugFromParent={slug} />
+    </>
+  );
 }

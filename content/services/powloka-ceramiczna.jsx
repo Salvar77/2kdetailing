@@ -21,78 +21,78 @@ export default function PowlokaCeramicznaPage() {
         <div className={classes.circleContainer4}></div>
 
         <div className={classes.contentSection__text}>
-          <h2>Powłoka ceramiczna – niezrównana ochrona i szklisty połysk</h2>
+          <h2>Powłoka ceramiczna – tarcza ochronna dla Twojego lakieru</h2>
           <p>
             <Link href="/blog/powloka-ceramiczna-opole">
               Powłoka ceramiczna
             </Link>{" "}
-            to profesjonalne zabezpieczenie lakieru, które chroni karoserię
-            przed promieniowaniem UV, solą drogową, owadami, ptasimi odchodami i
-            innymi czynnikami zewnętrznymi nawet przez kilka lat. W 2K Auto
-            Detailing Opole oferujemy wyłącznie sprawdzone, certyfikowane
-            powłoki renomowanych producentów.
+            to inwestycja, która zmienia sposób, w jaki dbasz o swój samochód.
+            To nie jest zwykły wosk, lecz zaawansowana bariera chemiczna, która
+            wiąże się z lakierem bezbarwnym, tworząc twardą i ultra-śliską
+            warstwę. W 2K Auto Detailing Opole stawiamy na technologie, które
+            realnie chronią Twoje auto przed agresywną chemią drogową i
+            promieniowaniem UV.
           </p>
 
-          {/* ✅ SEKCJA 1: H2 ZGODNE Z OPISEM SEO */}
           <h2 className={classes.subtitle}>
-            Profesjonalne zabezpieczenie karoserii na długie lata
+            Długofalowa ochrona lakieru z efektem samoczyszczenia
           </h2>
 
           <p className={classes.description}>
-            W naszej ofercie znajdziesz dwa sprawdzone systemy ochrony lakieru.
-            <strong> Powłoka Cleantle Admire</strong> zapewnia ochronę do 2 lat
-            – idealna dla klientów szukających optymalnego stosunku jakości do
-            ceny.
-            <strong> Powłoka Aqua 9H Self Healing</strong> to zaawansowana
-            technologia z efektem samoregeneracji drobnych rys pod wpływem
-            ciepła, gwarantująca ochronę nawet do 3 lat.
+            W naszym studiu w Opolu dobieramy zabezpieczenie do Twojego stylu
+            użytkowania samochodu. Proponujemy sprawdzoną powłokę{" "}
+            <strong>Cleantle Admire</strong> dla osób szukających solidnej
+            ochrony do 24 miesięcy oraz rewolucyjną{" "}
+            <strong>Aqua 9H Self Healing</strong>. Ta ostatnia, o trwałości do 3
+            lat, posiada unikalną zdolność "samoleczenia" – pod wpływem ciepła
+            słońca drobne mikrorysy potrafią same się zniwelować.
           </p>
 
-          <h3>Kluczowe korzyści z aplikacji powłoki ceramicznej:</h3>
+          <h3>Co zyskujesz dzięki ceramice na aucie?</h3>
           <ul>
             <li>
-              <strong>Szklisty połysk i głębia koloru:</strong> Powłoka
-              ceramiczna podkreśla oryginalny kolor lakieru i nadaje mu
-              spektakularny, lustrzany blask, który utrzymuje się przez cały
-              okres ochrony.
+              <strong>Efekt nieskazitelnego lustra:</strong> Ceramika podbija
+              głębię ziarna w lakierach metalizowanych i nadaje niesamowitą
+              szklistość lakierom uni. Twój samochód zawsze wygląda, jakby
+              dopiero co wyjechał z myjni.
             </li>
             <li>
-              <strong>Efekt hydrofobowy (wodny liść):</strong> Woda i
-              zabrudzenia swobodnie spływają z powierzchni, co sprawia, że
-              samochód dłużej pozostaje czysty, a mycie staje się szybsze i
-              łatwiejsze.
+              <strong>Hydrofobowość na najwyższym poziomie:</strong> Woda i
+              błoto nie przywierają do powierzchni, lecz formują się w kropelki,
+              które spływają same podczas jazdy. Mycie auta staje się czystą
+              przyjemnością i trwa połowę krócej.
             </li>
             <li>
-              <strong>Ochrona przed czynnikami zewnętrznymi:</strong> Skuteczna
-              bariera przed promieniowaniem UV, solą drogową, kwaśnymi
-              deszczami, ptasimi odchodami i owadami.
+              <strong>Odporność na czynniki zewnętrzne:</strong> Skuteczna
+              ochrona przed odbarwieniami spowodowanymi ptasimi odchodami,
+              sokami z drzew czy solą drogową, która w okresie zimowym niszczy
+              niezabezpieczony lakier.
             </li>
             <li>
-              <strong>Odporność na mikrozarysowania:</strong> Twardość 9H w
-              skali Mohsa (w przypadku Aqua 9H Self Healing) znacząco zwiększa
-              odporność na drobne rysy powstające podczas mycia.
+              <strong>Zwiększona odporność na chemię:</strong> Nasze powłoki są
+              odporne na środki o ekstremalnym odczynie pH, co chroni lakier
+              przed zmatowieniem na myjniach bezdotykowych.
             </li>
             <li>
-              <strong>Wzrost wartości pojazdu:</strong> Zabezpieczony lakier
-              zachowuje idealny wygląd przez lata, co przekłada się na wyższą
-              wartość samochodu przy odsprzedaży.
+              <strong>Wyższa wartość przy odsprzedaży:</strong> Kupujący
+              doceniają auta z certyfikowaną ochroną. To dowód na to, że
+              właściciel dbał o stan techniczny i wizualny pojazdu.
             </li>
           </ul>
 
           <p className={classes.highlight}>
             <strong>
-              Wybierz powłokę ceramiczną w 2K Auto Detailing Opole
+              Zadbaj o przyszłość swojego auta z 2K Auto Detailing Opole.
             </strong>{" "}
-            i ciesz się perfekcyjnym wyglądem samochodu przez lata. Stawiamy na
-            precyzję, sprawdzone produkty i indywidualne podejście do każdego
-            pojazdu.
+            Zapewniamy profesjonalne doradztwo i precyzyjną aplikację, która
+            jest kluczem do deklarowanej trwałości powłoki.
           </p>
         </div>
 
         <div className={classes.contentSection__image}>
           <Image
             src="/2k-logo-white-czarne-tlo.png"
-            alt="Samochód z nałożoną powłoką ceramiczną w 2K Auto Detailing Opole – efekt hydrofobowy i szklisty połysk"
+            alt="Zabezpieczenie lakieru powłoką ceramiczną w 2K Auto Detailing Opole – efekt hydrofobowy"
             width={600}
             height={400}
             layout="responsive"
@@ -106,46 +106,41 @@ export default function PowlokaCeramicznaPage() {
         className={`${classes.contentSection} ${classes["contentSection--reverse"]}`}
       >
         <div className={classes.contentSection__text}>
-          <h2>
-            Jak wygląda proces aplikacji powłoki ceramicznej w 2K Auto
-            Detailing?
-          </h2>
+          <h2>Precyzyjny proces aplikacji – bo liczą się detale</h2>
           <p>
-            Przed nałożeniem powłoki wykonujemy dokładne mycie ręczne i
-            przygotowanie powierzchni, co zapewnia maksymalną trwałość i
-            skuteczność efektu. Każdy etap realizujemy z najwyższą precyzją,
-            używając profesjonalnego sprzętu i kosmetyków.
+            Aplikacja ceramiki to dla nas proces wieloetapowy. Nie nakładamy
+            powłoki na przypadkowo umyte auto. Każdy pojazd przechodzi przez
+            ścieżkę przygotowania, która gwarantuje idealne wiązanie chemiczne
+            ceramiki z lakierem.
           </p>
           <ul>
             <li>
-              <strong>Mycie detailingowe i dekontaminacja:</strong> Usuwamy
-              wszelkie zanieczyszczenia z powierzchni lakieru – smołę, naloty
-              metaliczne, żywicę i pozostałości po starych woskach.
+              <strong>Dekontaminacja chemiczna i mechaniczna:</strong> Usuwamy
+              osady metaliczne, smołę oraz inne zanieczyszczenia, których nie
+              zmyje tradycyjny szampon.
             </li>
             <li>
-              <strong>Korekta lakieru (opcjonalnie):</strong> W zależności od
-              stanu lakieru wykonujemy jedno- lub wieloetapową{" "}
-              <Link href="/blog/korekta-lakieru-opole">korektę lakieru</Link>,
-              aby usunąć rysy, hologramy i zmatowienia. Czysty, pozbawiony
-              defektów lakier to podstawa perfekcyjnego przylegania powłoki.
+              <strong>Obowiązkowa korekta lakieru:</strong> Nawet na nowych
+              autach z salonu wykonujemy przynajmniej odświeżenie lakieru, aby
+              usunąć fabryczne niedoskonałości i idealnie przygotować
+              powierzchnię pod powłokę.
             </li>
             <li>
-              <strong>Dokładne odtłuszczanie:</strong> Używamy specjalistycznych
-              preparatów do usunięcia pozostałości past polerskich i zapewnienia
-              idealnie czystej powierzchni. Każdy panel jest kontrolowany pod
-              specjalnym oświetleniem.
+              <strong>Wielokrotne odtłuszczanie:</strong> To krytyczny moment.
+              Używamy specjalistycznych preparatów (tzw. IPA i zmywaczy
+              silikonowych), aby mieć pewność, że na lakierze nie zostały żadne
+              resztki olejów polerskich.
             </li>
             <li>
-              <strong>Aplikacja powłoki ceramicznej:</strong> Powłoka jest
-              nakładana ręcznie, panel po panelu, w kontrolowanych warunkach
-              temperatury i wilgotności. Każda warstwa jest precyzyjnie
-              rozprowadzana i docierana.
+              <strong>Aplikacja w warunkach studyjnych:</strong> Powłokę
+              nakładamy panel po panelu w czystym, oświetlonym pomieszczeniu o
+              kontrolowanej temperaturze, co jest niezbędne dla poprawnego
+              procesu utwardzania.
             </li>
             <li>
-              <strong>Wskazówki pielęgnacyjne:</strong> Po odbiorze pojazdu
-              przekazujemy szczegółowe zalecenia dotyczące prawidłowej
-              pielęgnacji powłoki ceramicznej, abyś mógł cieszyć się jej
-              właściwościami przez długie lata.
+              <strong>Edukacja klienta:</strong> Po usłudze nie zostawiamy Cię
+              samego. Tłumaczymy, jak myć auto, aby powłoka służyła Ci przez
+              deklarowane lata.
             </li>
           </ul>
 

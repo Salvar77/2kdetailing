@@ -22,85 +22,80 @@ export default function PranieTapicerkiPage() {
 
         <div className={classes.contentSection__text}>
           <h2>
-            Pranie tapicerki samochodowej – świeżość i higiena na najwyższym
-            poziomie
+            Dogłębne pranie tapicerki – przywróć wnętrzu sterylną czystość
           </h2>
           <p>
             <Link href="/blog/pranie-tapicerki-opole">
-              Pranie tapicerki samochodowej
+              Czyszczenie wnętrza samochodu
             </Link>{" "}
-            to profesjonalna usługa, która usuwa głęboko osadzone zabrudzenia,
-            plamy i alergeny z foteli, kanap, dywaników, podsufitki i innych
-            elementów wnętrza samochodu. W 2K Auto Detailing Opole stosujemy
-            wyłącznie sprawdzone metody i preparaty, które gwarantują
-            skuteczność i bezpieczeństwo dla wszystkich rodzajów tkanin.
+            to w naszym wydaniu coś więcej niż odkurzanie. To walka z
+            drobnoustrojami, roztoczami i trudnymi plamami, które z czasem
+            wgryzają się w strukturę materiału. W 2K Auto Detailing Opole
+            przywracamy świeżość każdemu zakamarkowi kabiny, abyś Ty i Twoi
+            pasażerowie mogli podróżować w higienicznych i komfortowych
+            warunkach.
           </p>
 
           {/* ✅ SEKCJA 1: H2 ZGODNE Z OPISEM SEO */}
           <h2 className={classes.subtitle}>
-            Ekstrakcyjne czyszczenie tapicerki i usuwanie zabrudzeń
+            Metoda ekstrakcyjna – jedyny sposób na brud ukryty głęboko we
+            włóknach
           </h2>
 
           <p className={classes.description}>
-            Dzięki dokładnemu <strong>czyszczeniu ekstrakcyjnemu</strong>{" "}
-            tapicerka odzyskuje świeżość, higienę i estetyczny wygląd. Metoda
-            polega na wtłaczaniu pod ciśnieniem roztworu czyszczącego w głąb
-            tkaniny, a następnie natychmiastowym odsysaniu go wraz z
-            rozpuszczonym brudem. To jedyny sposób, aby skutecznie usunąć
-            zabrudzenia, które gromadzą się we włóknach przez lata użytkowania.
+            Stosujemy <strong>profesjonalne pranie ekstrakcyjne</strong>, które
+            polega na dogłębnym płukaniu tkaniny pod wysokim ciśnieniem. W
+            przeciwieństwie do domowych sposobów, odsysamy brud wraz z wilgocią,
+            nie pozwalając mu osadzić się z powrotem na gąbce fotela. To
+            gwarancja usunięcia nie tylko plam, ale i nieprzyjemnych zapachów,
+            które kumulują się we wnętrzu latami.
           </p>
 
           <p className={classes.description}>
-            Nasz pełen{" "}
-            <Link href="/blog/detailing-wnetrza-opole">detailing wnętrza</Link>{" "}
-            obejmuje{" "}
-            <strong>
-              kompleksowe czyszczenie trudno dostępnych miejsc i impregnację
-            </strong>
-            , co wydłuża żywotność materiałów i sprawia, że wnętrze auta
-            pozostaje czyste na dłużej. Stosujemy profesjonalne środki
-            renomowanych marek (Koch-Chemie, ADBL), które są bezpieczne dla
-            tkanin, skór i plastików.
+            Nasz proces{" "}
+            <Link href="/blog/detailing-wnetrza-opole">detailingu wnętrza</Link>{" "}
+            obejmuje również precyzyjne czyszczenie podsufitki, pasów
+            bezpieczeństwa oraz wszystkich elementów z tworzyw sztucznych i
+            skóry. Korzystamy wyłącznie z pH-neutralnych, bezpiecznych środków,
+            które nie powodują odbarwień i są w pełni bezpieczne dla dzieci oraz
+            alergików.
           </p>
 
-          <h3>Co dokładnie wchodzi w skład naszej usługi?</h3>
+          <h3>Kompleksowy pakiet czyszczenia wnętrza:</h3>
           <ul>
             <li>
-              <strong>Dogłębne odkurzanie i czyszczenie wstępne:</strong>{" "}
-              Usuwamy kurz, piasek i wszelkie luźne zanieczyszczenia z każdego
-              zakamarka wnętrza – spod siedzeń, między fotelami, z kieszeni i
-              schowków.
+              <strong>Wieloetapowe odkurzanie przemysłowe:</strong> Wyciągamy
+              piasek i kurz z najgłębszych warstw wykładziny i szczelin między
+              fotelami, gdzie tradycyjne odkurzacze zawodzą.
             </li>
             <li>
-              <strong>
-                Pranie tapicerki materiałowej metodą ekstrakcyjną:
-              </strong>
-              Doczyszczamy fotele, kanapę, dywaniki, podsufitkę i boczki.
-              Usuwamy nawet trudne plamy po kawie, coli, tłuszczu czy moczu
-              zwierząt.
+              <strong>Pranie foteli, dywaników i boczków:</strong> Usuwamy
+              zacieki, plamy z napojów, jedzenia oraz zmatowienia materiału.
+              Przywracamy kolorom ich pierwotną intensywność.
             </li>
             <li>
-              <strong>Czyszczenie i impregnacja tapicerki skórzanej:</strong>{" "}
-              Jeśli Twój samochód posiada elementy skórzane, zostaną one
-              wyczyszczone, odżywione i zabezpieczone przed wysychaniem. W
-              przypadku mocnych uszkodzeń i ubytków oferujemy również{" "}
-              <Link href="/blog/renowacja-skor-opole">renowację skór</Link>.
+              <strong>Pielęgnacja tapicerki skórzanej:</strong> Skóry czyścimy
+              dedykowanymi szczoteczkami, a następnie zabezpieczamy balsamami,
+              które zapobiegają ich pękaniu i wycieraniu. Jeśli Twoja skóra
+              wymaga renowacji – sprawdź naszą ofertę{" "}
+              <Link href="/blog/renowacja-skor-opole">regeneracji skór</Link>.
             </li>
             <li>
-              <strong>Ozonowanie wnętrza:</strong> Dezynfekcja i całkowita
-              eliminacja nieprzyjemnych zapachów – dymu papierosowego, wilgoci,
-              potu, zwierząt. Ozon usuwa również bakterie, wirusy i grzyby.
+              <strong>Dezynfekcja ozonem (O3):</strong> To nie opcja, to
+              standard. Ozonowanie skutecznie zabija bakterie, wirusy i
+              zarodniki grzybów w układzie klimatyzacji i tapicerce, zostawiając
+              zapach sterylnej czystości.
             </li>
             <li>
-              <strong>Impregnacja hydrofobowa:</strong> Zabezpieczamy tapicerkę
-              przed ponownym wnikaniem brudu i płynów. Efekt &bdquo;wodnego
-              liścia&rdquo; sprawia, że plamy nie wsiąkają, a codzienne
-              użytkowanie staje się łatwiejsze.
+              <strong>Ochrona hydrofobowa tkanin:</strong> Na życzenie
+              impregnujemy fotele, co sprawia, że wylana kawa czy woda nie
+              wsiąkają w materiał, lecz tworzą kropelki łatwe do zebrania suchą
+              szmatką.
             </li>
             <li>
-              <strong>Czyszczenie szyb i luster:</strong> Wszystkie szyby i
-              lusterka są dokładnie myte, aby zapewnić idealną przejrzystość bez
-              smug.
+              <strong>Krystaliczna czystość szyb:</strong> Myjemy szyby od
+              wewnątrz metodą dwuetapową, zapewniając idealną widoczność i brak
+              refleksów podczas jazdy w nocy.
             </li>
           </ul>
         </div>
@@ -108,7 +103,7 @@ export default function PranieTapicerkiPage() {
         <div className={classes.contentSection__image}>
           <Image
             src="/2k-logo-white-czarne-tlo.png"
-            alt="Ekstrakcyjne pranie tapicerki samochodowej w 2K Auto Detailing Opole – usuwanie plam i zabrudzeń"
+            alt="Profesjonalne pranie i czyszczenie wnętrza samochodu w 2K Auto Detailing Opole"
             width={600}
             height={400}
             layout="responsive"
@@ -122,43 +117,43 @@ export default function PranieTapicerkiPage() {
         className={`${classes.contentSection} ${classes["contentSection--reverse"]}`}
       >
         <div className={classes.contentSection__text}>
-          <h2>Dlaczego warto wybrać 2K Auto Detailing do prania tapicerki?</h2>
+          <h2>Dlaczego nasze pranie tapicerki to najlepszy wybór w Opolu?</h2>
           <p>
-            Czyste i zadbane wnętrze samochodu to nie tylko estetyka, ale przede
-            wszystkim zdrowie i komfort podróżowania. W 2K Auto Detailing
-            stawiamy na najwyższą jakość usług, sprawdzone produkty i
-            indywidualne podejście do każdego pojazdu.
+            Dla nas liczy się nie tylko czysty fotel, ale cały proces, który
+            sprawia, że wnętrze auta znów cieszy oko. Podchodzimy do Twojego
+            samochodu z dbałością o każdy detal, od deski rozdzielczej po wnękę
+            na koło zapasowe.
           </p>
           <ul>
             <li>
-              <strong>Specjalistyczny sprzęt i kosmetyki:</strong> Używamy
-              profesjonalnych maszyn ekstrakcyjnych oraz środków czyszczących
-              renomowanych marek (Koch-Chemie, ADBL), które są skuteczne, a
-              jednocześnie bezpieczne dla tkanin, skór i zdrowia pasażerów.
+              <strong>Park maszynowy klasy PRO:</strong> Korzystamy z odkurzaczy
+              piorących o gigantycznej sile ssania. Dzięki temu tapicerka po
+              praniu jest jedynie wilgotna i schnie błyskawicznie – nawet w
+              kilka godzin.
             </li>
             <li>
-              <strong>Doświadczenie i precyzja:</strong> Posiadamy wieloletnią
-              praktykę obejmującą pełen{" "}
-              <Link href="/blog/auto-detailing-opole">auto detailing</Link>.
-              Wiemy, jak dobrać odpowiednią metodę i preparaty do rodzaju
-              tkaniny, stopnia zabrudzenia i rodzaju plam.
+              <strong>Wiedza poparta praktyką:</strong> Ponad 10 lat w{" "}
+              <Link href="/blog/auto-detailing-opole">auto detailingu</Link>{" "}
+              nauczyło nas rozróżniać setki materiałów. Wiemy, jakiej chemii
+              użyć do Alcantary, a jakiej do klasycznego weluru.
             </li>
             <li>
-              <strong>Kompleksowość usługi:</strong> Nie ograniczamy się tylko
-              do prania foteli. Dbamy o każdy detal – czyszczenie pasów
-              bezpieczeństwa, zagłówków, schowków, a także impregnację i
-              ozonowanie.
+              <strong>Zadbamy o Twoje zdrowie:</strong> Usuwamy roztocza i
+              bakterie, które są główną przyczyną alergii u kierowców i
+              pasażerów. Wnętrze po naszej wizycie jest bezpieczne nawet dla
+              niemowląt.
             </li>
             <li>
-              <strong>Transparentność i komunikacja:</strong> Przed
-              przystąpieniem do pracy dokładnie oceniamy stan tapicerki,
-              informujemy o możliwych efektach i ustalamy zakres prac. Nie mamy
-              ukrytych kosztów.
+              <strong>Bezpieczeństwo dla elementów auta:</strong> Dobieramy
+              temperaturę i ciśnienie pracy tak, aby nie przemoczyć podsufitki
+              (co grozi jej odklejeniem) ani nie uszkodzić elektroniki ukrytej
+              pod fotelami.
             </li>
             <li>
-              <strong>Gwarancja satysfakcji:</strong> Naszym celem jest Twoje
-              pełne zadowolenie. Jeśli nie będziesz zadowolony z efektów –
-              poprawimy usługę lub zwrócimy pieniądze.
+              <strong>Uczciwa ocena i wycena:</strong> Nie obiecujemy cudów przy
+              20-letnich plamach, ale zawsze robimy wszystko, co możliwe, aby
+              efekt był maksymalnie zadowalający. Jasne zasady od pierwszego
+              kontaktu.
             </li>
           </ul>
 

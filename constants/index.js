@@ -22,10 +22,10 @@ export const servicesData = [
     description: "Sprawdź",
     gradient: "linear-gradient(rgba(63,59,59,.5), rgba(40,31,31,.5))",
     additionalInfo:
-      "<strong>Korekta lakieru</strong> – przywracamy fabryczny połysk i głębię koloru. Usuwamy hologramy, mikrozarysowania i zmatowienia. Pracujemy na maszynach Rupes, a efekty utrwalamy powłokami ochronnymi.",
+      "<strong>Korekta lakieru</strong> – usuwamy zmatowienia, rysy i hologramy, wydobywając z karoserii głęboki blask. Używamy precyzyjnych maszyn polerskich, by lakier znów wyglądał jak lustro.",
     relatedBlogPost: "/blog/korekta-lakieru-opole",
     altText:
-      "Polerowanie lakieru podczas korekty w 2K Auto Detailing Opole. Specjalista usuwa mikrozarysowania i hologramy, przywracając głębię koloru.",
+      "Profesjonalne polerowanie auta w 2K Auto Detailing Opole – usuwanie rys i przywracanie blasku lakieru.",
   },
   {
     id: "oferta/powloka-ceramiczna",
@@ -34,10 +34,10 @@ export const servicesData = [
     description: "Sprawdź",
     gradient: "linear-gradient(rgba(63,59,59,.5), rgba(40,31,31,.5))",
     additionalInfo:
-      "<strong>Powłoka ceramiczna i elastomerowa</strong> – nawet 3 lata ochrony przed UV, solą drogową i chemią. Oferujemy linie Cleantle Admire i Aqua 9H Self Healing. Efekt „wodnego liścia” i szklisty połysk.",
+      "<strong>Powłoka ceramiczna i elastomerowa</strong> – najwyższej klasy tarcza ochronna. Zapewnia ekstremalną hydrofobowość, ułatwia mycie i chroni przed chemią drogową oraz promieniowaniem UV.",
     relatedBlogPost: "/blog/powloka-ceramiczna-opole",
     altText:
-      "Aplikacja powłoki ceramicznej na karoserię. Auto detailing Opole – Cleantle Admire, efekt hydrofobowy i szklisty połysk.",
+      "Zabezpieczenie lakieru powłoką ceramiczną w Opolu – niesamowity połysk i ochrona karoserii.",
   },
   {
     id: "oferta/folia-ppf",
@@ -46,10 +46,10 @@ export const servicesData = [
     description: "Sprawdź",
     gradient: "linear-gradient(rgba(63,59,59,.5), rgba(40,31,31,.5))",
     additionalInfo:
-      "<strong>Folia PPF</strong> – najbardziej zaawansowana ochrona lakieru. Zabezpiecza przed odpryskami, zarysowaniami i czynnikami atmosferycznymi. Precyzyjny montaż, niewidoczne krawędzie, nawet 10 lat ochrony.",
+      "<strong>Folia PPF</strong> – pancerna ochrona przed odpryskami kamieni i zarysowaniami. Samoregenerująca się powłoka, która sprawia, że lakier pod spodem pozostaje fabrycznie nowy przez lata.",
     relatedBlogPost: "/blog/folia-ppf-opole",
     altText:
-      "Zabezpieczenie lakieru folią PPF w Opolu. Precyzyjna aplikacja folii ochronnej na maskę samochodu.",
+      "Oklejanie samochodu bezbarwną folią ochronną PPF – 2K Auto Detailing Opole.",
   },
   {
     id: "oferta/pranie-tapicerki",
@@ -58,10 +58,10 @@ export const servicesData = [
     description: "Sprawdź",
     gradient: "linear-gradient(rgba(63,59,59,.5), rgba(40,31,31,.5))",
     additionalInfo:
-      "<strong>Pranie tapicerki materiałowej</strong> – ekstrakcyjne czyszczenie z użyciem saniteru. Usuwamy plamy, alergeny i nieprzyjemne zapachy. Impregnacja hydrofobowa przedłuża efekt czystości.",
+      "<strong>Pranie tapicerki</strong> – dogłębne czyszczenie ekstrakcyjne, które usuwa plamy, roztocza i nieprzyjemne wonie. Przywracamy świeżość i higienę wewnątrz Twojego samochodu.",
     relatedBlogPost: "/blog/pranie-tapicerki-opole",
     altText:
-      "Pranie tapicerki samochodowej – ekstrakcyjne czyszczenie foteli i usuwanie plam w Opolu.",
+      "Ekstrakcyjne pranie foteli samochodowych – skuteczne usuwanie brudu i odświeżanie wnętrza.",
   },
   {
     id: "oferta/renowacja-skor",
@@ -70,10 +70,10 @@ export const servicesData = [
     description: "Sprawdź",
     gradient: "linear-gradient(rgba(90,42,42,.5), rgba(0,0,0,.5))",
     additionalInfo:
-      "<strong>Renowacja skór</strong> – kompleksowe odnowienie tapicerki skórzanej. System Colourlock: czyszczenie, odtłuszczanie, dogłębne nawilżenie, rebarwienie i ochrona przed przetarciami.",
+      "<strong>Renowacja skór</strong> – drugie życie Twojej tapicerki. Naprawiamy przetarcia, odświeżamy kolor i impregnujemy skóry, by zachowały miękkość i luksusowy wygląd na długo.",
     relatedBlogPost: "/blog/renowacja-skor-opole",
     altText:
-      "Renowacja skórzanej tapicerki – przywracanie koloru, nawilżanie i zabezpieczanie skór w 2K Auto Detailing.",
+      "Profesjonalne czyszczenie i odnawianie tapicerki skórzanej – system Colourlock w Opolu.",
   },
   {
     id: "oferta/detailing-wnetrza",
@@ -82,10 +82,10 @@ export const servicesData = [
     description: "Sprawdź",
     gradient: "linear-gradient(rgba(63,59,59,.5), rgba(40,31,31,.5))",
     additionalInfo:
-      "<strong>Detailing wnętrza</strong> – kompleksowa pielęgnacja kabiny. Czyszczenie parowe, odkurzanie zakamarków, pranie tapicerki, impregnacja plastików i ozonowanie. Auto świeże jak po wyjeździe z salonu.",
+      "<strong>Detailing wnętrza</strong> – chirurgiczna precyzja w sprzątaniu. Czyścimy każdy przycisk, nawiew i szczelinę, zabezpieczając plastiki matowym, antystatycznym dressingiem.",
     relatedBlogPost: "/blog/detailing-wnetrza-opole",
     altText:
-      "Kompleksowe czyszczenie wnętrza samochodu – detailing tapicerki, plastików i trudno dostępnych miejsc w Opolu.",
+      "Kompleksowy detailing kabiny auta – pędzelkowanie detali i profesjonalna pielęgnacja wnętrza.",
   },
   {
     id: "oferta/regeneracja-reflektorow",
@@ -94,10 +94,10 @@ export const servicesData = [
     description: "Sprawdź",
     gradient: "linear-gradient(rgba(63,59,59,.5), rgba(40,31,31,.5))",
     additionalInfo:
-      "<strong>Regeneracja reflektorów</strong> – usuwamy żółknięcie, zmatowienia i drobne rysy. Przywracamy przejrzystość kloszy i skuteczność oświetlenia. Bezpieczeństwo i estetyka w jednym.",
+      "<strong>Regeneracja reflektorów</strong> – przywracamy lampom fabryczną przejrzystość. Usuwamy zmatowienia i żółty nalot, poprawiając widoczność i Twoje bezpieczeństwo po zmroku.",
     relatedBlogPost: "/blog/auto-detailing-opole",
     altText:
-      "Regeneracja reflektorów samochodowych – polerowanie kloszy i przywracanie przejrzystości lamp.",
+      "Polerowanie lamp samochodowych i zabezpieczenie UV – renowacja zniszczonych reflektorów.",
   },
   {
     id: "oferta/przyciemnianie-szyb",
@@ -106,10 +106,10 @@ export const servicesData = [
     description: "Sprawdź",
     gradient: "linear-gradient(rgba(63,59,59,.5), rgba(40,31,31,.5))",
     additionalInfo:
-      "<strong>Przyciemnianie szyb</strong> – folie premium. Redukcja nagrzewania wnętrza nawet o 60%, ochrona przed UV, większa prywatność i elegancki wygląd. Precyzyjny montaż bez pęcherzy.",
+      "<strong>Przyciemnianie szyb</strong> – popraw styl i komfort jazdy. Nasze folie redukują nagrzewanie wnętrza, blokują promienie UV i zapewniają prywatność Tobie oraz Twoim pasażerom.",
     relatedBlogPost: "/blog/auto-detailing-opole",
     altText:
-      "Przyciemnianie szyb samochodowych folią – montaż folii przeciwsłonecznej i ochronnej.",
+      "Montaż folii przyciemniających na szyby samochodowe – elegancja i ochrona przeciwsłoneczna.",
   },
   {
     id: "oferta/auto-detailing",
@@ -118,10 +118,10 @@ export const servicesData = [
     description: "Sprawdź",
     gradient: "linear-gradient(rgba(63,59,59,.5), rgba(40,31,31,.5))",
     additionalInfo:
-      "<strong>Auto Detailing – pakiet kompleksowy</strong> – pełna metamorfoza Twojego auta. Łączymy korektę lakieru, zabezpieczenie powłoką ceramiczną lub folią PPF oraz kompleksowy detailing wnętrza. Oszczędzasz czas i pieniądze, zyskując auto w idealnym stanie – od karoserii po ostatni zakamarek kabiny.",
+      "<strong>Auto Detailing – pakiet kompleksowy</strong> – totalna odnowa Twojego pojazdu. Łączymy najlepsze usługi zewnętrzne i wewnętrzne w jeden spójny proces, by osiągnąć efekt perfekcji.",
     relatedBlogPost: "/blog/auto-detailing-opole",
     altText:
-      "Kompleksowy auto detailing w 2K Auto Detailing Opole – korekta lakieru, powłoka ceramiczna i detailing wnętrza w jednym pakiecie.",
+      "Pełny pakiet auto detailingu – kompleksowa korekta i ochrona lakieru oraz detailing wnętrza.",
   },
 ];
 

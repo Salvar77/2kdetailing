@@ -46,7 +46,40 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function OfertaStrona({ params }) {
-  // ✅ AWAIT – params to Promise!
   const { slug } = await params;
-  return <OfertaClient slugFromParent={slug} />;
+  const svc = servicesData.find((s) => s.id === `oferta/${slug}`);
+  if (!svc) return notFound();
+
+  let mod = null;
+  try {
+    mod = await import(`../../../../content/services/${slug}.jsx`);
+  } catch {}
+
+  const title = mod?.meta?.title ?? svc.title;
+  const description = mod?.meta?.lead ?? svc.description;
+
+  const serviceJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: title,
+    description: description,
+    provider: {
+      "@id": "https://www.2kdetailing.opole.pl/#business",
+    },
+    areaServed: {
+      "@type": "AdministrativeArea",
+      name: "Opole",
+    },
+    url: `https://www.2kdetailing.opole.pl/oferta/${slug}`,
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }}
+      />
+      <OfertaClient slugFromParent={slug} />
+    </>
+  );
 }

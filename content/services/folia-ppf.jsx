@@ -21,79 +21,72 @@ export default function FoliaPpfPage() {
         <div className={classes.circleContainer4}></div>
 
         <div className={classes.contentSection__text}>
-          <h2>Folia PPF – niewidzialna tarcza dla Twojego lakieru</h2>
+          <h2>Folia PPF – pancerz, który chroni przed każdym kamieniem</h2>
           <p>
-            <Link href="/blog/folia-ppf-opole">
-              Zabezpieczenie lakieru folią PPF
-            </Link>{" "}
-            to najbardziej zaawansowana metoda ochrony karoserii samochodowej
-            dostępna na rynku. Ta bezbarwna, poliuretanowa folia tworzy na
-            powierzchni lakieru niewidzialną, a jednocześnie niezwykle
-            wytrzymałą barierę, która skutecznie chroni przed zarysowaniami,
-            odpryskami kamieni, czynnikami atmosferycznymi i drobnymi
-            uszkodzeniami mechanicznymi. W 2K Auto Detailing Opole oferujemy
-            profesjonalny montaż folii PPF najwyższej jakości.
+            <Link href="/blog/folia-ppf-opole">Ochrona lakieru folią PPF</Link>{" "}
+            to najwyższy stopień wtajemniczenia w zabezpieczaniu pojazdów. W 2K
+            Auto Detailing Opole oferujemy montaż poliuretanowych folii
+            ochronnych (Paint Protection Film), które stanowią fizyczną barierę
+            dla odprysków. Jeśli często podróżujesz autostradami lub po prostu
+            chcesz, by Twoje nowe auto zawsze wyglądało jak z salonu, folia PPF
+            to jedyny skuteczny wybór.
           </p>
 
-          {/* ✅ SEKCJA 1: H2 ZGODNE Z OPISEM SEO */}
           <h2 className={classes.subtitle}>
-            Najbardziej zaawansowana ochrona karoserii przed uszkodzeniami
+            Zapomnij o odpryskach i zarysowaniach parkingowych
           </h2>
 
           <p className={classes.description}>
-            Folia PPF zachowuje lakier w idealnym stanie przez długie lata,
-            nadaje mu szklisty połysk i znacząco ułatwia utrzymanie auta w
-            czystości. W przeciwieństwie do powłok ceramicznych, które
-            zwiększają twardość lakieru, folia PPF działa jak dodatkowa,
-            elastyczna skóra – to ona przyjmuje na siebie uderzenia kamieni,
-            rysy i inne uszkodzenia, pozostawiając oryginalny lakier
-            nienaruszonym.
+            Folia PPF to coś więcej niż naklejka. To elastyczna,
+            samoregenerująca się powłoka o grubości przekraczającej 150
+            mikronów. W przeciwieństwie do ceramiki, która chroni głównie przed
+            chemią, folia PPF potrafi przyjąć na siebie uderzenie kamienia spod
+            kół ciężarówki bez uszkodzenia lakieru pod spodem. To "druga skóra"
+            Twojego samochodu, która gwarantuje spokój ducha na drodze.
           </p>
 
           <p className={classes.description}>
             <strong>
-              Usługa w 2K Auto Detailing Opole obejmuje dokładne przygotowanie
-              powierzchni oraz precyzyjny montaż folii
+              W 2K Auto Detailing Opole montujemy folie z precyzyjnym zawijaniem
+              krawędzi
             </strong>
-            , dzięki czemu efekt jest trwały, estetyczny i praktycznie
-            niewidoczny dla oka. Stosujemy wyłącznie folie renomowanych
-            producentów z gwarancją nawet do 10 lat. To idealne rozwiązanie dla
-            osób, które chcą chronić lakier swojego auta na lata i zachować jego
-            wartość rynkową.
+            , co sprawia, że zabezpieczenie jest niemal całkowicie
+            niedostrzegalne. Pracujemy na materiałach z najwyższej półki, które
+            nie żółkną i posiadają właściwości hydrofobowe, przez co auto
+            rzadziej wymaga mycia.
           </p>
 
-          <h3>Dlaczego warto zabezpieczyć lakier folią PPF?</h3>
+          <h3>Dlaczego folia PPF to najlepsza polisa dla Twojego auta?</h3>
           <ul>
             <li>
-              <strong>Ochrona przed odpryskami kamieni i żwiru:</strong> Folia
-              PPF skutecznie absorbuje energię uderzenia, zapobiegając
-              powstawaniu odprysków na masce, zderzaku, progach i nadkolach –
-              czyli elementach najbardziej narażonych na uszkodzenia
-              mechaniczne.
+              <strong>Totalna odporność na odpryski:</strong> Przedni zderzak,
+              maska i lampy to miejsca najbardziej narażone. Dzięki PPF zostaną
+              one wolne od "kraterów" spowodowanych przez piasek i kamienie
+              nawet po tysiącach kilometrów.
             </li>
             <li>
-              <strong>Odporność na zarysowania:</strong> Codzienne użytkowanie,
-              myjnie samochodowe, gałęzie, pazury zwierząt – folia PPF chroni
-              lakier przed drobnymi rysami, które z czasem matowią powierzchnię
-              i obniżają wartość auta.
+              <strong>Cudowne właściwości samoregeneracji:</strong> Drobne rysy
+              powstałe podczas mycia czy otarcia o krzaki znikają same pod
+              wpływem słońca. Lakier zawsze pozostaje w stanie idealnym, bez
+              potrzeby polerowania.
             </li>
             <li>
-              <strong>Właściwości samoregenerujące (self-healing):</strong>{" "}
-              Drobne rysy i zmatowienia powstałe na powierzchni folii znikają
-              pod wpływem ciepła – słońca, gorącej wody lub opalarki. Lakier pod
-              spodem pozostaje idealny.
+              <strong>Ochrona parkingowa i przed aktami wandalizmu:</strong>{" "}
+              Folia potrafi ochronić lakier przed zarysowaniami kluczami czy
+              lekkimi przytarciami na parkingu. Często po większej szkodzie
+              wystarczy wymienić kawałek folii zamiast lakierować cały element.
             </li>
             <li>
-              <strong>Ochrona przed czynnikami atmosferycznymi:</strong> Folia
-              PPF jest odporna na promieniowanie UV, ptasie odchody, soki z
-              drzew, owady i sól drogową. Zapobiega blaknięciu i matowieniu
-              oryginalnego lakieru.
+              <strong>Ochrona reflektorów:</strong> Plastikowe klosze
+              nowoczesnych lamp szybko matowieją. Folia PPF zatrzymuje ten
+              proces, chroniąc je przed UV i piaskowaniem, co zapewnia
+              bezpieczeństwo i mocne światło przez lata.
             </li>
             <li>
-              <strong>Zachowanie wartości pojazdu:</strong> Samochód z
-              oryginalnym, nienaruszonym lakierem i zabezpieczony folią PPF
-              osiąga wyższą cenę przy odsprzedaży. To inwestycja, która się
-              zwraca.
+              <strong>Gwarancja najwyższej ceny przy sprzedaży:</strong> Kiedy
+              zdecydujesz się na sprzedaż auta, możesz zerwać folię, a pod
+              spodem nabywca zobaczy fabrycznie nowy lakier. To argument, który
+              pozwala sprzedać samochód znacznie drożej.
             </li>
           </ul>
         </div>
@@ -101,7 +94,7 @@ export default function FoliaPpfPage() {
         <div className={classes.contentSection__image}>
           <Image
             src="/2k-logo-white-czarne-tlo.png"
-            alt="Samochód z zabezpieczeniem lakieru folią PPF w 2K Auto Detailing Opole – ochrona maski i zderzaka"
+            alt="Zabezpieczenie przodu auta bezbarwną folią ochronną PPF w 2K Auto Detailing Opole"
             width={600}
             height={400}
             layout="responsive"
@@ -115,52 +108,44 @@ export default function FoliaPpfPage() {
         className={`${classes.contentSection} ${classes["contentSection--reverse"]}`}
       >
         <div className={classes.contentSection__text}>
-          <h2>
-            Jak wygląda profesjonalny montaż folii PPF w 2K Auto Detailing?
-          </h2>
+          <h2>Mistrzowska precyzja w aplikacji folii PPF</h2>
           <p>
-            Aplikacja folii PPF to proces wymagający nie tylko doświadczenia,
-            ale przede wszystkim precyzji, odpowiednich warunków i
-            specjalistycznego sprzętu. W 2K Auto Detailing każdy etap
-            realizujemy z najwyższą starannością, aby zapewnić idealne
-            przyleganie folii, brak pęcherzyków powietrza i niewidoczne
-            krawędzie.
+            Montaż folii ochronnej to zadanie dla cierpliwych i doświadczonych
+            specjalistów. W naszym studio w Opolu dbamy o to, by folia była
+            dopasowana co do milimetra, a jej obecność była tajemnicą dla osób
+            postronnych.
           </p>
           <ul>
             <li>
-              <strong>Szczegółowa inspekcja i przygotowanie lakieru:</strong>{" "}
-              Przed aplikacją folii dokładnie myjemy samochód, usuwamy wszelkie
-              zanieczyszczenia, smołę, naloty metaliczne. W razie potrzeby
-              wykonujemy jednoetapową{" "}
-              <Link href="/blog/korekta-lakieru-opole">korektę lakieru</Link>,
-              aby usunąć istniejące rysy. Folia PPF utrwala defekty pod spodem –
-              dlatego lakier musi być idealny.
+              <strong>Klinicznie czyste przygotowanie:</strong> Proces zaczynamy
+              od kilkugodzinnego mycia i usuwania najdrobniejszych
+              zanieczyszczeń metalicznych. Każdy pyłek pod folią psuje efekt,
+              więc pracujemy w sterylnych warunkach.
             </li>
             <li>
-              <strong>Komputerowe docinanie folii (ploter):</strong> Korzystamy
-              z zaawansowanych programów i ploterów tnących, które gwarantują
-              idealne dopasowanie folii do każdego modelu samochodu. Eliminujemy
-              ryzyko nierównych cięć, a krawędzie folii są precyzyjnie ukryte –
-              często niewidoczne gołym okiem.
+              <strong>Korekta lakieru "pod folię":</strong> Jeśli auto nie jest
+              nowe, wykonujemy{" "}
+              <Link href="/blog/korekta-lakieru-opole">
+                polerowanie lakieru
+              </Link>
+              , aby zamknąć pod folią idealną głębię koloru i blask.
             </li>
             <li>
-              <strong>Aplikacja na mokro:</strong> Folię nakładamy metodą mokrą,
-              używając dedykowanego roztworu, który pozwala na swobodne
-              pozycjonowanie folii i usunięcie całego powietrza spod
-              powierzchni. Każdy panel jest dociskany i wygładzany z najwyższą
-              precyzją.
+              <strong>Montaż z arkusza i korzystanie z szablonów:</strong>{" "}
+              Łączymy precyzję komputerowych szablonów z rzemieślniczym
+              docinaniem tam, gdzie pozwala to na lepsze schowanie krawędzi
+              (tzw. zawijanie pod spód).
             </li>
             <li>
-              <strong>Kontrola jakości i wykończenie:</strong> Po aplikacji
-              folii dokładnie sprawdzamy każdy element – krawędzie, narożniki,
-              zakrzywione powierzchnie. Używamy opalarki do aktywacji kleju i
-              utrwalenia właściwości samoregenerujących.
+              <strong>Stabilizacja i wygrzewanie:</strong> Po aplikacji auto
+              zostaje u nas na dodatkową dobę, aby klej w pełni odparował.
+              Wygrzewamy krawędzie, co eliminuje ryzyko podnoszenia się folii w
+              przyszłości.
             </li>
             <li>
-              <strong>Wskazówki pielęgnacyjne:</strong> Po zakończeniu usługi
-              przekazujemy szczegółowe zalecenia dotyczące pielęgnacji folii
-              PPF. Dzięki odpowiedniej konserwacji folia zachowa swoje
-              właściwości i wygląd przez cały okres użytkowania.
+              <strong>Pełne wsparcie pozabiegowe:</strong> Otrzymujesz od nas
+              pisemną gwarancję oraz zestaw porad, jak dbać o folię, by cieszyć
+              się nią przez całą dekadę.
             </li>
           </ul>
 

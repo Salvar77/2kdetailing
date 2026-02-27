@@ -21,77 +21,78 @@ export default function DetailingWnetrzaPage() {
         <div className={classes.circleContainer4}></div>
 
         <div className={classes.contentSection__text}>
-          <h2>Detailing wnętrza – kompleksowa pielęgnacja kabiny</h2>
+          <h2>Detailing wnętrza – sterylne i pachnące nowością auto</h2>
           <p>
             <Link href="/blog/detailing-wnetrza-opole">Detailing wnętrza</Link>{" "}
-            to kompleksowa usługa, która obejmuje systematyczne czyszczenie
-            każdego elementu kabiny. W 2K Auto Detailing Opole zajmujemy się
-            zarówno trudnymi plamami, jak i drobnoustrojami. Używamy
-            profesjonalnych narzędzi, w tym rewolucyjnego ekstrakcyjnego{" "}
-            <Link href="/blog/pranie-tapicerki-opole">prania tapicerki</Link>,
-            które ożywia kolory materiału i głęboko eliminuje brud z siedzeń
-            oraz dywaników.
+            to nasza najbardziej drobiazgowa usługa. Nie ograniczamy się do
+            powierzchownego przetarcia deski rozdzielczej. Wchodzimy w każdą
+            szczelinę, czyścimy kratki nawiewów, pędzelkujemy przyciski i
+            pierzemy tapicerkę tak, by Twój samochód odzyskał klimat "prosto z
+            salonu". W 2K Auto Detailing Opole wiemy, że to we wnętrzu spędzasz
+            najwięcej czasu, dlatego dbamy o nie z chirurgiczną precyzją.
           </p>
 
-          {/* ✅ H2 Z INSTRUKCJI */}
           <h2 className={classes.subtitle}>
-            Kompleksowe czyszczenie i odświeżenie wnętrza auta
+            Gruntowne odświeżenie kabiny – więcej niż zwykłe sprzątanie
           </h2>
 
           <p className={classes.description}>
-            Detailing wnętrza to proces, który usuwa zabrudzenia, kurz, alergeny
-            i nieprzyjemne zapachy z każdego zakamarka Twojego samochodu.
-            Działamy kompleksowo – od podsufitki, przez fotele i kanapę, po
-            dywaniki, bagażnik i schowki. Pełnowymiarowy{" "}
-            <Link href="/blog/auto-detailing-opole">auto detailing</Link>{" "}
-            wnętrza nie tylko polepsza samopoczucie podczas podróży, ale przede
-            wszystkim podnosi ogólną wartość rynkową Twojego pojazdu.
+            Profesjonalny detailing kabiny usuwa nie tylko widoczny brud, ale
+            przede wszystkim miliony bakterii i alergenów skrywających się we
+            włóknach. Wykorzystujemy bezpieczną chemię pH-neutralną oraz{" "}
+            <Link href="/blog/pranie-tapicerki-opole">pranie ekstrakcyjne</Link>
+            , które wyciąga zanieczyszczenia z samej głębi foteli. To inwestycja
+            w Twoje zdrowie i przyjemność z każdego przejechanego kilometra.
           </p>
 
           <p className={classes.description}>
             <strong>
-              Usługa zapewnia maksymalny komfort jazdy, wydłuża żywotność
-              materiałów.
+              Przywracamy matowe, fabryczne wykończenie wszystkim plastikom i
+              skórom.
             </strong>{" "}
-            Zależy nam na perfekcji. W przypadkach wymagających szczególnej
-            uwagi, kiedy na fotelach widoczne są pęknięcia czy wyblaknięcia
-            materiału, wdrażamy bezpieczną{" "}
-            <Link href="/blog/renowacja-skor-opole">renowację skór</Link>,
-            zachowując oryginalną fakturę. Detailing wnętrza to precyzja i
-            długotrwały efekt wizualny w Opolu.
+            Unikamy tłustych "nabłyszczaczy", które przyciągają kurz. Zamiast
+            tego stosujemy wysokiej klasy dressingi antystatyczne z filtrami UV.
+            Jeśli Twoje fotele wymagają specjalnej troski, jak np.{" "}
+            <Link href="/blog/renowacja-skor-opole">
+              naprawa przetarć na skórze
+            </Link>
+            , wykonamy ją tak, że zapomnisz o dawnych uszkodzeniach. Nasz{" "}
+            <Link href="/blog/auto-detailing-opole">auto detailing</Link> w
+            Opolu to gwarancja najwyższego standardu czystości.
           </p>
 
-          <h3>Co dokładnie wchodzi w skład detailingu wnętrza?</h3>
+          <h3>Co obejmuje nasz pełny pakiet detailingu wnętrza?</h3>
           <ul>
             <li>
-              <strong>Dogłębne odkurzanie i czyszczenie wstępne:</strong>{" "}
-              Usuwamy kurz, piasek i luźne zanieczyszczenia z foteli, dywaników,
-              bagażnika, schowków i wszystkich trudno dostępnych miejsc.
+              <strong>Pędzelkowanie i czyszczenie detali:</strong> Każdy
+              przycisk, nawiew i szczelina zostają wyczyszczone przy użyciu
+              delikatnych pędzelków i sprężonego powietrza.
             </li>
             <li>
-              <strong>Czyszczenie tapicerki materiałowej:</strong> Pranie
-              ekstrakcyjne foteli, kanapy, podsufitki i boczków. Usuwamy plamy,
-              alergeny i osadzony brud z włókien tkanin.
+              <strong>Pranie ekstrakcyjne materiałów:</strong> Fotele, podłoga,
+              bagażnik i dywaniki przechodzą proces dogłębnego płukania. Usuwamy
+              plamy po kawie, jedzeniu i ślady codziennego użytkowania.
             </li>
             <li>
-              <strong>Czyszczenie i konserwacja elementów plastikowych:</strong>{" "}
-              Kokpit, konsola centralna, panele drzwiowe – wszystkie plastiki są
-              czyszczone, odświeżane i zabezpieczone preparatem antystatycznym,
-              który ogranicza osadzanie się kurzu.
+              <strong>Czyszczenie i matowe zabezpieczenie tworzyw:</strong>{" "}
+              Wszystkie plastiki zostają odtłuszczone i zabezpieczone przed
+              blaknięciem od słońca. Wnętrze odzyskuje głęboki, fabryczny kolor
+              bez efektu świecenia się.
             </li>
             <li>
-              <strong>Czyszczenie szyb i luster:</strong> Wszystkie szyby i
-              lusterka są myte do idealnej przejrzystości, bez smug i zacieków.
+              <strong>Mycie szyb o wysokiej przejrzystości:</strong> Czyścimy
+              szyby dwuetapowo, eliminując tłuste osady i smugi, które
+              utrudniają jazdę pod słońce lub nocą.
             </li>
             <li>
-              <strong>Ozonowanie wnętrza:</strong> Dezynfekcja i całkowita
-              eliminacja nieprzyjemnych zapachów – dymu papierosowego, wilgoci,
-              potu, zwierząt. Ozon usuwa również bakterie, wirusy i grzyby.
+              <strong>Neutralizacja zapachów i ozonowanie:</strong> Nie
+              maskujemy zapachów – my je usuwamy. Ozonowanie zabija źródła woni
+              dymu papierosowego, wilgoci czy zwierząt.
             </li>
             <li>
-              <strong>Impregnacja tapicerki i zabezpieczenie:</strong> Nakładamy
-              warstwę ochronną, która ułatwia utrzymanie czystości i chroni
-              przed ponownym wnikaniem brudu.
+              <strong>Impregnacja krawędzi i tkanin:</strong> Na życzenie
+              zabezpieczamy tapicerkę chroniąc ją przed szybkim przemoczeniem i
+              ponownym wnikaniem zabrudzeń.
             </li>
           </ul>
         </div>
@@ -99,7 +100,7 @@ export default function DetailingWnetrzaPage() {
         <div className={classes.contentSection__image}>
           <Image
             src="/2k-logo-black-biale-tlo.png"
-            alt="Kompleksowe czyszczenie wnętrza samochodu w 2K Auto Detailing Opole"
+            alt="Perfekcyjnie wyczyszczone wnętrze auta po usłudze detailingu w 2K Auto Detailing Opole"
             width={600}
             height={400}
             layout="responsive"
@@ -113,39 +114,38 @@ export default function DetailingWnetrzaPage() {
         className={`${classes.contentSection} ${classes["contentSection--reverse"]}`}
       >
         <div className={classes.contentSection__text}>
-          <h2>Dlaczego warto zaufać 2K Auto Detailing?</h2>
+          <h2>Dlaczego nasze studio to najlepszy adres dla Twojego auta?</h2>
           <p>
-            Czyste i zadbane wnętrze samochodu to nie tylko estetyka – to
-            zdrowie, komfort i wyższa wartość pojazdu. W 2K Auto Detailing
-            stawiamy na precyzję, sprawdzone metody i pełną transparentność.
+            Detailing wnętrza to dla nas misja przywracania fabrycznego stanu.
+            Nie uznajemy półśrodków – albo coś jest wyczyszczone idealnie, albo
+            wcale.
           </p>
           <ul>
             <li>
-              <strong>Specjalistyczny sprzęt i kosmetyki:</strong> Używamy
-              profesjonalnych maszyn ekstrakcyjnych, odkurzaczy piorących oraz
-              środków czyszczących renomowanych marek (Koch-Chemie, ADBL). Są
-              skuteczne, a jednocześnie bezpieczne dla tkanin, skór i zdrowia
-              pasażerów.
+              <strong>Topowe marki w rękach pasjonatów:</strong> Pracujemy na
+              chemii Koch-Chemie i ADBL. To środki, które są bezlitosne dla
+              brudu, ale w 100% bezpieczne dla materiałów w Twoim aucie.
             </li>
             <li>
-              <strong>Doświadczenie i precyzja:</strong> Mamy wieloletnią
-              praktykę w detailingu wnętrz. Wiemy, jak dobrać odpowiednią metodę
-              do rodzaju tapicerki i stopnia zabrudzenia.
+              <strong>Lata praktyki w trudnych przypadkach:</strong>{" "}
+              Odnawialiśmy wnętrza po zalaniach, zapuszczone auta firmowe oraz
+              luksusowe klasyki. Żadne zabrudzenie nas nie zaskoczy.
             </li>
             <li>
-              <strong>Dbałość o detale:</strong> Czyścimy pasy bezpieczeństwa,
-              zagłówki, schowki, wentylację, a nawet trudno dostępne szczeliny w
-              fotelach. Diabeł tkwi w szczegółach.
+              <strong>Zdrowie przede wszystkim:</strong> Nasze metody usuwają
+              alergeny, które są zmorą osób uczulonych na roztocza. Czysta
+              klimatyzacja i tapicerka to lepsza jakość powietrza w aucie.
             </li>
             <li>
-              <strong>Bezpieczeństwo i higiena:</strong> Ozonowanie eliminuje
-              alergeny, bakterie i wirusy. Twoje wnętrze jest nie tylko czyste,
-              ale także sterylne.
+              <strong>Dbałość o każdy centymetr kwadratowy:</strong> Zaglądamy
+              tam, gdzie inni nie zaglądają – za pasy bezpieczeństwa, pod szyny
+              foteli, we wnęki kieszeni drzwiowych.
             </li>
             <li>
-              <strong>Transparentność:</strong> Przed rozpoczęciem usługi
-              dokładnie oceniamy stan wnętrza, informujemy o możliwych efektach
-              i ustalamy zakres prac. Bez ukrytych kosztów.
+              <strong>Efekt trwalszy niż na myjni:</strong> Dzięki
+              profesjonalnemu zabezpieczeniu plastik nie "siwieje", a materiał
+              wolniej chłonie brud. Twoje auto będzie cieszyć oko przez wiele
+              miesięcy.
             </li>
           </ul>
 
