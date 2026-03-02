@@ -14,6 +14,11 @@ import blogPost3 from "../assets/images/2k-logo-black-biale-tlo.svg";
 import blogPost4 from "../assets/images/2k-logo-black-biale-tlo.svg";
 import blogPost5 from "../assets/images/2k-logo-black-biale-tlo.svg";
 
+// Importy dla PPF - obrazy wygenerowane przez AI
+import ppfFullFront from "../assets/images/ppf-full-front.png";
+import ppfBikini from "../assets/images/ppf-bikini.png";
+import ppfFullBody from "../assets/images/ppf-full-body.png";
+
 export const servicesData = [
   {
     id: "oferta/korekta-lakieru",
@@ -156,7 +161,8 @@ export const exteriorServices = [
       "Aktywna piana",
       "Mycie ręczne karoserii, felg i wnęk drzwiowych",
       "Osuszanie karoserii",
-      "Woskowanie karoserii",
+      "Wosk syntetyczny",
+      "Dressing na opony",
     ],
   },
   // SEKCJA: LAKIER I POWŁOKI (image_ce198d.jpg)
@@ -173,7 +179,12 @@ export const exteriorServices = [
     title: "Aplikacja Powłoki Ceramicznej",
     subtitle: "Trwałość 2 lata",
     prices: { small: "1600", medium: "2000", large: "2300" },
-    items: ["Ochrona UV", "Twardość 9H", "Super hydrofobowość"],
+    items: [
+      "Ochrona UV",
+      "Twardość 9H",
+      "Super hydrofobowość",
+      "Aplikacja powłoki ceramicznej (Polerowanie lakieru i aplikacja powłoki ceramicznej)",
+    ],
   },
   {
     id: "powloka-3-lata",
@@ -188,23 +199,48 @@ export const exteriorServices = [
     category: "Lakier i Ochrona",
     title: "Hydrofobizacja Szyb",
     subtitle: "Niewidzialna wycieraczka",
-    prices: { small: "1800", medium: "2100", large: "2500" }, // Ceny ze screena
-    extraPrice: { label: "Dodatek", value: "400" },
+    prices: { small: "150", medium: "200", large: "250" },
+    extraPrice: { label: "Komplet szyb", value: "400" },
     items: ["Lepsza widoczność w deszczu", "Łatwiejsze usuwanie owadów"],
+  },
+  {
+    id: "przyciemnianie-szyb",
+    category: "Szyby",
+    title: "Przyciemnianie Szyb",
+    prices: { small: "550", medium: "600", large: "700" },
+    items: [
+      "Folie premium z filtrem UV",
+      "Redukcja nagrzewania wnętrza",
+      "Prywatność i styl",
+      "Gwarancja na montaż",
+    ],
+  },
+  {
+    id: "mycie-detailingowe-wosk",
+    category: "Mycie Ręczne",
+    title: "Mycie Detailingowe z Woskiem",
+    prices: { small: "150", medium: "200", large: "250" },
+    items: [
+      "Kompleksowe mycie zewnętrzne",
+      "Dekontaminacja lakieru",
+      "Aplikacja twardego wosku syntetycznego",
+      "Dressing na plastiki i opony",
+    ],
   },
 ];
 
 export const interiorServices = [
   // SEKCJA: WNĘTRZE (image_ce196f.jpg)
   {
-    id: "mycie-detailingowe-wosk",
-    title: "Mycie Detailingowe z Aplikacją Wosku Syntetycznego",
-    prices: { small: "150", medium: "200", large: "250" },
-  },
-  {
     id: "detailing-wnetrza",
     title: "Detailing Wnętrza",
-    prices: { small: "200", medium: "250", large: "300" },
+    prices: { small: "250", medium: "300", large: "350" },
+    items: [
+      "Dokładne odkurzanie",
+      "Pędzelkowanie detali",
+      "Czyszczenie i konserwacja plastików",
+      "Mycie szyb od wewnątrz",
+    ],
   },
   {
     id: "pranie-foteli",
@@ -215,17 +251,58 @@ export const interiorServices = [
   {
     id: "impregnacja-foteli",
     title: "Impregnacja Foteli Materiałowych",
-    prices: { small: "250", medium: "200", large: "200" },
+    prices: { small: "200", medium: "200", large: "200" },
   },
   {
     id: "czyszczenie-tapicerki-skorzanej",
     title: "Czyszczenie Tapicerki Skórzanej",
-    prices: { small: "300", medium: "300", large: "300" },
+    prices: { small: "300", medium: "350", large: "400" },
+    items: [
+      "Czyszczenie dedykowaną chemią",
+      "Konserwacja odżywką",
+      "Ochrona UV",
+    ],
   },
   {
     id: "pranie-podlogi",
     title: "Pranie Podłogi",
     prices: { small: "150", medium: "200", large: "250" },
+  },
+];
+
+export const ppfPackages = [
+  {
+    id: "ppf-bikini",
+    title: "Pakiet Bikini",
+    image: ppfBikini,
+    price: "3500",
+    protectionLevel: 3,
+    durability: "10 lat",
+    time: "2 dni robocze",
+    description:
+      "Zabezpieczenie folią PPF elementów auta, które w szczególny sposób narażone są na uszkodzenia (wybrane części maski, zderzaka, błotników itp.).",
+  },
+  {
+    id: "ppf-full-front",
+    title: "Pakiet Full Front",
+    image: ppfFullFront,
+    price: "7000",
+    protectionLevel: 4,
+    durability: "10 lat",
+    time: "2 dni robocze",
+    description:
+      "Zabezpieczenie przedniej części auta folią PPF samoregenerującą i o właściwościach hydrofobowych. W cenie usługi na resztę samochodu powłoka ecoating (5 letnia) i również powłoka na felgi i na szyby.",
+  },
+  {
+    id: "ppf-full-body",
+    title: "Pakiet Full (cały samochód)",
+    image: ppfFullBody,
+    price: "15000",
+    protectionLevel: 5,
+    durability: "10 lat",
+    time: "2 dni robocze",
+    description:
+      "Zabezpieczenie całego lakieru auta folią bezbarwną folią ochronną PPF – samoregenerującą i o właściwościach hydrofobowych. W cenie usługi na resztę samochodu powłoka ecoating (5 letnia) i również powłoka na felgi i na szyby.",
   },
 ];
 

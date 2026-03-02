@@ -242,3 +242,188 @@
   // Możesz dodać lekką łunę pod tekstem, żeby jeszcze lepiej czytało się na ciemnym tle
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
+
+// --- NOWA SEKCJA PPF ---
+.ppfGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  margin-top: 4rem;
+}
+
+.ppfPackage {
+  background: rgba(20, 20, 20, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: 350px 1fr 1fr;
+  gap: 3rem;
+  position: relative;
+  transition: all 0.4s ease;
+  overflow: hidden;
+
+  @media (max-width: 1200px) {
+    grid-template-columns: 300px 1fr;
+  }
+
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+    padding: 2rem;
+  }
+
+  &:hover {
+    border-color: rgba($red-bright, 0.3);
+    background: rgba(30, 10, 10, 0.4);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.ppfLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  @media (max-width: 900px) {
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.ppfLabel {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.ppfTitle {
+  font-size: 2.2rem;
+  font-weight: 900;
+  color: $red-bright;
+  text-transform: capitalize;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+
+.ppfImageWrapper {
+  width: 100%;
+  height: 220px;
+  position: relative;
+  margin-top: 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+
+  img {
+    object-fit: cover;
+    filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.5));
+  }
+}
+
+.ppfStats {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  &__label {
+    font-size: 0.9rem;
+    color: #888;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  &__value {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 800;
+  }
+}
+
+.starRating {
+  display: flex;
+  gap: 5px;
+  color: $red-bright;
+  font-size: 1.2rem;
+
+  .emptyStar {
+    color: #333;
+  }
+}
+
+.ppfRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @media (max-width: 1200px) {
+    grid-column: 1 / -1;
+  }
+}
+
+.ppfDesc {
+  color: #ccc;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+
+  strong {
+    color: #fff;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.ppfBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  margin-top: auto;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: stretch;
+  }
+}
+
+.ppfPrice {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 500;
+
+  strong {
+    font-size: 2.2rem;
+    font-weight: 900;
+    margin-left: 10px;
+    letter-spacing: -1px;
+  }
+}
+
+.ppfButton {
+  background: $red-bright;
+  color: #fff;
+  border: none;
+  padding: 1.2rem 3rem;
+  border-radius: 50px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 20px rgba($red-bright, 0.2);
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 30px rgba($red-bright, 0.4);
+    background: lighten($red-bright, 5%);
+  }
+}

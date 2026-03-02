@@ -13,10 +13,11 @@ const aboutContent = {
   subtitle:
     "2K Auto Detailing – korekta lakieru, powłoki ceramiczne i ochrona PPF",
   paragraphs: [
-    "Jesteśmy zespołem detailingowców z wieloletnim doświadczeniem w Opolu. Specjalizujemy się w korekcie lakieru, aplikacji powłok ceramicznych oraz zabezpieczaniu folią PPF. Każde auto traktujemy jak własne – bo wierzymy, że diabeł tkwi w detalach.",
-    "Nasza oferta to kompleksowa pielęgnacja samochodów: od jedno- i wieloetapowej korekty lakieru, przez powłoki ceramiczne Cleantle Admire i Aqua 9H, aż po detailing wnętrza, pranie tapicerki i renowację skór. Pracujemy wyłącznie na sprawdzonych, renomowanych produktach.",
-    "Nie działamy szablonowo. Każdy pojazd diagnozujemy, doradzamy i dobieramy technologię pod konkretne potrzeby – czy to ochrona lakieru przed sprzedażą, czy przygotowanie auta do sezonu. Dzięki transparentności i komunikacji nasi klienci wracają i polecają nas dalej.",
-    "Motoryzacja to nasza pasja, a auto detailing w Opolu to nie tylko praca – to styl życia. Jeśli zależy Ci na idealnym połysku, głębi koloru i długotrwałej ochronie – jesteś we właściwym miejscu.",
+    "Jesteśmy zespołem z wieloletnim doświadczeniem. Tworzymy markę 2K Auto Detailing Opole – a tymi specjalistami jesteśmy my: Kamil i Krzysztof. To właśnie od pierwszych liter naszych imion powstała nazwa 2K. Łączymy wiedzę, precyzję i pasję do motoryzacji, dbając o każdy detal powierzonych nam samochodów.",
+    "Specjalizujemy się w korekcie lakieru, aplikacji powłok ceramicznych, zabezpieczaniu folią PPF, a także w kompleksowym czyszczeniu wnętrz – detailingu wnętrza. Każde auto traktujemy jak własne, bo wierzymy, że diabeł tkwi w szczegółach.",
+    "Nasza oferta to kompleksowa pielęgnacja samochodów: od jedno- i wieloetapowej korekty lakieru, przez aplikację powłok ceramicznych (w tym Cleantle Admire i Aqua, Ultracoat), aż po detailing wnętrza, pranie tapicerki i renowację skór czy przyciemnianiu szyb samochodowych. Pracujemy wyłącznie na sprawdzonych, renomowanych produktach.",
+    "Nie działamy szablonowo. Każdy pojazd dokładnie diagnozujemy, doradzamy najlepsze rozwiązania i dobieramy technologię do konkretnych potrzeb – niezależnie od tego, czy chodzi o zabezpieczenie lakieru przed sprzedażą, czy przygotowanie auta do sezonu. Dzięki transparentności i stałej komunikacji nasi klienci wracają do nas i polecają nas dalej.",
+    "Motoryzacja to nasza pasja, a auto detailing w Opolu to dla nas nie tylko praca – to styl życia. Jeśli zależy Ci na idealnym połysku, głębi koloru i długotrwałej ochronie, jesteś we właściwym miejscu.",
   ],
 };
 
@@ -45,7 +46,7 @@ export default function AboutUs() {
       <div className={classes.about__background}>
         <Image
           src={AboutImage}
-          alt="2K Auto Detailing Opole – zespół, specjaliści korekty lakieru i powłok ceramicznych w Opolu."
+          alt="2K Auto Detailing Opole – zespół: Kamil i Krzysztof. Specjaliści od korekty lakieru, powłok ceramicznych i folii PPF w Opolu."
           fill
           style={{ objectFit: "cover" }}
           priority

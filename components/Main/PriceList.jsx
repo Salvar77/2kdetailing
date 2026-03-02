@@ -1,13 +1,19 @@
 "use client";
 import React from "react";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { exteriorServices, interiorServices } from "../../constants";
 import {
-  FaShieldAlt,
+  exteriorServices,
+  interiorServices,
+  ppfPackages,
+} from "../../constants";
+import {
   FaCar,
   FaSprayCan,
   FaCheckCircle,
   FaCrown,
+  FaShieldAlt,
+  FaStar,
 } from "react-icons/fa";
 import classes from "./PriceList.module.scss";
 
@@ -79,9 +85,75 @@ const PriceCard = ({ svc }) => {
   );
 };
 
+const PPFCard = ({ pkg }) => {
+  const stars = Array(5).fill(0);
+
+  return (
+    <div className={classes.ppfPackage}>
+      <div className={classes.ppfLeft}>
+        <span className={classes.ppfLabel}>PAKIET</span>
+        <h3 className={classes.ppfTitle}>{pkg.title}</h3>
+        <div className={classes.ppfImageWrapper}>
+          <Image
+            src={pkg.image}
+            alt={pkg.title}
+            fill
+            sizes="(max-width: 768px) 100vw, 300px"
+          />
+        </div>
+      </div>
+
+      <div className={classes.ppfStats}>
+        <div className={classes.statItem}>
+          <span className={classes.statItem__label}>Poziom ochrony:</span>
+          <div className={classes.starRating}>
+            {stars.map((_, i) => (
+              <FaStar
+                key={i}
+                className={i < pkg.protectionLevel ? "" : classes.emptyStar}
+              />
+            ))}
+          </div>
+        </div>
+        <div className={classes.statItem}>
+          <span className={classes.statItem__label}>Trwałość ochrony:</span>
+          <span className={classes.statItem__value}>{pkg.durability}</span>
+        </div>
+        <div className={classes.statItem}>
+          <span className={classes.statItem__label}>Czas realizacji:</span>
+          <span className={classes.statItem__value}>{pkg.time}</span>
+        </div>
+      </div>
+
+      <div className={classes.ppfRight}>
+        <div className={classes.ppfDesc}>
+          <strong>Opis usługi:</strong>
+          {pkg.description}
+        </div>
+        <div className={classes.ppfBottom}>
+          <div className={classes.ppfPrice}>
+            Cena od: <strong>{pkg.price} zł</strong>
+          </div>
+          <button
+            className={classes.ppfButton}
+            onClick={() => (window.location.href = "tel:797234734")}
+          >
+            Umów usługę
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
 const Pricelist = () => {
   const pathname = usePathname();
   const isHome = pathname === "/";
+
+  // Usuwamy puste wpisy o PPF z regularnych usług zewnętrznych, żeby nie było dubli
+  const filteredExterior = exteriorServices.filter(
+    (svc) => svc.id !== "ppf-ochrona",
+  );
 
   return (
     <div className={`${classes.pricing} ${isHome ? "" : classes.noTopPadding}`}>
@@ -90,17 +162,31 @@ const Pricelist = () => {
           <span>Usługi Detailingowe</span>
         </h2>
 
+        {/* SEKCJA PPF */}
+        <div className={classes.categoryGroup}>
+          <h2 className={classes.categoryLabel}>
+            <FaShieldAlt /> Folie Ochronne PPF
+          </h2>
+          <div className={classes.ppfGrid}>
+            {ppfPackages.map((pkg) => (
+              <PPFCard key={pkg.id} pkg={pkg} />
+            ))}
+          </div>
+        </div>
+
+        {/* USŁUGI ZEWNĘTRZNE */}
         <div className={classes.categoryGroup}>
           <h2 className={classes.categoryLabel}>
             <FaCar /> Usługi Zewnętrzne
           </h2>
           <div className={classes.pricingFlex}>
-            {exteriorServices.map((svc) => (
+            {filteredExterior.map((svc) => (
               <PriceCard key={svc.id} svc={svc} />
             ))}
           </div>
         </div>
 
+        {/* PIELĘGNACJA WNĘTRZA */}
         <div className={classes.categoryGroup}>
           <h2 className={classes.categoryLabel}>
             <FaSprayCan /> Pielęgnacja Wnętrza
