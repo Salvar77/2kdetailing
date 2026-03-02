@@ -18,8 +18,8 @@ const Footer = () => {
       <div className={classes.footer__container}>
         <div className={classes.footer__text}>
           <p className={classes.footer__textInfo}>
-            &copy;{currentYear} <strong>2K Auto Detailing</strong> - Korekta
-            lakieru - Powłoka ceramiczna
+            &copy;{currentYear} <strong>2K Auto Detailing Opole</strong> -
+            Korekta lakieru - Powłoka ceramiczna
           </p>
         </div>
         <div className={classes.footer__poweredBy}>

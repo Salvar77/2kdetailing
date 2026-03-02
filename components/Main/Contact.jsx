@@ -87,7 +87,8 @@ const Contact = () => {
             <h2>Kontakt</h2>
             <p>
               <strong>
-                2K Auto Detailing - Korekta lakieru <br />- Powłoka ceramiczna
+                2K Auto Detailing Opole - Korekta lakieru <br />- Powłoka
+                ceramiczna
               </strong>
               <br />
               Auto Detailing Opole

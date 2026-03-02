@@ -18,7 +18,8 @@ const ContactMain = () => {
       <div className={classes.column}>
         <h2 className={classes.heading}>Dane kontaktowe:</h2>
         <p>
-          2K Auto Detailing <br />- Korekta lakieru <br />- Powłoka ceramiczna
+          2K Auto Detailing Opole
+          <br />- Korekta lakieru <br />- Powłoka ceramiczna
         </p>
         <p className={classes.address}>ul. Prószkowska 43</p>
         <p className={classes.addressTwo}>45-758 Opole</p>
