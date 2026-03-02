@@ -15,7 +15,7 @@ const Hero = () => {
           <div className={classes.imageWrapper}>
             <Image
               src={HeroImage}
-              alt="2K Auto Detailing Opole - Korekta lakieru - Powłoki ceramiczne - Folie PPF"
+              alt="2K Auto Detailing Opole - Korekta lakieru - Powłoka ceramiczna"
               fill
               style={{ objectFit: "cover" }}
               priority
@@ -25,10 +25,12 @@ const Hero = () => {
 
           <div className={classes.textOverlay}>
             <h1 className={classes.hero__title}>
-              <span className={classes.hero__titleGold}>2K Auto Detailing</span>
+              <span className={classes.hero__titleGold}>
+                2K Auto Detailing Opole
+              </span>
               <br />
               <span className={classes.hero__titleWhite}>
-                Korekta lakieru - Powłoki ceramiczne - Folie PPF
+                Korekta lakieru - Powłoka ceramiczna
               </span>
             </h1>
             <p className={classes.hero__description}>{description}</p>

@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import Logo from "../../assets/images/2k-logo-black-biale-tlo.svg";
+import Logo from "../../assets/images/2k-logo-white-bez-tla.svg";
 import classes from "./ContactMain.module.scss";
 import Link from "next/link";
 import Image from "next/image";
 
-import { FaFacebookF } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa";
 
 const ContactMain = () => {
   const [showServices, setShowServices] = useState(false);
@@ -18,7 +18,7 @@ const ContactMain = () => {
       <div className={classes.column}>
         <h2 className={classes.heading}>Dane kontaktowe:</h2>
         <p>
-          2K Auto Detailing <br />- Korekta lakieru <br />- Powłoki ceramiczne
+          2K Auto Detailing <br />- Korekta lakieru <br />- Powłoka ceramiczna
         </p>
         <p className={classes.address}>ul. Prószkowska 43</p>
         <p className={classes.addressTwo}>45-758 Opole</p>
@@ -41,7 +41,7 @@ const ContactMain = () => {
             alt="Logo firmy 2K Auto Detailing Opole - korekta lakieru, powłoki ceramiczne"
             className={classes.logo}
             width={350}
-            height={250}
+            height={350}
           />
         </div>
       </div>
@@ -105,6 +105,26 @@ const ContactMain = () => {
               aria-label="Odwiedź mnie na Facebooku"
             >
               <FaFacebookF className={classes.facebookIcon} />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/2kdetailingopole/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Instagram"
+            >
+              <FaInstagram className={classes.facebookIcon} />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.tiktok.com/@2kdetailingopole"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Tiktok"
+            >
+              <FaTiktok className={classes.facebookIcon} />
             </a>
           </li>
         </ul>

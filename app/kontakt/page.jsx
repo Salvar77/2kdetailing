@@ -5,19 +5,19 @@ import { ContactWithAnimation, ContactContent } from "./DynamicComponents";
 export const metadata = {
   title: "Kontakt | 2K Auto Detailing Opole",
   description:
-    "Umów wizytę lub zadaj pytanie – sprawdź dane kontaktowe do 2K Auto Detailing w Opolu: telefon, e‑mail i adres warsztatu.",
+    "Umów wizytę lub zadaj pytanie – zadzwoń: 797 234 734, napisz: 2kdetailingopole@gmail.com lub odwiedź nas: ul. Prószkowska 43, 45-758 Opole.",
   alternates: { canonical: "/kontakt" },
   openGraph: {
     url: "/kontakt",
-    title: "Kontakt | 2K Auto Detailing  Opole",
+    title: "Kontakt | 2K Auto Detailing Opole",
     description:
-      "Skontaktuj się z nami, aby zarezerwować termin korekty lakieru, folii PPF, powłoki ceramicznej lub prania tapicerki.",
+      "Zadzwoń: 797 234 734 lub napisz: 2kdetailingopole@gmail.com. Nasz adres: ul. Prószkowska 43, 45-758 Opole.",
     images: [
       {
         url: "/og/logo-2kdetailing-opole.png",
         width: 1200,
         height: 630,
-        alt: "Dane kontaktowe 2K Auto Detailing - Pranie tapicerki - Korekta lakieru",
+        alt: "2K Auto Detailing Opole - 797 234 734, ul. Prószkowska 43",
       },
     ],
   },

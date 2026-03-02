@@ -7,6 +7,8 @@ import {
   FaMapMarkerAlt,
   FaPhone,
   FaEnvelope,
+  FaInstagram,
+  FaTiktok,
 } from "react-icons/fa";
 import { FaRegClock, FaClock, FaHourglassEnd } from "react-icons/fa";
 
@@ -33,7 +35,7 @@ const ContactContent = () => (
         Cześć! Jesteśmy <span className={classes.bold}>2K Auto Detailing</span>{" "}
         z Opola. Codziennie pomagamy kierowcom przywracać ich samochodom
         świeżość – od <span className={classes.bold}>korekty lakieru</span>,
-        przez <span className={classes.bold}>powłoki ceramiczne</span>, aż po{" "}
+        przez <span className={classes.bold}>powłokę ceramiczną</span>, aż po{" "}
         <span className={classes.bold}>folie PPF</span>.
       </motion.p>
 
@@ -98,6 +100,26 @@ const ContactContent = () => (
             aria-label="Facebook"
           >
             <FaFacebookF />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/2kdetailingopole/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Instagram"
+          >
+            <FaInstagram />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.tiktok.com/@2kdetailingopole"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Tiktok"
+          >
+            <FaTiktok />
           </a>
         </li>
       </motion.ul>

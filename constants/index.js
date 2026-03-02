@@ -27,7 +27,7 @@ export const servicesData = [
     description: "Sprawdź",
     gradient: "linear-gradient(rgba(63,59,59,.5), rgba(40,31,31,.5))",
     additionalInfo:
-      "<strong>Korekta lakieru</strong> – usuwamy zmatowienia, rysy i hologramy, wydobywając z karoserii głęboki blask. Używamy precyzyjnych maszyn polerskich, by lakier znów wyglądał jak lustro.",
+      "<strong>Korekta lakieru</strong> – usuwamy zmatowienia, rysy i hologramy, przywracając lakierowi głębię koloru oraz efekt lustrzanego odbicia. Pracujemy na profesjonalnych pastach, dobierając odpowiednią technikę do stanu powierzchni. Dzięki temu karoseria odzyskuje perfekcyjny połysk i świeży, salonowy wygląd.",
     relatedBlogPost: "/blog/korekta-lakieru-opole",
     altText:
       "Profesjonalne polerowanie auta w 2K Auto Detailing Opole – usuwanie rys i przywracanie blasku lakieru.",
@@ -39,7 +39,7 @@ export const servicesData = [
     description: "Sprawdź",
     gradient: "linear-gradient(rgba(63,59,59,.5), rgba(40,31,31,.5))",
     additionalInfo:
-      "<strong>Powłoka ceramiczna i elastomerowa</strong> – najwyższej klasy tarcza ochronna. Zapewnia ekstremalną hydrofobowość, ułatwia mycie i chroni przed chemią drogową oraz promieniowaniem UV.",
+      "<strong>Powłoka ceramiczna i elastomerowa</strong> – najwyższej klasy tarcza ochronna. Zapewnia ekstremalną hydrofobowość, ułatwia mycie i chroni przed chemią oraz promieniowaniem UV.",
     relatedBlogPost: "/blog/powloka-ceramiczna-opole",
     altText:
       "Zabezpieczenie lakieru powłoką ceramiczną w Opolu – niesamowity połysk i ochrona karoserii.",
@@ -51,7 +51,7 @@ export const servicesData = [
     description: "Sprawdź",
     gradient: "linear-gradient(rgba(63,59,59,.5), rgba(40,31,31,.5))",
     additionalInfo:
-      "<strong>Folia PPF</strong> – pancerna ochrona przed odpryskami kamieni i zarysowaniami. Samoregenerująca się powłoka, która sprawia, że lakier pod spodem pozostaje fabrycznie nowy przez lata.",
+      "<strong>Folia PPF</strong> – pancerna ochrona przed odpryskami kamieni i zarysowaniami. Folia posiada właściwości samoregeneracyjne, dzięki którym powstałe drobne rysy ulegają niwelacji, a lakier pod spodem pozostaje w fabrycznym stanie przez długie lata.",
     relatedBlogPost: "/blog/folia-ppf-opole",
     altText:
       "Oklejanie samochodu bezbarwną folią ochronną PPF – 2K Auto Detailing Opole.",
@@ -275,10 +275,10 @@ export const ppfPackages = [
     id: "ppf-bikini",
     title: "Pakiet Bikini",
     image: ppfBikini,
-    price: "3500",
+    price: "2500",
     protectionLevel: 3,
     durability: "10 lat",
-    time: "2 dni robocze",
+    time: "1 dzień roboczy",
     description:
       "Zabezpieczenie folią PPF elementów auta, które w szczególny sposób narażone są na uszkodzenia (wybrane części maski, zderzaka, błotników itp.).",
   },
@@ -286,10 +286,10 @@ export const ppfPackages = [
     id: "ppf-full-front",
     title: "Pakiet Full Front",
     image: ppfFullFront,
-    price: "7000",
+    price: "6000",
     protectionLevel: 4,
     durability: "10 lat",
-    time: "2 dni robocze",
+    time: "2-3 dni robocze",
     description:
       "Zabezpieczenie przedniej części auta folią PPF samoregenerującą i o właściwościach hydrofobowych. W cenie usługi na resztę samochodu powłoka ecoating (5 letnia) i również powłoka na felgi i na szyby.",
   },
@@ -297,12 +297,23 @@ export const ppfPackages = [
     id: "ppf-full-body",
     title: "Pakiet Full (cały samochód)",
     image: ppfFullBody,
-    price: "15000",
+    price: "9000",
     protectionLevel: 5,
     durability: "10 lat",
-    time: "2 dni robocze",
+    time: "4-5 dni roboczych",
     description:
       "Zabezpieczenie całego lakieru auta folią bezbarwną folią ochronną PPF – samoregenerującą i o właściwościach hydrofobowych. W cenie usługi na resztę samochodu powłoka ecoating (5 letnia) i również powłoka na felgi i na szyby.",
+  },
+  {
+    id: "ppf-reflektory",
+    title: "Zabezpieczenie reflektorów (PPF)",
+    image: headlight,
+    price: "500",
+    protectionLevel: 3,
+    durability: "10 lat",
+    time: "1 dzień roboczy",
+    description:
+      "Pancerna ochrona reflektorów przed piaskowaniem, promieniami UV oraz odpryskami od kamieni. Zapobiega matowieniu i żółknięciu kloszy.",
   },
 ];
 
@@ -332,7 +343,7 @@ export const blogPosts = [
   {
     id: 2,
     title:
-      "Głębokie pranie tapicerki w Opolu – usuń uporczywe plamy i nieprzyjemne zapachy",
+      "Pranie tapicerki w Opolu – usuń uporczywe plamy i nieprzyjemne zapachy",
     subtitle: "PRANIE TAPICERKI",
     date: "2026-02-18",
     description:
@@ -364,7 +375,7 @@ export const blogPosts = [
   {
     id: 5,
     title:
-      "Powłoka ceramiczna samochodu w Opolu – zabezpieczenie i niesamowity zrzut wody",
+      "Powłoka ceramiczna samochodu w Opolu – trwałe zabezpieczenie lakieru i efekt hydrofobowy",
     subtitle: "POWŁOKA CERAMICZNA",
     date: "2026-02-05",
     description:
