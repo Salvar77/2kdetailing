@@ -136,13 +136,14 @@ export default function AutoDetailingPage() {
 
           <blockquote className={classes.blockquote}>
             <p>
-              &bdquo;Z całego serca polecam 2K Auto Detailing. Samochód zyskał
-              niesamowity blask, tapicerka jak nowa, a powłoka ceramiczna
-              sprawia, że woda dosłownie ucieka z lakieru. Fachowość,
-              kompetencja i życzliwość – wszystko na najwyższym poziomie!&rdquo;
+              &bdquo;Bardzo dobry auto detailing w Opolu. W 2K Auto Detailing
+              wykonywałem detailing wnętrza oraz mycie detailingowe i jestem
+              bardzo zadowolony. Samochód został dokładnie wyczyszczony, a
+              lakier odzyskał połysk. Widać doświadczenie i dbałość o szczegóły.
+              Polecam każdemu, kto chce zadbać o auto profesjonalnie.&rdquo;
             </p>
             <footer>
-              <cite>Andreas Krefft, Opole</cite>
+              <cite>Łukasz Kuś</cite>
             </footer>
           </blockquote>
 

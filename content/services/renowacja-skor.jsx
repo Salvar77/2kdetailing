@@ -139,13 +139,14 @@ export default function RenowacjaSkorPage() {
 
           <blockquote className={classes.blockquote}>
             <p>
-              &bdquo;Oddałem do 2K Auto Detailing drugie auto i tak jak w
-              pierwszym przypadku – jestem bardzo zadowolony. Skóra odzyskała
-              kolor, przetarcia na boczkach zniknęły, a fotele znów są miękkie.
-              Szybko, profesjonalnie i w przyzwoitej cenie. Polecam!&rdquo;
+              &bdquo;Jestem zadowolony z wykonanej usługi - czyszczenie wnętrza
+              oraz nakładanie ceramiki na cały samochód. Usługa wykonana
+              kompleksowo z dopilnowaniem najmniejszych szczegółów. Nigdy mój
+              samochód nie był tak czysty i dopieszczony. Na pewno będę wracał
+              do tego miejsca. Polecam serdecznie!&rdquo;
             </p>
             <footer>
-              &mdash; <cite>Marcin Rozycki, Opole</cite>
+              &mdash; <cite>Wi Lan</cite>
             </footer>
           </blockquote>
 

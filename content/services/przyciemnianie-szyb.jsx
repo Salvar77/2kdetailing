@@ -151,14 +151,17 @@ export default function PrzyciemnianieSzybPage() {
 
           <blockquote className={classes.blockquote}>
             <p>
-              &bdquo;Przyciemniałem szyby w trzech autach, ale dopiero teraz
-              trafiłem na prawdziwych profesjonalistów. Folia położona idealnie,
-              zero pęcherzy, zero zagnieceń, krawędzie równe jak linijka. A
-              efekt wizualny? Auto wygląda o klasę lepiej. Gorąco polecam 2K
-              Auto Detailing!&rdquo;
+              &bdquo;Oddałam swoje auto do 2K Auto Detailing Opole na korektę
+              lakieru oraz przyciemnianie szyb i jestem zachwycona efektem.
+              [...] Przyciemnianie szyb wykonane bardzo dokładnie, bez
+              pęcherzyków i niedoróbek. Wnętrze auta również zostało
+              perfekcyjnie ogarnięte. Widać doświadczenie i dbałość o każdy
+              detal. Jeśli ktoś szuka profesjonalnego auto detailingu w Opolu,
+              korekty lakieru albo przyciemniania szyb – szczerze polecam. Na
+              pewno wrócę 👍🚗&rdquo;
             </p>
             <footer>
-              &mdash; <cite>Michał Szymański, Opole</cite>
+              &mdash; <cite>Iwona Feliks</cite>
             </footer>
           </blockquote>
 

@@ -159,13 +159,11 @@ export default function PranieTapicerkiPage() {
 
           <blockquote className={classes.blockquote}>
             <p>
-              &bdquo;Profesjonalne podejście do tematu. Tapicerka odświeżona,
-              wygląda lepiej niż nowa. Plamy po kawie z przednich foteli
-              zniknęły całkowicie, a wnętrze pachnie świeżością. Na pewno
-              skorzystam ponownie. Polecam 2K Auto Detailing!&rdquo;
+              &bdquo;Serdecznie polecam, dokładne czyszczenie wraz z myciem.
+              Najlepszy detailing w Opolu!&rdquo;
             </p>
             <footer>
-              &mdash; <cite>Krzysiek Miklaszewski, Opole</cite>
+              &mdash; <cite>Dawid Meier</cite>
             </footer>
           </blockquote>
 

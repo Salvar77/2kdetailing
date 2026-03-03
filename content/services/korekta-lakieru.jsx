@@ -164,14 +164,16 @@ export default function KorektaLakieruPage() {
 
           <blockquote className={classes.blockquote}>
             <p>
-              &bdquo;Polecam! Skorzystałem z{" "}
-              <Link href="/blog/pranie-tapicerki-opole">prania tapicerki</Link>{" "}
-              samochodowej i polerowania lakieru wraz z nałożeniem powłoki
-              ceramicznej. Profesjonalnie, solidnie i w terminie. Zdecydowanie
-              warto!&rdquo;
+              &bdquo;Oddałam swoje auto do 2K Auto Detailing Opole na korektę
+              lakieru oraz przyciemnianie szyb i jestem zachwycona efektem.
+              Lakier po korekcie wygląda jak nowy – zniknęły rysy, a kolor
+              odzyskał głębię i połysk. Auto naprawdę robi teraz wrażenie. Jeśli
+              ktoś szuka profesjonalnego auto detailingu w Opolu, korekty
+              lakieru albo przyciemniania szyb – szczerze polecam. Pełen
+              profesjonalizm i świetny kontakt. Na pewno wrócę 👍🚗&rdquo;
             </p>
             <footer>
-              &mdash; <cite>DrKatushimero, Opole</cite>
+              &mdash; <cite>Iwona Feliks</cite>
             </footer>
           </blockquote>
 

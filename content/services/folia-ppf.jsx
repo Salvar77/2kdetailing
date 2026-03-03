@@ -151,13 +151,11 @@ export default function FoliaPpfPage() {
 
           <blockquote className={classes.blockquote}>
             <p>
-              &bdquo;Szybka i profesjonalna usługa. Założyłem folię PPF na maskę
-              i przedni zderzak. Po roku użytkowania i kilku przejazdach
-              autostradą – lakier jak nowy, zero odprysków. Jak będzie tylko
-              okazja, zabezpieczę całe auto. Polecam 2K Auto Detailing!&rdquo;
+              &bdquo;Profesjonalna usługa, samochód po odebraniu wyglądał jak
+              nowy. Z całego serca polecam!&rdquo;
             </p>
             <footer>
-              &mdash; <cite>Dorota, Opole</cite>
+              &mdash; <cite>Karo J</cite>
             </footer>
           </blockquote>
 

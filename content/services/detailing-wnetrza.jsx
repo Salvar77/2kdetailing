@@ -151,13 +151,14 @@ export default function DetailingWnetrzaPage() {
 
           <blockquote className={classes.blockquote}>
             <p>
-              &bdquo;Oddawałem auto do detailingu wnętrza pierwszy raz i jestem
-              zachwycony. Wszystkie plamy zniknęły, tapicerka pachnie
-              świeżością, a plastiki wyglądają jak nowe. Profesjonalnie,
-              solidnie i w terminie. Polecam 2K Auto Detailing!&rdquo;
+              &bdquo;Jestem zadowolony z wykonanej usługi - czyszczenie wnętrza
+              oraz nakładanie ceramiki na cały samochód. Usługa wykonana
+              kompleksowo z dopilnowaniem najmniejszych szczegółów. Nigdy mój
+              samochód nie był tak czysty i dopieszczony. Na pewno będę wracał
+              do tego miejsca. Polecam serdecznie!&rdquo;
             </p>
             <footer>
-              &mdash; <cite>Tomasz Wierzbicki, Opole</cite>
+              &mdash; <cite>Wi Lan</cite>
             </footer>
           </blockquote>
 

@@ -146,13 +146,14 @@ export default function PowlokaCeramicznaPage() {
 
           <blockquote className={classes.blockquote}>
             <p>
-              &bdquo;Pełen profesjonalizm. Samochód wygląda jak nowy, a woda
-              dosłownie ucieka z lakieru. Powłoka ceramiczna z Aqua 9H to był
-              strzał w dziesiątkę. Szybko, sprawnie i bezproblemowo. Z czystym
-              sumieniem polecam 2K Auto Detailing!&rdquo;
+              &bdquo;Jestem zadowolony z wykonanej usługi - czyszczenie wnętrza
+              oraz nakładanie ceramiki na cały samochód. Usługa wykonana
+              kompleksowo z dopilnowaniem najmniejszych szczegółów. Nigdy mój
+              samochód nie był tak czysty i dopieszczony. Na pewno będę wracał
+              do tego miejsca. Polecam serdecznie!&rdquo;
             </p>
             <footer>
-              &mdash; <cite>Łukasz Halkiewicz, Opole</cite>
+              &mdash; <cite>Wi Lan</cite>
             </footer>
           </blockquote>
 

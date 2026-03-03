@@ -152,14 +152,13 @@ export default function RegeneracjaReflektorowPage() {
 
           <blockquote className={classes.blockquote}>
             <p>
-              &bdquo;Myślałem, że konieczna będzie wymiana reflektorów – były
-              tak matowe, że wieczorem ledwo oświetlały drogę. Panowie z 2K Auto
-              Detailing dosłownie przywrócili im życie. Efekt? Jak nowe, a
-              zapłaciłem 1/5 ceny nowych lamp. Profesjonalizm i świetny kontakt.
-              Polecam każdemu!&rdquo;
+              &bdquo;Gorąco polecam usługi Pana Kamila, zlecenie wykonane
+              szybko, dokładnie i w korzystnej cenie. Wykonana powłoka
+              ceramiczna zdecydowanie ułatwia codzienną pielęgnacje samochodu i
+              lakieru.&rdquo;
             </p>
             <footer>
-              &mdash; <cite>Robert Nowak, Opole</cite>
+              &mdash; <cite>grześ Dziuba</cite>
             </footer>
           </blockquote>
 
