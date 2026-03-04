@@ -7,7 +7,7 @@ export const meta = {
   title: "Renowacja Skór",
   hero: "/2k-logo-white-czarne-tlo.png",
   heroAltText:
-    "Profesjonalna renowacja skórzanej tapicerki samochodowej w 2K Auto Detailing Opole",
+    "Profesjonalna renowacja i naprawa uszkodzonej skórzanej tapicerki samochodowej",
   lead: "Zatrzymaj proces zużycia skórzanej tapicerki. Przywracamy fabryczny kolor, dogłębnie czyścimy i zabezpieczamy fotele systemem premium Colourlock.",
   slug: "renowacja-skor",
   faq: [

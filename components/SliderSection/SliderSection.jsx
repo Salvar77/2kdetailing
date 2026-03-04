@@ -25,26 +25,31 @@ const SliderSection = ({
     {
       beforeImage: BeforeImage1,
       afterImage: AfterImage1,
-      altBefore: "Tapicerka przed praniem z widocznymi zabrudzeniami",
-      altAfter: "Tapicerka po praniu z czystym i świeżym wyglądem",
+      altBefore:
+        "Lakier przed korektą lakieru z widocznymi zarysowaniami i hologramami",
+      altAfter:
+        "Lakier po wieloetapowej korekcie – pełny blask i lustrzane odbicie",
     },
     {
       beforeImage: BeforeImage4,
       afterImage: AfterImage4,
-      altBefore: "Stan tapicerki przed czyszczeniem – liczne plamy",
-      altAfter: "Efekt czyszczenia – tapicerka jak nowa",
+      altBefore: "Zmętniały i oksydowany lakier przed pracą detailingową",
+      altAfter:
+        "Zabezpieczenie lakieru powłoką ceramiczną – ekstremalny połysk",
     },
     {
       beforeImage: BeforeImage3,
       afterImage: AfterImage3,
-      altBefore: "Skórzana tapicerka przed renowacją – widoczne uszkodzenia",
-      altAfter: "Skórzana tapicerka po renowacji – pełne odświeżenie",
+      altBefore: "Zniszczony lakier podatny na warunki atmosferyczne",
+      altAfter:
+        "Auto zabezpieczone folią ochronną PPF – nieskazitelna głębia koloru",
     },
     {
       beforeImage: BeforeImage2,
       afterImage: AfterImage2,
-      altBefore: "Wnętrze auta przed praniem – widoczne zabrudzenia",
-      altAfter: "Wnętrze auta po praniu – świeżość i czystość",
+      altBefore: "Zaniedbana karoseria przed procesem auto detailingu",
+      altAfter:
+        "Pełen auto detailing z zewnątrz – przywrócenie stanu salonowego",
     },
   ];
 

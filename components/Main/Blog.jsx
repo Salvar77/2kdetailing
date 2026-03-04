@@ -15,7 +15,7 @@ const Blog = ({ showReadMoreLink = false }) => {
             <div className={classes.blog__image}>
               <Image
                 src={post.image}
-                alt={`${post.title} - auto detailing, korekta lakieru, polerowanie lakieru`}
+                alt={`${post.title} - auto detailing, korekta lakieru, powłoka ceramiczna`}
                 width={400}
                 height={300}
               />

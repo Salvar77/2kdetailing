@@ -6,7 +6,7 @@ export const meta = {
   title: "Powłoka Ceramiczna",
   hero: "/2k-logo-white-czarne-tlo.png",
   heroAltText:
-    "Profesjonalna aplikacja powłoki ceramicznej na lakier samochodowy w 2K Auto Detailing Opole",
+    "Dokładna aplikacja powłoki ceramicznej zabezpieczającej lakier samochodu",
   lead: "Aplikujemy topowe powłoki Cleantle i Aqua 9H. Ochronisz lakier przed mikrozarysowaniami oraz chemią, zyskując obłędny, piękny szklany połysk.",
   slug: "powloka-ceramiczna",
   faq: [

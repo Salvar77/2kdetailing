@@ -53,11 +53,12 @@
 
   &__title {
     color: $red-main;
-    font-size: 3rem;
+    font-size: 2.7rem;
     text-shadow: 0.5rem 0.5rem 0.5rem $dark-smooth;
 
     &Gold {
-      color: $new-red;
+      color: $red-main2;
+      text-shadow: none;
     }
     &White {
       color: $white-smooth;
@@ -117,7 +118,6 @@
   .button {
     align-self: center;
     padding: 0.8rem 1.6rem;
-    box-shadow: 0 0.4rem 0.8rem rgba($dark-smooth, 0.6);
     z-index: 4;
   }
 }
@@ -589,10 +589,6 @@
       text-shadow:
         2px 2px 4px rgba($dark-smooth, 0.8),
         -2px -2px 4px rgba($dark-smooth, 0.8);
-    }
-
-    .button {
-      box-shadow: 0 0.5rem 1rem rgba($dark-smooth, 0.5);
     }
   }
 

@@ -6,7 +6,7 @@ export const meta = {
   title: "Regeneracja Reflektorów",
   hero: "/2k-logo-white-czarne-tlo.png",
   heroAltText:
-    "Profesjonalna regeneracja reflektorów samochodowych w 2K Auto Detailing Opole – polerowanie kloszy i przywracanie przejrzystości",
+    "Proces regeneracji reflektorów – polerowanie kloszy i przywracanie im pełnej przejrzystości",
   lead: "Odtwarzamy przejrzystość lamp usuwając zmatowienia. Zwiększ wydajność świateł oraz bezpieczeństwo na drodze bez ponoszenia kosztów wymiany kloszy.",
   slug: "regeneracja-reflektorow",
   faq: [

@@ -6,7 +6,7 @@ export const meta = {
   title: "Detailing Wnętrza",
   hero: "/2k-logo-black-biale-tlo.png",
   heroAltText:
-    "Profesjonalny detailing wnętrza samochodu w 2K Auto Detailing Opole",
+    "Precyzyjne pędzelkowanie i odświeżanie detali wewnątrz kabiny pasażerskiej",
   lead: "Chirurgicznie precyzyjne czyszczenie kabiny. Pędzelkujemy detale, pielęgnujemy plastiki i uwalniamy całe auto od osadzonego w nawiewach kurzu.",
   slug: "detailing-wnetrza",
   faq: [

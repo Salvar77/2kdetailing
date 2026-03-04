@@ -6,7 +6,7 @@ export const meta = {
   title: "Pranie Tapicerki",
   hero: "/2k-logo-white-czarne-tlo.png",
   heroAltText:
-    "Profesjonalne pranie tapicerki samochodowej metodą ekstrakcyjną w 2K Auto Detailing Opole",
+    "Dogłębne pranie ekstrakcyjne materiałowych foteli w samochodzie",
   lead: "Głęboko skuteczna metoda ekstrakcyjna dla materiałowych wnętrz. Trwale neutralizujemy ciężkie plamy, osadzone alergeny i przesiąknięte zapachy.",
   slug: "pranie-tapicerki",
   faq: [

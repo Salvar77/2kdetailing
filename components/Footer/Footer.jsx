@@ -35,15 +35,6 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      {/* <div className={classes.policy}>
-        <Link
-          href="/obszary-mojej-dzialalnosci"
-          className={classes.policy__link}
-          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-        >
-          <span>Obszary Mojej Działalności</span>
-        </Link>
-      </div> */}
     </footer>
   );
 };

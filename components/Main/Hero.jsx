@@ -46,7 +46,7 @@ const Hero = () => {
               <span className={classes.button__icon} aria-hidden="true">
                 <span></span>
               </span>
-              <span className={classes.button__text}>Nasze realizacje</span>
+              <span className={classes.button__text}>Realizacje</span>
             </Link>
           </div>
         </section>

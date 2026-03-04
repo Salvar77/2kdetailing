@@ -6,7 +6,7 @@ export const meta = {
   title: "Zabezpieczenie Foliami PPF",
   hero: "/2k-logo-white-czarne-tlo.png",
   heroAltText:
-    "Profesjonalna aplikacja folii PPF na lakier samochodowy w 2K Auto Detailing Opole",
+    "Bezinwazyjny montaż bezbarwnej folii ruro-ochronnej PPF na karoserii",
   lead: "Bezkompromisowa, niewidoczna zbroja na co dzień. Samoregeneracyjna folia ochronna uchroni Twój pojazd przed głębokimi zarysowaniami i kamieniami.",
   slug: "folia-ppf",
   faq: [

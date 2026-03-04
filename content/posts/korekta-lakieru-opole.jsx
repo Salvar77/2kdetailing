@@ -15,7 +15,7 @@ export const meta = {
   id: 4,
   slug: "korekta-lakieru-opole",
   title: "Korekta Lakieru – wyeliminuj zarysowania",
-  subtitle: "USUWANIE HOLOGRÓM I ZMATOWIEŃ ŚWIETLNYCH",
+  subtitle: "USUWANIE HOLOGRAMÓW I ZMATOWIEŃ ŚWIETLNYCH",
   date: "2026-02-26",
   image: "/2k-logo-black-biale-tlo.png",
   dynamicImage: "/2k-logo-black-biale-tlo.png",

@@ -6,7 +6,7 @@ import classes from "../../app/oferta/[slug]/page.module.scss";
 export const meta = {
   title: "Korekta Lakieru",
   hero: "/2k-logo-white-czarne-tlo.png",
-  heroAltText: "Logo 2K Auto Detailing. Profesjonalna korekta lakieru w Opolu.",
+  heroAltText: "Mechaniczne polerowanie lakieru w celu usunięcia zarysowań",
   lead: "Pozbądź się uporczywych rys, oksydacji oraz brzydkich hologramów. Karoseria po bezpiecznym polerowaniu odzyska absolutną gładkość i refleks.",
   slug: "korekta-lakieru",
   faq: [

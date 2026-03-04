@@ -143,8 +143,23 @@ const ContactMain = () => {
           <h3 className={classes.modalTitle}>Usługi:</h3>
           <ul className={classes.servicesList}>
             <li>
-              <Link href="/oferta/auto-detailing" onClick={toggleServices}>
-                Auto Detailing
+              <Link href="/oferta/korekta-lakieru" onClick={toggleServices}>
+                Korekta lakieru
+              </Link>
+            </li>
+            <li>
+              <Link href="/oferta/powloka-ceramiczna" onClick={toggleServices}>
+                Powłoka ceramiczna i elastomerowa
+              </Link>
+            </li>
+            <li>
+              <Link href="/oferta/folia-ppf" onClick={toggleServices}>
+                Zabezpieczenie folią PPF
+              </Link>
+            </li>
+            <li>
+              <Link href="/oferta/pranie-tapicerki" onClick={toggleServices}>
+                Pranie tapicerki
               </Link>
             </li>
             <li>
@@ -152,25 +167,27 @@ const ContactMain = () => {
                 Renowacja skór
               </Link>
             </li>
-
             <li>
-              <Link href="/oferta/korekta-lakieru" onClick={toggleServices}>
-                Korekta lakieru
+              <Link href="/oferta/detailing-wnetrza" onClick={toggleServices}>
+                Detailing wnętrza
               </Link>
             </li>
             <li>
-              <Link href="/oferta/folia-ppf" onClick={toggleServices}>
-                Folia PPF
+              <Link
+                href="/oferta/regeneracja-reflektorow"
+                onClick={toggleServices}
+              >
+                Regeneracja reflektorów
               </Link>
             </li>
             <li>
-              <Link href="/oferta/powloka-ceramiczna" onClick={toggleServices}>
-                Powłoka ceramiczna
+              <Link href="/oferta/przyciemnianie-szyb" onClick={toggleServices}>
+                Przyciemnianie szyb
               </Link>
             </li>
             <li>
-              <Link href="/oferta/pranie-tapicerki" onClick={toggleServices}>
-                Pranie tapicerki
+              <Link href="/oferta/auto-detailing" onClick={toggleServices}>
+                Auto Detailing – pakiet kompleksowy
               </Link>
             </li>
           </ul>

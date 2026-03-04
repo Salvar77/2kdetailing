@@ -22,7 +22,19 @@ export async function generateMetadata({ params }) {
       title: `${title} – Blog`,
       description,
       alternates: { canonical: url },
-      openGraph: { url },
+      openGraph: {
+        url,
+        title: `${title} – Blog`,
+        description,
+        images: [
+          {
+            url: mod.meta.hero || "/og/logo-2kdetailing-opole.png",
+            width: 1200,
+            height: 630,
+            alt: title,
+          },
+        ],
+      },
     };
   } catch {
     return notFound();

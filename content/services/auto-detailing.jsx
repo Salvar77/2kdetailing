@@ -7,7 +7,7 @@ export const meta = {
   title: "Auto Detailing",
   hero: "/2k-logo-black-biale-tlo.png",
   heroAltText:
-    "Kompleksowy auto detailing w 2K Auto Detailing Opole – korekta lakieru, powłoka ceramiczna, detailing wnętrza",
+    "Pełen proces auto detailingu: mycie, polerowanie oraz pielęgnacja detali w pojeździe",
   lead: "Absolutny powrót do stanu salonowego. Od wieloetapowej reanimacji lakieru i folii PPF, aż po maksymalnie drobiazgowe, dogłębne czyszczenie wnętrza.",
   slug: "auto-detailing",
   faq: [
@@ -24,7 +24,7 @@ export const meta = {
     {
       question: "Czym różni się auto detailing od mycia samochodu?",
       answer:
-        "Mycie samochodu to usługa powierzchniowa – usuwa bród z zewnątrz. Auto detailing to wieloetapowy proces, który obejmuje dogłębne czyszczenie, dekontaminację, korektę lakieru i jego długotrwałe zabezpieczenie. To nie to samo, co wizyta w myjni.",
+        "Mycie samochodu to usługa powierzchniowa – usuwa brud z zewnątrz. Auto detailing to wieloetapowy proces, który obejmuje dogłębne czyszczenie, dekontaminację, korektę lakieru i jego długotrwałe zabezpieczenie. To nie to samo, co wizyta w myjni.",
     },
   ],
 };

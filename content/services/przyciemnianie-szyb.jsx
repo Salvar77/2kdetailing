@@ -5,8 +5,7 @@ import classes from "../../app/oferta/[slug]/page.module.scss";
 export const meta = {
   title: "Przyciemnianie Szyb",
   hero: "/2k-logo-black-biale-tlo.png",
-  heroAltText:
-    "Profesjonalne przyciemnianie szyb samochodowych w 2K Auto Detailing Opole – montaż folii przeciwsłonecznej i ochronnej",
+  heroAltText: "Aplikacja folii przyciemniającej na boczne szyby samochodu",
   lead: "Ciesz się chłodnym wnętrzem i dyskretną elegancją. Instalujemy certyfikowane folie przeciwsłoneczne blokujące nagrzewanie oraz promieniowanie UV.",
   slug: "przyciemnianie-szyb",
   faq: [
