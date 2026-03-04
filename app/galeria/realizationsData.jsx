@@ -61,17 +61,7 @@ export const realizationsData = [
     customClass: "renowacjaSkor",
     mobileClass: "renowacjaSkorMobile",
   },
-  {
-    id: "detailing-wnetrza",
-    description: "Detailing wnętrza",
-    images: [placeholderImage, placeholderImage, placeholderImage],
-    image: placeholderImage,
-    largeImage: placeholderImage,
-    largeImageWidth: 1920,
-    gradient: "linear-gradient(rgba(63, 59, 59, 0.5), rgba(40, 31, 31, 0.5))",
-    customClass: "detailingWnetrza",
-    mobileClass: "detailingWnetrzaMobile",
-  },
+
   {
     id: "regeneracja-reflektorow",
     description: "Regeneracja reflektorów",
@@ -93,16 +83,5 @@ export const realizationsData = [
     gradient: "linear-gradient(rgba(63, 59, 59, 0.5), rgba(40, 31, 31, 0.5))",
     customClass: "przyciemnianieSzyb",
     mobileClass: "przyciemnianieSzybMobile",
-  },
-  {
-    id: "auto-detailing",
-    description: "Auto Detailing – pakiet kompleksowy",
-    images: [placeholderImage, placeholderImage, placeholderImage],
-    image: placeholderImage,
-    largeImage: placeholderImage,
-    largeImageWidth: 1920,
-    gradient: "linear-gradient(rgba(63, 59, 59, 0.5), rgba(40, 31, 31, 0.5))",
-    customClass: "autoDetailing",
-    mobileClass: "autoDetailingMobile",
   },
 ];

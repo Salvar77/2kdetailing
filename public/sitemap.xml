@@ -155,12 +155,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
-  <url>
-    <loc>https://www.2kdetailing.opole.pl/galeria/detailing-wnetrza</loc>
-    <lastmod>2026-03-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
+
   <url>
     <loc>https://www.2kdetailing.opole.pl/galeria/regeneracja-reflektorow</loc>
     <lastmod>2026-03-03</lastmod>
@@ -173,12 +168,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
-  <url>
-    <loc>https://www.2kdetailing.opole.pl/galeria/auto-detailing</loc>
-    <lastmod>2026-03-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
+
   <url>
     <loc>https://www.2kdetailing.opole.pl/kontakt</loc>
     <lastmod>2026-03-03</lastmod>
