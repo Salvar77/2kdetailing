@@ -39,7 +39,7 @@ const ContactMain = () => {
         <div className={classes.logoBlock}>
           <Image
             src={Logo}
-            alt="Logo firmy 2K Auto Detailing Opole - korekta lakieru, powłoki ceramiczne"
+            alt="Logo firmy 2K Auto Detailing Opole - korekta lakieru, powłoka ceramiczna"
             className={classes.logo}
             width={350}
             height={350}

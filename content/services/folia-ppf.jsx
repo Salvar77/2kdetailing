@@ -3,12 +3,44 @@ import Link from "next/link";
 import classes from "../../app/oferta/[slug]/page.module.scss";
 
 export const meta = {
-  title: "Folia PPF w Opolu – zabezpieczenie lakieru przed odpryskami",
+  title: "Zabezpieczenie Foliami PPF",
   hero: "/2k-logo-white-czarne-tlo.png",
   heroAltText:
     "Profesjonalna aplikacja folii PPF na lakier samochodowy w 2K Auto Detailing Opole",
-  lead: "Oferujemy profesjonalne zabezpieczenie lakieru folią PPF w Opolu. To najbardziej zaawansowana ochrona karoserii przed odpryskami kamieni, zarysowaniami i czynnikami atmosferycznymi. Precyzyjny montaż, właściwości samoregenerujące i nawet 10 lat ochrony.",
+  lead: "Bezkompromisowa, niewidoczna zbroja na co dzień. Samoregeneracyjna folia ochronna uchroni Twój pojazd przed głębokimi zarysowaniami i kamieniami.",
   slug: "folia-ppf",
+  faq: [
+    {
+      question: "Czym różni się folia PPF od powłoki ceramicznej?",
+      answer:
+        "Folia PPF to fizyczna, elastyczna warstwa o grubości 150-250 mikronów, która chroni przed uderzeniami kamieni, odpryskami i głębszymi rysami. Powłoka ceramiczna to ciecz, która po utwardzeniu tworzy twardą, ale bardzo cienką (2-5 mikronów) warstwę ochronną. Zwiększa odporność na mikrozarysowania i chemię, ale nie chroni przed uderzeniami. Folia PPF oferuje mechaniczną ochronę, powłoka ceramiczna – chemiczną i wizualną.",
+    },
+    {
+      question: "Jak długo trwa montaż folii PPF?",
+      answer:
+        "Czas montażu zależy od zakresu zabezpieczenia. Zabezpieczenie samej maski i przedniego zderzaka to około 1-2 dni robocze. Pełne oklejenie całego samochodu może zająć od 3 do 5 dni. Dokładny czas ustalamy indywidualnie po inspekcji pojazdu i omówieniu zakresu prac.",
+    },
+    {
+      question: "Czy folia PPF żółknie z czasem?",
+      answer:
+        "Nowoczesne folie PPF renomowanych producentów, które stosujemy w 2K Auto Detailing, są odporne na żółknięcie. Wyposażone są w stabilizatory UV, które zapobiegają degradacji materiału pod wpływem słońca. Gwarantujemy, że przez cały okres użytkowania folia pozostanie krystalicznie przezroczysta.",
+    },
+    {
+      question: "Czy folię PPF widać na samochodzie?",
+      answer:
+        "Profesjonalnie zamontowana folia PPF jest praktycznie niewidoczna. Dzięki komputerowemu docinaniu i precyzyjnemu ukrywaniu krawędzi, folia idealnie wtapia się w karoserię. Jest bezbarwna i błyszcząca – nie zmienia wyglądu lakieru. Dostępne są również folie matowe, które celowo zmieniają wykończenie na matowe, nadając autu unikalny, sportowy charakter.",
+    },
+    {
+      question: "Jak dbać o samochód po aplikacji folii PPF?",
+      answer:
+        "Pielęgnacja samochodu z folią PPF jest bardzo prosta. Przez pierwsze 3-4 dni po aplikacji nie należy myć auta. Później można myć je ręcznie lub na myjni bezdotykowej, unikając myjni automatycznych ze szczotkami. Zalecamy stosowanie dedykowanych szamponów do folii PPF i regularne osuszanie auta. Unikajmy silnych rozpuszczalników i past polerskich z wypełniaczami.",
+    },
+    {
+      question: "Czy można usunąć folię PPF bez uszkodzenia lakieru?",
+      answer:
+        "Tak, folia PPF jest zaprojektowana tak, aby można ją było bezpiecznie usunąć bez uszkodzenia oryginalnego lakieru. Proces usuwania wymaga jednak doświadczenia i odpowiednich narzędzi (dedykowane płyny, opalarka). Zawsze zalecamy, aby usuwanie folii zlecić profesjonalistom – w 2K Auto Detailing również oferujemy taką usługę.",
+    },
+  ],
 };
 
 export default function FoliaPpfPage() {

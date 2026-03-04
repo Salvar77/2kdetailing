@@ -59,7 +59,7 @@ export async function generateMetadata({ params }) {
       ? realization.image.height || 630
       : 630;
 
-  const title = `Galeria: ${realization.description} | 2K Auto Detailing Opole`;
+  const title = `Galeria: ${realization.description}`;
   const description = `Szczegółowa galeria zdjęć z realizacji usługi: ${realization.description} w 2K Auto Detailing w Opolu.`;
 
   const url = `/galeria/${slug}`;

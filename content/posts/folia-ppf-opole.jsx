@@ -14,9 +14,9 @@ import classes from "../../app/blog/[slug]/page.module.scss";
 export const meta = {
   id: 6,
   slug: "folia-ppf-opole",
-  title: "Najwyższa Klasa Ochrony: Folia PPF w Detailingowaniu",
+  title: "Najwyższa Klasa Ochrony: Folia PPF",
   subtitle: "ZAAWANSOWANA ŚCIANA NA KAMYKI",
-  date: "2026-02-18",
+  date: "2026-02-21",
   image: "/2k-logo-black-biale-tlo.png",
   dynamicImage: "/2k-logo-black-biale-tlo.png",
   mainImageAltText: "Nakładanie przezroczystej folii PPF na maskę",
@@ -33,40 +33,46 @@ export const meta = {
     "Zakończona praca",
   ],
   description:
-    "Zabezpiecz auto najbardziej zaawansowaną folią poliuretanową o właściwościach samoregenerujących.",
+    "Zaawansowana folia PPF to najskuteczniejsza tarcza ochronna na rynku. Chroni lakier m.in. przed odpryskami, zarysowaniami i agresywną chemią.",
 };
 
 export default function PostComponent() {
   return (
     <>
       <h2 className={classes.blogTitle}>
-        Pancerna Bariera Chroniąca Lakier Nawet pod Ostrzałem Z Kamieni
+        Pancerna bariera chroniąca lakier nawet pod ostrzałem kamieni drogowych
       </h2>
       <p className={classes.textShadow}>
-        Powłoki ceramiczne poprawiają twardość i minimalizują rysy np. od
-        przypadkowego piasku w gąbce z myjni, jednakże z prawami mocnej fizyki
-        kiedy w stronę Twojego zderzaka na autostradzie leci kilkumilimetrowy
-        kawałek gruzu – lakier uratuje wyłącznie bardzo elastyczna a co
-        najważniejsze gruba i wytrzymała{" "}
+        Certyfikowane powłoki ceramiczne istotnie poprawiają twardość lakieru i
+        minimalizują mikrorysy w codziennej eksploatacji (np. od przypadkowego
+        piasku w gąbce z myjni). Z mocną fizyką jednak nie wygrają – kiedy w
+        stronę Twojego zderzaka na autostradzie leci kilkumilimetrowy kawałek
+        gruzu, lakier przed odpryskiem uratuje wyłącznie bardzo gruba (powyżej
+        150 mikronów), elastyczna i ultrawytrzymała poliuretanowa{" "}
         <strong>
           <Link href="/oferta/folia-ppf" className={classes.textLink}>
             Folia PPF
           </Link>
         </strong>
-        . Oferowana przez nas folia to wysoce wytrzymała samoregenerująca
-        uretanowa struktura, znikająca uszkodzenia pod wpływem promieni ciepła
-        słońca - która fizycznie przyjmuje cios i pochłania siłę potężnych
-        uderzeń punktowych.
+        . Oferowana przez nas folia zapewnia genialny proces samoregeneracji.
+        Uretanowa struktura reaguje blindowaniem pod wpływem ciepła (promienie
+        słońca lub oblanie wrzątkiem) zamykając zarysowania, dodatkowo folia
+        fizycznie pochłania niesamowitą siłę potężnych uderzeń punktowych
+        rozbijając wektor naprężeń po panelu bez ubytku w karoserii.
       </p>
 
-      <h2 className={classes.blogTitle}>Zabezpiecz Front lub Cały Karbon </h2>
+      <h2 className={classes.blogTitle}>
+        Zabezpiecz Front, Lampy lub Cały Pojazd{" "}
+      </h2>
       <p className={classes.textShadow}>
-        Używamy technologii w której przed nałożeniem wycinamy komputerowym
-        ploterem gotowe już kształty poszczególnych "plastronów" dla Twojego
-        pojazdu, na podstawie ogromnej bazy gotowych maskownic formatek modeli
-        samochodów. Aplikujemy pełny bezszwowy zestaw na przód, aby zabezpieczyć
-        maskę, lampy, lusterka oraz często mocno profilowane zderzaki –
-        minimalizując konieczność ostrego ciącia przy rantu elementu pojazdu.
+        Dbając o detale używamy wyłącznie najnowszych technologii, w ramach
+        których dysponujemy specjalistycznym oprogramowaniem dla baz modeli aut
+        z całego świata z milimetrowym rzutem siatki Twojego pojazdu. Przed
+        montażem wycinamy z roli na własnym ploterze komputerowym gotowe
+        formatki („szablony”) odpowiadające np. profilowi klamki lub maski.
+        Pozwala nam to dokonać idealnej aplikacji i unikać cięcia na aucie
+        ostrym nożykiem obok lakieru, minimalizując uszkodzenie do absolutnego
+        zera.
       </p>
 
       <h2 className={classes.blogContactTitle}>

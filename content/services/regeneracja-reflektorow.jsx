@@ -3,12 +3,39 @@ import Link from "next/link";
 import classes from "../../app/oferta/[slug]/page.module.scss";
 
 export const meta = {
-  title: "Regeneracja reflektorów w Opolu – przejrzystość i bezpieczeństwo",
+  title: "Regeneracja Reflektorów",
   hero: "/2k-logo-white-czarne-tlo.png",
   heroAltText:
     "Profesjonalna regeneracja reflektorów samochodowych w 2K Auto Detailing Opole – polerowanie kloszy i przywracanie przejrzystości",
-  lead: "Oferujemy profesjonalną regenerację reflektorów w Opolu. Przywracamy przejrzystość, usuwa żółknięcie, zmatowienia i drobne rysy. Poprawiamy jakość oświetlenia i bezpieczeństwo na drodze. Uniknij kosztownej wymiany lamp – zaufaj naszemu doświadczeniu.",
+  lead: "Odtwarzamy przejrzystość lamp usuwając zmatowienia. Zwiększ wydajność świateł oraz bezpieczeństwo na drodze bez ponoszenia kosztów wymiany kloszy.",
   slug: "regeneracja-reflektorow",
+  faq: [
+    {
+      question: "Czy regeneracja reflektorów jest trwała?",
+      answer:
+        "Tak, pod warunkiem zastosowania profesjonalnej powłoki ochronnej z filtrem UV. W 2K Auto Detailing zawsze zabezpieczamy odnowione reflektory wysokiej jakości powłoką, która chroni przed żółknięciem i matowieniem nawet przez 2-3 lata. Bez tej warstwy reflektory mogą wrócić do pierwotnego stanu w ciągu kilku miesięcy.",
+    },
+    {
+      question: "Czy można zregenerować każdy reflektor?",
+      answer:
+        "Większość reflektorów wykonanych z poliwęglanu lub akrylu można skutecznie zregenerować. Wyjątkiem są reflektory z głębokimi pęknięciami sięgającymi do wewnątrz klosza, uszkodzeniami strukturalnymi lub zaawansowaną korozją odbłyśników. W takich przypadkach regeneracja może być niemożliwa lub nieopłacalna. Zawsze dokładnie oceniamy stan reflektorów przed rozpoczęciem prac.",
+    },
+    {
+      question: "Czy regeneracja reflektorów wpływa na ich szczelność?",
+      answer:
+        "Nie, regeneracja reflektorów nie narusza ich szczelności. Proces obejmuje wyłącznie zewnętrzną powierzchnię klosza. Nie ingerujemy w obudowę reflektora, uszczelki ani elementy montażowe. Po zabiegu reflektory są tak samo szczelne jak przed regeneracją.",
+    },
+    {
+      question: "Ile kosztuje regeneracja reflektorów?",
+      answer:
+        "Cena zależy od stopnia zmatowienia, wielkości reflektorów oraz konieczności zastosowania dodatkowych etapów szlifowania. Standardowa regeneracja kompletu przednich reflektorów to koszt od 200 do 350 zł. To nawet 80% taniej niż wymiana lamp na nowe. Dokładną wycenę podajemy po bezpłatnej inspekcji.",
+    },
+    {
+      question: "Czy mogę samodzielnie zregenerować reflektory?",
+      answer:
+        "Dostępne w sklepach zestawy „zrób to sam” rzadko przynoszą zadowalające efekty. Najczęściej zawierają zbyt delikatne papiery ścierne i brakuje im profesjonalnej powłoki UV. Efekt jest krótkotrwały (kilka tygodni), a nieumiejętne szlifowanie może trwale uszkodzić klosz. Regeneracja reflektorów wymaga doświadczenia, odpowiedniego sprzętu i wiedzy – dlatego warto zaufać profesjonalistom.",
+    },
+  ],
 };
 
 export default function RegeneracjaReflektorowPage() {

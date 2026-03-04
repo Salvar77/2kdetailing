@@ -4,12 +4,39 @@ import classes from "../../app/oferta/[slug]/page.module.scss";
 import Link from "next/link";
 
 export const meta = {
-  title: "Renowacja skór w Opolu – przywracamy blask tapicerce",
+  title: "Renowacja Skór",
   hero: "/2k-logo-white-czarne-tlo.png",
   heroAltText:
     "Profesjonalna renowacja skórzanej tapicerki samochodowej w 2K Auto Detailing Opole",
-  lead: "Specjalizujemy się w renowacji skór samochodowych w Opolu. Przywracamy kolor, usuwamy przetarcia i zabezpieczamy tapicerkę przed dalszym zużyciem. System Colourlock, wieloletnie doświadczenie i gwarancja satysfakcji.",
+  lead: "Zatrzymaj proces zużycia skórzanej tapicerki. Przywracamy fabryczny kolor, dogłębnie czyścimy i zabezpieczamy fotele systemem premium Colourlock.",
   slug: "renowacja-skor",
+  faq: [
+    {
+      question: "Jak często należy czyścić i konserwować skórzaną tapicerkę?",
+      answer:
+        "Zalecamy profesjonalne czyszczenie i konserwację skóry co najmniej raz w roku. Regularne odżywianie zapobiega wysychaniu, pękaniu i utracie koloru. W przypadku intensywnego użytkowania (taksówki, floty, rodziny z dziećmi) warto rozważyć wizytę co 6 miesięcy.",
+    },
+    {
+      question: "Czy renowacja koloru jest trwała?",
+      answer:
+        "Tak, profesjonalne farby do skór, których używamy, wnikają w strukturę materiału i są bardzo odporne na ścieranie. Przy normalnym użytkowaniu kolor utrzymuje się latami. Kluczowa jest jednak regularna konserwacja – odżywianie i ochrona przed UV znacząco przedłużają żywotność odnowionej tapicerki.",
+    },
+    {
+      question: "Czy można usunąć głębokie przetarcia i pęknięcia?",
+      answer:
+        "Większość przetarć i drobnych pęknięć można skutecznie zniwelować. W przypadku głębokich uszkodzeń stosujemy profesjonalne masy naprawcze, które wypełniają ubytki, a następnie są barwione i teksturowane tak, aby idealnie imitować oryginalną fakturę skóry. Efekt jest bardzo naturalny, a naprawione miejsce trwałe.",
+    },
+    {
+      question: "Czym grozi samodzielne czyszczenie skóry?",
+      answer:
+        "Niewłaściwe preparaty (np. uniwersalne środki czyszczące, oliwki, mleczka) mogą: wysuszyć skórę, odtłuścić ją, odbarwić, zatkać pory lub pozostawić tłusty, lepiący film. Często domowe metody przynoszą efekt odwrotny do zamierzonego i utrudniają późniejszą profesjonalną renowację.",
+    },
+    {
+      question: "Czy impregnacja skóry jest konieczna?",
+      answer:
+        "Impregnacja nie jest obowiązkowa, ale bardzo zalecana. Tworzy niewidzialną barierę ochronną, która odpycha wodę, pot, tłuszcz i inne płyny. Dzięki temu rozlane napoje nie wsiąkają natychmiast w skórę, dając czas na ich bezpieczne usunięcie. Impregnacja nie zmienia koloru, nie zatyka porów i ułatwia codzienną pielęgnację.",
+    },
+  ],
 };
 
 export default function RenowacjaSkorPage() {

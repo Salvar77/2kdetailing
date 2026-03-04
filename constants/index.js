@@ -323,9 +323,9 @@ export const blogPosts = [
     title:
       "Kompleksowe usługi auto detailingu w Opolu – pakiet usług od A do Z",
     subtitle: "AUTO DETAILING",
-    date: "2026-02-22",
+    date: "2026-03-03",
     description:
-      "Zapewnij swojemu samochodowi kompleksową pielęgnację. Dowiedz się, na czym polega pełny detailing w 2K Detailing: korekta, ochrona i dbałość o detale.",
+      "Wybierz bezkompromisowe rozwiązanie. Pełny pakiet auto detailingu, w którym łączymy renowację lakieru ze sterylnym czyszczeniem wnętrza, gwarantując najwyższy standard estetyki Twojego samochodu.",
     link: "/blog/auto-detailing-opole",
     image: autodetailing2,
   },
@@ -334,9 +334,9 @@ export const blogPosts = [
     title:
       "Detailing wnętrza w Opolu – kompleksowa pielęgnacja plastików i tapicerki",
     subtitle: "PIELĘGNACJA WNĘTRZA",
-    date: "2026-02-21",
+    date: "2026-03-02",
     description:
-      "Uniknij uciążliwych zabrudzeń i powierz nam pielęgnację od foteli, przez plastiki po dywaniki. Odśwież wnętrze by czuć się jak w nowym aucie.",
+      "Profesjonalne odświeżenie kabiny. Skrupulatnie oczyszczamy tapicerkę, dywaniki oraz trudnodostępne miejsca, przywracając elementom syntetycznym dawny mat i zapach nowości.",
     link: "/blog/detailing-wnetrza-opole",
     image: blogPost,
   },
@@ -345,9 +345,9 @@ export const blogPosts = [
     title:
       "Pranie tapicerki w Opolu – usuń uporczywe plamy i nieprzyjemne zapachy",
     subtitle: "PRANIE TAPICERKI",
-    date: "2026-02-18",
+    date: "2026-03-01",
     description:
-      "Poznaj zaawansowane metody mycia ekstrakcyjnego, które skutecznie usunie nawet największy i najstarszy brud przygotowując auto na długą trasę.",
+      "Zaoszczędź czas i zdrowie dzięki dogłębnemu praniu metodą ekstrakcyjną. Skutecznie usuwamy najtrudniejsze plamy, uciążliwe smugi oraz osadzone w gąbkach nieprzyjemne zapachy.",
     link: "/blog/pranie-tapicerki-opole",
     image: upholstery,
   },
@@ -356,9 +356,9 @@ export const blogPosts = [
     title:
       "Renowacja i czyszczenie skórzanej tapicerki w Opolu – przywróć jej blask",
     subtitle: "RENOWACJA SKÓRZANEJ TAPICERKI",
-    date: "2026-02-15",
+    date: "2026-02-28",
     description:
-      "Profesjonalne zabiegi renowacyjne systemami Colourlock – dowiedz się, jak usunąć zarysowania, odżywić skórę i zabezpieczyć ją przed zniszczeniem.",
+      "Dedykowane zabiegi systemami Colourlock. Przywracamy świetność wypłowiałym fotelom skórzanym, maskując przetarcia i regenerując wysuszone elementy do standardów fabrycznych.",
     link: "/blog/renowacja-skor-opole",
     image: blogPost2,
   },
@@ -366,9 +366,9 @@ export const blogPosts = [
     id: 4,
     title: "Korekta lakieru samochodowego w Opolu – odzyskaj fabryczny połysk",
     subtitle: "KOREKTA LAKIERU",
-    date: "2026-02-10",
+    date: "2026-02-26",
     description:
-      "Usuwamy zarysowania po szczotkach i twardej myjni, pozbywając się hologramów. Przywracamy lakier do czasów jego świetności przed sprzedażą z salonu.",
+      "Wieloetapowe polerowanie karoserii dla wymagających. Skutecznie odzyskujemy nieskazitelne lustrzane odbicie, usuwając drobne rysy parkingowe i głębokie hologramy z lakieru.",
     link: "/blog/korekta-lakieru-opole",
     image: blogPost3,
   },
@@ -377,9 +377,9 @@ export const blogPosts = [
     title:
       "Powłoka ceramiczna samochodu w Opolu – trwałe zabezpieczenie lakieru i efekt hydrofobowy",
     subtitle: "POWŁOKA CERAMICZNA",
-    date: "2026-02-05",
+    date: "2026-02-24",
     description:
-      'Odkryj efekt "wodnego liścia". Powłoki zmniejszają zużycie auta od zarysowań mikroskopijnych, ograniczają brudzenie i niesamowicie podbijają szklistość.',
+      "Najlepsza ochrona płynna na rynku. Nasze powłoki gwarantują spektakularną hydrofobowość na szybach i karoserii, drastycznie ograniczając osadzanie się szkodliwych kwasów.",
     link: "/blog/powloka-ceramiczna-opole",
     image: blogPost5,
   },
@@ -387,9 +387,9 @@ export const blogPosts = [
     id: 6,
     title: "Folia PPF w Opolu – ostateczna zbroja Twojego auta",
     subtitle: "FOLIA OCHRONNA PPF",
-    date: "2026-02-01",
+    date: "2026-02-21",
     description:
-      "Ochrona lakieru, która zniesie uderzenia kamieni parkingowe obcierki. Niewidoczna osłona Twojego lakieru stosowana przez dziesiątki lat.",
+      "Całkowicie transparentne bezpieczeństwo od uderzeń z drogi. Odkryj moc ochronnej powłoki poliuretanowej o grubości mikronów, osłaniając lakier przed kamieniami.",
     link: "/blog/folia-ppf-opole",
     image: blogPost4,
   },

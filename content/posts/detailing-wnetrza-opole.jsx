@@ -14,9 +14,9 @@ import classes from "../../app/blog/[slug]/page.module.scss";
 export const meta = {
   id: 8,
   slug: "detailing-wnetrza-opole",
-  title: "Ekskluzywny Detailing Wnętrza w Opolu",
+  title: "Ekskluzywny Detailing Wnętrza",
   subtitle: "CZYSTOŚĆ I HIGIENA KABINY",
-  date: "2026-02-21",
+  date: "2026-03-02",
   image: "/2k-logo-black-biale-tlo.png",
   dynamicImage: "/2k-logo-black-biale-tlo.png",
   mainImageAltText: "Idealnie czyste wnętrze samochodu",
@@ -28,7 +28,7 @@ export const meta = {
   ],
   imagesAltText: ["Wnętrze po detailingu", "Odkurzanie zakamarków"],
   description:
-    "Przywróć swojemu autu zapach nowości. Kompleksowe odświeżenie plastików, kratek i wyświetlaczy.",
+    "Kompleksowe czyszczenie i zabezpieczenie wnętrza pojazdu. Skuteczna pielęgnacja plastików, pędzelkowanie detali i odzyskiwanie zapachu nowości.",
 };
 
 export default function PostComponent() {
@@ -38,30 +38,34 @@ export default function PostComponent() {
         Cofnij czas do pierwszego wyjazdu z salonu
       </h2>
       <p className={classes.textShadow}>
-        Brud zazwyczaj gromadzi się w najciaśniejszych punktach - w szczelinach
-        drzwi, porach kierownicy i zakamarkach kratek nawiewowych. Używamy
-        pędzelków z delikatnym włosiem, by skutecznie uporać się z twardymi,
-        osiadłymi osadami kurzu, nie zostawiając przy tym ani grama zarysowań na
-        fortepianowej czerni (tzw. piano black). Nasz{" "}
+        Kurz, okruchy i alergeny najchętniej gromadzą się w najciaśniejszych
+        punktach - w głębokich szczelinach drzwiowych, przeszyciach kierownicy
+        czy gęstych zakamarkach kratek nawiewowych. W naszym studiu operujemy
+        niezwykle delikatnymi pędzelkami z końskiego włosia, by bezpiecznie
+        rozbić zastałe osady kurzu, nie rysując przy tym tak niezwykle podatnych
+        na zmatowienie dekorów z fortepianowej czerni (Piano Black). Nasz
+        autorski{" "}
         <Link href="/oferta/detailing-wnetrza" className={classes.textLink}>
           detailing wnętrza
         </Link>{" "}
-        to aptekarska precyzja, obejmująca mycie z zewnątrz, czyszczenie paneli,
-        konserwację uszczelek oraz głębokie odkurzanie szybowe.
+        to praca z aptekarską wręcz precyzją, obejmująca sterylne wieloetapowe
+        mycie wszystkich twardych paneli, zaawansowaną konserwację głośnych
+        uszczelek pod szybami oraz pełne, bezkompromisowe odkurzanie.
       </p>
 
       <h2 className={classes.blogTitle}>
         Antystatyczny, nowy charakter Twoich plastików
       </h2>
       <p className={classes.textShadow}>
-        W 2K Auto Detailing na koniec każdej usługi mycia pokrywamy elementy
-        kokpitu dedykowanymi w tym celu dressingami z dodatkiem silnych filtrów
-        UV. Posiadają w sobie ładunek antystatyczny, przez co odpychają kurz
-        oraz zapobiegają szybkiemu płowieniu plastików od żaru słonecznego.
-        Stosujemy tylko rozwiązania, które zachowują matowe bądź lekko satynowe
-        odbicia światła, broniąc się stanowczo przeciwko tanim "dressingom" ze
-        stacji benzynowych pozostawiającym świecący się i lepki od tłuszczu
-        błysk.
+        Na samym końcu zabijamy proces utleniania. W 2K Auto Detailing wieńczymy
+        każdą procedurę sprzątania poprzez staranne nałożenie na elementy
+        kokpitu dedykowanych, antystatycznych dressingów wzbogaconych o silne
+        blokery UV. Gwarantuje to potężnie odpychanie kurzu (efekt nieosiadania
+        drobinek w lecie) oraz trwale zapobiega płowieniu i pękaniu plastiku na
+        podszybiu od nagrzanego słońca. Stosujemy tylko rozwiązania z najwyższej
+        półki, które pozostawiają na elementach pożądane, w pełni fabryczne
+        atłasowe i matowe wykończenia. Odrzucamy tłuste "plaki" ze stacji
+        benzynowych pozostawiające nieestetyczny kleisty połysk.
       </p>
 
       <h2 className={classes.blogContactTitle}>

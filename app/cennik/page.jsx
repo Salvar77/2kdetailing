@@ -3,15 +3,15 @@ import Contact from "../../components/Main/Contact";
 import classes from "./Cennik.module.scss";
 
 export const metadata = {
-  title: "Cennik usług | 2K Auto Detailing Opole",
+  title: "Cennik Usług Auto Detailingu",
   description:
-    "Sprawdź aktualne ceny korekty lakieru, folii PPF, powłok ceramicznych, prania tapicerki i pozostałych usług detailingu w 2K Auto Detailing Opole.",
+    "Sprawdź aktualne ceny korekty lakieru, powłok ceramicznych, folii PPF, prania tapicerki i pozostałych usług detailingu w 2K Auto Detailing Opole.",
   alternates: { canonical: "/cennik" },
   openGraph: {
     url: "/cennik",
-    title: "Cennik usług | 2K Auto Detailing Opole",
+    title: "Cennik Usług Auto Detailingu",
     description:
-      "Poznaj szczegółowy cennik naszych usług: korekta lakieru, powłoki ceramiczne, ochrona folią PPF i więcej.",
+      "Poznaj szczegółowy cennik naszych usług: korekta lakieru, powłoka ceramiczna, folia PPF i więcej.",
     images: [
       {
         url: "/og/logo-2kdetailing-opole.png",

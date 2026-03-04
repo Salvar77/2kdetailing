@@ -3,12 +3,39 @@ import Link from "next/link";
 import classes from "../../app/oferta/[slug]/page.module.scss";
 
 export const meta = {
-  title: "Przyciemnianie szyb w Opolu – komfort, styl i ochrona UV",
+  title: "Przyciemnianie Szyb",
   hero: "/2k-logo-black-biale-tlo.png",
   heroAltText:
     "Profesjonalne przyciemnianie szyb samochodowych w 2K Auto Detailing Opole – montaż folii przeciwsłonecznej i ochronnej",
-  lead: "Oferujemy profesjonalne przyciemnianie szyb w Opolu. Folia premium redukuje nagrzewanie wnętrza nawet o 60%, chroni przed promieniowaniem UV, zapewnia większą prywatność i nadaje autu elegancki, sportowy wygląd. Precyzyjny montaż bez pęcherzy i zagnieceń.",
+  lead: "Ciesz się chłodnym wnętrzem i dyskretną elegancją. Instalujemy certyfikowane folie przeciwsłoneczne blokujące nagrzewanie oraz promieniowanie UV.",
   slug: "przyciemnianie-szyb",
+  faq: [
+    {
+      question: "Ile kosztuje przyciemnianie szyb?",
+      answer:
+        "Cena zależy od rodzaju folii, ilości szyb oraz modelu samochodu. Przyciemnienie 4 szyb bocznych + tylnej to koszt od 600 do 1200 zł dla folii standardowych i od 1000 do 1800 zł dla folii ceramicznych. Szyba przednia (folia ochronna UV) to dodatkowy koszt 300-500 zł. Dokładną wycenę podajemy po obejrzeniu auta.",
+    },
+    {
+      question: "Jak długo trwa montaż?",
+      answer:
+        "Standardowy montaż folii na 4 szybach bocznych i tylnej to 2-4 godziny. W przypadku aut z trudnymi, mocno wyprofilowanymi szybami lub dodatkową szybą przednią, czas może wydłużyć się do 5-6 godzin. Pracujemy dokładnie, ale sprawnie – nie zostawiamy auta na kilka dni.",
+    },
+    {
+      question: "Czy mogę myć auto po przyciemnieniu szyb?",
+      answer:
+        "Po montażu folia musi dobrze związać się z szybą. Przez 2-3 dni nie należy opuszczać szyb. Mycie auta jest możliwe, ale unikaj myjni automatycznych ze szczotkami przez pierwsze 2 tygodnie. Mycie ręczne lub bezdotykowe jest bezpieczne od razu.",
+    },
+    {
+      question: "Czy folia pęcherzykuje się z czasem?",
+      answer:
+        "Profesjonalnie zamontowana folia nie powinna pęcherzykować się po wyschnięciu. Niewielkie, mleczne przebarwienia zaraz po montażu to normalne zjawisko – woda odparowuje, a folia staje się idealnie przezroczysta w ciągu kilku dni. Jeśli po tygodniu nadal widzisz pęcherzyki – zgłoś się do nas, poprawiamy w ramach gwarancji.",
+    },
+    {
+      question: "Czy przyciemnianie szyb traci ważność przeglądu?",
+      answer:
+        "Nie, jeśli folia jest zgodna z przepisami. Na przeglądzie diagnosty sprawdzają przepuszczalność światła przez szyby przednie i boczne przednie. Stosujemy wyłącznie folie mieszczące się w normach (min. 70% dla szyb bocznych przednich, min. 75% dla szyby przedniej). Otrzymasz ode mnie certyfikat potwierdzający parametry folii – bez obaw o przegląd.",
+    },
+  ],
 };
 
 export default function PrzyciemnianieSzybPage() {

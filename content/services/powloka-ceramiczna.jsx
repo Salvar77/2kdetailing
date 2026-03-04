@@ -3,12 +3,41 @@ import Link from "next/link";
 import classes from "../../app/oferta/[slug]/page.module.scss";
 
 export const meta = {
-  title: "Powłoka ceramiczna w Opolu – ochrona lakieru na lata",
+  title: "Powłoka Ceramiczna",
   hero: "/2k-logo-white-czarne-tlo.png",
   heroAltText:
     "Profesjonalna aplikacja powłoki ceramicznej na lakier samochodowy w 2K Auto Detailing Opole",
-  lead: "Oferujemy profesjonalne zabezpieczenie lakieru powłokami ceramicznymi w Opolu. Stosujemy sprawdzone linie Cleantle Admire (do 2 lat) oraz Aqua 9H Self Healing (do 3 lat). Gwarantujemy szklisty połysk, efekt hydrofobowy i długotrwałą ochronę przed UV, solą drogową i zanieczyszczeniami.",
+  lead: "Aplikujemy topowe powłoki Cleantle i Aqua 9H. Ochronisz lakier przed mikrozarysowaniami oraz chemią, zyskując obłędny, piękny szklany połysk.",
   slug: "powloka-ceramiczna",
+  faq: [
+    {
+      question:
+        "Czym różnią się powłoki Cleantle Admire od Aqua 9H Self Healing?",
+      answer:
+        "Cleantle Admire to sprawdzona powłoka jednowarstwowa o trwałości do 2 lat, która zapewnia doskonały połysk i właściwości hydrofobowe. Aqua 9H Self Healing to zaawansowana powłoka wielowarstwowa o twardości 9H i trwałości do 3 lat, dodatkowo posiada właściwości samoregenerujące – drobne rysy znikają pod wpływem ciepła (słońce, gorąca woda). Obie powłoki oferujemy w 2K Auto Detailing.",
+    },
+    {
+      question: "Jak długo trwa aplikacja powłoki ceramicznej?",
+      answer:
+        "Czas aplikacji zależy od stanu lakieru i wybranej powłoki. Dla powłoki Cleantle Admire z przygotowaniem lakieru należy zarezerwować 1-2 dni. W przypadku Aqua 9H Self Healing, która wymaga aplikacji wielowarstwowej, proces może trwać 2-3 dni. Dokładny czas ustalamy indywidualnie po inspekcji pojazdu.",
+    },
+    {
+      question:
+        "Czy powłoka ceramiczna chroni przed kamieniami i głębokimi rysami?",
+      answer:
+        "Powłoka ceramiczna zwiększa odporność na mikrozarysowania i drobne uszkodzenia mechaniczne, ale nie jest zabezpieczeniem przed uderzeniami kamieni czy głębokimi rysami. Do pełnej ochrony przed odpryskami zalecamy połączenie powłoki ceramicznej z folią PPF na elementach szczególnie narażonych (maska, zderzak, lusterka).",
+    },
+    {
+      question: "Czy muszę przygotować samochód przed wizytą?",
+      answer:
+        "Nie ma takiej potrzeby. Samochód powinien być suchy i wolny od zbędnych przedmiotów we wnętrzu. Cały proces przygotowania lakieru, w tym dokładne mycie, dekontaminację i korektę, wykonujemy w naszym studio. To gwarantuje, że powłoka zostanie nałożona na idealnie czystą i odpowiednio przygotowaną powierzchnię.",
+    },
+    {
+      question: "Jak dbać o auto po aplikacji powłoki ceramicznej?",
+      answer:
+        "Zalecamy mycie ręczne dedykowanymi szamponami dla powłok ceramicznych lub korzystanie z myjni bezdotykowych. Unikaj myjni automatycznych ze szczotkami. Po każdym myciu warto osuszyć auto miękkim ręcznikiem z mikrofibry. Dla przedłużenia żywotności powłoki rekomendujemy coroczną wizytę kontrolną i odświeżenie właściwości hydrofobowych.",
+    },
+  ],
 };
 
 export default function PowlokaCeramicznaPage() {

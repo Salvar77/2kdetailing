@@ -11,7 +11,7 @@ const Services = () => {
     <div className={classes.servicesBackground}>
       <div className={classes.servicesBackground__fade}></div>
       <section id="usługi" className={classes.services}>
-        <h2>Co oferuję?</h2>
+        <h2>Nasza oferta</h2>
         <div className={classes.services__wrapper}>
           {servicesData.map((service, index) => (
             <motion.div

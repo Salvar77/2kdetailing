@@ -11,7 +11,7 @@ import AboutImage from "../../assets/images/2k-logo-black-biale-tlo.svg";
 const aboutContent = {
   title: "Profesjonalny auto detailing w Opolu",
   subtitle:
-    "2K Auto Detailing – korekta lakieru, powłoki ceramiczne i ochrona PPF",
+    "2K Auto Detailing – korekta lakieru, powłoka ceramiczna i ochrona PPF",
   paragraphs: [
     "Jesteśmy zespołem z wieloletnim doświadczeniem. Tworzymy markę 2K Auto Detailing Opole – a tymi specjalistami jesteśmy my: Kamil i Krzysztof. To właśnie od pierwszych liter naszych imion powstała nazwa 2K. Łączymy wiedzę, precyzję i pasję do motoryzacji, dbając o każdy detal powierzonych nam samochodów.",
     "Specjalizujemy się w korekcie lakieru, aplikacji powłok ceramicznych, zabezpieczaniu folią PPF, a także w kompleksowym czyszczeniu wnętrz – detailingu wnętrza. Każde auto traktujemy jak własne, bo wierzymy, że diabeł tkwi w szczegółach.",
@@ -125,7 +125,7 @@ export default function AboutUs() {
           <AnimatedButton
             className={classes.about__phoneButton}
             onClick={handlePhoneClick}
-            aria-label="Zadzwoń do 2K Auto Detailing Opole – korekta lakieru i powłoki ceramiczne"
+            aria-label="Zadzwoń do 2K Auto Detailing Opole – korekta lakieru i powłoka ceramiczna"
           >
             Zadzwoń – 797 234 734
             <FaPhone className={classes.about__phoneIcon} />

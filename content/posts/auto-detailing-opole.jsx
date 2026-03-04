@@ -1,4 +1,4 @@
-﻿import React from "react";
+import React from "react";
 import Link from "next/link";
 import {
   Droplet,
@@ -14,13 +14,12 @@ import classes from "../../app/blog/[slug]/page.module.scss";
 export const meta = {
   id: 7,
   slug: "auto-detailing-opole",
-  title:
-    "Auto Detailing w Opolu – kompleksowa kosmetyka na najwyższym poziomie",
+  title: "Auto Detailing – kosmetyka wysokiego poziomu",
   subtitle: "PEŁNY PAKIET USŁUG",
-  date: "2026-02-22",
+  date: "2026-03-03",
   image: "/2k-logo-black-biale-tlo.png",
   dynamicImage: "/2k-logo-black-biale-tlo.png",
-  mainImageAltText: "Kompleksowo wyczyszczone auto w studiu 2K Detailing",
+  mainImageAltText: "Kompleksowo wyczyszczone auto w studiu 2K Auto Detailing",
   images: [
     "/2k-logo-black-biale-tlo.png",
     "/2k-logo-black-biale-tlo.png",
@@ -34,7 +33,7 @@ export const meta = {
     "Wyjazd ze studia",
   ],
   description:
-    "Zapewnij swojemu samochodowi kompleksową pielęgnację w 2K Detailing. Zobacz naszą ofertę od podstaw po gotowy efekt salonowy.",
+    "Poznaj proces pełnego auto detailingu. Łączymy precyzyjne mycie, pranie tapicerki oraz korektę lakieru, aby Twoje auto znów wyglądało jak z salonu.",
 };
 
 export default function PostComponent() {
@@ -43,15 +42,17 @@ export default function PostComponent() {
       <h2 className={classes.blogTitle}>Nowe Życie Twojego Auta</h2>
       <p className={classes.textShadow}>
         W <strong>2K Auto Detailing</strong> łączymy w jedną luksusową całość
-        to, co do tej pory rozbite było na dziesiątki drobnych usług. Decydując
-        się na kompleksowy{" "}
+        to, co zazwyczaj bywa rozbite na kilka pojedynczych usług. Decydując się
+        na kompleksowy{" "}
         <Link href="/oferta/auto-detailing" className={classes.textLink}>
           auto detailing
         </Link>
-        , fundujesz swojemu samochodowi absolutny reset wizualny. Proces
-        obejmuje zarówno ekstremalne przemycie wszystkich zewnętrznych
-        zakamarków, jak i odżywienie wnętrza. Nie pomijamy bagażnika, komory
-        silnika ani żadnego detalu na kokpicie.
+        , fundujesz swojemu samochodowi absolutny reset wizualny i
+        technologiczny. Nasz proces obejmuje zarówno wieloetapowe, precyzyjne
+        mycie karoserii docierające do każdego milimetra zewnętrznych
+        zakamarków, jak i gruntowne odżywienie wnętrza. Od kół, przez wnęki
+        drzwiowe po dekory na kokpicie i komorę silnika – żaden detal nam nie
+        umknie.
       </p>
 
       <h2 className={classes.blogTitle}>Nasze główne procesy</h2>
@@ -63,31 +64,32 @@ export default function PostComponent() {
               Detailing wnętrza i pranie
             </Link>
           </strong>{" "}
-          – Stosujemy preparaty rozbijające brud u podstaw, bez użycia ostrych
-          szczotek niszczących materiał. Każdy zapach po zwierzętach czy
-          papierosach zostaje ostatecznie usunięty.
+          – Pracujemy na certyfikowanych preparatach rozbijających brud od
+          podszewki materiału. Gwarantujemy usunięcie trudnych wżerów, bakterii
+          oraz powrót do jałowego, neutralnego zapachu z dnia wyjazdu od
+          dealera.
         </li>
         <li>
           <Wrench className="icon" />
           <strong>
             <Link href="/oferta/korekta-lakieru">
-              Usuwanie zarysowań z lakieru
+              Wieloetapowa korekta lakieru
             </Link>
           </strong>{" "}
-          – Przy pomocy maszyn orbitalnych wyrównujemy powierzchnię klaru,
-          uwalniając lustrzane, zapierające dech w piersiach odbicie z pod
-          zmatowionej powłoki.
+          – Przy użyciu maszyn orbitalnych wyrównujemy powierzchnię powłoki
+          lakierniczej, uwalniając lustrzane, zapierające dech w piersiach
+          odbicie i zdejmując tzw. "mgłę" matową z nadwozia.
         </li>
         <li>
           <Feather className="icon" />
           <strong>
             <Link href="/oferta/powloka-ceramiczna">
-              Ochrona ceramiczna karoserii
+              Certyfikowane powłoki ochronne
             </Link>
           </strong>{" "}
-          – Chronimy osiągnięty blask używając niezwykle twardych pancerzy
-          ceramicznych, które diametralnie utrudniają ponowne rysowanie się auta
-          podczas codziennego mycia.
+          – Zamykamy por lakieru pod twardym pancerzem, który odrzuca krople
+          brudnej wody i potężnie utrudnia ponowne rysowanie się samochodu
+          podczas późniejszej manualnej pielęgnacji.
         </li>
       </ul>
 
@@ -95,11 +97,12 @@ export default function PostComponent() {
         Poczuj różnicę, gdy odbierasz kluczyki
       </h2>
       <p className={classes.textShadow}>
-        Stawiamy na transparentność – na podstawie wieku i stanu lakieru
-        dobieramy proces w taki sposób, aby przywrócić około 90-95% fabrycznego
-        blasku, zostawiając bezpieczny margines powłoki bezbarwnej na
-        przyszłość. Dla nas to absolutna sztuka, a każda oddawana z garażu
-        maszyna jest najlepszą wizytówką naszego zaangażowania.
+        W 2K Auto Detailing stawiamy na transparentność i doświadczenie. Za
+        każdym razem, na bieżąco, na podstawie wieku pojazdu, marki oraz
+        pierwotnego zmierzonego nasycenia lakieru dobieramy proces dedykowany.
+        Naszym celem jest bezpieczna odbudowa do niemalże nowości (eliminacja
+        90-95% zarysowań) przy pozostawieniu odpowiedniego marginesu powłoki
+        fabrycznej.
       </p>
 
       <h2 className={classes.blogContactTitle}>

@@ -9,9 +9,9 @@ import ElfsightLazyWrapper from "../components/More/ElfsightLazyWrapper";
 
 export const metadata = {
   title:
-    "2K Auto Detailing Opole – korekta lakieru, powłoki ceramiczne, folia PPF",
+    "2K Auto Detailing Opole – korekta lakieru, powłoka ceramiczna, folia PPF",
   description:
-    "2K Auto Detailing specjalizuje się w kompleksowym autodetailingu:  korekta lakieru, powłoki ceramiczne i folia PPF  w Opolu.",
+    "2K Auto Detailing specjalizuje się w kompleksowym autodetailingu: korekta lakieru, powłoka ceramiczna i folia PPF w Opolu.",
   alternates: { canonical: "/" },
 };
 

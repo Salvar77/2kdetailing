@@ -3,12 +3,39 @@ import Link from "next/link";
 import classes from "../../app/oferta/[slug]/page.module.scss";
 
 export const meta = {
-  title: "Pranie tapicerki samochodowej – 2K Auto Detailing Opole",
+  title: "Pranie Tapicerki",
   hero: "/2k-logo-white-czarne-tlo.png",
   heroAltText:
     "Profesjonalne pranie tapicerki samochodowej metodą ekstrakcyjną w 2K Auto Detailing Opole",
-  lead: "Oferujemy profesjonalne pranie tapicerki samochodowej w Opolu. Ekstrakcyjne czyszczenie foteli, kanap i dywaników usuwa głęboko osadzone zabrudzenia, plamy, alergeny i nieprzyjemne zapachy. Przywracamy świeżość, higienę i estetyczny wygląd wnętrza Twojego auta.",
+  lead: "Głęboko skuteczna metoda ekstrakcyjna dla materiałowych wnętrz. Trwale neutralizujemy ciężkie plamy, osadzone alergeny i przesiąknięte zapachy.",
   slug: "pranie-tapicerki",
+  faq: [
+    {
+      question: "Czym różni się pranie ekstrakcyjne od zwykłego czyszczenia?",
+      answer:
+        "Zwykłe czyszczenie (np. szamponem i szczotką) usuwa jedynie powierzchniowe zabrudzenia i często pozostawia resztki detergentów we włóknach. Pranie ekstrakcyjne wtłacza roztwór czyszczący w głąb tkaniny, rozpuszcza brud, a następnie natychmiast go odsysa. To jedyna metoda, która usuwa zabrudzenia z całej głębokości tapicerki, eliminuje alergeny i nie pozostawia osadów.",
+    },
+    {
+      question: "Jak długo schnie tapicerka po praniu?",
+      answer:
+        "Dzięki profesjonalnym maszynom ekstrakcyjnym tapicerka jest odsysana z nadmiaru wilgoci. W zależności od rodzaju tkaniny, wentylacji i warunków atmosferycznych, czas schnięcia wynosi od 2 do 6 godzin. Zimą lub przy wysokiej wilgotności może to potrwać nieco dłużej. Zawsze zalecamy pozostawienie auta na minimum 2-3 godziny po zabiegu.",
+    },
+    {
+      question: "Czy pranie tapicerki usuwa nieprzyjemne zapachy?",
+      answer:
+        "Pranie ekstrakcyjne usuwa większość zapachów, ponieważ eliminuje ich źródło – bakterie i zanieczyszczenia we włóknach. W przypadku intensywnych, długotrwałych zapachów (np. dym papierosowy, zapach zwierząt, pleśń) zalecamy dodatkowe ozonowanie wnętrza. Ozon wnika w szczeliny i materiał, całkowicie neutralizując nawet bardzo uporczywe wonie.",
+    },
+    {
+      question: "Czy impregnacja jest obowiązkowa?",
+      answer:
+        "Impregnacja nie jest obowiązkowa, ale bardzo zalecana. Tworzy warstwę ochronną, która zapobiega wnikaniu brudu i płynów w głąb tkaniny. Dzięki temu tapicerka dłużej pozostaje czysta, a rozlane płyny można łatwo zebrać, zanim powstanie trudna do usunięcia plama. To inwestycja, która zwraca się przy kolejnych czyszczeniach.",
+    },
+    {
+      question: "Jak przygotować samochód do prania tapicerki?",
+      answer:
+        "Wystarczy, że opróżnisz samochód z rzeczy osobistych – dokumentów, ubrań, zabawek, ładowarek itp. Nie musisz go wcześniej myć ani odkurzać. Cały proces przygotowania wnętrza wykonujemy w naszym studio. Jeśli masz trudne, stare plamy – koniecznie wskaż je nam przed rozpoczęciem usługi.",
+    },
+  ],
 };
 
 export default function PranieTapicerkiPage() {

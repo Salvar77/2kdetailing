@@ -17,7 +17,7 @@ export async function generateMetadata({ params }) {
 
   let mod = null;
   try {
-    mod = await import(`../../../../content/services/${slug}.jsx`);
+    mod = await import(`../../../content/services/${slug}.jsx`);
   } catch {}
 
   const title = mod?.meta?.title ?? svc.title;
@@ -52,7 +52,7 @@ export default async function OfertaStrona({ params }) {
 
   let mod = null;
   try {
-    mod = await import(`../../../../content/services/${slug}.jsx`);
+    mod = await import(`../../../content/services/${slug}.jsx`);
   } catch {}
 
   const title = mod?.meta?.title ?? svc.title;
@@ -71,13 +71,64 @@ export default async function OfertaStrona({ params }) {
       name: "Opole",
     },
     url: `https://www.2kdetailing.opole.pl/oferta/${slug}`,
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "5.0",
+      reviewCount: "21",
+    },
   };
+
+  let faqJsonLd = null;
+  if (mod?.meta?.faq && mod.meta.faq.length > 0) {
+    faqJsonLd = {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: mod.meta.faq.map((item) => ({
+        "@type": "Question",
+        name: item.question,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: item.answer,
+        },
+      })),
+    };
+  }
+
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Strona Główna",
+        item: "https://www.2kdetailing.opole.pl/",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Oferta",
+        item: "https://www.2kdetailing.opole.pl/oferta",
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: title,
+        item: `https://www.2kdetailing.opole.pl/oferta/${slug}`,
+      },
+    ],
+  };
+
+  const jsonLdArray = [serviceJsonLd, breadcrumbJsonLd];
+  if (faqJsonLd) {
+    jsonLdArray.push(faqJsonLd);
+  }
 
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdArray) }}
       />
       <OfertaClient slugFromParent={slug} />
     </>

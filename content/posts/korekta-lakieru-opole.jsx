@@ -14,9 +14,9 @@ import classes from "../../app/blog/[slug]/page.module.scss";
 export const meta = {
   id: 4,
   slug: "korekta-lakieru-opole",
-  title: "Korekta Lakieru w Opolu – wyeliminuj niekończące się zarysowania",
+  title: "Korekta Lakieru – wyeliminuj zarysowania",
   subtitle: "USUWANIE HOLOGRÓM I ZMATOWIEŃ ŚWIETLNYCH",
-  date: "2026-02-15",
+  date: "2026-02-26",
   image: "/2k-logo-black-biale-tlo.png",
   dynamicImage: "/2k-logo-black-biale-tlo.png",
   mainImageAltText: "Polerowanie maszyną polerską lakieru samochodowego",
@@ -33,7 +33,7 @@ export const meta = {
     "Moc pracy oświetleniowej",
   ],
   description:
-    "Przywracamy fabryczną wielobarwność w mocnym słońcu eliminując osłabiające połysk hologramy i mocne uszkodzenia lakieru.",
+    "Wieloetapowe polerowanie karoserii. Usuwamy zarysowania, zmatowienia i hologramy, przywracając lakierowi idealną gładkość i głębię.",
 };
 
 export default function PostComponent() {
@@ -43,35 +43,40 @@ export default function PostComponent() {
         Trzeci Wymiar - Tajemnica Szklistego Odbicia
       </h2>
       <p className={classes.textShadow}>
-        Powód, dla którego zupełnie nowe auta prosto od uśmiechniętego dilera
-        wyglądają zniewalająco, polega w głównej mierze na warstwie absolutnie
-        nienaruszonego i mikroskopijnie płaskiego lakieru (tzw. powłoki
-        bezbarwnej, klaru), z którego światło odbija się niczym z czystego
-        lustra. Z czasem brud używanie twardych miejń, rysują ją w taką
-        poszarpaną strukturę a mikrorysy działają jako swoiste załomacze
-        promieniusłonecznych, trwale mętowiąc i skażając cały wygląd wozu
-        powłoką "mgły". Nasza precyzowana usługa tj.{" "}
+        Głównym powodem, dla którego zupełnie nowe samochody wprost z salonu
+        wyglądają tak zniewalająco, jest absolutnie nienaruszona, idealnie
+        płaska warstwa lakieru bezbarwnego (tzw. klaru). Światło odbija się z
+        niej niczym od tafli lustra, co gwarantuje pełną projekcję koloru z
+        maksymalnym nasyceniem. Wraz z eksploatacją, wskutek korzystania z
+        twardych myjni czy agresywnego szczotkowania zimą, struktura ta ulega
+        dramatycznemu poszarpaniu. Setki tysięcy mikrorys skutecznie załamują i
+        rozpraszają wchodzące w nie padające zewsząd promienie i światło
+        słoneczne, całkowicie degradując głębię koloru i pokrywając karoserię
+        swoistą "mgłą". Nasza flagowa usługa tj.{" "}
         <strong>
           <Link href="/oferta/korekta-lakieru" className={classes.textLink}>
             Korekta Lakieru
           </Link>
         </strong>{" "}
-        polega na niezwykle delikatnym spolerowaniu fizycznej wady by otrzymać
-        lustrzaną prostą taflę twardo zmatowionego materiału.
+        polega na usunięciu zniszczonej struktury lakieru powracając do bazowej,
+        gładkiej powłoki lakierniczej za pomocą odpowiednio dobranych past
+        polerskich i rotacyjnych maszyn miksujących.
       </p>
 
       <h2 className={classes.blogTitle}>
-        Od Odświeżających "One-Stepów" po Pełną Wieloetapową Chirurgię
-        Cięcia{" "}
+        Od szybkich pomyślnych "One-Stepów" po pełną wieloetapową transformację
       </h2>
       <p className={classes.textShadow}>
-        Zależy od warunku aut. Dla większości pojazdów które u nas witają,
-        idealnym, i wysoce opłacalnym kosztowo rozwiązaniem będzie odświeżające
-        spolerowanie całości technologią "One-Stepu" gdzie przy jednym paście
-        łączymy tnące wygładzenie i polerujące rozświetlenie udręczonego koloru,
-        ścinając bezpieczną setną warstwę utlenionego klaru - pozostawiając
-        nadal potężną zapasową porcję grubości ochronnej na fabrycznej powłoce
-        elementu blachy.
+        Wybór procesu zależy od stanu powłoki lakierniczej i oczekiwań
+        właściciela. Dla większości regularnie użytkowanych aut rewelacyjnym i
+        wysoce opłacalnym rozwiązaniem z doskonałym rezultatem okazuje się
+        wdrożenie usługi "One Step". W trybie jednego etapu umiejętnie łączymy
+        właściwości ściągające pasty z technologią nabłyszczającą i zarysowań
+        ścinając minimalne ilości powłoki (lakieru bezbarwnego). Gwarantujemy
+        niezwykle wymierny wynik z zachowaniem bogatej rezerwy produkcyjnej
+        przezroczystej substancji lakierniczej chroniącej karoserię elementu.
+        Dla fanatyków idealnego detalu oferujemy pełną, dwu i trzyetapową
+        chirurgię cięcia.
       </p>
 
       <h2 className={classes.blogContactTitle}>

@@ -4,12 +4,29 @@ import classes from "../../app/oferta/[slug]/page.module.scss";
 import Link from "next/link";
 
 export const meta = {
-  title: "Auto detailing w Opolu – kompleksowa metamorfoza auta",
+  title: "Auto Detailing",
   hero: "/2k-logo-black-biale-tlo.png",
   heroAltText:
     "Kompleksowy auto detailing w 2K Auto Detailing Opole – korekta lakieru, powłoka ceramiczna, detailing wnętrza",
-  lead: "Oferujemy profesjonalny auto detailing w Opolu – kompleksową pielęgnację Twojego samochodu. Od precyzyjnej korekty lakieru i aplikacji powłok ceramicznych, przez zabezpieczenie folią PPF, aż po detailing wnętrza i ozonowanie. Przywracamy autu salonowy blask i długotrwałą ochronę.",
+  lead: "Absolutny powrót do stanu salonowego. Od wieloetapowej reanimacji lakieru i folii PPF, aż po maksymalnie drobiazgowe, dogłębne czyszczenie wnętrza.",
   slug: "auto-detailing",
+  faq: [
+    {
+      question: "Jak długo trwa auto detailing?",
+      answer:
+        "Czas trwania zależy od zakresu usług i stanu pojazdu. Kompleksowy auto detailing (korekta lakieru + powłoka ceramiczna + detailing wnętrza) to zazwyczaj 2-4 dni robocze. Dokładny harmonogram ustalamy indywidualnie po inspekcji.",
+    },
+    {
+      question: "Czy auto detailing jest tylko dla nowych samochodów?",
+      answer:
+        "Absolutnie nie! Auto detailing to doskonałe rozwiązanie zarówno dla nowych aut (ochrona lakieru od razu po zakupie), jak i dla samochodów używanych (przywrócenie blasku, usunięcie rys, odświeżenie wnętrza). To także świetna inwestycja przed sprzedażą.",
+    },
+    {
+      question: "Czym różni się auto detailing od mycia samochodu?",
+      answer:
+        "Mycie samochodu to usługa powierzchniowa – usuwa bród z zewnątrz. Auto detailing to wieloetapowy proces, który obejmuje dogłębne czyszczenie, dekontaminację, korektę lakieru i jego długotrwałe zabezpieczenie. To nie to samo, co wizyta w myjni.",
+    },
+  ],
 };
 
 export default function AutoDetailingPage() {

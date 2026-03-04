@@ -3,12 +3,39 @@ import Link from "next/link";
 import classes from "../../app/oferta/[slug]/page.module.scss";
 
 export const meta = {
-  title: "Detailing wnętrza w Opolu – kompleksowe czyszczenie auta",
+  title: "Detailing Wnętrza",
   hero: "/2k-logo-black-biale-tlo.png",
   heroAltText:
     "Profesjonalny detailing wnętrza samochodu w 2K Auto Detailing Opole",
-  lead: "Oferujemy kompleksowy detailing wnętrza w Opolu. Dokładne czyszczenie tapicerki, plastików, szczelin i trudno dostępnych miejsc. Usuwamy kurz, alergeny i nieprzyjemne zapachy. Przywracamy świeżość, higienę i estetyczny wygląd Twojego auta.",
+  lead: "Chirurgicznie precyzyjne czyszczenie kabiny. Pędzelkujemy detale, pielęgnujemy plastiki i uwalniamy całe auto od osadzonego w nawiewach kurzu.",
   slug: "detailing-wnetrza",
+  faq: [
+    {
+      question: "Jak często robić detailing wnętrza?",
+      answer:
+        "Zalecamy profesjonalny detailing wnętrza przynajmniej raz w roku. Regularne czyszczenie zapobiega trwałemu zabrudzeniu tkanin, odświeża wygląd kabiny i eliminuje alergeny. W przypadku intensywnego użytkowania (taksówki, floty, rodziny z dziećmi, zwierzęta) – co 6 miesięcy.",
+    },
+    {
+      question: "Ile czasu trwa detailing wnętrza?",
+      answer:
+        "Czas usługi zależy od wielkości samochodu i stopnia zabrudzenia. Standardowy detailing wnętrza (odkurzanie, pranie tapicerki, czyszczenie plastików, szyby, impregnacja) zajmuje od 3 do 6 godzin. Pełny pakiet z ozonowaniem i dogłębnym czyszczeniem wszystkich elementów może zająć cały dzień.",
+    },
+    {
+      question: "Czy detailing wnętrza usuwa zapach dymu papierosowego?",
+      answer:
+        "Tak, ale wymaga to połączenia kilku metod. Pranie ekstrakcyjne usuwa osadzony dym z tapicerki, a ozonowanie neutralizuje cząsteczki zapachowe w szczelinach, wentylacji i materiałach. W przypadku bardzo intensywnego, długotrwałego dymu, może być konieczne powtórzenie zabiegu.",
+    },
+    {
+      question: "Jak przygotować auto do detailingu wnętrza?",
+      answer:
+        "Wystarczy opróżnić samochód z rzeczy osobistych – dokumentów, ubrań, zabawek, ładowarek, bagażu. Nie musisz go wcześniej myć ani odkurzać. Cały proces przygotowania wykonujemy w naszym studio.",
+    },
+    {
+      question: "Czym różni się detailing wnętrza od auto detailingu?",
+      answer:
+        "Detailing wnętrza koncentruje się wyłącznie na kabinie pasażerskiej – tapicerce, plastikach, szybach, bagażniku. Auto detailing to usługa kompleksowa, która obejmuje zarówno wnętrze, jak i zewnętrze pojazdu – mycie, dekontaminację, korektę lakieru i zabezpieczenie powłoką ceramiczną. To dwa różne zakresy – jeden skupiony, drugi totalny.",
+    },
+  ],
 };
 
 export default function DetailingWnetrzaPage() {

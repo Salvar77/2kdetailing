@@ -14,13 +14,13 @@ import classes from "../../app/blog/[slug]/page.module.scss";
 export const meta = {
   id: 5,
   slug: "powloka-ceramiczna-opole",
-  title: "Powłoka Ceramiczna – Hydrofobowość w Deszczu i Olśnienie",
+  title: "Powłoka Ceramiczna – Hydrofobowość i Blask",
   subtitle: "ZACHWYCAJĄCA CERAMIKA NA LAKIER ",
-  date: "2026-02-10",
+  date: "2026-02-24",
   image: "/2k-logo-black-biale-tlo.png",
   dynamicImage: "/2k-logo-black-biale-tlo.png",
   mainImageAltText:
-    "Efekt hydrofobowy wody na powłoce ceramicznej 2K Detailing",
+    "Efekt hydrofobowy wody na powłoce ceramicznej 2K Auto Detailing",
   images: [
     "/2k-logo-black-biale-tlo.png",
     "/2k-logo-black-biale-tlo.png",
@@ -34,44 +34,45 @@ export const meta = {
     "Struktura powłoki w Opolu",
   ],
   description:
-    "Zafunduj profesjonalną ceramikę i ogranicz potrzebę trudnych uciążliwych myć, zyskując potężny, wieloletni blask oraz rewelacyjny zrzut brudnej wody.",
+    "Aplikujemy certyfikowane powłoki ceramiczne, które zapewniają spektakularny szklisty blask, silną hydrofobowość i długoletnią ochronę.",
 };
 
 export default function PostComponent() {
   return (
     <>
       <h2 className={classes.blogTitle}>
-        Brud Który Automatycznie Spływa z Twojego Ulubionego Wozu
+        Brud, który sam spływa z Twojego samochodu
       </h2>
       <p className={classes.textShadow}>
-        Mycie auta z czystą pedanterią w deszczowe jesienne lub pyłowe letnie
-        dni potrafi zamieniać chęci na powstrzymywanie złości... A co jeśli do
-        odmycia warstwy lepkiego piasku użyć by w głównej mierze jedynie
-        ciśnienia czystej demineralizowanej wody, w przysłowiowe 15 minut... -
-        gdy karoseria potyczek odpiera zabrudzenia dzięki założonemu niewidoczną
-        "zbroi" czyli{" "}
+        Ręczne mycie auta z dbałością o każdy detal potrafi być czasochłonne,
+        szczególnie w sezonie jesienno-zimowym czy podczas letniego pylenia. A
+        gdyby całkowite usunięcie luźnego piasku wymagało od Ciebie precyzyjnego
+        spłukania czystą wodą pod ciśnieniem przez zaledwie 15 minut? Staje się
+        to możliwe, kiedy karoseria automatycznie „odpycha” zabrudzenia,
+        chroniona niewidzialną barierą technologiczną, jaką stanowi{" "}
         <strong>
           <Link href="/oferta/powloka-ceramiczna" className={classes.textLink}>
-            Ochronie Ceramicznej
+            Ochrona Ceramiczna
           </Link>
         </strong>
-        . Dobrze zaaplikowana u nas chemia wgryza się gęsto w niewidzialne pory
-        powłoki bezbarwnej z fabryki, dając chemiczną ochroną przed agresywnymi
-        kwasami m.in owadzimi odchodami ptasimi lub solą na mocno obłożonych
-        białych szosach dojazdowych.
+        . Certyfikowana chemia, którą operujemy, trwale wiąże się u podstawy
+        usieciowania lakieru bezbarwnego. Stanowi doskonały pancerz chemiczny
+        broniący nadwozie m.in. przed agresywnymi ptasimi odchodami oraz
+        szkodliwym działaniem soli drogowej zimą.
       </p>
 
       <h2 className={classes.blogTitle}>
-        Zyskany Czas, Oraz Głęboki Efekt "Szklistej Tafli"
+        Zyskany czas oraz spektakularny efekt „szklistej tafli”
       </h2>
       <p className={classes.textShadow}>
-        Stosunkowo do ogromnej redukcji niszczącego promieniowania UV czy
-        ochrony mikrorys na wozie przed mikrouszkodzeniami ręczników ze szczotki
-        czy samej chłonności kwaśnego zjawiska ptasiego zanieczyszczenia,
-        ceramika to estetyczny krok giełdowy! Położona trwała powłoka kwarcowa
-        fizycznie zwiększa optyczną grubość zmatowienia odblaskowego i znacząco
-        podnosi kolor oraz barwnik samego pigmentu w warstwoce odcinającej
-        karoserii.
+        Pomijając ogromne korzyści praktyczne: takie jak znacząca degradacja i
+        odbijanie promieniowania UV uszkadzającego klar oraz spięcie struktury
+        obniżające ryzyko przypadkowych mikrorys powstałych od piasku w rękawicy
+        w trakcie mycia – powłoka ceramiczna to wielki skok estetyczny dla
+        Twojego pojazdu. Odpowiednio zaaplikowana wielowarstwowa ochrona
+        optycznie „pogrubia” lakier, niezwykle intensywnie wydobywając i
+        podbijając bazowy kolor, co generuje lustrzany, spektakularny błysk
+        niemożliwy do osiągnięcia konwencjonalnymi woskami.
       </p>
 
       <h2 className={classes.blogContactTitle}>

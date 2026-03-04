@@ -2,13 +2,13 @@ import ElfsightLazyWrapper from "../../components/More/ElfsightLazyWrapper";
 import classes from "./page.module.scss";
 
 export const metadata = {
-  title: "Opinie klientów | 2K Auto Detailing Opole",
+  title: "Opinie i Recenzje Klientów",
   description:
     "Sprawdź recenzje i oceny klientów 2K Auto Detailing w Opolu. Zobacz, dlaczego warto powierzyć nam swoje auto.",
   alternates: { canonical: "/recenzje" },
   openGraph: {
     url: "/recenzje",
-    title: "Opinie klientów | 2K Auto Detailing Opole",
+    title: "Opinie i Recenzje Klientów",
     description:
       "Autentyczne opinie kierowców korzystających z usług auto detailingu, korekty lakieru i aplikacji folii PPF w 2K Auto Detailing.",
     images: [

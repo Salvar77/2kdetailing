@@ -2,7 +2,7 @@ import React from "react";
 import classes from "./polityka-prywatnosci.module.scss";
 
 export const metadata = {
-  title: "Polityka Prywatności | 2K Auto Detailing Opole",
+  title: "Polityka Prywatności",
   description:
     "Polityka prywatności i zasady ochrony danych osobowych w 2K Auto Detailing Opole.",
   alternates: { canonical: "/polityka-prywatnosci" },

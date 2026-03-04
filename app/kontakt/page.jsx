@@ -3,13 +3,13 @@ import classes from "./page.module.scss";
 import { ContactWithAnimation, ContactContent } from "./DynamicComponents";
 
 export const metadata = {
-  title: "Kontakt | 2K Auto Detailing Opole",
+  title: "Kontakt i Rezerwacje",
   description:
     "Umów wizytę lub zadaj pytanie – zadzwoń: 797 234 734, napisz: 2kdetailingopole@gmail.com lub odwiedź nas: ul. Prószkowska 43, 45-758 Opole.",
   alternates: { canonical: "/kontakt" },
   openGraph: {
     url: "/kontakt",
-    title: "Kontakt | 2K Auto Detailing Opole",
+    title: "Kontakt i Rezerwacje",
     description:
       "Zadzwoń: 797 234 734 lub napisz: 2kdetailingopole@gmail.com. Nasz adres: ul. Prószkowska 43, 45-758 Opole.",
     images: [

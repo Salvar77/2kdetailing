@@ -16,7 +16,7 @@ export const metadata = {
     template: "%s | 2K Auto Detailing Opole",
   },
   description:
-    "2K Auto Detailing Opole: korekta lakieru, powłoki ceramiczne, folia PPF. Doświadczeni specjaliści z Opola.",
+    "2K Auto Detailing Opole: korekta lakieru, powłoka ceramiczna, folia PPF. Doświadczeni specjaliści z Opola.",
   alternates: {
     canonical: "/",
   },
@@ -62,7 +62,7 @@ const jsonLd = {
   logo: "https://www.2kdetailing.opole.pl/og/logo-2kdetailing-opole.png",
   image: "https://www.2kdetailing.opole.pl/og/logo-2kdetailing-opole.png",
   description:
-    "Profesjonalny auto detailing w Opolu – korekta lakieru, powłoki ceramiczne, folia PPF, pranie tapicerki, renowacja skór. Zadbamy o Twoje auto kompleksowo.",
+    "Profesjonalny auto detailing w Opolu – korekta lakieru, powłoka ceramiczna, folia PPF, pranie tapicerki, renowacja skór. Zadbamy o Twoje auto kompleksowo.",
   telephone: "+48797234734",
   email: "2kdetailingopole@gmail.com",
   address: {

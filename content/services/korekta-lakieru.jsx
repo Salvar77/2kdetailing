@@ -4,11 +4,34 @@ import Link from "next/link";
 import classes from "../../app/oferta/[slug]/page.module.scss";
 
 export const meta = {
-  title: "Korekta lakieru w Opolu – 2K Auto Detailing",
+  title: "Korekta Lakieru",
   hero: "/2k-logo-white-czarne-tlo.png",
   heroAltText: "Logo 2K Auto Detailing. Profesjonalna korekta lakieru w Opolu.",
-  lead: "Oferujemy profesjonalną jedno- i wieloetapową korektę lakieru w Opolu. Skutecznie usuwamy rysy, hologramy i zmatowienia, przywracając karoserii idealną gładkość i głębię koloru. Pracujemy na maszynach Rupes, a efekty utrwalamy powłokami ochronnymi. Zabezpiecz swój lakier na lata z 2K Auto Detailing.",
+  lead: "Pozbądź się uporczywych rys, oksydacji oraz brzydkich hologramów. Karoseria po bezpiecznym polerowaniu odzyska absolutną gładkość i refleks.",
   slug: "korekta-lakieru",
+  faq: [
+    {
+      question: "Czym różni się jednoetapowa korekta od wieloetapowej?",
+      answer:
+        "Jednoetapowa korekta (One-Step) skupia się na odświeżeniu lakieru i usunięciu lekkich defektów (ok. 50-70% rys). Wieloetapowa korekta to bardziej zaawansowany proces, usuwający od 80% do 95% rys i hologramów, dający efekt idealnego lustra i głębokiej czerni. Jest bardziej czasochłonna i precyzyjna.",
+    },
+    {
+      question: "Czy korekta lakieru jest bezpieczna dla mojego samochodu?",
+      answer:
+        "Tak, profesjonalnie wykonana korekta lakieru jest całkowicie bezpieczna. Używamy specjalistycznych mierników grubości lakieru, aby precyzyjnie kontrolować proces polerowania i nie naruszyć struktury powłoki lakierniczej.",
+    },
+    {
+      question: "Ile czasu trwa korekta lakieru?",
+      answer:
+        "Czas korekty lakieru zależy od stanu początkowego lakieru oraz wybranego pakietu. Jednoetapowa korekta może zająć od 1 do 2 dni, natomiast kompleksowa, wieloetapowa korekta od 2 do nawet 4 dni. Dokładny czas ustalamy po szczegółowej inspekcji pojazdu.",
+    },
+    {
+      question:
+        "Czy po korekcie lakieru muszę zastosować jakieś zabezpieczenie?",
+      answer:
+        "Zdecydowanie tak. Po usunięciu defektów lakier jest goły i wymaga zabezpieczenia. Zawsze zalecamy aplikację powłoki ceramicznej, aby chronić lakier przed nowymi uszkodzeniami, promieniami UV, brudem drogowym i ułatwić jego późniejsze mycie.",
+    },
+  ],
 };
 
 export default function KorektaLakieruPage() {

@@ -4,7 +4,7 @@ import { Galeria } from "./DynamicGaleria";
 export async function generateMetadata() {
   const pageTitle = "Galeria Realizacji | 2K Auto Detailing Opole";
   const pageDescription =
-    "Przeglądaj naszą galerię realizacji detailingowych: auto detailing, korekcja lakieru, powłoka ceramiczna, folie PPF w Opolu.";
+    "Przeglądaj naszą galerię realizacji detailingowych: auto detailing, korekta lakieru, powłoka ceramiczna, folia PPF w Opolu.";
   const url = "/galeria";
 
   const ogImage =
@@ -13,14 +13,14 @@ export async function generateMetadata() {
   const ogImageHeight = 630;
 
   return {
-    title: pageTitle,
+    title: "Galeria Realizacji",
     description: pageDescription,
     alternates: {
       canonical: url,
     },
     openGraph: {
       url,
-      title: pageTitle,
+      title: "Galeria Realizacji",
       description: pageDescription,
       images: [{ url: ogImage, width: ogImageWidth, height: ogImageHeight }],
       type: "website",
