@@ -101,6 +101,16 @@ const jsonLd = {
   hasMap: "https://maps.google.com/?q=Prószkowska+43,+45-758+Opole",
   sameAs: [
     "https://www.facebook.com/people/2K-Auto-Detailing-Opole/61587187552980/",
+    "https://www.instagram.com/2kdetailingopole/",
+    "https://www.tiktok.com/@2kdetailingopole",
+    "https://www.gowork.pl/2k-auto-detailing-agnieszka-brzoskwinia,27283875/dane-kontaktowe-firmy",
+    "https://www.oferteo.pl/2k-auto-detailing-agnieszka-brzoskwinia/firma/7398924",
+    "https://www.cylex-polska.pl/firmy/2k-auto-detailing-opole---korekta-lakieru---pow%C5%82oka-ceramiczna-14416939.html",
+    "https://www.skuteczna-naprawa.pl/firma/2k-auto-detailing-agnieszka-brzoskwinia-9950396",
+    "https://opole.naszemiasto.pl/2k-auto-detailing-opole-korekta-lakieru-powloka-ceramiczna/kf/669769",
+    "https://www.firmy.net/D3N9F,myjnie-reczne.html",
+    "https://www.pkt.pl/firma/2k-auto-detailing-agnieszka-brzoskwinia-9950396",
+    "https://firmania.pl/opole/2k-auto-detailing-opole-korekta-lakieru-pow%C5%82oka-ceramiczna-1411065",
   ],
 };
 
