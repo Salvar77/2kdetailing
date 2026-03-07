@@ -71,11 +71,6 @@ export default async function OfertaStrona({ params }) {
       name: "Opole",
     },
     url: `https://www.2kdetailing.opole.pl/oferta/${slug}`,
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "5.0",
-      reviewCount: "21",
-    },
   };
 
   let faqJsonLd = null;
