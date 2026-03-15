@@ -72,6 +72,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.2kdetailing.opole.pl/oferta/myjnia-reczna</loc>
+    <lastmod>2026-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.2kdetailing.opole.pl/blog</loc>
     <lastmod>2026-03-03</lastmod>
     <changefreq>weekly</changefreq>

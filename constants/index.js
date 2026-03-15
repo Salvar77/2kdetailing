@@ -8,6 +8,7 @@ import upholstery from "../assets/images/2k-logo-black-biale-tlo.svg";
 import headlight from "../assets/images/2k-logo-black-biale-tlo.svg";
 import tinting from "../assets/images/2k-logo-black-biale-tlo.svg";
 import autoDetailingPakiet from "../assets/images/2k-logo-black-biale-tlo.svg";
+import myjniaReczna from "../assets/images/2k-logo-black-biale-tlo.svg";
 import blogPost from "../assets/images/2k-logo-black-biale-tlo.svg";
 import blogPost2 from "../assets/images/2k-logo-black-biale-tlo.svg";
 import blogPost3 from "../assets/images/2k-logo-black-biale-tlo.svg";
@@ -127,6 +128,18 @@ export const servicesData = [
     relatedBlogPost: "/blog/auto-detailing-opole",
     altText:
       "Pełny pakiet auto detailingu – kompleksowa korekta i ochrona lakieru oraz detailing wnętrza.",
+  },
+  {
+    id: "oferta/myjnia-reczna",
+    title: "Myjnia Ręczna",
+    image: myjniaReczna,
+    description: "Sprawdź",
+    gradient: "linear-gradient(rgba(63,59,59,.5), rgba(40,31,31,.5))",
+    additionalInfo:
+      "<strong>Myjnia ręczna</strong> – bezpieczne i precyzyjne mycie karoserii z dbałością o każdy detal. Stosujemy metodę na dwa wiadra, bezpieczną chemię o neutralnym pH oraz miękkie ręczniki z mikrofibry, co gwarantuje czystość bez ryzyka porysowania lakieru.",
+    relatedBlogPost: "/blog/auto-detailing-opole",
+    altText:
+      "Profesjonalna myjnia ręczna w Opolu – bezpieczne mycie samochodu w 2K Auto Detailing.",
   },
 ];
 
