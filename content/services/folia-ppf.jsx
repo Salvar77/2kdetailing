@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import classes from "../../app/oferta/[slug]/page.module.scss";
+import ppfImg from "../../assets/images/wlasciciel-2k-auto-detailing-folia-ppf-opole.webp";
 
 export const meta = {
-  title: "Zabezpieczenie Foliami PPF",
-  hero: "/2k-logo-white-czarne-tlo.png",
+  title: "Folia PPF",
+  hero: ppfImg,
   heroAltText:
     "Bezinwazyjny montaż bezbarwnej folii ruro-ochronnej PPF na karoserii",
   lead: "Bezkompromisowa, niewidoczna zbroja na co dzień. Samoregeneracyjna folia ochronna uchroni Twój pojazd przed głębokimi zarysowaniami i kamieniami.",
@@ -125,8 +126,8 @@ export default function FoliaPpfPage() {
 
         <div className={classes.contentSection__image}>
           <Image
-            src="/2k-logo-white-czarne-tlo.png"
-            alt="Zabezpieczenie przodu auta bezbarwną folią ochronną PPF w 2K Auto Detailing Opole"
+            src={ppfImg}
+            alt="Zabezpieczanie zderzaka bezbarwną folią ochronną PPF – 2K Auto Detailing Opole"
             width={600}
             height={400}
             layout="responsive"

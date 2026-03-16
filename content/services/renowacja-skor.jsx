@@ -2,10 +2,11 @@ import React from "react";
 import Image from "next/image";
 import classes from "../../app/oferta/[slug]/page.module.scss";
 import Link from "next/link";
+import skoryImg from "../../assets/images/wlasciciel-2k-auto-detailing-renowacja-skor-opole.webp";
 
 export const meta = {
   title: "Renowacja Skór",
-  hero: "/2k-logo-white-czarne-tlo.png",
+  hero: skoryImg,
   heroAltText:
     "Profesjonalna renowacja i naprawa uszkodzonej skórzanej tapicerki samochodowej",
   lead: "Zatrzymaj proces zużycia skórzanej tapicerki. Przywracamy fabryczny kolor, dogłębnie czyścimy i zabezpieczamy fotele systemem premium Colourlock.",
@@ -113,8 +114,8 @@ export default function RenowacjaSkorPage() {
 
         <div className={classes.contentSection__image}>
           <Image
-            src="/2k-logo-white-czarne-tlo.png"
-            alt="Profesjonalna regeneracja i malowanie skór w 2K Auto Detailing Opole"
+            src={skoryImg}
+            alt="Profesjonalna renowacja i malowanie skórzanej tapicerki samochodowej w Opolu"
             width={600}
             height={400}
             layout="responsive"

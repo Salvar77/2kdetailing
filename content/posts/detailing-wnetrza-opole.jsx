@@ -1,4 +1,4 @@
-﻿import React from "react";
+import React from "react";
 import Link from "next/link";
 import {
   Droplet,
@@ -11,22 +11,19 @@ import {
 } from "lucide-react";
 import classes from "../../app/blog/[slug]/page.module.scss";
 
+import wnetrzeImg from "../../assets/images/wlasciciel-2k-auto-detailing-detailing-wnetrza-opole.webp";
+
 export const meta = {
   id: 8,
   slug: "detailing-wnetrza-opole",
   title: "Ekskluzywny Detailing Wnętrza",
   subtitle: "CZYSTOŚĆ I HIGIENA KABINY",
   date: "2026-03-02",
-  image: "/2k-logo-black-biale-tlo.png",
-  dynamicImage: "/2k-logo-black-biale-tlo.png",
+  image: wnetrzeImg,
+  dynamicImage: wnetrzeImg,
   mainImageAltText: "Idealnie czyste wnętrze samochodu",
-  images: [
-    "/2k-logo-black-biale-tlo.png",
-    "/2k-logo-black-biale-tlo.png",
-    "/2k-logo-black-biale-tlo.png",
-    "/2k-logo-black-biale-tlo.png",
-  ],
-  imagesAltText: ["Wnętrze po detailingu", "Odkurzanie zakamarków"],
+  images: [wnetrzeImg],
+  imagesAltText: ["Wnętrze po detailingu"],
   description:
     "Kompleksowe czyszczenie i zabezpieczenie wnętrza pojazdu. Skuteczna pielęgnacja plastików, pędzelkowanie detali i odzyskiwanie zapachu nowości.",
 };

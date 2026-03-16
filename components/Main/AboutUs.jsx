@@ -6,7 +6,7 @@ import { textVariant, fadeIn } from "../../utils/motion";
 import { FaPhone, FaCar, FaClock, FaThumbsUp } from "react-icons/fa";
 import AnimatedButton from "../More/AnimatedButton";
 import classes from "./AboutUs.module.scss";
-import AboutImage from "../../assets/images/2k-logo-black-biale-tlo.svg";
+import AboutImage from "../../assets/images/wlasciciel-2k-auto-detailing-korekta-lakieru-3-opole.webp";
 
 const aboutContent = {
   title: "Profesjonalny auto detailing w Opolu",

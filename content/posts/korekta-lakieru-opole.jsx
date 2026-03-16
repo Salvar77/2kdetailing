@@ -1,4 +1,4 @@
-﻿import React from "react";
+import React from "react";
 import Link from "next/link";
 import {
   Droplet,
@@ -11,26 +11,24 @@ import {
 } from "lucide-react";
 import classes from "../../app/blog/[slug]/page.module.scss";
 
+import korektaImg from "../../assets/images/wlasciciel-2k-auto-detailing-korekta-lakieru-opole.webp";
+import korektaImg2 from "../../assets/images/wlasciciel-2k-auto-detailing-korekta-lakieru-2-opole.webp";
+import korektaImg3 from "../../assets/images/wlasciciel-2k-auto-detailing-korekta-lakieru-3-opole.webp";
+
 export const meta = {
   id: 4,
   slug: "korekta-lakieru-opole",
   title: "Korekta Lakieru – wyeliminuj zarysowania",
   subtitle: "USUWANIE HOLOGRAMÓW I ZMATOWIEŃ ŚWIETLNYCH",
   date: "2026-02-26",
-  image: "/2k-logo-black-biale-tlo.png",
-  dynamicImage: "/2k-logo-black-biale-tlo.png",
+  image: korektaImg,
+  dynamicImage: korektaImg,
   mainImageAltText: "Polerowanie maszyną polerską lakieru samochodowego",
-  images: [
-    "/2k-logo-black-biale-tlo.png",
-    "/2k-logo-black-biale-tlo.png",
-    "/2k-logo-black-biale-tlo.png",
-    "/2k-logo-black-biale-tlo.png",
-  ],
+  images: [korektaImg, korektaImg2, korektaImg3],
   imagesAltText: [
     "Praca polerką 2K",
     "Zarysowania przed i po",
     "Maszyny orbitalne do polerowania",
-    "Moc pracy oświetleniowej",
   ],
   description:
     "Wieloetapowe polerowanie karoserii. Usuwamy zarysowania, zmatowienia i hologramy, przywracając lakierowi idealną gładkość i głębię.",

@@ -2,10 +2,12 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import classes from "../../app/oferta/[slug]/page.module.scss";
+import korektaImg from "../../assets/images/wlasciciel-2k-auto-detailing-korekta-lakieru-opole.webp";
+import korektaImg2 from "../../assets/images/wlasciciel-2k-auto-detailing-korekta-lakieru-2-opole.webp";
 
 export const meta = {
   title: "Korekta Lakieru",
-  hero: "/2k-logo-white-czarne-tlo.png",
+  hero: korektaImg,
   heroAltText: "Mechaniczne polerowanie lakieru w celu usunięcia zarysowań",
   lead: "Pozbądź się uporczywych rys, oksydacji oraz brzydkich hologramów. Karoseria po bezpiecznym polerowaniu odzyska absolutną gładkość i refleks.",
   slug: "korekta-lakieru",
@@ -133,7 +135,7 @@ export default function KorektaLakieruPage() {
 
         <div className={classes.contentSection__image}>
           <Image
-            src="/2k-logo-black-biale-tlo.png"
+            src={korektaImg}
             alt="Profesjonalne polerowanie i korekta lakieru w 2K Auto Detailing Opole – usuwanie rys"
             width={600}
             height={400}
@@ -216,7 +218,7 @@ export default function KorektaLakieruPage() {
 
         <div className={classes.contentSection__image}>
           <Image
-            src="/2k-logo-black-biale-tlo.png"
+            src={korektaImg2}
             alt="Specjalista 2K Auto Detailing podczas korekty lakieru samochodowego w Opolu"
             width={600}
             height={400}

@@ -1,4 +1,4 @@
-﻿import React from "react";
+import React from "react";
 import Link from "next/link";
 import {
   Droplet,
@@ -11,29 +11,21 @@ import {
 } from "lucide-react";
 import classes from "../../app/blog/[slug]/page.module.scss";
 
+import skoryImg from "../../assets/images/wlasciciel-2k-auto-detailing-renowacja-skor-opole.webp";
+
 export const meta = {
-  id: 3,
+  id: 7,
   slug: "renowacja-skor-opole",
-  title: "Zwróć Miękkość w Dotyku: Ekspert od Skór",
-  subtitle: "ODŻYWIAMY TWOJE SKÓRZANE WNĘTRZE",
-  date: "2026-02-28",
-  image: "/2k-logo-black-biale-tlo.png",
-  dynamicImage: "/2k-logo-black-biale-tlo.png",
-  mainImageAltText: "Precyzyjne Pędzelkowanie Skóry i szczotkowanie brudu",
-  images: [
-    "/2k-logo-black-biale-tlo.png",
-    "/2k-logo-black-biale-tlo.png",
-    "/2k-logo-black-biale-tlo.png",
-    "/2k-logo-black-biale-tlo.png",
-  ],
-  imagesAltText: [
-    "Czysta biała skóra auta",
-    "Odnowiona kierownica skórzana",
-    "Brud pod mydelkiem",
-    "Zestaw do zniszczonej struktury",
-  ],
+  title: "Renowacja Skór i Naprawa Tapicerki",
+  subtitle: "PRZYWRACANIE FABRYCZNEJ ŚWIEŻOŚCI WNĘTRZA",
+  date: "2026-03-01",
+  image: skoryImg,
+  dynamicImage: skoryImg,
+  mainImageAltText: "Naprawiony fotel skórzany w samochodzie",
+  images: [skoryImg],
+  imagesAltText: ["Naprawa przetarć na skórze"],
   description:
-    "Przywróć swojemu skórzanemu wnętrzu elastyczność i naturalny mat. Profesjonalna renowacja, czyszczenie i impregnacja skór samochodowych.",
+    "Profesjonalna renowacja tapicerki skórzanej. Usuwamy przetarcia, pęknięcia i odbarwienia, korzystając z profesjonalnych systemów Colourlock.",
 };
 
 export default function PostComponent() {

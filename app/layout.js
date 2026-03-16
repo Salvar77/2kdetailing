@@ -12,11 +12,11 @@ const kanit = Kanit({
 export const metadata = {
   metadataBase: new URL("https://www.2kdetailing.opole.pl"),
   title: {
-    default: "2K Auto Detailing Opole - Profesjonalny Auto Detailing",
+    default: "2K Auto Detailing Opole - Korekta lakieru - Powłoka ceramiczna",
     template: "%s | 2K Auto Detailing Opole",
   },
   description:
-    "2K Auto Detailing Opole: korekta lakieru, powłoka ceramiczna i elastomerowa, folia PPF, detailing wnętrza. Profesjonalne studio kosmetyki samochodowej.",
+    "2K Auto Detailing Opole: Korekta lakieru, Powłoka ceramiczna i elastomerowa, Folia PPF, Detailing wnętrza. Profesjonalne studio kosmetyki samochodowej.",
   alternates: {
     canonical: "/",
   },

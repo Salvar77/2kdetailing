@@ -40,7 +40,15 @@ export default function BlogPostClient({ slugFromParent }) {
   if (meta === undefined || !Content) return <p>Ładowanie wpisu...</p>;
 
   const { title, date, images } = meta;
-  const defaultImage = meta.dynamicImage || `/images/${meta.image}`;
+
+  const getImageSrc = (img) => {
+    if (!img) return "/2k-logo-black-biale-tlo.png";
+    if (typeof img === "string") {
+      if (img.startsWith("/") || img.startsWith("http")) return img;
+      return `/images/${img}`;
+    }
+    return img.src;
+  };
 
   let imageSrc;
   if (slug === "powloka-ceramiczna-opole") {
@@ -48,7 +56,7 @@ export default function BlogPostClient({ slugFromParent }) {
       ? "/galeria-powloka-ceramiczna-3.jpg"
       : "/galeria-powloka-ceramiczna-1.jpg";
   } else {
-    imageSrc = defaultImage;
+    imageSrc = getImageSrc(meta.dynamicImage || meta.image);
   }
 
   const imageStyles = {
@@ -76,7 +84,11 @@ export default function BlogPostClient({ slugFromParent }) {
               <div className={classes.imageOverlay}></div>
             </div>
           ) : (
-            <div className={classes.blogPost__imageWrapper}>
+            <div
+              className={`${classes.blogPost__imageWrapper} ${
+                customImageClass ? classes[customImageClass] : ""
+              }`}
+            >
               <Image
                 src={imageSrc}
                 alt={meta.mainImageAltText || title}
@@ -100,10 +112,10 @@ export default function BlogPostClient({ slugFromParent }) {
 
           {images && (
             <div className={classes.blogPost__imageGrid}>
-              {images.map((src, i) => (
+              {images.map((img, i) => (
                 <Image
                   key={i}
-                  src={src}
+                  src={getImageSrc(img)}
                   alt={meta.imagesAltText?.[i] || `${title} ${i + 1}`}
                   width={800}
                   height={450}

@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import classes from "../../app/oferta/[slug]/page.module.scss";
+import wnetrzeImg from "../../assets/images/wlasciciel-2k-auto-detailing-detailing-wnetrza-opole.webp";
 
 export const meta = {
   title: "Detailing Wnętrza",
-  hero: "/2k-logo-black-biale-tlo.png",
+  hero: wnetrzeImg,
   heroAltText:
     "Precyzyjne pędzelkowanie i odświeżanie detali wewnątrz kabiny pasażerskiej",
   lead: "Chirurgicznie precyzyjne czyszczenie kabiny. Pędzelkujemy detale, pielęgnujemy plastiki i uwalniamy całe auto od osadzonego w nawiewach kurzu.",
@@ -126,7 +127,7 @@ export default function DetailingWnetrzaPage() {
 
         <div className={classes.contentSection__image}>
           <Image
-            src="/2k-logo-black-biale-tlo.png"
+            src={wnetrzeImg}
             alt="Perfekcyjnie wyczyszczone wnętrze auta po usłudze detailingu w 2K Auto Detailing Opole"
             width={600}
             height={400}
@@ -214,7 +215,7 @@ export default function DetailingWnetrzaPage() {
 
         <div className={classes.contentSection__image}>
           <Image
-            src="/2k-logo-black-biale-tlo.png"
+            src={wnetrzeImg}
             alt="Specjalista 2K Auto Detailing podczas czyszczenia kokpitu i elementów plastikowych"
             width={600}
             height={400}

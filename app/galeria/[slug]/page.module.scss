@@ -16,11 +16,6 @@
     margin-bottom: 2rem;
     color: $white-smooth;
     text-shadow: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.1);
-    padding-top: 100px;
-    @media (min-width: 768px) {
-      font-size: 3.5rem;
-      padding-top: 150px;
-    }
   }
 
   &__box {
@@ -60,6 +55,7 @@
   &__imageWrapper {
     width: 100%;
     max-width: 400px;
+    aspect-ratio: 3 / 2; // Consistent rectangular shape
     border-radius: 0.8rem;
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);

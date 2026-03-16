@@ -1,4 +1,4 @@
-﻿import React from "react";
+import React from "react";
 import Link from "next/link";
 import {
   Droplet,
@@ -11,29 +11,21 @@ import {
 } from "lucide-react";
 import classes from "../../app/blog/[slug]/page.module.scss";
 
+import ppfImg from "../../assets/images/wlasciciel-2k-auto-detailing-folia-ppf-opole.webp";
+
 export const meta = {
   id: 6,
   slug: "folia-ppf-opole",
-  title: "Najwyższa Klasa Ochrony: Folia PPF",
-  subtitle: "ZAAWANSOWANA ŚCIANA NA KAMYKI",
-  date: "2026-02-21",
-  image: "/2k-logo-black-biale-tlo.png",
-  dynamicImage: "/2k-logo-black-biale-tlo.png",
-  mainImageAltText: "Nakładanie przezroczystej folii PPF na maskę",
-  images: [
-    "/2k-logo-black-biale-tlo.png",
-    "/2k-logo-black-biale-tlo.png",
-    "/2k-logo-black-biale-tlo.png",
-    "/2k-logo-black-biale-tlo.png",
-  ],
-  imagesAltText: [
-    "Aplikacja PPF",
-    "Efekt uodpornienia lakieru",
-    "Foliowanie Opolskiego warsztatu",
-    "Zakończona praca",
-  ],
+  title: "Folia PPF – pancerne zabezpieczenie lakieru",
+  subtitle: "OSTATNIA LINIA OBRONY TWOJEJ KAROSERII",
+  date: "2026-02-28",
+  image: ppfImg,
+  dynamicImage: ppfImg,
+  mainImageAltText: "Samochód zabezpieczony bezbarwną folią PPF",
+  images: [ppfImg],
+  imagesAltText: ["Praca przy montażu folii PPF"],
   description:
-    "Zaawansowana folia PPF to najskuteczniejsza tarcza ochronna na rynku. Chroni lakier m.in. przed odpryskami, zarysowaniami i agresywną chemią.",
+    "Dowiedz się, dlaczego folia ochronna PPF to najlepsza inwestycja w Twój samochód. Skuteczna ochrona przed odpryskami i zarysowaniami.",
 };
 
 export default function PostComponent() {

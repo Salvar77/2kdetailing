@@ -1,10 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import classes from "../../app/oferta/[slug]/page.module.scss";
+import szybyImg from "../../assets/images/wlasciciel-2k-auto-detailing-przyciemnianie-szyb-opole.webp";
+import szybyImg2 from "../../assets/images/wlasciciel-2k-auto-detailing-przyciemnianie-szyb-2-opole.webp";
 
 export const meta = {
   title: "Przyciemnianie Szyb",
-  hero: "/2k-logo-black-biale-tlo.png",
+  hero: szybyImg,
   heroAltText: "Aplikacja folii przyciemniającej na boczne szyby samochodu",
   lead: "Ciesz się chłodnym wnętrzem i dyskretną elegancją. Instalujemy certyfikowane folie przeciwsłoneczne blokujące nagrzewanie oraz promieniowanie UV.",
   slug: "przyciemnianie-szyb",
@@ -121,8 +123,85 @@ export default function PrzyciemnianieSzybPage() {
 
         <div className={classes.contentSection__image}>
           <Image
-            src="/2k-logo-black-biale-tlo.png"
-            alt="Profesjonalny montaż folii przyciemniających w studio 2K Auto Detailing Opole"
+            src={szybyImg}
+            alt="Profesjonalne przyciemnianie szyb samochodowych foliami marki Solar Screen w Opolu"
+            width={600}
+            height={400}
+            layout="responsive"
+            objectFit="cover"
+          />
+        </div>
+      </section>
+
+      {/* ✅ SEKCJA: DLACZEGO WARTO */}
+      <section
+        className={`${classes.contentSection} ${classes["contentSection--reverse"]}`}
+      >
+        <div className={classes.contentSection__text}>
+          <h2>Dlaczego warto przyciemnić szyby w 2K Auto Detailing?</h2>
+          <p>
+            Stawiamy na najwyższą jakość montażu i sprawdzone materiały. Nasze
+            usługi to inwestycja w Twój komfort i bezpieczeństwo.
+          </p>
+          <ul>
+            <li>
+              <strong>Pisemna gwarancja na lata:</strong> Nasze folie nie
+              blakną, nie odrywają się i nie tracą swoich właściwości. Otrzymasz
+              certyfikat, który potwierdza najwyższą jakość usługi.
+            </li>
+            <li>
+              <strong>Montaż bez demontażu boczków:</strong> W większości modeli
+              pracujemy bezinwazyjnie, co eliminuje ryzyko późniejszego
+              trzeszczenia elementów wnętrza.
+            </li>
+            <li>
+              <strong>Najlepsze folie na rynku:</strong> Korzystamy z serii
+              Beluga od Solar Screen – to folie o świetnych parametrach i
+              neutralnym, głębokim kolorze.
+            </li>
+            <li>
+              <strong>Ochrona klimatyzacji:</strong> Dzięki redukcji nagrzewania
+              wnętrza, Twój system klimatyzacji pracuje lżej, co przekłada się
+              na mniejsze zużycie paliwa.
+            </li>
+            <li>
+              <strong>Profesjonalne studio:</strong> Pracujemy w czystym, dobrze
+              oświetlonym pomieszczeniu, co jest kluczowe dla uniknięcia
+              zabrudzeń pod folią.
+            </li>
+          </ul>
+
+          <blockquote className={classes.blockquote}>
+            <p>
+              &bdquo;Mega robota, oddałem auto na przyciemnianie szyb, praca
+              wykonana starannie bez żadnych poprawek. Polecam każdemu komu
+              zależy na jakości a nie na cenie, bo tu naprawdę znają się na
+              rzeczy. Wrócę na pewno z kolejnym autem!&rdquo;
+            </p>
+            <footer>
+              &mdash; <cite>Patryk Sz.</cite>
+            </footer>
+          </blockquote>
+
+          <h3>Komfort i styl bez kompromisów</h3>
+          <div>
+            <p className={classes.contentSection__textP}>
+              Przyciemnianie szyb to jedna z tych modyfikacji, która cieszy za
+              każdym razem, gdy wsiadasz do auta. To połączenie praktycznych
+              zalet z eleganckim wyglądem.
+            </p>
+            <p className={classes.contentSection__textP}>
+              Zapraszamy do kontaktu – dobierzemy odpowiedni stopień
+              przyciemnienia do Twoich potrzeb i wykonamy montaż na najwyższym
+              poziomie.
+            </p>
+          </div>
+        </div>
+
+        <div className={classes.contentSection__image}>
+          <Image
+            src={szybyImg2}
+            alt="Specjalista 2K Auto Detailing podczas precyzyjnego montażu folii przyciemniającej na szybie"
             width={600}
             height={400}
             layout="responsive"

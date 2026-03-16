@@ -1,18 +1,18 @@
-import autodetailingWnetrza from "../assets/images/2k-logo-black-biale-tlo.svg";
+import autodetailingWnetrza from "../assets/images/wlasciciel-2k-auto-detailing-detailing-wnetrza-opole.webp";
 import autodetailing2 from "../assets/images/2k-logo-black-biale-tlo.svg";
-import leatherrenovation from "../assets/images/2k-logo-black-biale-tlo.svg";
-import paintcorrection from "../assets/images/2k-logo-black-biale-tlo.svg";
-import ppf from "../assets/images/2k-logo-black-biale-tlo.svg";
+import leatherrenovation from "../assets/images/wlasciciel-2k-auto-detailing-renowacja-skor-opole.webp";
+import paintcorrection from "../assets/images/wlasciciel-2k-auto-detailing-korekta-lakieru-opole.webp";
+import ppf from "../assets/images/wlasciciel-2k-auto-detailing-folia-ppf-opole.webp";
 import ceramic from "../assets/images/2k-logo-black-biale-tlo.svg";
 import upholstery from "../assets/images/2k-logo-black-biale-tlo.svg";
 import headlight from "../assets/images/2k-logo-black-biale-tlo.svg";
-import tinting from "../assets/images/2k-logo-black-biale-tlo.svg";
+import tinting from "../assets/images/wlasciciel-2k-auto-detailing-przyciemnianie-szyb-opole.webp";
 import autoDetailingPakiet from "../assets/images/2k-logo-black-biale-tlo.svg";
 import myjniaReczna from "../assets/images/2k-logo-black-biale-tlo.svg";
-import blogPost from "../assets/images/2k-logo-black-biale-tlo.svg";
-import blogPost2 from "../assets/images/2k-logo-black-biale-tlo.svg";
-import blogPost3 from "../assets/images/2k-logo-black-biale-tlo.svg";
-import blogPost4 from "../assets/images/2k-logo-black-biale-tlo.svg";
+import blogPost from "../assets/images/wlasciciel-2k-auto-detailing-detailing-wnetrza-opole.webp";
+import blogPost2 from "../assets/images/wlasciciel-2k-auto-detailing-renowacja-skor-opole.webp";
+import blogPost3 from "../assets/images/wlasciciel-2k-auto-detailing-korekta-lakieru-3-opole.webp";
+import blogPost4 from "../assets/images/wlasciciel-2k-auto-detailing-folia-ppf-opole.webp";
 import blogPost5 from "../assets/images/2k-logo-black-biale-tlo.svg";
 
 // Importy dla PPF - obrazy wygenerowane przez AI
