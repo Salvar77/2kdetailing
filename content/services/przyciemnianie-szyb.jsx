@@ -318,15 +318,18 @@ export default function PrzyciemnianieSzybPage() {
 
       {/* ✅ SEKCJA: CTA */}
       <section className={classes.callToActionSection}>
-        <h2>Umów się na przyciemnianie szyb</h2>
+        <h2>Zobacz nasze realizacje – przyciemnianie szyb</h2>
         <p>
-          Zadbaj o komfort, styl i ochronę swojego auta. Wybierz profesjonalny
-          montaż folii w 2K Auto Detailing Opole. Doradzimy, dobierzemy i
-          zamontujemy folię idealnie dopasowaną do Twoich potrzeb.
+          Sprawdź, jak przyciemnione szyby zmieniają wygląd samochodu i poprawiają
+          komfort podróżowania. W galerii znajdziesz zdjęcia aut z różnymi
+          stopniami przyciemnienia.
         </p>
         <div className={classes.buttonWrapper}>
-          <a href="/kontakt" className={classes.buttonPrimary}>
-            Skontaktuj się z nami
+          <a
+            href="/galeria/przyciemnianie-szyb"
+            className={classes.buttonPrimary}
+          >
+            Przejdź do galerii przyciemniania szyb
           </a>
         </div>
       </section>

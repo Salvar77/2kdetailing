@@ -214,7 +214,7 @@ export default function RenowacjaSkorPage() {
           mówią same za siebie.
         </p>
         <div className={classes.buttonWrapper}>
-          <a href="/galeria" className={classes.buttonPrimary}>
+          <a href="/galeria/renowacja-skor" className={classes.buttonPrimary}>
             Galeria renowacji skór
           </a>
         </div>

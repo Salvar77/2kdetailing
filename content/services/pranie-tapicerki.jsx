@@ -240,7 +240,7 @@ export default function PranieTapicerkiPage() {
           Opole.
         </p>
         <div className={classes.buttonWrapper}>
-          <a href="/galeria" className={classes.buttonPrimary}>
+          <a href="/galeria/pranie-tapicerki" className={classes.buttonPrimary}>
             Przejdź do galerii detailing wnętrza
           </a>
         </div>

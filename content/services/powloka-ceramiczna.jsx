@@ -225,7 +225,7 @@ export default function PowlokaCeramicznaPage() {
           realna realizacja w 2K Auto Detailing Opole.
         </p>
         <div className={classes.buttonWrapper}>
-          <a href="/galeria" className={classes.buttonPrimary}>
+          <a href="/galeria/powloka-ceramiczna" className={classes.buttonPrimary}>
             Przejdź do galerii powłok ceramicznych
           </a>
         </div>

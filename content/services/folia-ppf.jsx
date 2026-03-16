@@ -254,7 +254,7 @@ export default function FoliaPpfPage() {
           narażonymi na uszkodzenia.
         </p>
         <div className={classes.buttonWrapper}>
-          <a href="/galeria" className={classes.buttonPrimary}>
+          <a href="/galeria/folia-ppf" className={classes.buttonPrimary}>
             Przejdź do galerii folii PPF
           </a>
         </div>

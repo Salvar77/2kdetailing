@@ -236,7 +236,7 @@ export default function KorektaLakieruPage() {
           lakieru, aby zobaczyć, jak spektakularne efekty możemy osiągnąć.
         </p>
         <div className={classes.buttonWrapper}>
-          <a href="/galeria" className={classes.buttonPrimary}>
+          <a href="/galeria/korekta-lakieru" className={classes.buttonPrimary}>
             Przejdź do Galerii Korekty Lakieru
           </a>
         </div>

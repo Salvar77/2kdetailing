@@ -222,15 +222,18 @@ export default function RegeneracjaReflektorowPage() {
 
       {/* ✅ SEKCJA: CTA */}
       <section className={classes.callToActionSection}>
-        <h2>Umów się na regenerację reflektorów</h2>
+        <h2>Zobacz nasze realizacje – regeneracja reflektorów</h2>
         <p>
-          Nie czekaj, aż matowe reflektory zaczną zagrażać Twojemu
-          bezpieczeństwu. Przywróć im przejrzystość i ciesz się doskonałą
-          widocznością po zmroku.
+          Zanim umówisz się na usługę, zobacz jak spektakularne efekty osiągamy.
+          Przywracamy lampom fabryczną przejrzystość i blask, co możesz zobaczyć
+          w naszej galerii.
         </p>
         <div className={classes.buttonWrapper}>
-          <a href="/kontakt" className={classes.buttonPrimary}>
-            Skontaktuj się z nami
+          <a
+            href="/galeria/regeneracja-reflektorow"
+            className={classes.buttonPrimary}
+          >
+            Przejdź do galerii regeneracji
           </a>
         </div>
       </section>

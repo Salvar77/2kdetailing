@@ -56,6 +56,7 @@ export const servicesData = [
     relatedBlogPost: "/blog/folia-ppf-opole",
     altText:
       "Oklejanie samochodu bezbarwną folią ochronną PPF – 2K Auto Detailing Opole.",
+    objectPosition: "center 65%",
   },
   {
     id: "oferta/pranie-tapicerki",

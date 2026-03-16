@@ -28,7 +28,10 @@ const Services = () => {
                     src={service.image}
                     alt={service.altText}
                     fill
-                    style={{ objectFit: "cover" }}
+                    style={{
+                      objectFit: "cover",
+                      objectPosition: service.objectPosition || "center",
+                    }}
                   />
                 </div>
                 <div className={classes.card__body}>

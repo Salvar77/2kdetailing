@@ -286,7 +286,8 @@ $spacing-unit: 1rem;
     }
 
     a {
-      color: $red-main;
+      color: $white-smooth;
+      text-decoration: underline;
     }
   }
 
@@ -455,9 +456,9 @@ $spacing-unit: 1rem;
     a {
       color: $white-smooth;
       font-weight: bold;
-      text-decoration: none;
+      text-decoration: underline;
       &:hover {
-        text-decoration: underline;
+        opacity: 0.8;
       }
     }
 
@@ -761,8 +762,9 @@ $spacing-unit: 1rem;
     margin-bottom: calc($spacing-unit * 2);
     a {
       color: $white-smooth;
+      text-decoration: underline;
       &:hover {
-        text-decoration: underline;
+        opacity: 0.8;
       }
     }
   }
@@ -789,7 +791,8 @@ $spacing-unit: 1rem;
   color: $dark-smooth !important;
 
   a {
-    color: $red-main;
+    color: $white-smooth;
+    text-decoration: underline;
     &:hover {
       text-decoration: underline;
     }
@@ -853,9 +856,10 @@ $spacing-unit: 1rem;
     font-weight: bold;
 
     a {
-      color: $red-main;
+      color: $white-smooth;
+      text-decoration: underline;
       &:hover {
-        text-decoration: underline;
+        opacity: 0.8;
       }
     }
   }

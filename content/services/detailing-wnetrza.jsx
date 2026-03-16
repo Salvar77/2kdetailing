@@ -234,7 +234,7 @@ export default function DetailingWnetrzaPage() {
           zrealizowanych projektów.
         </p>
         <div className={classes.buttonWrapper}>
-          <a href="/galeria" className={classes.buttonPrimary}>
+          <a href="/galeria/pranie-tapicerki" className={classes.buttonPrimary}>
             Galeria detailing wnętrza
           </a>
         </div>
