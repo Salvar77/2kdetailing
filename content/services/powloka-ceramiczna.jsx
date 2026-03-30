@@ -3,7 +3,7 @@ import Link from "next/link";
 import classes from "../../app/oferta/[slug]/page.module.scss";
 
 export const meta = {
-  title: "Powłoka Ceramiczna",
+  title: "Powłoka Ceramiczna Opole",
   hero: "/2k-logo-white-czarne-tlo.png",
   heroAltText:
     "Dokładna aplikacja powłoki ceramicznej zabezpieczającej lakier samochodu",
@@ -50,7 +50,7 @@ export default function PowlokaCeramicznaPage() {
         <div className={classes.circleContainer4}></div>
 
         <div className={classes.contentSection__text}>
-          <h2>Powłoka ceramiczna – tarcza ochronna dla Twojego lakieru</h2>
+          <h2>Powłoka ceramiczna Opole – tarcza ochronna dla Twojego lakieru</h2>
           <p>
             <Link href="/blog/powloka-ceramiczna-opole">
               Powłoka ceramiczna
@@ -64,7 +64,7 @@ export default function PowlokaCeramicznaPage() {
           </p>
 
           <h2 className={classes.subtitle}>
-            Długofalowa ochrona lakieru z efektem samoczyszczenia
+            Ceramika Opole - długofalowa ochrona lakieru z efektem samoczyszczenia
           </h2>
 
           <p className={classes.description}>
@@ -135,7 +135,7 @@ export default function PowlokaCeramicznaPage() {
         className={`${classes.contentSection} ${classes["contentSection--reverse"]}`}
       >
         <div className={classes.contentSection__text}>
-          <h2>Precyzyjny proces aplikacji – bo liczą się detale</h2>
+          <h2>Nakładanie powłok ceramicznych w Opolu – bo liczą się detale</h2>
           <p>
             Aplikacja ceramiki to dla nas proces wieloetapowy. Nie nakładamy
             powłoki na przypadkowo umyte auto. Każdy pojazd przechodzi przez
@@ -218,7 +218,7 @@ export default function PowlokaCeramicznaPage() {
 
       {/* ✅ SEKCJA: CTA */}
       <section className={classes.callToActionSection}>
-        <h2>Nasze realizacje – powłoka ceramiczna w praktyce</h2>
+        <h2>Nasze realizacje – powłoka ceramiczna w praktyce z Opola</h2>
         <p>
           Zobacz efekty naszych prac i przekonaj się, jak powłoka ceramiczna
           podkreśla głębię koloru i chroni lakier samochodowy. Każde zdjęcie to
@@ -233,7 +233,7 @@ export default function PowlokaCeramicznaPage() {
 
       {/* ✅ SEKCJA: FAQ – DOSTOSOWANA DO NOWEJ OFERTY */}
       <section className={classes.faqSection}>
-        <h2>Najczęściej zadawane pytania o powłoki ceramiczne</h2>
+        <h2>Najczęściej zadawane pytania o powłoki ceramiczne w Opolu</h2>
         <p className={classes.faqLeadText}>
           Masz pytania dotyczące ochrony lakieru powłoką ceramiczną? Poniżej
           znajdziesz odpowiedzi na najczęstsze wątpliwości.

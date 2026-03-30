@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import classes from "../../app/oferta/[slug]/page.module.scss";
+import myjniaImg from "../../assets/images/wlasciciel-2k-auto-detailing-myjnia-reczna-opole.webp";
 
 export const meta = {
   title: "Myjnia Ręczna Opole – Bezpieczne Mycie Samochodu",
-  hero: "/2k-logo-white-czarne-tlo.png",
+  hero: myjniaImg,
   heroAltText:
     "Profesjonalna myjnia ręczna w Opolu - bezpieczne mycie lakieru metodą na dwa wiadra",
   lead: "Bezpieczne i precyzyjne mycie ręczne to fundament właściwej pielęgnacji każdego samochodu. W 2K Auto Detailing stawiamy na techniki, które eliminują ryzyko powstawania zarysowań, przywracając autu salonową czystość.",
@@ -55,7 +56,7 @@ export default function MyjniaRecznaPage() {
             Większość defektów lakieru powstaje podczas niewłaściwego mycia. W{" "}
             <strong>2K Auto Detailing Opole</strong> rozumiemy, że lakier
             wymaga delikatności i odpowiedniej chemii. Nasza{" "}
-            <Link href="/oferta/myjnia-reczna">myjnia ręczna</Link> to nie
+            <strong>myjnia ręczna</strong> to nie
             tylko usuwanie brudu, to proces pielęgnacyjny, który utrzymuje
             wartość estetyczną Twojego samochodu na najwyższym poziomie.
           </p>
@@ -110,7 +111,7 @@ export default function MyjniaRecznaPage() {
 
         <div className={classes.contentSection__image}>
           <Image
-            src="/2k-logo-white-czarne-tlo.png"
+            src={myjniaImg}
             alt="Mycie ręczne samochodu w 2K Auto Detailing Opole - detale i precyzja"
             width={600}
             height={400}
@@ -170,8 +171,8 @@ export default function MyjniaRecznaPage() {
 
         <div className={classes.contentSection__image}>
           <Image
-            src="/2k-logo-white-czarne-tlo.png"
-            alt="Profesjonalne kosmetyki samochodowe używane w 2K Auto Detailing"
+            src={myjniaImg}
+            alt="Profesjonalna myjnia ręczna 2K Auto Detailing Opole"
             width={600}
             height={400}
             layout="responsive"

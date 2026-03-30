@@ -5,7 +5,7 @@ import szybyImg from "../../assets/images/wlasciciel-2k-auto-detailing-przyciemn
 import szybyImg2 from "../../assets/images/wlasciciel-2k-auto-detailing-przyciemnianie-szyb-2-opole.webp";
 
 export const meta = {
-  title: "Przyciemnianie Szyb",
+  title: "Przyciemnianie Szyb Opole",
   hero: szybyImg,
   heroAltText: "Aplikacja folii przyciemniającej na boczne szyby samochodu",
   lead: "Ciesz się chłodnym wnętrzem i dyskretną elegancją. Instalujemy certyfikowane folie przeciwsłoneczne blokujące nagrzewanie oraz promieniowanie UV.",
@@ -50,7 +50,7 @@ export default function PrzyciemnianieSzybPage() {
 
         <div className={classes.contentSection__text}>
           <h2>
-            Przyciemnianie szyb – elegancja, dyskrecja i ochrona termiczna
+            Przyciemnianie szyb Opole – elegancja, dyskrecja i ochrona termiczna
           </h2>
           <p>
             <strong>Przyciemnianie szyb samochodowych</strong> to jedna z
@@ -138,7 +138,7 @@ export default function PrzyciemnianieSzybPage() {
         className={`${classes.contentSection} ${classes["contentSection--reverse"]}`}
       >
         <div className={classes.contentSection__text}>
-          <h2>Dlaczego warto przyciemnić szyby w 2K Auto Detailing?</h2>
+          <h2>Dlaczego warto przyciemnić szyby w naszym studiu w Opolu?</h2>
           <p>
             Stawiamy na najwyższą jakość montażu i sprawdzone materiały. Nasze
             usługi to inwestycja w Twój komfort i bezpieczeństwo.
@@ -336,7 +336,7 @@ export default function PrzyciemnianieSzybPage() {
 
       {/* ✅ SEKCJA: FAQ */}
       <section className={classes.faqSection}>
-        <h2>Najczęściej zadawane pytania o przyciemnianie szyb</h2>
+        <h2>Najczęściej zadawane pytania o przyciemnianie szyb samochodowych w Opolu</h2>
         <p className={classes.faqLeadText}>
           Masz pytania dotyczące folii i montażu? Sprawdź odpowiedzi na
           najczęstsze wątpliwości naszych klientów.

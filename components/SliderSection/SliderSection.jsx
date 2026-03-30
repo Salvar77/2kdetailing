@@ -7,8 +7,8 @@ import BeforeImage2 from "../../assets/images/2k-logo-black-biale-tlo.svg";
 import AfterImage2 from "../../assets/images/2k-logo-black-biale-tlo.svg";
 import BeforeImage3 from "../../assets/images/2k-logo-black-biale-tlo.svg";
 import AfterImage3 from "../../assets/images/2k-logo-black-biale-tlo.svg";
-import BeforeImage4 from "../../assets/images/2k-logo-black-biale-tlo.svg";
-import AfterImage4 from "../../assets/images/2k-logo-black-biale-tlo.svg";
+import BeforeImage4 from "../../assets/images/pranie-tapicerki-czyszczenie-wnetrza-opole-po.webp";
+import AfterImage4 from "../../assets/images/pranie-tapicerki-czyszczenie-wnetrza-opole-przed.webp";
 import classes from "./SliderSection.module.scss";
 import Link from "next/link";
 import { blurUp } from "../../utils/motion";
@@ -33,9 +33,9 @@ const SliderSection = ({
     {
       beforeImage: BeforeImage4,
       afterImage: AfterImage4,
-      altBefore: "Zmętniały i oksydowany lakier przed pracą detailingową",
+      altBefore: "Brudna tapicerka samochodowa przed praniem ekstrakcyjnym w Opolu",
       altAfter:
-        "Zabezpieczenie lakieru powłoką ceramiczną – ekstremalny połysk",
+        "Tapicerka wyczyszczona i zaimpregnowana – detailing wnętrza w 2K Auto Detailing Opole",
     },
     {
       beforeImage: BeforeImage3,

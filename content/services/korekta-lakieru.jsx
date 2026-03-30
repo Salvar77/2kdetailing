@@ -6,7 +6,7 @@ import korektaImg from "../../assets/images/wlasciciel-2k-auto-detailing-korekta
 import korektaImg2 from "../../assets/images/wlasciciel-2k-auto-detailing-korekta-lakieru-2-opole.webp";
 
 export const meta = {
-  title: "Korekta Lakieru",
+  title: "Korekta Lakieru Opole",
   hero: korektaImg,
   heroAltText: "Mechaniczne polerowanie lakieru w celu usunięcia zarysowań",
   lead: "Pozbądź się uporczywych rys, oksydacji oraz brzydkich hologramów. Karoseria po bezpiecznym polerowaniu odzyska absolutną gładkość i refleks.",
@@ -46,7 +46,7 @@ export default function KorektaLakieruPage() {
         <div className={classes.circleContainer4}></div>
 
         <div className={classes.contentSection__text}>
-          <h2>Renowacja powłoki lakierniczej – odśwież wygląd swojego auta</h2>
+          <h2>Korekta lakieru Opole – odśwież wygląd swojego auta</h2>
           <p>
             <Link href="/blog/korekta-lakieru-opole">Korekta lakieru</Link> to
             proces, który potrafi zdziałać cuda. Zamiast lakierować element na
@@ -58,7 +58,7 @@ export default function KorektaLakieruPage() {
 
           {/* ✅ SEKCJA 1: JEDNOETAPOWA KOREKTA (ONE-STEP) */}
           <h2 className={classes.subtitle}>
-            One-Step – szybki lifting lakieru i wysoki połysk
+            Jednoetapowa korekta lakieru w Opolu (One-Step) – szybki lifting i wysoki połysk
           </h2>
           <p className={classes.description}>
             Jednoetapowe polerowanie lakieru (tzw. One-Step) to idealne
@@ -87,7 +87,7 @@ export default function KorektaLakieruPage() {
 
           {/* ✅ SEKCJA 2: WIELOETAPOWA KOREKTA */}
           <h2 className={classes.subtitle}>
-            Wieloetapowe polerowanie – dążenie do perfekcji
+            Wieloetapowa korekta lakieru Opole – dążenie do perfekcji
           </h2>
           <p className={classes.description}>
             Dla najbardziej wymagających klientów przygotowaliśmy proces pełnej
@@ -119,7 +119,7 @@ export default function KorektaLakieruPage() {
 
           {/* ✅ SEKCJA 3: KOREKTA LAKIERU OPOLE – 2K AUTO DETAILING */}
           <h2 className={classes.subtitle}>
-            Ekspercka renowacja lakieru w sercu Opola
+            Profesjonalna odnowa lakieru Opole – bezpieczeństwo i perfekcja potwierdzona pomiarami
           </h2>
           <p className={classes.description}>
             W 2K Auto Detailing Opole łączymy doświadczenie z pasją do
@@ -150,7 +150,7 @@ export default function KorektaLakieruPage() {
         className={`${classes.contentSection} ${classes["contentSection--reverse"]}`}
       >
         <div className={classes.contentSection__text}>
-          <h2>Dlaczego Twój lakier zasługuje na wizytę u nas?</h2>
+          <h2>Korekta lakieru w Opolu – dlaczego Twój lakier zasługuje na wizytę u nas?</h2>
           <p>
             Nie boimy się trudnych wyzwań. Pracujemy na twardych lakierach marek
             premium oraz delikatnych lakierach aut azjatyckich, dobierając
@@ -230,7 +230,7 @@ export default function KorektaLakieruPage() {
 
       {/* ✅ SEKCJA: CTA - GALERIA REALIZACJI */}
       <section className={classes.callToActionSection}>
-        <h2>Nasze Realizacje Korekty Lakieru</h2>
+        <h2>Nasze realizacje korekty lakieru z Opola</h2>
         <p>
           Przeglądnij galerię zdjęć z naszych ostatnich projektów korekty
           lakieru, aby zobaczyć, jak spektakularne efekty możemy osiągnąć.
@@ -244,7 +244,7 @@ export default function KorektaLakieruPage() {
 
       {/* ✅ SEKCJA: FAQ */}
       <section className={classes.faqSection}>
-        <h2>Najczęściej Zadawane Pytania o Korektę Lakieru</h2>
+        <h2>Najczęściej Zadawane Pytania o Korektę Lakieru w Opolu</h2>
         <p className={classes.faqLeadText}>
           Masz pytania dotyczące procesu korekty lakieru? Poniżej znajdziesz
           odpowiedzi na najczęściej zadawane pytania.

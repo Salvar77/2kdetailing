@@ -7,6 +7,18 @@
   background: $new-black;
 }
 
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 .bullets {
   position: absolute;
   bottom: 2rem;
@@ -490,7 +502,7 @@
 
 @media (min-width: 768px) {
   .hero {
-    h1 {
+    h1, .hero__titleSEO {
       font-size: 3.4rem;
     }
     p {
@@ -559,7 +571,7 @@
       display: none;
     }
 
-    h1 {
+    h1, .hero__titleSEO {
       font-size: 6rem;
     }
     p {

@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import CtaSection from "../../../components/More/Cta";
+import BlogOpinions from "../../../components/More/BlogOpinions";
 import classes from "./page.module.scss";
 
 export default function BlogPostClient({ slugFromParent }) {
@@ -124,6 +125,8 @@ export default function BlogPostClient({ slugFromParent }) {
               ))}
             </div>
           )}
+
+          <BlogOpinions slug={slug} />
 
           <Link
             href="/blog"

@@ -79,6 +79,9 @@ const Hero = () => {
 
   return (
     <div className={classes.heroSliderContainer}>
+      <h1 className={classes.srOnly}>
+        2K Auto Detailing Opole – Korekta lakieru, Powłoka ceramiczna, Folia PPF
+      </h1>
       <AnimatePresence mode="wait" initial={false}>
         <motion.section
           key={slides[current].id}
@@ -113,7 +116,7 @@ const Hero = () => {
             transition={{ delay: 0.4, duration: 0.8 }}
           >
             {slides[current].isSEO ? (
-              <h1 className={classes.hero__title}>
+              <h2 className={`${classes.hero__title} ${classes.hero__titleSEO}`}>
                 <span className={classes.hero__titleGold}>
                   {slides[current].title1}
                 </span>
@@ -121,7 +124,7 @@ const Hero = () => {
                 <span className={classes.hero__titleWhite}>
                   {slides[current].title2}
                 </span>
-              </h1>
+              </h2>
             ) : (
               <h2 className={classes.hero__title}>
                 <span className={classes.hero__titleWhite}>

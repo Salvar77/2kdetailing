@@ -4,7 +4,7 @@ import classes from "../../app/oferta/[slug]/page.module.scss";
 import ppfImg from "../../assets/images/wlasciciel-2k-auto-detailing-folia-ppf-opole.webp";
 
 export const meta = {
-  title: "Folia PPF",
+  title: "Folia PPF Opole",
   hero: ppfImg,
   heroAltText:
     "Bezinwazyjny montaż bezbarwnej folii ruro-ochronnej PPF na karoserii",
@@ -54,7 +54,7 @@ export default function FoliaPpfPage() {
         <div className={classes.circleContainer4}></div>
 
         <div className={classes.contentSection__text}>
-          <h2>Folia PPF – pancerz, który chroni przed każdym kamieniem</h2>
+          <h2>Folia PPF Opole – pancerz, który chroni przed każdym kamieniem</h2>
           <p>
             <Link href="/blog/folia-ppf-opole">Ochrona lakieru folią PPF</Link>{" "}
             to najwyższy stopień wtajemniczenia w zabezpieczaniu pojazdów. W 2K
@@ -141,7 +141,7 @@ export default function FoliaPpfPage() {
         className={`${classes.contentSection} ${classes["contentSection--reverse"]}`}
       >
         <div className={classes.contentSection__text}>
-          <h2>Mistrzowska precyzja w aplikacji folii PPF</h2>
+          <h2>Mistrzowska precyzja w aplikacji folii PPF w Opolu</h2>
           <p>
             Montaż folii ochronnej to zadanie dla cierpliwych i doświadczonych
             specjalistów. W naszym studio w Opolu dbamy o to, by folia była
@@ -246,7 +246,7 @@ export default function FoliaPpfPage() {
 
       {/* ✅ SEKCJA: CTA */}
       <section className={classes.callToActionSection}>
-        <h2>Nasze realizacje – folia PPF w praktyce</h2>
+        <h2>Nasze realizacje – folia PPF w Opolu w praktyce</h2>
         <p>
           Zobacz efekty naszych prac i przekonaj się, jak folia PPF chroni
           lakier przed odpryskami i zarysowaniami. W galerii znajdziesz zdjęcia
@@ -262,7 +262,7 @@ export default function FoliaPpfPage() {
 
       {/* ✅ SEKCJA: FAQ – DOPASOWANA DO OFERTY */}
       <section className={classes.faqSection}>
-        <h2>Najczęściej zadawane pytania o folię PPF</h2>
+        <h2>Najczęściej zadawane pytania o folię PPF w Opolu</h2>
         <p className={classes.faqLeadText}>
           Masz pytania dotyczące zabezpieczenia lakieru folią PPF? Poniżej
           znajdziesz odpowiedzi na najczęstsze wątpliwości naszych klientów.

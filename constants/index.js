@@ -8,7 +8,7 @@ import upholstery from "../assets/images/2k-logo-black-biale-tlo.svg";
 import headlight from "../assets/images/2k-logo-black-biale-tlo.svg";
 import tinting from "../assets/images/wlasciciel-2k-auto-detailing-przyciemnianie-szyb-opole.webp";
 import autoDetailingPakiet from "../assets/images/2k-logo-black-biale-tlo.svg";
-import myjniaReczna from "../assets/images/2k-logo-black-biale-tlo.svg";
+import myjniaReczna from "../assets/images/wlasciciel-2k-auto-detailing-myjnia-reczna-opole.webp";
 import blogPost from "../assets/images/wlasciciel-2k-auto-detailing-detailing-wnetrza-opole.webp";
 import blogPost2 from "../assets/images/wlasciciel-2k-auto-detailing-renowacja-skor-opole.webp";
 import blogPost3 from "../assets/images/wlasciciel-2k-auto-detailing-korekta-lakieru-3-opole.webp";
@@ -23,7 +23,7 @@ import ppfFullBody from "../assets/images/ppf-full-body.png";
 export const servicesData = [
   {
     id: "oferta/korekta-lakieru",
-    title: "Korekta lakieru",
+    title: "Korekta lakieru Opole",
     image: paintcorrection,
     description: "Sprawdź",
     gradient: "linear-gradient(rgba(63,59,59,.5), rgba(40,31,31,.5))",
@@ -35,7 +35,7 @@ export const servicesData = [
   },
   {
     id: "oferta/powloka-ceramiczna",
-    title: "Powłoka ceramiczna i elastomerowa",
+    title: "Powłoka ceramiczna i elastomerowa Opole",
     image: ceramic,
     description: "Sprawdź",
     gradient: "linear-gradient(rgba(63,59,59,.5), rgba(40,31,31,.5))",
@@ -47,7 +47,7 @@ export const servicesData = [
   },
   {
     id: "oferta/folia-ppf",
-    title: "Zabezpieczenie folią PPF",
+    title: "Folia PPF Opole - Zabezpieczenie",
     image: ppf,
     description: "Sprawdź",
     gradient: "linear-gradient(rgba(63,59,59,.5), rgba(40,31,31,.5))",
@@ -60,7 +60,7 @@ export const servicesData = [
   },
   {
     id: "oferta/pranie-tapicerki",
-    title: "Pranie tapicerki",
+    title: "Pranie tapicerki Opole",
     image: upholstery,
     description: "Sprawdź",
     gradient: "linear-gradient(rgba(63,59,59,.5), rgba(40,31,31,.5))",
@@ -72,7 +72,7 @@ export const servicesData = [
   },
   {
     id: "oferta/renowacja-skor",
-    title: "Renowacja skór",
+    title: "Renowacja skór Opole",
     image: leatherrenovation,
     description: "Sprawdź",
     gradient: "linear-gradient(rgba(90,42,42,.5), rgba(0,0,0,.5))",
@@ -84,7 +84,7 @@ export const servicesData = [
   },
   {
     id: "oferta/detailing-wnetrza",
-    title: "Detailing wnętrza",
+    title: "Detailing wnętrza Opole",
     image: autodetailingWnetrza,
     description: "Sprawdź",
     gradient: "linear-gradient(rgba(63,59,59,.5), rgba(40,31,31,.5))",
@@ -96,7 +96,7 @@ export const servicesData = [
   },
   {
     id: "oferta/regeneracja-reflektorow",
-    title: "Regeneracja reflektorów",
+    title: "Regeneracja reflektorów Opole",
     image: headlight,
     description: "Sprawdź",
     gradient: "linear-gradient(rgba(63,59,59,.5), rgba(40,31,31,.5))",
@@ -108,7 +108,7 @@ export const servicesData = [
   },
   {
     id: "oferta/przyciemnianie-szyb",
-    title: "Przyciemnianie szyb",
+    title: "Przyciemnianie szyb Opole",
     image: tinting,
     description: "Sprawdź",
     gradient: "linear-gradient(rgba(63,59,59,.5), rgba(40,31,31,.5))",
@@ -120,7 +120,7 @@ export const servicesData = [
   },
   {
     id: "oferta/auto-detailing",
-    title: "Auto Detailing – pakiet kompleksowy",
+    title: "Auto Detailing Opole – pakiet kompleksowy",
     image: autoDetailingPakiet,
     description: "Sprawdź",
     gradient: "linear-gradient(rgba(63,59,59,.5), rgba(40,31,31,.5))",
@@ -132,7 +132,7 @@ export const servicesData = [
   },
   {
     id: "oferta/myjnia-reczna",
-    title: "Myjnia Ręczna",
+    title: "Myjnia Ręczna Opole",
     image: myjniaReczna,
     description: "Sprawdź",
     gradient: "linear-gradient(rgba(63,59,59,.5), rgba(40,31,31,.5))",

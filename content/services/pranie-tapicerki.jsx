@@ -3,7 +3,7 @@ import Link from "next/link";
 import classes from "../../app/oferta/[slug]/page.module.scss";
 
 export const meta = {
-  title: "Pranie Tapicerki",
+  title: "Pranie Tapicerki Opole",
   hero: "/2k-logo-white-czarne-tlo.png",
   heroAltText:
     "Dogłębne pranie ekstrakcyjne materiałowych foteli w samochodzie",
@@ -49,7 +49,7 @@ export default function PranieTapicerkiPage() {
 
         <div className={classes.contentSection__text}>
           <h2>
-            Dogłębne pranie tapicerki – przywróć wnętrzu sterylną czystość
+            Pranie tapicerki Opole – przywróć wnętrzu sterylną czystość
           </h2>
           <p>
             <Link href="/blog/pranie-tapicerki-opole">
@@ -248,7 +248,7 @@ export default function PranieTapicerkiPage() {
 
       {/* ✅ SEKCJA: FAQ – DOPASOWANA DO OFERTY */}
       <section className={classes.faqSection}>
-        <h2>Najczęściej zadawane pytania o pranie tapicerki</h2>
+        <h2>Najczęściej zadawane pytania o pranie tapicerki w Opolu</h2>
         <p className={classes.faqLeadText}>
           Masz pytania dotyczące prania tapicerki i detailingu wnętrza? Poniżej
           znajdziesz odpowiedzi na najczęstsze wątpliwości naszych klientów.

@@ -9,12 +9,6 @@ const SliderTrue = (props) => {
     setSliderValue(event.target.value);
   };
 
-  const imageStyles = {
-    position: "absolute",
-    width: "100%",
-    objectFit: "cover",
-  };
-
   const lineStyles = {
     position: "absolute",
     top: 0,
@@ -24,6 +18,7 @@ const SliderTrue = (props) => {
     height: "100%",
     backgroundColor: "#fff",
     transform: "translateX(-50%)",
+    zIndex: 10,
   };
 
   return (
@@ -32,21 +27,18 @@ const SliderTrue = (props) => {
         <Image
           src={props.beforeImage}
           alt={props.alt}
-          style={imageStyles}
-          className={classes.imageBefore}
-          width={260}
-          height={400}
+          fill
+          style={{ objectFit: "cover" }}
           loading="lazy"
         />
         <Image
           src={props.afterImage}
           alt={props.alt}
-          className={classes.imageAfter}
+          fill
           style={{
+            objectFit: "cover",
             clipPath: `inset(0 ${100 - sliderValue}% 0 0)`,
           }}
-          width={260}
-          height={400}
           loading="lazy"
         />
         <div style={lineStyles} className={classes.line} />
