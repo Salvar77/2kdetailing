@@ -21,12 +21,7 @@
   border-radius: 2rem;
   overflow: hidden;
   width: 100%;
-  /* 
-    PERFEKCYJNE WYMIARY: 
-    Użytkownik miał oryginalnie width=260 height=400 na zdjęciach w Reakcie.
-    Proporcja 260 do 400, po skróceniu to równe 13 do 20 (bardzo wysokie piony).
-    Dzięki temu zdjęcia będą OGROMNE (tak samo potężne jak wcześniej).
-  */
+
   aspect-ratio: 13 / 20;
   min-height: 350px;
 }
