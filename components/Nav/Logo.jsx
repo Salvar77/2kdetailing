@@ -3,9 +3,9 @@ import Image from "next/image";
 import styles from "./Logo.module.scss";
 import Logo2KAutodetailing from "../../assets/images/2k-logo-white-bez-tla.png";
 
-const Logo = () => (
+const Logo = ({ ariaLabel }) => (
   <div className={styles.logo}>
-    <Link href="/">
+    <Link href="/" aria-label={ariaLabel || "Strona Główna"}>
       <Image
         src={Logo2KAutodetailing}
         alt="Logo 2K Auto Detailing Opole"

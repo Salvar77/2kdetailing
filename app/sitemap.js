@@ -47,6 +47,11 @@ const staticRoutes = [
     priority: 0.85,
     changeFrequency: "monthly",
   },
+  {
+    path: "/oferta/myjnia-reczna",
+    priority: 0.8,
+    changeFrequency: "monthly",
+  },
   { path: "/cennik", priority: 0.85, changeFrequency: "weekly" },
   { path: "/blog", priority: 0.8, changeFrequency: "weekly" },
   { path: "/recenzje", priority: 0.8, changeFrequency: "monthly" },
@@ -81,6 +86,17 @@ function getBlogSlugs() {
   }
 }
 
+// Slugi dla galerii (realizacje)
+const gallerySlugs = [
+  "korekta-lakieru",
+  "powloka-ceramiczna",
+  "folia-ppf",
+  "pranie-tapicerki",
+  "renowacja-skor",
+  "regeneracja-reflektorow",
+  "przyciemnianie-szyb",
+];
+
 export default function sitemap() {
   const today = new Date();
 
@@ -103,5 +119,13 @@ export default function sitemap() {
     priority: 0.75,
   }));
 
-  return [...staticEntries, ...blogEntries];
+  // Dynamiczne wpisy galerii
+  const galleryEntries = gallerySlugs.map((slug) => ({
+    url: `${BASE_URL}/galeria/${slug}`,
+    lastModified: today,
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+
+  return [...staticEntries, ...blogEntries, ...galleryEntries];
 }

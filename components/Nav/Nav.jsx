@@ -62,7 +62,7 @@ export default function Nav({ isOpen, toggleNav }) {
   return (
     <nav className={navClasses}>
       <div className={classes.container}>
-        <Logo />
+        <Logo ariaLabel="Strona Główna 2K Auto Detailing Opole" />
 
         {/* Social Icons - Desktop (between logo and nav links) */}
         <div className={classes.socialIcons}>
@@ -93,6 +93,7 @@ export default function Nav({ isOpen, toggleNav }) {
           <div className={classes.buttonWrapper}>
             <AnimatedButton
               onClick={() => (window.location.href = "tel:+48797234734")}
+              aria-label="Zadzwoń do 2K Auto Detailing Opole – tel. 797 234 734"
             >
               +48 797 234 734
             </AnimatedButton>

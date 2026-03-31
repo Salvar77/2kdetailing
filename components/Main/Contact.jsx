@@ -158,6 +158,7 @@ const Contact = () => {
                 value={form.name}
                 onChange={handleChange}
                 required
+                aria-label="Imię i nazwisko"
               />
               <input
                 type="email"
@@ -166,6 +167,7 @@ const Contact = () => {
                 value={form.email}
                 onChange={handleChange}
                 required
+                aria-label="Adres e-mail"
               />
               <textarea
                 name="message"
@@ -174,6 +176,7 @@ const Contact = () => {
                 value={form.message}
                 onChange={handleChange}
                 required
+                aria-label="Treść wiadomości"
               />
               <label className={classes.contact__checkbox}>
                 <input
@@ -201,6 +204,9 @@ const Contact = () => {
         <div
           className={clsx(classes.modal, !isSuccess && classes.modalError)}
           onClick={closeModal}
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="modal-status"
         >
           <button className={classes.modalCloseButton} onClick={closeModal}>
             &times;
@@ -209,14 +215,14 @@ const Contact = () => {
             className={classes.modalContent}
             onClick={(e) => e.stopPropagation()}
           >
-            <div className={classes.modalIconWrapper}>
+            <div className={classes.modalIconWrapper} aria-hidden="true">
               {isSuccess ? (
                 <CheckCircle size={48} color="#228b22" />
               ) : (
                 <XCircle size={48} color="#e31e24" />
               )}
             </div>
-            {messageStatus && <p>{messageStatus}</p>}
+            {messageStatus && <p id="modal-status">{messageStatus}</p>}
           </div>
         </div>
       )}

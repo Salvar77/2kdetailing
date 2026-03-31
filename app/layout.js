@@ -39,6 +39,10 @@ export const metadata = {
   icons: {
     icon: "/favicon.ico",
   },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 const websiteJsonLd = {

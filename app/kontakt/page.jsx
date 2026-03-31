@@ -24,8 +24,31 @@ export const metadata = {
 };
 
 export default function KontaktPage() {
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Strona Główna",
+        item: "https://www.2kdetailing.opole.pl/",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Kontakt",
+        item: "https://www.2kdetailing.opole.pl/kontakt",
+      },
+    ],
+  };
+
   return (
     <main className={classes.contact}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       <h1 className={classes.contact__title}>Skontaktuj się !</h1>
       <ContactWithAnimation />
       <ContactContent />
