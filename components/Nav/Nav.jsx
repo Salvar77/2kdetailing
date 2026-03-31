@@ -6,6 +6,7 @@ import BurgerMenu from "./BurgerMenu";
 import classes from "./Nav.module.scss";
 import AnimatedButton from "../More/AnimatedButton";
 import { usePathname } from "next/navigation";
+import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa";
 
 export default function Nav({ isOpen, toggleNav }) {
   const pathname = usePathname();
@@ -37,10 +38,47 @@ export default function Nav({ isOpen, toggleNav }) {
     return () => window.removeEventListener("resize", onResize);
   }, [isOpen, toggleNav]);
 
+  const socialLinks = [
+    {
+      href: "https://www.facebook.com/people/2K-Auto-Detailing-Opole/61587187552980/",
+      icon: <FaFacebookF />,
+      label: "Facebook 2K Auto Detailing Opole",
+      className: classes.socialFb,
+    },
+    {
+      href: "https://www.instagram.com/2kdetailingopole/",
+      icon: <FaInstagram />,
+      label: "Instagram 2K Auto Detailing Opole",
+      className: classes.socialIg,
+    },
+    {
+      href: "https://www.tiktok.com/@2kdetailingopole",
+      icon: <FaTiktok />,
+      label: "TikTok 2K Auto Detailing Opole",
+      className: classes.socialTt,
+    },
+  ];
+
   return (
     <nav className={navClasses}>
       <div className={classes.container}>
         <Logo />
+
+        {/* Social Icons - Desktop (between logo and nav links) */}
+        <div className={classes.socialIcons}>
+          {socialLinks.map((s) => (
+            <a
+              key={s.href}
+              href={s.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={s.label}
+              className={`${classes.socialLink} ${s.className}`}
+            >
+              {s.icon}
+            </a>
+          ))}
+        </div>
 
         <div className={classes.navGroup}>
           <ul className={classes.links}>
@@ -79,6 +117,21 @@ export default function Nav({ isOpen, toggleNav }) {
             </Link>
           </li>
         ))}
+        {/* Social Icons - Mobile (bottom of dropdown) */}
+        <li className={classes.mobileSocialRow}>
+          {socialLinks.map((s) => (
+            <a
+              key={s.href}
+              href={s.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={s.label}
+              className={`${classes.mobileSocialLink} ${s.className}`}
+            >
+              {s.icon}
+            </a>
+          ))}
+        </li>
       </ul>
 
       {/* Overlay/Spacer przy otwartym menu */}

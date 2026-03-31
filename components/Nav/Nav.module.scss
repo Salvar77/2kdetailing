@@ -87,7 +87,8 @@
     transition: height 0.35s ease;
   }
   .spacer.open {
-    height: calc(5 * 2rem + 2rem);
+    // 6 linki + 1 rząd social icons + padding
+    height: calc(6 * 3.9rem + 5rem);
   }
 }
 
@@ -97,6 +98,124 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+// ============================================================
+// SOCIAL ICONS — DESKTOP
+// ============================================================
+.socialIcons {
+  display: none;
+
+  @media (min-width: 992px) {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-left: 0.5rem;
+  }
+}
+
+.socialLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  &:hover {
+    transform: translateY(-2px);
+    border-color: transparent;
+  }
+
+  &.socialFb:hover {
+    background: #1877f2;
+    color: #fff;
+    box-shadow: 0 4px 12px rgba(24, 119, 242, 0.4);
+  }
+
+  &.socialIg:hover {
+    background: radial-gradient(
+      circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+    );
+    color: #fff;
+    box-shadow: 0 4px 12px rgba(214, 36, 159, 0.4);
+  }
+
+  &.socialTt:hover {
+    background: #010101;
+    color: #fff;
+    box-shadow: 0 4px 12px rgba(105, 201, 208, 0.4);
+  }
+}
+
+// ============================================================
+// SOCIAL ICONS — MOBILE (dno dropdown menu)
+// ============================================================
+.mobileSocialRow {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  padding: 1.2rem 0 1.5rem;
+  margin-top: 0.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  width: 100%;
+}
+
+.mobileSocialLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.1rem;
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  transition: all 0.25s ease;
+
+  &:active,
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  &.socialFb:hover {
+    background: #1877f2;
+    color: #fff;
+    border-color: #1877f2;
+  }
+
+  &.socialIg:hover {
+    background: radial-gradient(
+      circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+    );
+    color: #fff;
+    border-color: transparent;
+  }
+
+  &.socialTt:hover {
+    background: #010101;
+    color: #69c9d0;
+    border-color: #69c9d0;
+  }
 }
 
 @media (max-width: 991px) {
