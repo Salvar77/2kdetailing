@@ -17,7 +17,7 @@ const slides = [
     title2: "Korekta lakieru - Powłoka ceramiczna",
     description: "Profesjonalny auto detailing w Opolu",
     image: HeroImage,
-    link: "/galeria",
+    link: "/galeria/korekta-lakieru",
     buttonText: "Realizacje",
     isSEO: true,
   },
@@ -116,7 +116,9 @@ const Hero = () => {
             transition={{ delay: 0.4, duration: 0.8 }}
           >
             {slides[current].isSEO ? (
-              <h2 className={`${classes.hero__title} ${classes.hero__titleSEO}`}>
+              <h2
+                className={`${classes.hero__title} ${classes.hero__titleSEO}`}
+              >
                 <span className={classes.hero__titleGold}>
                   {slides[current].title1}
                 </span>

@@ -1,58 +1,39 @@
-"use client";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import classes from "./ContactBubble.module.scss";
-import Link from "next/link";
 
 const ContactBubble = () => {
   const [isExpanded, setIsExpanded] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
 
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth < 992);
-    };
-
-    handleResize();
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
-  const handleToggle = (e) => {
-    if (isMobile) {
-      if (!isExpanded) {
-        e.preventDefault();
-        setIsExpanded(true);
-      } else {
-        setIsExpanded(false);
-      }
-    }
-  };
+  const handleToggle = () => setIsExpanded((prev) => !prev);
 
   return (
     <div
       className={`${classes.contactBubble} ${
         isExpanded ? classes.expanded : ""
       }`}
-      onMouseEnter={!isMobile ? () => setIsExpanded(true) : undefined}
-      onMouseLeave={!isMobile ? () => setIsExpanded(false) : undefined}
       onClick={handleToggle}
+      onMouseEnter={() => setIsExpanded(true)}
+      onMouseLeave={() => setIsExpanded(false)}
     >
       <div className={classes.bubbleContent}>
         <svg
-          className={classes.proContactIcon}
+          className={classes.phoneIcon}
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
           width="24"
           height="24"
         >
           <path
+            d="M6.62 10.79a15.09 15.09 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21 11.47 11.47 0 003.6.61 1 1 0 011 1v3.44a1 1 0 01-1 1A16 16 0 013 4a1 1 0 011-1h3.44a1 1 0 011 1 11.47 11.47 0 00.61 3.6 1 1 0 01-.21 1.11z"
             fill="white"
-            d="M21 4H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM4 6h16v12H4V6zm2 3h12v2H6V9zm0 4h8v2H6v-2z"
           />
         </svg>
-        <Link href="/kontakt" className={classes.text}>
-          <span>Skontaktuj się</span>
-        </Link>
+        <span className={classes.text}>
+          Zadzwoń do mnie :{" "}
+          <a href="tel:+48797234734" className={classes.phoneNumber}>
+            +48 797 234 734
+          </a>
+        </span>
       </div>
     </div>
   );
