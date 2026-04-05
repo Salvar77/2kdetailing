@@ -4,9 +4,12 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { fadeScale } from "../../utils/motion";
+import { useShouldAnimate } from "../../hooks/useShouldAnimate";
 import { servicesData } from "../../constants/index";
 
 const Services = () => {
+  const shouldAnimate = useShouldAnimate();
+
   return (
     <div className={classes.servicesBackground}>
       <div className={classes.servicesBackground__fade}></div>
@@ -17,10 +20,12 @@ const Services = () => {
             <motion.div
               key={service.id}
               className={classes.services__item}
-              variants={fadeScale(index * 0.15, 0.9)}
-              initial="hidden"
-              whileInView="show"
-              viewport={{ amount: 0.3 }}
+              {...(shouldAnimate && {
+                variants: fadeScale(index * 0.15, 0.9),
+                initial: "hidden",
+                whileInView: "show",
+                viewport: { amount: 0.3 }
+              })}
             >
               <div className={classes.card}>
                 <div className={classes.card__image}>

@@ -12,6 +12,7 @@ import AfterImage4 from "../../assets/images/pranie-tapicerki-czyszczenie-wnetrz
 import classes from "./SliderSection.module.scss";
 import Link from "next/link";
 import { blurUp } from "../../utils/motion";
+import { useShouldAnimate } from "../../hooks/useShouldAnimate";
 
 const SliderSection = ({
   showTitle = true,
@@ -21,6 +22,7 @@ const SliderSection = ({
   additionalClass = "",
   style,
 }) => {
+  const shouldAnimate = useShouldAnimate();
   const images = [
     {
       beforeImage: BeforeImage1,
@@ -82,10 +84,12 @@ const SliderSection = ({
           .map(({ beforeImage, afterImage, altBefore, altAfter }, index) => (
             <motion.div
               key={index}
-              variants={blurUp(index * 0.1, 0.8)}
-              initial="hidden"
-              whileInView="show"
-              viewport={{ amount: 0.3 }}
+              {...(shouldAnimate && {
+                variants: blurUp(index * 0.1, 0.8),
+                initial: "hidden",
+                whileInView: "show",
+                viewport: { amount: 0.3 }
+              })}
             >
               <SliderTrue
                 beforeImage={beforeImage}
