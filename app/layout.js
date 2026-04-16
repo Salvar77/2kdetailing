@@ -36,13 +36,25 @@ export const metadata = {
       },
     ],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "2K Auto Detailing Opole - Profesjonalny Auto Detailing",
+    description: "Kompleksowe usługi auto detailingu w Opolu. Korekta lakieru, powłoki ceramiczne, folia PPF.",
+    images: ["/og/logo-2kdetailing-opole.png"],
+  },
   icons: {
     icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/og/logo-2kdetailing-opole.png",
   },
   robots: {
     index: true,
     follow: true,
   },
+};
+
+export const viewport = {
+  themeColor: "#171a21",
 };
 
 const websiteJsonLd = {
