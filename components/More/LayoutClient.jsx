@@ -32,7 +32,7 @@ export default function LayoutClient({ children }) {
 
       <Footer />
       <ContactBubble />
-      <BooksyBubble />
+      {/* <BooksyBubble /> */}
     </>
   );
 }
