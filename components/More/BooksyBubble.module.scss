@@ -1,0 +1,85 @@
+@import "../../styles/colors";
+
+.booksyBubble {
+  position: fixed;
+  bottom: 9rem; // Dokładnie nad telefonem (ContactBubble ma 2rem + wysokość)
+  right: 2rem;
+  padding: 1.5rem;
+  background-color: rgba(#111, 0.95);
+  color: white;
+  border-radius: 3rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.35);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0.9;
+  z-index: 300;
+  border: 1px solid rgba($red-main, 0.3);
+
+  &:hover {
+    transform: scale(1.05);
+    opacity: 1;
+    border-color: $red-main;
+  }
+
+  .bubbleContent {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+  }
+
+  .calendarIcon {
+    font-size: 2.22rem;
+    color: $red-main;
+  }
+
+  .text {
+    font-size: 1.4rem;
+    max-width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: max-width 0.5s ease, opacity 0.5s ease;
+    opacity: 0;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  &.expanded .text {
+    max-width: 300px;
+    opacity: 1;
+    margin-left: 0.5rem;
+  }
+
+  @media (min-width: 768px) {
+    padding: 1.2rem 1.8rem;
+    bottom: 8rem;
+
+    .calendarIcon {
+      font-size: 2rem;
+    }
+
+    .text {
+      font-size: 1.3rem;
+    }
+  }
+
+  @media (min-width: 992px) {
+    padding: 1.5rem 2rem;
+
+    .calendarIcon {
+      font-size: 2.2rem;
+    }
+
+    .text {
+      max-width: 0;
+      opacity: 0;
+    }
+
+    &:hover .text {
+      max-width: 300px;
+      opacity: 1;
+      margin-left: 0.5rem;
+    }
+  }
+}

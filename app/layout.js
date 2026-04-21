@@ -153,14 +153,9 @@ export default function RootLayout({ children }) {
           </>
         )}
         <script
+          id="structured-data"
           type="application/ld+json"
-          id="business-schema"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
-        <script
-          type="application/ld+json"
-          id="website-schema"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify([jsonLd, websiteJsonLd]) }}
         />
         <LayoutClient>{children}</LayoutClient>
       </body>
