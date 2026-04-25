@@ -6,7 +6,7 @@ import ppf from "../assets/images/wlasciciel-2k-auto-detailing-folia-ppf-opole.w
 import ceramic from "../assets/images/2k-logo-black-biale-tlo.svg";
 import upholstery from "../assets/images/2k-logo-black-biale-tlo.svg";
 import headlight from "../assets/images/2k-logo-black-biale-tlo.svg";
-import tinting from "../assets/images/wlasciciel-2k-auto-detailing-przyciemnianie-szyb-opole.webp";
+import tinting from "../assets/images/2k-auto-detailing-opole-przyciemnianie-szyb-realizacja.webp";
 import autoDetailingPakiet from "../assets/images/2k-logo-black-biale-tlo.svg";
 import myjniaReczna from "../assets/images/wlasciciel-2k-auto-detailing-myjnia-reczna-opole.webp";
 import blogPost from "../assets/images/wlasciciel-2k-auto-detailing-detailing-wnetrza-opole.webp";
@@ -116,7 +116,7 @@ export const servicesData = [
       "<strong>Przyciemnianie szyb</strong> – popraw styl i komfort jazdy. Nasze folie redukują nagrzewanie wnętrza, blokują promienie UV i zapewniają prywatność Tobie oraz Twoim pasażerom.",
     relatedBlogPost: "/blog/auto-detailing-opole",
     altText:
-      "Montaż folii przyciemniających na szyby samochodowe – elegancja i ochrona przeciwsłoneczna.",
+      "Profesjonalne przyciemnianie szyb samochodowych w Opolu – BMW E91 po montażu folii premium.",
   },
   {
     id: "oferta/auto-detailing",

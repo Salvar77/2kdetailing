@@ -3,10 +3,11 @@ import Link from "next/link";
 import classes from "../../app/oferta/[slug]/page.module.scss";
 import szybyImg from "../../assets/images/wlasciciel-2k-auto-detailing-przyciemnianie-szyb-opole.webp";
 import szybyImg2 from "../../assets/images/wlasciciel-2k-auto-detailing-przyciemnianie-szyb-2-opole.webp";
+import szybyImg3 from "../../assets/images/2k-auto-detailing-opole-przyciemnianie-szyb-realizacja.webp";
 
 export const meta = {
   title: "Przyciemnianie Szyb Opole",
-  hero: szybyImg,
+  hero: szybyImg3,
   heroAltText: "Aplikacja folii przyciemniającej na boczne szyby samochodu",
   lead: "Ciesz się chłodnym wnętrzem i dyskretną elegancją. Instalujemy certyfikowane folie przeciwsłoneczne blokujące nagrzewanie oraz promieniowanie UV.",
   slug: "przyciemnianie-szyb",
@@ -202,112 +203,6 @@ export default function PrzyciemnianieSzybPage() {
           <Image
             src={szybyImg2}
             alt="Specjalista 2K Auto Detailing podczas precyzyjnego montażu folii przyciemniającej na szybie"
-            width={600}
-            height={400}
-            layout="responsive"
-            objectFit="cover"
-          />
-        </div>
-      </section>
-
-      {/* ✅ SEKCJA: PROCES MONTAŻU – 2K AUTO DETAILING */}
-      <section
-        className={`${classes.contentSection} ${classes["contentSection--reverse"]}`}
-      >
-        <div className={classes.contentSection__text}>
-          <h2>Warsztatowa precyzja i czystość montażu</h2>
-          <p>
-            Przyciemnianie szyb w standardzie{" "}
-            <Link href="/blog/auto-detailing-opole">auto detailingu</Link> to
-            proces wolny od kurzu i widocznych niedociągnięć. Każdy montaż
-            wykonujemy w warunkach studyjnych, dbając o to, by krawędzie folii
-            były docięte perfekcyjnie, a uszczelki prawidłowo przygotowane.
-          </p>
-          <ul>
-            <li>
-              <strong>Dekalcyfikacja i oczyszczanie chemiczne szkła:</strong>{" "}
-              Usuwamy osady mineralne i drobinki, których nie widać na pierwszy
-              rzut oka. Czysta szyba to podstawa braku "pajączków" i pęcherzy.
-            </li>
-            <li>
-              <strong>Technika kurczenia termicznego na sucho:</strong>{" "}
-              Formujemy folię na zewnątrz szyby przy użyciu wysokiej
-              temperatury, by idealnie odwzorować każdą obłość szkła przed
-              ostatecznym naklejeniem od środka.
-            </li>
-            <li>
-              <strong>Aplikacja bezpyłowa:</strong> Korzystamy z dedykowanych
-              płynów instalacyjnych, które zapewniają poślizg i idealne
-              odessanie wody. Minimalizujemy użycie rąk na warstwie klejącej.
-            </li>
-            <li>
-              <strong>Termiczne utrwalanie krawędzi:</strong> Dogrzewamy obrzeża
-              folii przy uszczelkach i na kropkowanych brzegach szyby (tzw.
-              matrix), co zapobiega ich zadzieraniu się podczas użytkowania
-              szyb.
-            </li>
-            <li>
-              <strong>Serwis i instruktaż odbioru:</strong> Po usłudze
-              informujemy, jak pielęgnować folie i kiedy można bezpiecznie
-              opuścić szyby po raz pierwszy. Każdy montaż kończy się
-              rygorystyczną kontrolą pod ostrym oświetleniem.
-            </li>
-          </ul>
-
-          <blockquote className={classes.blockquote}>
-            <p>
-              &bdquo;Oddałam swoje auto do 2K Auto Detailing Opole na korektę
-              lakieru oraz przyciemnianie szyb i jestem zachwycona efektem.
-              [...] Przyciemnianie szyb wykonane bardzo dokładnie, bez
-              pęcherzyków i niedoróbek. Wnętrze auta również zostało
-              perfekcyjnie ogarnięte. Widać doświadczenie i dbałość o każdy
-              detal. Jeśli ktoś szuka profesjonalnego auto detailingu w Opolu,
-              korekty lakieru albo przyciemniania szyb – szczerze polecam. Na
-              pewno wrócę 👍🚗&rdquo;
-            </p>
-            <footer>
-              &mdash; <cite>Iwona Feliks</cite>
-            </footer>
-          </blockquote>
-
-          <h3>Czy przyciemnianie szyb jest legalne?</h3>
-          <div>
-            <p className={classes.contentSection__textP}>
-              To jedno z najczęściej zadawanych pytań. W 2K Auto Detailing
-              działamy <strong>w pełni zgodnie z polskim prawem</strong>.
-              Oferujemy wyłącznie folie i stopnie przyciemnienia dopuszczone do
-              ruchu drogowego:
-            </p>
-            <ul className={classes.nestedList}>
-              <li>
-                <strong>Szyby przednie (laminowane):</strong> Wymagana
-                przepuszczalność minimum 75% światła. Stosujemy przezroczyste
-                folie ochronne UV – niewidzialne bariery, które chronią szybę
-                podobnie jak <Link href="/blog/folia-ppf-opole">folia PPF</Link>{" "}
-                lakier – nie zmieniając jej pierwotnego wyglądu.
-              </li>
-              <li>
-                <strong>Szyby boczne przednie:</strong> Przepuszczalność minimum
-                70%. Oferujemy delikatne przyciemnienie (35-50%), które mieści
-                się w normach.
-              </li>
-              <li>
-                <strong>Szyby boczne tylne i tylna:</strong> Brak ograniczeń –
-                możesz wybrać dowolny stopień przyciemnienia, nawet 5%.
-              </li>
-            </ul>
-            <p className={classes.contentSection__textP}>
-              Przed montażem zawsze doradzamy, jakie parametry będą optymalne
-              dla Twojego auta i zgodne z przepisami. Wystawiamy również
-              certyfikat potwierdzający parametry zastosowanej folii.
-            </p>
-          </div>
-        </div>
-
-        <div className={classes.contentSection__image}>
-          <Image
-            src="/2k-logo-black-biale-tlo.png"
-            alt="Efekt przyciemniania szyb w 2K Auto Detailing Opole – elegancki wygląd i ochrona wnętrza"
             width={600}
             height={400}
             layout="responsive"

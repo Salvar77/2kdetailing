@@ -6,6 +6,9 @@ import ppf1 from "../../assets/images/wlasciciel-2k-auto-detailing-folia-ppf-opo
 import skory1 from "../../assets/images/wlasciciel-2k-auto-detailing-renowacja-skor-opole.webp";
 import szyby1 from "../../assets/images/wlasciciel-2k-auto-detailing-przyciemnianie-szyb-opole.webp";
 import szyby2 from "../../assets/images/wlasciciel-2k-auto-detailing-przyciemnianie-szyb-2-opole.webp";
+import szyby3 from "../../assets/images/przyciemnianie-szyb-opole-bmw-po.webp";
+import szyby4 from "../../assets/images/przyciemnianie-szyb-samochodowych-opole-po.webp";
+import szybyRealizacja from "../../assets/images/2k-auto-detailing-opole-przyciemnianie-szyb-realizacja.webp";
 
 const placeholderImage = "/2k-logo-black-biale-tlo.png";
 
@@ -79,9 +82,9 @@ export const realizationsData = [
   {
     id: "przyciemnianie-szyb",
     description: "Przyciemnianie szyb",
-    images: [szyby1, szyby2],
-    image: szyby1,
-    largeImage: szyby1,
+    images: [szybyRealizacja, szyby3, szyby4, szyby1, szyby2],
+    image: szybyRealizacja,
+    largeImage: szybyRealizacja,
     largeImageWidth: 1920,
     gradient: "linear-gradient(rgba(63, 59, 59, 0.5), rgba(40, 31, 31, 0.5))",
     customClass: "przyciemnianieSzyb",

@@ -28,7 +28,7 @@ const SliderTrue = (props) => {
           src={props.beforeImage}
           alt={props.alt}
           fill
-          style={{ objectFit: "cover" }}
+          style={{ objectFit: "cover", objectPosition: props.objectPosition || "center" }}
           loading="lazy"
         />
         <Image
@@ -37,7 +37,8 @@ const SliderTrue = (props) => {
           fill
           style={{
             objectFit: "cover",
-            clipPath: `inset(0 ${100 - sliderValue}% 0 0)`,
+            objectPosition: props.objectPosition || "center",
+            clipPath: `inset(0 0 0 ${sliderValue}%)`,
           }}
           loading="lazy"
         />

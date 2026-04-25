@@ -1,14 +1,14 @@
 "use client";
 import { motion } from "framer-motion";
 import SliderTrue from "./SliderTrue";
-import BeforeImage1 from "../../assets/images/2k-logo-black-biale-tlo.svg";
-import AfterImage1 from "../../assets/images/2k-logo-black-biale-tlo.svg";
+import BeforeImage1 from "../../assets/images/przyciemnianie-szyb-samochodowych-opole-przed.webp";
+import AfterImage1 from "../../assets/images/przyciemnianie-szyb-samochodowych-opole-po.webp";
 import BeforeImage2 from "../../assets/images/2k-logo-black-biale-tlo.svg";
 import AfterImage2 from "../../assets/images/2k-logo-black-biale-tlo.svg";
 import BeforeImage3 from "../../assets/images/2k-logo-black-biale-tlo.svg";
 import AfterImage3 from "../../assets/images/2k-logo-black-biale-tlo.svg";
-import BeforeImage4 from "../../assets/images/pranie-tapicerki-czyszczenie-wnetrza-opole-po.webp";
-import AfterImage4 from "../../assets/images/pranie-tapicerki-czyszczenie-wnetrza-opole-przed.webp";
+import BeforeImage4 from "../../assets/images/pranie-tapicerki-czyszczenie-wnetrza-opole-przed.webp";
+import AfterImage4 from "../../assets/images/pranie-tapicerki-czyszczenie-wnetrza-opole-po.webp";
 import classes from "./SliderSection.module.scss";
 import Link from "next/link";
 import { blurUp } from "../../utils/motion";
@@ -28,9 +28,10 @@ const SliderSection = ({
       beforeImage: BeforeImage1,
       afterImage: AfterImage1,
       altBefore:
-        "Lakier przed korektą lakieru z widocznymi zarysowaniami i hologramami",
+        "Samochód BMW E91 przed usługą profesjonalnego przyciemniania szyb w Opolu",
       altAfter:
-        "Lakier po wieloetapowej korekcie – pełny blask i lustrzane odbicie",
+        "BMW E91 po przyciemnieniu szyb folią premium – elegancja i ochrona UV",
+      objectPosition: "25% 50%",
     },
     {
       beforeImage: BeforeImage4,
@@ -94,7 +95,8 @@ const SliderSection = ({
               <SliderTrue
                 beforeImage={beforeImage}
                 afterImage={afterImage}
-                alt={`Zdjęcie po i przed: ${altBefore} | ${altAfter}. Usługa: Auto Detailing Opole, Korekta lakieru, Polerowanie lakieru`}
+                objectPosition={images[index].objectPosition}
+                alt={`Zdjęcie przed i po usłudze: ${altBefore} | ${altAfter}.`}
               />
             </motion.div>
           ))}
