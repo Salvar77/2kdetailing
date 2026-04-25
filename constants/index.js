@@ -117,6 +117,7 @@ export const servicesData = [
     relatedBlogPost: "/blog/auto-detailing-opole",
     altText:
       "Profesjonalne przyciemnianie szyb samochodowych w Opolu – BMW E91 po montażu folii premium.",
+    objectPosition: "0% 90%",
   },
   {
     id: "oferta/auto-detailing",
