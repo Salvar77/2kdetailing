@@ -115,8 +115,9 @@ const jsonLd = {
     "@type": "AdministrativeArea",
     name: "Opole i okolice",
   },
-  hasMap: "https://maps.google.com/?q=Prószkowska+43,+45-758+Opole",
+  hasMap: "https://share.google/yLOmKNkh9sSli75e4",
   sameAs: [
+    "https://share.google/yLOmKNkh9sSli75e4",
     "https://www.facebook.com/people/2K-Auto-Detailing-Opole/61587187552980/",
     "https://www.instagram.com/2kdetailingopole/",
     "https://www.tiktok.com/@2kdetailingopole",
