@@ -84,15 +84,15 @@ export const servicesData = [
   },
   {
     id: "oferta/detailing-wnetrza",
-    title: "Detailing wnętrza Opole",
+    title: "Kompleksowe czyszczenie wnętrza samochodu Opole",
     image: autodetailingWnetrza,
     description: "Sprawdź",
     gradient: "linear-gradient(rgba(63,59,59,.5), rgba(40,31,31,.5))",
     additionalInfo:
-      "<strong>Detailing wnętrza</strong> – chirurgiczna precyzja w sprzątaniu. Czyścimy każdy przycisk, nawiew i szczelinę, zabezpieczając plastiki matowym, antystatycznym dressingiem.",
+      "<strong>Kompleksowe czyszczenie wnętrza samochodu</strong> – chirurgiczna precyzja w sprzątaniu. Czyścimy każdy przycisk, nawiew i szczelinę, zabezpieczając plastiki matowym, antystatycznym dressingiem.",
     relatedBlogPost: "/blog/detailing-wnetrza-opole",
     altText:
-      "Kompleksowy detailing kabiny auta – pędzelkowanie detali i profesjonalna pielęgnacja wnętrza.",
+      "Kompleksowe czyszczenie i detailing kabiny auta w Opolu – pędzelkowanie detali i profesjonalna pielęgnacja wnętrza.",
   },
   {
     id: "oferta/regeneracja-reflektorow",
@@ -248,7 +248,7 @@ export const interiorServices = [
   // SEKCJA: WNĘTRZE (image_ce196f.jpg)
   {
     id: "detailing-wnetrza",
-    title: "Detailing Wnętrza",
+    title: "Kompleksowe Czyszczenie Wnętrza",
     prices: { small: "250", medium: "300", large: "350" },
     items: [
       "Dokładne odkurzanie",

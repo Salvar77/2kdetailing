@@ -4,11 +4,11 @@ import classes from "../../app/oferta/[slug]/page.module.scss";
 import wnetrzeImg from "../../assets/images/wlasciciel-2k-auto-detailing-detailing-wnetrza-opole.webp";
 
 export const meta = {
-  title: "Detailing Wnętrza",
+  title: "Kompleksowe Czyszczenie Wnętrza Samochodu",
   hero: wnetrzeImg,
   heroAltText:
-    "Precyzyjne pędzelkowanie i odświeżanie detali wewnątrz kabiny pasażerskiej",
-  lead: "Chirurgicznie precyzyjne czyszczenie kabiny. Pędzelkujemy detale, pielęgnujemy plastiki i uwalniamy całe auto od osadzonego w nawiewach kurzu.",
+    "Precyzyjne pędzelkowanie i kompleksowe czyszczenie detali wewnątrz kabiny pasażerskiej",
+  lead: "Kompleksowe czyszczenie wnętrza samochodu w Opolu. Pędzelkujemy detale, pielęgnujemy plastiki i uwalniamy całe auto od osadzonego w nawiewach kurzu.",
   slug: "detailing-wnetrza",
   faq: [
     {
@@ -49,9 +49,9 @@ export default function DetailingWnetrzaPage() {
         <div className={classes.circleContainer4}></div>
 
         <div className={classes.contentSection__text}>
-          <h2>Detailing wnętrza – sterylne i pachnące nowością auto</h2>
+          <h2>Kompleksowe czyszczenie wnętrza samochodu – sterylne i pachnące nowością auto</h2>
           <p>
-            <Link href="/blog/detailing-wnetrza-opole">Detailing wnętrza</Link>{" "}
+            <Link href="/blog/detailing-wnetrza-opole">Kompleksowe czyszczenie wnętrza</Link>{" "}
             to nasza najbardziej drobiazgowa usługa. Nie ograniczamy się do
             powierzchownego przetarcia deski rozdzielczej. Wchodzimy w każdą
             szczelinę, czyścimy kratki nawiewów, pędzelkujemy przyciski i
@@ -89,7 +89,7 @@ export default function DetailingWnetrzaPage() {
             Opolu to gwarancja najwyższego standardu czystości.
           </p>
 
-          <h3>Co obejmuje nasz pełny pakiet detailingu wnętrza?</h3>
+          <h3>Co obejmuje nasze kompleksowe czyszczenie wnętrza samochodu?</h3>
           <ul>
             <li>
               <strong>Pędzelkowanie i czyszczenie detali:</strong> Każdy
@@ -144,7 +144,7 @@ export default function DetailingWnetrzaPage() {
         <div className={classes.contentSection__text}>
           <h2>Dlaczego nasze studio to najlepszy adres dla Twojego auta?</h2>
           <p>
-            Detailing wnętrza to dla nas misja przywracania fabrycznego stanu.
+            Kompleksowe czyszczenie wnętrza to dla nas misja przywracania fabrycznego stanu.
             Nie uznajemy półśrodków – albo coś jest wyczyszczone idealnie, albo
             wcale.
           </p>
@@ -227,15 +227,15 @@ export default function DetailingWnetrzaPage() {
 
       {/* ✅ SEKCJA: CTA */}
       <section className={classes.callToActionSection}>
-        <h2>Zobacz metamorfozy – detailing wnętrza w praktyce</h2>
+        <h2>Zobacz metamorfozy – kompleksowe czyszczenie wnętrza w praktyce</h2>
         <p>
-          Przekonaj się, jak dużą różnicę może zrobić profesjonalny detailing
-          wnętrza. W naszej galerii znajdziesz zdjęcia &bdquo;przed i po&rdquo;
+          Przekonaj się, jak dużą różnicę może zrobić profesjonalne sprzątanie i 
+          czyszczenie wnętrza. W naszej galerii znajdziesz zdjęcia &bdquo;przed i po&rdquo;
           zrealizowanych projektów.
         </p>
         <div className={classes.buttonWrapper}>
           <a href="/galeria/pranie-tapicerki" className={classes.buttonPrimary}>
-            Galeria detailing wnętrza
+            Galeria czyszczenia wnętrza
           </a>
         </div>
       </section>
