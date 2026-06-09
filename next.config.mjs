@@ -16,6 +16,15 @@ const nextConfig = {
       },
     ];
   },
+  async redirects() {
+    return [
+      {
+        source: '/blog/czyszczenie-samochodu-wnetrza-opole',
+        destination: '/blog/czyszczenie-wnetrza-samochodu-opole',
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

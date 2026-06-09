@@ -341,7 +341,7 @@ export const blogPosts = [
     subtitle: "CZYSZCZENIE WNĘTRZA",
     date: "2026-06-09",
     description: "Profesjonalne czyszczenie samochodu w Opolu. Kompleksowe czyszczenie wnętrza oraz ekstrakcyjne pranie tapicerki dla idealnej czystości i świeżości.",
-    link: "/blog/czyszczenie-samochodu-wnetrza-opole",
+    link: "/blog/czyszczenie-wnetrza-samochodu-opole",
     image: czyszczenieWnetrzaOpole,
   },
   {

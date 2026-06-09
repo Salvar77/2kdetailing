@@ -10,7 +10,7 @@ import classes from "../../app/blog/[slug]/page.module.scss";
 
 export const meta = {
   id: 8,
-  slug: "czyszczenie-samochodu-wnetrza-opole",
+  slug: "czyszczenie-wnetrza-samochodu-opole",
   title: "Kompleksowe Czyszczenie Samochodu i Pranie Tapicerki",
   subtitle: "CZYSTOŚĆ I ŚWIEŻOŚĆ WNĘTRZA",
   date: "2026-06-09",
