@@ -68,6 +68,7 @@ export default function BlogPostClient({ slugFromParent }) {
     "korekta-lakieru-opole": "anotherSpecialImage",
     "powloka-ceramiczna-opole": "styleFour",
     "auto-detailing-opole": "anotherSpecialImage",
+    "czyszczenie-wnetrza-samochodu-opole": "styleCzyszczenie",
   };
   const customImageClass = imageStyles[slug] || "";
 

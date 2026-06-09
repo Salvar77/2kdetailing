@@ -20,7 +20,7 @@ import ppfFullFront from "../assets/images/ppf-full-front.png";
 import ppfBikini from "../assets/images/ppf-bikini.png";
 import ppfFullBody from "../assets/images/ppf-full-body.png";
 import czyszczenieWnetrzaOpole from "../assets/images/czyszczenie-wnetrza-samochodu-opole.jpg";
-import myjniaRecznaOpoleBlog from "../assets/images/myjnia-reczna-opole-1.jpg";
+import myjniaRecznaOpoleBlog from "../assets/images/myjnia-reczna-opole-4.jpg";
 
 export const servicesData = [
   {

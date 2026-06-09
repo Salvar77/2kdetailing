@@ -14,8 +14,8 @@ export const meta = {
   title: "Myjnia Ręczna - Detailingowe Mycie Samochodu",
   subtitle: "BEZPIECZEŃSTWO LAKIERU",
   date: "2026-06-09",
-  image: "/myjnia-reczna-opole-1.jpg",
-  dynamicImage: "/myjnia-reczna-opole-2.jpg",
+  image: "/myjnia-reczna-opole-3.jpg",
+  dynamicImage: "/myjnia-reczna-opole-3.jpg",
   mainImageAltText:
     "Profesjonalna myjnia ręczna w Opolu, bezpieczne mycie detailingowe",
   images: [
