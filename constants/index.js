@@ -19,6 +19,8 @@ import blogPost5 from "../assets/images/2k-logo-black-biale-tlo.svg";
 import ppfFullFront from "../assets/images/ppf-full-front.png";
 import ppfBikini from "../assets/images/ppf-bikini.png";
 import ppfFullBody from "../assets/images/ppf-full-body.png";
+import czyszczenieWnetrzaOpole from "../assets/images/czyszczenie-wnetrza-samochodu-opole.jpg";
+import myjniaRecznaOpoleBlog from "../assets/images/myjnia-reczna-opole-1.jpg";
 
 export const servicesData = [
   {
@@ -333,6 +335,24 @@ export const ppfPackages = [
 ];
 
 export const blogPosts = [
+  {
+    id: 8,
+    title: "Kompleksowe czyszczenie samochodu i pranie tapicerki – zadbaj o wnętrze auta",
+    subtitle: "CZYSZCZENIE WNĘTRZA",
+    date: "2026-06-09",
+    description: "Profesjonalne czyszczenie samochodu w Opolu. Kompleksowe czyszczenie wnętrza oraz ekstrakcyjne pranie tapicerki dla idealnej czystości i świeżości.",
+    link: "/blog/czyszczenie-samochodu-wnetrza-opole",
+    image: czyszczenieWnetrzaOpole,
+  },
+  {
+    id: 9,
+    title: "Myjnia ręczna w Opolu – bezpieczne mycie detailingowe Twojego samochodu",
+    subtitle: "MYJNIA RĘCZNA",
+    date: "2026-06-09",
+    description: "Bezpieczna myjnia ręczna z dbałością o każdy detal. Mycie na dwa wiadra, aktywna piana i bezpieczna chemia dla ochrony lakieru Twojego auta.",
+    link: "/blog/myjnia-reczna-opole",
+    image: myjniaRecznaOpoleBlog,
+  },
   {
     id: 7,
     title:
