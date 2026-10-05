@@ -21,6 +21,7 @@ import ppfBikini from "../assets/images/ppf-bikini.png";
 import ppfFullBody from "../assets/images/ppf-full-body.png";
 import czyszczenieWnetrzaOpole from "../assets/images/czyszczenie-wnetrza-samochodu-opole.jpg";
 import myjniaRecznaOpoleBlog from "../assets/images/myjnia-reczna-opole-4.jpg";
+import parujaceSzybyImg from "../assets/images/przyciemnianie-szyb-samochodowych-opole-po.webp";
 
 export const servicesData = [
   {
@@ -104,7 +105,7 @@ export const servicesData = [
     gradient: "linear-gradient(rgba(63,59,59,.5), rgba(40,31,31,.5))",
     additionalInfo:
       "<strong>Regeneracja reflektorów</strong> – przywracamy lampom fabryczną przejrzystość. Usuwamy zmatowienia i żółty nalot, poprawiając widoczność i Twoje bezpieczeństwo po zmroku.",
-    relatedBlogPost: "/blog/auto-detailing-opole",
+    relatedBlogPost: "/blog/regeneracja-reflektorow-przeglad-opole",
     altText:
       "Polerowanie lamp samochodowych i zabezpieczenie UV – renowacja zniszczonych reflektorów.",
   },
@@ -335,6 +336,36 @@ export const ppfPackages = [
 ];
 
 export const blogPosts = [
+  {
+    id: 10,
+    title: "Regeneracja reflektorów przed przeglądem – czy auto przejdzie?",
+    subtitle: "REFLEKTORY I PRZEGLĄD",
+    date: "2026-10-05",
+    description:
+      "Zmatowiałe, pożółkłe reflektory to słabsze światło jesienią i ryzyko problemów na przeglądzie. Sprawdź, kiedy wystarczy regeneracja kloszy, a kiedy potrzebna jest wymiana.",
+    link: "/blog/regeneracja-reflektorow-przeglad-opole",
+    image: headlight,
+  },
+  {
+    id: 11,
+    title: "Jak przygotować lakier na zimę – sól, błoto i powłoka ceramiczna",
+    subtitle: "LAKIER NA ZIMĘ",
+    date: "2026-10-03",
+    description:
+      "Sól drogowa, błoto pośniegowe i myjnie szczotkowe niszczą lakier. Zobacz, jak krok po kroku przygotować auto na zimę i dlaczego jesień to najlepszy moment na powłokę ceramiczną.",
+    link: "/blog/przygotowanie-lakieru-na-zime-opole",
+    image: paintcorrection,
+  },
+  {
+    id: 12,
+    title: "Parujące szyby od środka – przyczyny i jak to naprawić",
+    subtitle: "WILGOĆ W AUCIE",
+    date: "2026-10-01",
+    description:
+      "Szyby parują od środka i długo nie odparowują? Poznaj najczęstsze przyczyny wilgoci w kabinie – od mokrej tapicerki po filtr kabinowy – i sposoby, jak się jej pozbyć.",
+    link: "/blog/parujace-szyby-w-samochodzie",
+    image: parujaceSzybyImg,
+  },
   {
     id: 8,
     title: "Kompleksowe czyszczenie samochodu i pranie tapicerki – zadbaj o wnętrze auta",

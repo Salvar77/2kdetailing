@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 export const useShouldAnimate = (breakpoint = 768) => {
-  const [shouldAnimate, setShouldAnimate] = useState(false);
+  const [shouldAnimate, setShouldAnimate] = useState(true);
 
   useEffect(() => {
     const checkWidth = () => {

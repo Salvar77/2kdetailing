@@ -35,6 +35,16 @@ export const meta = {
       answer:
         "Dostępne w sklepach zestawy „zrób to sam” rzadko przynoszą zadowalające efekty. Najczęściej zawierają zbyt delikatne papiery ścierne i brakuje im profesjonalnej powłoki UV. Efekt jest krótkotrwały (kilka tygodni), a nieumiejętne szlifowanie może trwale uszkodzić klosz. Regeneracja reflektorów wymaga doświadczenia, odpowiedniego sprzętu i wiedzy – dlatego warto zaufać profesjonalistom.",
     },
+    {
+      question: "Czy z matowymi reflektorami przejdę przegląd techniczny?",
+      answer:
+        "Może być z tym problem. Diagnosta sprawdza ustawienie i natężenie świateł oraz stan kloszy. Mocno zmatowiały, pożółkły lub porysowany klosz osłabia i rozprasza światło, przez co pomiar może wypaść poza normę, a przegląd nie zostanie podbity. Regeneracja przed badaniem przywraca kloszom przejrzystość i zwykle rozwiązuje problem. Po zabiegu warto poprosić diagnostę o sprawdzenie ustawienia świateł.",
+    },
+    {
+      question: "Kiedy najlepiej zregenerować reflektory?",
+      answer:
+        "Najlepiej jesienią, przed sezonem krótkich dni, deszczu i mgieł, lub kilka dni przed terminem przeglądu technicznego. Im wcześniej zareagujesz na pierwsze zmatowienie, tym prostszy i tańszy jest zabieg.",
+    },
   ],
 };
 
@@ -220,6 +230,64 @@ export default function RegeneracjaReflektorowPage() {
         </div>
       </section>
 
+      {/* ✅ SEKCJA: PRZEGLĄD I BEZPIECZEŃSTWO ZIMĄ */}
+      <section className={classes.contentSection}>
+        <div className={classes.contentSection__text}>
+          <h2>Regeneracja reflektorów przed przeglądem i przed zimą</h2>
+          <p>
+            Jesienią i zimą robi się ciemno już po 16:00, a deszcz, mgła i mokry
+            asfalt dodatkowo „zjadają” światło. To moment, w którym zmatowiałe
+            klosze najbardziej dają się we znaki – zasięg świateł spada, a
+            rozproszone światło oślepia kierowców z naprzeciwka.
+          </p>
+
+          <h3>Matowe lampy a badanie techniczne</h3>
+          <p className={classes.description}>
+            Podczas przeglądu diagnosta sprawdza{" "}
+            <strong>ustawienie i natężenie świateł</strong> oraz{" "}
+            <strong>stan kloszy</strong>. Mocno zmatowiały lub pożółkły
+            reflektor potrafi osłabić światło na tyle, że pomiar wypada poza
+            normę – a wtedy przegląd może nie zostać podbity. Regeneracja kilka
+            dni przed badaniem to zwykle najtańszy sposób, żeby uniknąć
+            problemu i kosztownej wymiany lamp. Więcej przeczytasz w artykule{" "}
+            <Link href="/blog/regeneracja-reflektorow-przeglad-opole">
+              Regeneracja reflektorów przed przeglądem – czy auto przejdzie?
+            </Link>
+          </p>
+
+          <h3>Bezpieczniejsza jazda w sezonie jesienno-zimowym</h3>
+          <ul>
+            <li>
+              <strong>Większy zasięg świateł:</strong> przejrzysty klosz
+              przepuszcza pełen strumień światła, więc wcześniej widzisz
+              pieszych, zwierzęta i przeszkody na drodze.
+            </li>
+            <li>
+              <strong>Mniej oślepiania innych:</strong> światło nie rozprasza
+              się na zmatowionej powierzchni, a granica światła i cienia jest
+              wyraźna.
+            </li>
+            <li>
+              <strong>Ochrona przed solą i piaskiem:</strong> po regeneracji
+              zabezpieczamy klosze powłoką UV lub folią PPF, która chroni je
+              przed zimowym piaskowaniem i chemią drogową.
+            </li>
+          </ul>
+
+          <p className={classes.description}>
+            Szykujesz auto na zimę? Sprawdź też, jak{" "}
+            <Link href="/blog/przygotowanie-lakieru-na-zime-opole">
+              przygotować lakier na zimę
+            </Link>{" "}
+            oraz co zrobić, gdy{" "}
+            <Link href="/blog/parujace-szyby-w-samochodzie">
+              szyby parują od środka
+            </Link>
+            .
+          </p>
+        </div>
+      </section>
+
       {/* ✅ SEKCJA: CTA */}
       <section className={classes.callToActionSection}>
         <h2>Zobacz nasze realizacje – regeneracja reflektorów</h2>
@@ -313,6 +381,33 @@ export default function RegeneracjaReflektorowPage() {
               trwale uszkodzić klosz. Regeneracja reflektorów wymaga
               doświadczenia, odpowiedniego sprzętu i wiedzy – dlatego warto
               zaufać profesjonalistom.
+            </p>
+          </details>
+
+          <details className={classes.faqItem}>
+            <summary className={classes.faqSummary}>
+              Czy z matowymi reflektorami przejdę przegląd techniczny?
+            </summary>
+            <p className={classes.faqAnswer}>
+              Może być z tym problem. Diagnosta sprawdza ustawienie i natężenie
+              świateł oraz stan kloszy. Mocno zmatowiały, pożółkły lub
+              porysowany klosz osłabia i rozprasza światło, przez co pomiar może
+              wypaść poza normę, a przegląd nie zostanie podbity. Regeneracja
+              przed badaniem przywraca kloszom przejrzystość i zwykle rozwiązuje
+              problem. Po zabiegu warto poprosić diagnostę o sprawdzenie
+              ustawienia świateł.
+            </p>
+          </details>
+
+          <details className={classes.faqItem}>
+            <summary className={classes.faqSummary}>
+              Kiedy najlepiej zregenerować reflektory?
+            </summary>
+            <p className={classes.faqAnswer}>
+              Najlepiej <strong>jesienią</strong>, przed sezonem krótkich dni,
+              deszczu i mgieł, lub kilka dni przed terminem przeglądu
+              technicznego. Im wcześniej zareagujesz na pierwsze zmatowienie, tym
+              prostszy i tańszy jest zabieg.
             </p>
           </details>
         </div>
