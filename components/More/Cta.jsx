@@ -50,7 +50,7 @@ export default function CtaSection() {
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={2}
-              stroke="#171a21"
+              stroke="currentColor"
             >
               <path
                 strokeLinecap="round"

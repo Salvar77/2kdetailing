@@ -150,7 +150,9 @@ export default function KorektaLakieruPage() {
         className={`${classes.contentSection} ${classes["contentSection--reverse"]}`}
       >
         <div className={classes.contentSection__text}>
-          <h2>Korekta lakieru w Opolu – dlaczego Twój lakier zasługuje na wizytę u nas?</h2>
+          <h2>
+            Korekta lakieru w Opolu – dlaczego Twój lakier zasługuje na wizytę u nas?
+          </h2>
           <p>
             Nie boimy się trudnych wyzwań. Pracujemy na twardych lakierach marek
             premium oraz delikatnych lakierach aut azjatyckich, dobierając

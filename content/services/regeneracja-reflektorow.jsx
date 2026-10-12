@@ -231,7 +231,9 @@ export default function RegeneracjaReflektorowPage() {
       </section>
 
       {/* ✅ SEKCJA: PRZEGLĄD I BEZPIECZEŃSTWO ZIMĄ */}
-      <section className={classes.contentSection}>
+      <section
+        className={`${classes.contentSection} ${classes["contentSection--reverse"]}`}
+      >
         <div className={classes.contentSection__text}>
           <h2>Regeneracja reflektorów przed przeglądem i przed zimą</h2>
           <p>

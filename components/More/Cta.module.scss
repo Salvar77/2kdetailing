@@ -105,9 +105,10 @@
   display: inline-flex;
   align-items: center;
   background: linear-gradient(90deg, $red-main, darken($red-main, 10%));
-  color: $new-black;
+  color: $white-smooth;
   font-weight: 700;
   text-transform: uppercase;
+  letter-spacing: 0.05em;
   padding: 0.75rem 1.5rem;
   border-radius: 999px;
   text-decoration: none;

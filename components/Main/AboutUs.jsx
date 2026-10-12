@@ -1,9 +1,16 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { textVariant, fadeIn } from "../../utils/motion";
-import { FaPhone, FaCar, FaClock, FaThumbsUp } from "react-icons/fa";
+import {
+  FaPhone,
+  FaCar,
+  FaClock,
+  FaThumbsUp,
+  FaChevronDown,
+  FaChevronUp,
+} from "react-icons/fa";
 import AnimatedButton from "../More/AnimatedButton";
 import classes from "./AboutUs.module.scss";
 import AboutImage from "../../assets/images/wlasciciel-2k-auto-detailing-korekta-lakieru-3-opole.webp";
@@ -37,6 +44,7 @@ const whyFeatures = [
 ];
 
 export default function AboutUs() {
+  const [isExpanded, setIsExpanded] = useState(false);
   const handlePhoneClick = () => {
     window.location.href = "tel:797234734";
   };
@@ -82,11 +90,44 @@ export default function AboutUs() {
           whileInView="show"
           viewport={{ once: true, amount: 0.1 }}
         >
-          {aboutContent.paragraphs.map((paragraph, idx) => (
+          {aboutContent.paragraphs.slice(0, 2).map((paragraph, idx) => (
             <p key={idx} className={classes.about__paragraph}>
               {paragraph}
             </p>
           ))}
+
+          <div
+            className={`${classes.about__collapsible} ${
+              isExpanded ? classes.about__collapsibleOpen : ""
+            }`}
+            id="about-full-description"
+          >
+            <div className={classes.about__collapsibleInner}>
+              {aboutContent.paragraphs.slice(2).map((paragraph, idx) => (
+                <p key={idx} className={classes.about__paragraph}>
+                  {paragraph}
+                </p>
+              ))}
+            </div>
+          </div>
+
+          <button
+            type="button"
+            className={classes.about__expandBtn}
+            onClick={() => setIsExpanded((prev) => !prev)}
+            aria-expanded={isExpanded}
+            aria-controls="about-full-description"
+          >
+            {isExpanded ? (
+              <>
+                Zwiń opis <FaChevronUp />
+              </>
+            ) : (
+              <>
+                Czytaj więcej o nas <FaChevronDown />
+              </>
+            )}
+          </button>
         </motion.div>
 
         {/* ✅ NOWA SEKCJA: DLACZEGO WARTO – 3 IKONY */}

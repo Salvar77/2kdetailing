@@ -413,6 +413,11 @@ $spacing-unit: 1rem;
   }
 
   &--reverse {
+    h2 {
+      color: $white-smooth;
+      text-shadow: 0 0.2rem 0.5rem rgba($dark-smooth, 0.6);
+    }
+
     &::before {
       top: -5%;
       left: -1%;

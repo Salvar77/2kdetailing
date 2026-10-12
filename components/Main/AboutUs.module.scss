@@ -119,6 +119,76 @@
   }
 }
 
+.about__collapsible {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.4s ease, opacity 0.3s ease, margin-top 0.3s ease;
+  opacity: 0;
+  margin-top: 0;
+
+  &Open {
+    grid-template-rows: 1fr;
+    opacity: 1;
+    margin-top: 2rem;
+  }
+}
+
+.about__collapsibleInner {
+  overflow: hidden;
+  min-height: 0;
+
+  .about__paragraph {
+    margin-bottom: 2rem;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.about__expandBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  background: transparent;
+  border: 1px solid rgba($red-main, 0.5);
+  background-color: rgba($new-black, 0.45);
+  color: $white-smooth;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0.9rem 1.8rem;
+  border-radius: 0.6rem;
+  margin-top: 2rem;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(4px);
+
+  svg {
+    color: $red-main;
+    font-size: 1.3rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+
+  &:hover {
+    border-color: $red-main;
+    background-color: rgba($red-main, 0.15);
+    color: $white-smooth;
+    transform: translateY(-2px);
+    box-shadow: 0 0.4rem 1.2rem rgba($red-main, 0.25);
+
+    svg {
+      color: $white-smooth;
+    }
+  }
+
+  @media (max-width: 767px) {
+    width: 100%;
+    justify-content: center;
+    padding: 1.2rem 2rem;
+    font-size: 1.6rem;
+  }
+}
+
 /* ----- NOWA SEKCJA: DLACZEGO WARTO (TYLKO TO JEST DODANE) ----- */
 .about__why {
   margin: 4rem 0 2rem;
