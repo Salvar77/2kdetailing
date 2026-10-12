@@ -3,7 +3,6 @@ import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { textVariant, fadeIn } from "../../utils/motion";
-import { useShouldAnimate } from "../../hooks/useShouldAnimate";
 import { FaPhone, FaCar, FaClock, FaThumbsUp } from "react-icons/fa";
 import AnimatedButton from "../More/AnimatedButton";
 import classes from "./AboutUs.module.scss";
@@ -38,7 +37,6 @@ const whyFeatures = [
 ];
 
 export default function AboutUs() {
-  const shouldAnimate = useShouldAnimate();
   const handlePhoneClick = () => {
     window.location.href = "tel:797234734";
   };
@@ -59,36 +57,30 @@ export default function AboutUs() {
       <div className={classes.about__content}>
         <motion.h2
           className={classes.about__title}
-          {...(shouldAnimate && {
-            variants: textVariant(0.2),
-            initial: "hidden",
-            whileInView: "show",
-            viewport: { once: true, amount: 0.1 }
-          })}
+          variants={textVariant(0.2)}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.1 }}
         >
           {aboutContent.title}
         </motion.h2>
 
         <motion.h3
           className={classes.about__subtitle}
-          {...(shouldAnimate && {
-            variants: fadeIn("up", "tween", 0.3, 0.6),
-            initial: "hidden",
-            whileInView: "show",
-            viewport: { once: true, amount: 0.3 }
-          })}
+          variants={fadeIn("up", "tween", 0.3, 0.6)}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.1 }}
         >
           {aboutContent.subtitle}
         </motion.h3>
 
         <motion.div
           className={classes.about__text}
-          {...(shouldAnimate && {
-            variants: fadeIn("up", "tween", 0.4, 0.8),
-            initial: "hidden",
-            whileInView: "show",
-            viewport: { once: true, amount: 0.3 }
-          })}
+          variants={fadeIn("up", "tween", 0.4, 0.8)}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.1 }}
         >
           {aboutContent.paragraphs.map((paragraph, idx) => (
             <p key={idx} className={classes.about__paragraph}>
@@ -100,12 +92,10 @@ export default function AboutUs() {
         {/* ✅ NOWA SEKCJA: DLACZEGO WARTO – 3 IKONY */}
         <motion.div
           className={classes.about__why}
-          {...(shouldAnimate && {
-            variants: fadeIn("up", "tween", 0.7, 0.8),
-            initial: "hidden",
-            whileInView: "show",
-            viewport: { once: true, amount: 0.3 }
-          })}
+          variants={fadeIn("up", "tween", 0.5, 0.8)}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.1 }}
         >
           <h4 className={classes.about__whyTitle}>Dlaczego warto?</h4>
           <ul className={classes.about__list}>
@@ -113,12 +103,10 @@ export default function AboutUs() {
               <motion.li
                 key={i}
                 className={classes.about__item}
-                {...(shouldAnimate && {
-                  variants: fadeIn("up", "tween", 0.8 + i * 0.1, 0.6),
-                  initial: "hidden",
-                  whileInView: "show",
-                  viewport: { once: true, amount: 0.3 }
-                })}
+                variants={fadeIn("up", "tween", 0.6 + i * 0.1, 0.6)}
+                initial="hidden"
+                whileInView="show"
+                viewport={{ once: true, amount: 0.1 }}
               >
                 <Icon className={classes.about__icon} />
                 {text}
@@ -128,12 +116,10 @@ export default function AboutUs() {
         </motion.div>
 
         <motion.div
-          {...(shouldAnimate && {
-            variants: fadeIn("up", "tween", 1.1, 0.6),
-            initial: "hidden",
-            whileInView: "show",
-            viewport: { once: true, amount: 0.3 }
-          })}
+          variants={fadeIn("up", "tween", 0.8, 0.6)}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.1 }}
           className={classes.about__buttonWrapper}
         >
           <AnimatedButton
