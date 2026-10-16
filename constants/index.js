@@ -149,24 +149,16 @@ export const servicesData = [
 ];
 
 export const exteriorServices = [
-  // SEKCJA: MYCIE RĘCZNE (image_ce19ac.jpg)
+  // SEKCJA: MYCIE RĘCZNE
   {
     id: "mycie-reczne-podstawowe",
     category: "Mycie Ręczne",
     title: "Mycie Ręczne Podstawowe",
     price: "50 zł",
-    items: ["Oprysk wstępny", "Mycie ręczne karoserii", "Osuszanie karoserii"],
-  },
-  {
-    id: "mycie-reczne-zaawansowane",
-    category: "Mycie Ręczne",
-    title: "Mycie Ręczne Zaawansowane",
-    price: "79 zł",
     items: [
-      "Oprysk wstępny",
-      "Aktywna piana",
-      "Mycie ręczne karoserii i felg",
-      "Osuszanie karoserii",
+      "Oprysk wstępny & piana aktywna",
+      "Bezpieczne mycie na dwa wiadra",
+      "Osuszanie delikatnym ręcznikiem",
     ],
   },
   {
@@ -175,33 +167,44 @@ export const exteriorServices = [
     title: "Mycie Ręczne Premium",
     price: "99 zł",
     items: [
-      "Oprysk wstępny",
-      "Aktywna piana",
-      "Mycie ręczne karoserii, felg i wnęk drzwiowych",
-      "Osuszanie karoserii",
-      "Wosk syntetyczny",
-      "Dressing na opony",
+      "Kompleksowe mycie karoserii, felg i wnęk",
+      "Aplikacja wosku syntetycznego (wet coat)",
+      "Dressing na opony i plastiki zewnętrzne",
     ],
   },
-  // SEKCJA: LAKIER I POWŁOKI (image_ce198d.jpg)
+  // SEKCJA: LAKIER I POWŁOKI
   {
-    id: "polerowanie-lakieru",
+    id: "korekta-one-step",
     category: "Lakier i Ochrona",
-    title: "Polerowanie Lakieru",
-    prices: { small: "1000", medium: "1500", large: "1800" },
-    items: ["Korekta lakieru", "Usunięcie zarysowań", "Przywrócenie blasku"],
+    title: "Korekta Lakieru One-Step",
+    price: "od 800 zł",
+    items: [
+      "Jednoetapowe polerowanie maszynowe",
+      "Usunięcie do 60-70% drobnych rys i zmatowień",
+      "Przywrócenie głębi koloru i szklistości",
+    ],
+  },
+  {
+    id: "korekta-dwuetapowa",
+    category: "Lakier i Ochrona",
+    title: "Dwuetapowa Korekta Lakieru",
+    price: "od 1500 zł",
+    items: [
+      "Wieloetapowe polerowanie maszynowe",
+      "Usunięcie do 85-95% rys i hologramów",
+      "Maksymalny efekt lustrzanego odbicia",
+    ],
   },
   {
     id: "powloka-2-lata",
     category: "Lakier i Ochrona",
     title: "Aplikacja Powłoki Ceramicznej",
     subtitle: "Trwałość 2 lata",
-    prices: { small: "1600", medium: "2000", large: "2300" },
+    price: "od 1600 zł",
     items: [
-      "Ochrona UV",
-      "Twardość 9H",
-      "Super hydrofobowość",
-      "Aplikacja powłoki ceramicznej (Polerowanie lakieru i aplikacja powłoki ceramicznej)",
+      "Twardość 9H i wysoka ochrona UV",
+      "Silna hydrofobowość ułatwiająca mycie",
+      "Polerowanie lakieru w pakiecie",
     ],
   },
   {
@@ -209,82 +212,90 @@ export const exteriorServices = [
     category: "Lakier i Ochrona",
     title: "Aplikacja Powłoki Ceramicznej",
     subtitle: "Trwałość 3 lata",
-    prices: { small: "1800", medium: "2100", large: "2300" },
-    items: ["Maksymalna trwałość", "Głęboki połysk", "Najwyższa ochrona"],
+    price: "od 1800 zł",
+    items: [
+      "Maksymalna ochrona przed chemią i mikro-rysami",
+      "Głęboki połysk i szklisty efekt lakieru",
+      "Polerowanie lakieru w pakiecie",
+    ],
   },
   {
     id: "hydrofobizacja-szyb",
     category: "Lakier i Ochrona",
     title: "Hydrofobizacja Szyb",
     subtitle: "Niewidzialna wycieraczka",
-    prices: { small: "150", medium: "200", large: "250" },
+    price: "od 150 zł",
     extraPrice: { label: "Komplet szyb", value: "400" },
-    items: ["Lepsza widoczność w deszczu", "Łatwiejsze usuwanie owadów"],
+    items: [
+      "Zrzut wody bez wycieraczek powyżej 50 km/h",
+      "Wyraźnie lepsza widoczność w deszczu",
+    ],
   },
   {
     id: "przyciemnianie-szyb",
     category: "Szyby",
     title: "Przyciemnianie Szyb",
-    prices: { small: "550", medium: "600", large: "700" },
+    price: "od 550 zł",
     items: [
       "Folie premium z filtrem UV",
-      "Redukcja nagrzewania wnętrza",
-      "Prywatność i styl",
-      "Gwarancja na montaż",
-    ],
-  },
-  {
-    id: "mycie-detailingowe-wosk",
-    category: "Mycie Ręczne",
-    title: "Mycie Detailingowe z Woskiem",
-    prices: { small: "150", medium: "200", large: "250" },
-    items: [
-      "Kompleksowe mycie zewnętrzne",
-      "Dekontaminacja lakieru",
-      "Aplikacja twardego wosku syntetycznego",
-      "Dressing na plastiki i opony",
+      "Redukcja nagrzewania wnętrza i prywatność",
+      "Gwarancja i atest na montaż",
     ],
   },
 ];
 
 export const interiorServices = [
-  // SEKCJA: WNĘTRZE (image_ce196f.jpg)
+  // SEKCJA: WNĘTRZE
   {
     id: "detailing-wnetrza",
     title: "Kompleksowe Czyszczenie Wnętrza",
-    prices: { small: "250", medium: "300", large: "350" },
+    price: "od 200 zł",
     items: [
-      "Dokładne odkurzanie",
-      "Pędzelkowanie detali",
-      "Czyszczenie i konserwacja plastików",
-      "Mycie szyb od wewnątrz",
+      "Dokładne odkurzanie wnętrza i bagażnika",
+      "Pędzelkowanie detali i kratek nawiewów",
+      "Czyszczenie i matowy dressing plastików UV",
     ],
   },
   {
     id: "pranie-foteli",
     title: "Pranie Foteli Materiałowych",
-    subtitle: "5 miejsc siedzących",
-    prices: { small: "250", medium: "250", large: "250" },
+    subtitle: "Komplet foteli (5 miejsc)",
+    price: "od 250 zł",
+    items: [
+      "Ekstrakcyjne pranie foteli i kanapy",
+      "Skuteczne usuwanie plam i zacieków",
+      "Neutralizacja nieprzyjemnych zapachów",
+    ],
   },
   {
     id: "impregnacja-foteli",
     title: "Impregnacja Foteli Materiałowych",
-    prices: { small: "200", medium: "200", large: "200" },
+    price: "200 zł",
+    items: [
+      "Niewidzialna powłoka hydrofobowa",
+      "Ochrona przed wnikaniem cieczy i brudu",
+      "Zabezpieczenie materiału przed plamami",
+    ],
   },
   {
     id: "czyszczenie-tapicerki-skorzanej",
     title: "Czyszczenie Tapicerki Skórzanej",
-    prices: { small: "300", medium: "350", large: "400" },
+    price: "od 300 zł",
     items: [
-      "Czyszczenie dedykowaną chemią",
-      "Konserwacja odżywką",
-      "Ochrona UV",
+      "Bezpieczne czyszczenie dedykowaną chemią",
+      "Głębokie odżywienie i impregnacja odżywką",
+      "Matowe wykończenie i ochrona przed pękaniem",
     ],
   },
   {
     id: "pranie-podlogi",
     title: "Pranie Podłogi",
-    prices: { small: "150", medium: "200", large: "250" },
+    price: "od 150 zł",
+    items: [
+      "Głębokie pranie ekstrakcyjne wykładziny",
+      "Usunięcie wbitego piasku, soli i błota",
+      "Odświeżenie i sterylna czystość",
+    ],
   },
 ];
 

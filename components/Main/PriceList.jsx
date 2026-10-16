@@ -17,6 +17,23 @@ import {
 } from "react-icons/fa";
 import classes from "./PriceList.module.scss";
 
+const renderPrice = (priceStr) => {
+  if (!priceStr) return null;
+  if (priceStr.startsWith("od ")) {
+    return (
+      <div className={classes.amountWrapper}>
+        <span className={classes.pricePrefix}>od</span>
+        <span className={classes.amountLarge}>{priceStr.replace("od ", "")}</span>
+      </div>
+    );
+  }
+  return (
+    <div className={classes.amountWrapper}>
+      <span className={classes.amountLarge}>{priceStr}</span>
+    </div>
+  );
+};
+
 const PriceCard = ({ svc }) => {
   // Wybór ikony w zależności od ceny lub typu
   const isPremium = svc.id?.includes("premium") || svc.id?.includes("3-lata");
@@ -63,7 +80,7 @@ const PriceCard = ({ svc }) => {
           </div>
         ) : (
           <div className={classes.mainPrice}>
-            <span className={classes.amountLarge}>{svc.price}</span>
+            {renderPrice(svc.price)}
           </div>
         )}
 
