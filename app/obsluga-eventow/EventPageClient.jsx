@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence, MotionConfig } from "framer-motion";
 import AnimatedButton from "../../components/More/AnimatedButton";
 import {
   FaBolt,
@@ -21,6 +21,75 @@ import {
   FaMapMarkerAlt,
 } from "react-icons/fa";
 import classes from "./page.module.scss";
+
+// ================= SCROLL REVEAL (blur -> ostrość, stagger) =================
+const EASE = [0.22, 1, 0.36, 1];
+const VIEWPORT = { once: true, amount: 0.2 };
+
+// filter resetujemy do "none" po animacji, żeby nie psuć backdrop-filter w kartach
+const fadeUp = {
+  hidden: { opacity: 0, y: 40, filter: "blur(8px)" },
+  visible: (delay = 0) => ({
+    opacity: 1,
+    y: 0,
+    filter: "blur(0px)",
+    transition: { duration: 0.75, ease: EASE, delay },
+    transitionEnd: { filter: "none" },
+  }),
+};
+
+const headerContainer = {
+  hidden: {},
+  visible: { transition: { staggerChildren: 0.12 } },
+};
+
+const headerChild = {
+  hidden: { opacity: 0, y: 24, filter: "blur(6px)" },
+  visible: {
+    opacity: 1,
+    y: 0,
+    filter: "blur(0px)",
+    transition: { duration: 0.65, ease: EASE },
+    transitionEnd: { filter: "none" },
+  },
+};
+
+// Wrapper animuje się zamiast samej karty – CSS :hover (translateY) zostaje nietknięty
+function Reveal({ children, className, delay = 0, amount }) {
+  return (
+    <motion.div
+      className={className}
+      variants={fadeUp}
+      custom={delay}
+      initial="hidden"
+      whileInView="visible"
+      viewport={amount ? { ...VIEWPORT, amount } : VIEWPORT}
+    >
+      {children}
+    </motion.div>
+  );
+}
+
+function SectionHeader({ badge, children, text }) {
+  return (
+    <motion.div
+      className={classes.sectionHeader}
+      variants={headerContainer}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.4 }}
+    >
+      <motion.span className={classes.sectionHeader__badge} variants={headerChild}>
+        {badge}
+      </motion.span>
+      <motion.h2 variants={headerChild}>{children}</motion.h2>
+      <motion.p variants={headerChild}>{text}</motion.p>
+    </motion.div>
+  );
+}
+
+// Opóźnienie w obrębie rzędu – na desktopie karty wjeżdżają kaskadowo
+const stagger = (idx, perRow) => (idx % perRow) * 0.12;
 
 export default function EventPageClient({ faqData }) {
   const [openFaq, setOpenFaq] = useState(0);
@@ -195,6 +264,7 @@ export default function EventPageClient({ faqData }) {
   ];
 
   return (
+    <MotionConfig reducedMotion="user">
     <div className={classes.eventPage}>
       <div className={classes.ambientGlow} />
       <div className={classes.ambientGlow2} />
@@ -267,24 +337,22 @@ export default function EventPageClient({ faqData }) {
         <div className={classes.giantWatermark}>2K MOTORSPORT • TRACK SERVICE</div>
 
         <div className={classes.sectionContainer}>
-          <div className={classes.sectionHeader}>
-            <span className={classes.sectionHeader__badge}>Dlaczego 2K Detailing?</span>
-            <h2>
-              Kompleksowe wsparcie dla <span>Twojego Wydarzenia</span>
-            </h2>
-            <p>
-              Event motoryzacyjny wymaga niezawodności i najwyższego standardu estetycznego.
-              Wchodzimy na obiekt w pełni wyposażeni – zdejmujemy z organizatora wszelkie troski o stan wizualny aut.
-            </p>
-          </div>
+          <SectionHeader
+            badge="Dlaczego 2K Detailing?"
+            text="Event motoryzacyjny wymaga niezawodności i najwyższego standardu estetycznego. Wchodzimy na obiekt w pełni wyposażeni – zdejmujemy z organizatora wszelkie troski o stan wizualny aut."
+          >
+            Kompleksowe wsparcie dla <span>Twojego Wydarzenia</span>
+          </SectionHeader>
 
           <div className={classes.pillarsGrid}>
             {pillars.map((p, idx) => (
-              <div key={idx} className={classes.pillarCard}>
-                <div className={classes.pillarCard__icon}>{p.icon}</div>
-                <h3>{p.title}</h3>
-                <p>{p.desc}</p>
-              </div>
+              <Reveal key={idx} className={classes.revealItem} delay={stagger(idx, 4)}>
+                <div className={classes.pillarCard}>
+                  <div className={classes.pillarCard__icon}>{p.icon}</div>
+                  <h3>{p.title}</h3>
+                  <p>{p.desc}</p>
+                </div>
+              </Reveal>
             ))}
           </div>
         </div>
@@ -292,20 +360,17 @@ export default function EventPageClient({ faqData }) {
 
       {/* ================= SERVICES / SCOPE ================= */}
       <section id="oferta" className={classes.sectionContainer}>
-        <div className={classes.sectionHeader}>
-          <span className={classes.sectionHeader__badge}>Nasza Oferta Eventowa</span>
-          <h2>
-            Co możemy zaoferować <span>na Twoim Evencie?</span>
-          </h2>
-          <p>
-            Dostosowujemy zakres prac do specyfiki wydarzenia: od dynamicznych sesji na torze,
-            przez eleganckie gale i premiery, aż po wielotysięczne targi motoryzacyjne.
-          </p>
-        </div>
+        <SectionHeader
+          badge="Nasza Oferta Eventowa"
+          text="Dostosowujemy zakres prac do specyfiki wydarzenia: od dynamicznych sesji na torze, przez eleganckie gale i premiery, aż po wielotysięczne targi motoryzacyjne."
+        >
+          Co możemy zaoferować <span>na Twoim Evencie?</span>
+        </SectionHeader>
 
         <div className={classes.servicesGrid}>
           {services.map((s, idx) => (
-            <div key={idx} className={classes.serviceCard}>
+            <Reveal key={idx} className={classes.revealItem} delay={stagger(idx, 2)} amount={0.15}>
+            <div className={classes.serviceCard}>
               <div className={classes.serviceCard__header}>
                 <span className={classes.serviceTag}>{s.tag}</span>
                 <h3>{s.title}</h3>
@@ -329,10 +394,12 @@ export default function EventPageClient({ faqData }) {
                 </a>
               </div>
             </div>
+            </Reveal>
           ))}
         </div>
 
         {/* ================= INFRASTRUCTURE HIGHLIGHT ================= */}
+        <Reveal amount={0.15}>
         <div className={classes.infraBox}>
           <div className={classes.infraBox__content}>
             <h3>
@@ -361,25 +428,23 @@ export default function EventPageClient({ faqData }) {
             />
           </div>
         </div>
+        </Reveal>
       </section>
 
       {/* ================= VIDEO SHOWCASE ================= */}
       <section className={classes.videoSection}>
         <div className={classes.sectionContainer}>
-          <div className={classes.sectionHeader}>
-            <span className={classes.sectionHeader__badge}>Wideo & Realizacje</span>
-            <h2>
-              Zobacz naszą pracę <span>w akcji</span>
-            </h2>
-            <p>
-              Prezentacja wideo z wydarzeń motoryzacyjnych i opieki nad supersamochodami.
-              Kliknij, aby obejrzeć relację z padoku i targów.
-            </p>
-          </div>
+          <SectionHeader
+            badge="Wideo & Realizacje"
+            text="Prezentacja wideo z wydarzeń motoryzacyjnych i opieki nad supersamochodami. Kliknij, aby obejrzeć relację z padoku i targów."
+          >
+            Zobacz naszą pracę <span>w akcji</span>
+          </SectionHeader>
 
           <div className={classes.videoGrid}>
             {videos.map((v) => (
-              <div key={v.id} className={classes.videoCard}>
+              <Reveal key={v.id}>
+              <div className={classes.videoCard}>
                 <div
                   className={classes.videoThumbnail}
                   onClick={() => setActiveVideo(v)}
@@ -397,6 +462,7 @@ export default function EventPageClient({ faqData }) {
                   <p>{v.desc}</p>
                 </div>
               </div>
+              </Reveal>
             ))}
           </div>
         </div>
@@ -438,21 +504,17 @@ export default function EventPageClient({ faqData }) {
 
       {/* ================= GALLERY SECTION ================= */}
       <section className={classes.sectionContainer}>
-        <div className={classes.sectionHeader}>
-          <span className={classes.sectionHeader__badge}>Fotorelacja</span>
-          <h2>
-            Galeria <span>z Obsługi Eventów</span>
-          </h2>
-          <p>
-            Wybrane ujęcia z torów wyścigowych, zlotów supersamochodów i hal wystawowych.
-            Galeria jest na bieżąco uzupełniana o kolejne realizacje zespołu 2K Detailing.
-          </p>
-        </div>
+        <SectionHeader
+          badge="Fotorelacja"
+          text="Wybrane ujęcia z torów wyścigowych, zlotów supersamochodów i hal wystawowych. Galeria jest na bieżąco uzupełniana o kolejne realizacje zespołu 2K Detailing."
+        >
+          Galeria <span>z Obsługi Eventów</span>
+        </SectionHeader>
 
         <div className={classes.galleryGrid}>
           {galleryItems.map((item, idx) => (
+            <Reveal key={idx} className={classes.revealItem} delay={stagger(idx, 3)}>
             <div
-              key={idx}
               className={classes.galleryCard}
               onClick={() => setActiveImage(item)}
             >
@@ -467,6 +529,7 @@ export default function EventPageClient({ faqData }) {
                 <span>{item.subtitle}</span>
               </div>
             </div>
+            </Reveal>
           ))}
         </div>
       </section>
@@ -512,23 +575,19 @@ export default function EventPageClient({ faqData }) {
 
       {/* ================= FAQ SECTION ================= */}
       <section className={classes.sectionContainer}>
-        <div className={classes.sectionHeader}>
-          <span className={classes.sectionHeader__badge}>Najczęstsze Pytania</span>
-          <h2>
-            FAQ – Obsługa <span>Eventów i Targów</span>
-          </h2>
-          <p>
-            Odpowiedzi na najczęściej zadawane pytania przez organizatorów eventów,
-            agencje marketingowe, salony dealerskie i kluby motoryzacyjne.
-          </p>
-        </div>
+        <SectionHeader
+          badge="Najczęstsze Pytania"
+          text="Odpowiedzi na najczęściej zadawane pytania przez organizatorów eventów, agencje marketingowe, salony dealerskie i kluby motoryzacyjne."
+        >
+          FAQ – Obsługa <span>Eventów i Targów</span>
+        </SectionHeader>
 
         <div className={classes.faqContainer}>
           {faqData.map((faq, index) => {
             const isOpen = openFaq === index;
             return (
+              <Reveal key={index} delay={Math.min(index, 5) * 0.06}>
               <div
-                key={index}
                 className={`${classes.faqItem} ${isOpen ? classes.open : ""}`}
               >
                 <button
@@ -549,11 +608,13 @@ export default function EventPageClient({ faqData }) {
                   </div>
                 )}
               </div>
+              </Reveal>
             );
           })}
         </div>
 
         {/* ================= CTA BANNER ================= */}
+        <Reveal amount={0.3}>
         <div className={classes.ctaBanner}>
           <div className={classes.ctaBanner__content}>
             <h3>
@@ -574,7 +635,9 @@ export default function EventPageClient({ faqData }) {
             </div>
           </div>
         </div>
+        </Reveal>
       </section>
     </div>
+    </MotionConfig>
   );
 }

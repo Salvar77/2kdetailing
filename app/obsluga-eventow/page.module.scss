@@ -515,6 +515,17 @@
   }
 }
 
+// Wrapper animacji scroll-reveal (framer-motion) – karta wewnątrz wypełnia całą komórkę gridu
+.revealItem {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+
+  > * {
+    flex: 1 1 auto;
+  }
+}
+
 .pillarCard {
   background: rgba(22, 25, 33, 0.75);
   backdrop-filter: blur(12px);
