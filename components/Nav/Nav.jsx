@@ -15,6 +15,7 @@ export default function Nav({ isOpen, toggleNav }) {
   const items = [
     { href: "/cennik", label: "Cennik" },
     { href: "/oferta", label: "Oferta" },
+    { href: "/obsluga-eventow", label: "Obsługa Eventów" },
     { href: "/blog", label: "Blog" },
     { href: "/recenzje", label: "Recenzje" },
     { href: "/galeria", label: "Galeria" },

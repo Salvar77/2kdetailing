@@ -16,16 +16,18 @@ export async function generateMetadata({ params }) {
     const { slug } = await params;
     const mod = await import(`../../../content/posts/${slug}.jsx`);
     const { title, description } = mod.meta;
+    const seoTitle = mod?.meta?.seoTitle || title;
+    const seoDesc = mod?.meta?.seoDescription || description;
 
     const url = `/blog/${slug}`;
     return {
-      title: `${title} – Blog`,
-      description,
+      title: seoTitle,
+      description: seoDesc,
       alternates: { canonical: url },
       openGraph: {
         url,
-        title: `${title} – Blog`,
-        description,
+        title: seoTitle,
+        description: seoDesc,
         images: [
           {
             url: mod.meta.hero || "/og/logo-2kdetailing-opole.png",

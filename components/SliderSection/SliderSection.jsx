@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 import SliderTrue from "./SliderTrue";
 import BeforeImage1 from "../../assets/images/przyciemnianie-szyb-samochodowych-opole-przed.webp";
 import AfterImage1 from "../../assets/images/przyciemnianie-szyb-samochodowych-opole-po.webp";
-import BeforeImage2 from "../../assets/images/2k-logo-black-biale-tlo.svg";
-import AfterImage2 from "../../assets/images/2k-logo-black-biale-tlo.svg";
-import BeforeImage3 from "../../assets/images/2k-logo-black-biale-tlo.svg";
-import AfterImage3 from "../../assets/images/2k-logo-black-biale-tlo.svg";
+import BeforeImage2 from "../../assets/images/regeneracja-reflektorow-renault-laguna-opole-przed.webp";
+import AfterImage2 from "../../assets/images/regeneracja-reflektorow-renault-laguna-opole-po.webp";
+import BeforeImage3 from "../../assets/images/korekta-lakieru-polerowanie-czerwony-lakier-opole-przed.webp";
+import AfterImage3 from "../../assets/images/korekta-lakieru-polerowanie-czerwony-lakier-opole-po.webp";
 import BeforeImage4 from "../../assets/images/pranie-tapicerki-czyszczenie-wnetrza-opole-przed.webp";
 import AfterImage4 from "../../assets/images/pranie-tapicerki-czyszczenie-wnetrza-opole-po.webp";
 import classes from "./SliderSection.module.scss";
@@ -17,7 +17,7 @@ const SliderSection = ({
   showTitle = true,
   showButton = true,
   customBgColor,
-  maxImagesToShow = 3,
+  maxImagesToShow = 4,
   additionalClass = "",
   style,
 }) => {
@@ -41,16 +41,18 @@ const SliderSection = ({
     {
       beforeImage: BeforeImage3,
       afterImage: AfterImage3,
-      altBefore: "Zniszczony lakier podatny na warunki atmosferyczne",
+      altBefore:
+        "Mocno zmatowiały, utleniony czerwony lakier maski przed jednoetapową korektą w Opolu",
       altAfter:
-        "Auto zabezpieczone folią ochronną PPF – nieskazitelna głębia koloru",
+        "Lustrzana głębia koloru i usunięcie zmatowień po korekcie lakieru – 2K Auto Detailing Opole",
     },
     {
       beforeImage: BeforeImage2,
       afterImage: AfterImage2,
-      altBefore: "Zaniedbana karoseria przed procesem auto detailingu",
+      altBefore:
+        "Zmatowiały, pożółkły reflektor Renault Laguna Coupé przed regeneracją w Opolu",
       altAfter:
-        "Pełen auto detailing z zewnątrz – przywrócenie stanu salonowego",
+        "Krystalicznie przejrzysty reflektor po polerowaniu i zabezpieczeniu UV w 2K Auto Detailing Opole",
     },
   ];
 

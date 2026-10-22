@@ -108,7 +108,7 @@
     background: linear-gradient(145deg, #151515, #250000);
 
     .priceCard__header {
-      padding-right: 85px; // Bezpieczny odstęp, by odznaka PREMIUM nie nachodziła na tytuł
+      padding-right: 85px; 
     }
   }
 
@@ -272,18 +272,18 @@
 .extraPriceBadge {
   margin-top: 1rem;
   padding: 0.8rem;
-  background: rgba($red-bright, 0.15); // Delikatna czerwona poświata tła
-  border: 1px dashed rgba($red-bright, 0.4); // Przerywana ramka podkreślająca, że to opcja
+  background: rgba($red-bright, 0.15); 
+  border: 1px dashed rgba($red-bright, 0.4);
   border-radius: 4px;
 
-  color: $white-smooth; // To zmienia czarną czcionkę na Twoją białą
+  color: $white-smooth; 
   font-size: 0.9rem;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
 
-  // Możesz dodać lekką łunę pod tekstem, żeby jeszcze lepiej czytało się na ciemnym tle
+
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 

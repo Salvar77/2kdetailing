@@ -17,6 +17,7 @@ export const meta = {
   id: 12,
   slug: "parujace-szyby-w-samochodzie",
   title: "Parujące szyby od środka – przyczyny i jak to naprawić",
+  seoTitle: "Parujące Szyby w Samochodzie",
   subtitle: "WILGOĆ W AUCIE JESIENIĄ I ZIMĄ",
   date: "2026-10-01",
   hero: heroImg.src,
@@ -29,7 +30,7 @@ export const meta = {
     "Przyciemnione i czyste szyby samochodowe",
   ],
   description:
-    "Szyby w aucie parują od środka i długo nie chcą odparować? Sprawdź najczęstsze przyczyny wilgoci w kabinie – od mokrych dywaników i tapicerki po filtr kabinowy – i dowiedz się, jak skutecznie się jej pozbyć.",
+    "Szyby w aucie parują od środka? Sprawdź przyczyny wilgoci w kabinie i skuteczne sposoby na parujące szyby jesienią. Poradnik studia 2K Detailing w Opolu!",
 };
 
 export default function PostComponent() {

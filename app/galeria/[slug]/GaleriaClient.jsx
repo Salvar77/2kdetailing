@@ -43,6 +43,11 @@ const GaleriaClient = ({ realization }) => {
               <div
                 key={index}
                 className={classes.realizationDetail__imageWrapper}
+                style={
+                  image?.width && image?.height
+                    ? { aspectRatio: `${image.width} / ${image.height}` }
+                    : undefined
+                }
               >
                 <Image
                   src={typeof image === "string" ? image : image.src}

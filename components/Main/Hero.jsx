@@ -25,8 +25,8 @@ const slides = [
     id: 2,
     title1: (
       <>
-        MISTRZOWSKA{" "}
-        <span className={classes.hero__titleRed}>KOREKTA LAKIERU</span>
+        KOREKTA{" "}
+        <span className={classes.hero__titleRed}>LAKIERU</span>
       </>
     ),
     title2: "",

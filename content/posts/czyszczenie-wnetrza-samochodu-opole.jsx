@@ -12,6 +12,7 @@ export const meta = {
   id: 8,
   slug: "czyszczenie-wnetrza-samochodu-opole",
   title: "Kompleksowe Czyszczenie Samochodu i Pranie Tapicerki",
+  seoTitle: "Czyszczenie Wnętrza Samochodu Opole",
   subtitle: "CZYSTOŚĆ I ŚWIEŻOŚĆ WNĘTRZA",
   date: "2026-06-09",
   image: "/czyszczenie-wnetrza-samochodu-opole.jpg",
@@ -22,16 +23,16 @@ export const meta = {
     "/pranie-tapicerki-czyszczenie-wnetrza-opole-po.jpg",
     "/czyszczenie-wnetrza-samochodu-opole.jpg",
     "/pranie-tapicerki-czyszczenie-wnetrza-opole-przed.jpg",
-    "/2k-logo-black-biale-tlo.svg",
+    "/images/wlasciciel-2k-auto-detailing-detailing-wnetrza-opole.webp",
   ],
   imagesAltText: [
     "Czyszczenie wnętrza po zabiegu",
     "Pranie tapicerki samochodowej",
     "Czyszczenie wnętrza przed zabiegiem",
-    "2K Auto Detailing logo",
+    "Pielęgnacja wnętrza i detali kabiny w 2K Auto Detailing Opole",
   ],
   description:
-    "Kompleksowe czyszczenie wnętrza samochodu i pranie tapicerki. Zadbaj o higienę, świeży zapach i perfekcyjny wygląd w swoim aucie.",
+    "Czyszczenie wnętrza samochodu i pranie tapicerki w Opolu. Skuteczne usuwanie plam, neutralizacja zapachów i czyste plastiki. 2K Auto Detailing Opole!",
 };
 
 export default function PostComponent() {

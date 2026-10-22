@@ -132,11 +132,11 @@
       }
 
       &.korektaLakieru img {
-        object-position: 10%;
+        object-position: center;
       }
 
       &.powlokaCeramiczna img {
-        object-position: 70% 30%;
+        object-position: center;
       }
 
       &.foliaPPF img {
@@ -156,6 +156,9 @@
       }
       &.przyciemnianieSzyb img {
         object-position: 15% 50%;
+      }
+      &.regeneracjaReflektorow img {
+        object-position: 50% 50%;
       }
     }
 

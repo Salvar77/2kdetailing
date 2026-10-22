@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import classes from "./LayoutClient.module.scss";
+
 import { usePathname } from "next/navigation";
 import Nav from "../Nav/Nav";
 import Footer from "../Footer/Footer";
@@ -22,13 +22,7 @@ export default function LayoutClient({ children }) {
         <Nav isOpen={isOpen} toggleNav={toggleNav} />
       </header>
 
-      {isHome ? (
-        <main>{children}</main>
-      ) : (
-        <div className={`${classes.content} ${isOpen ? classes.offset : ""}`}>
-          <main>{children}</main>
-        </div>
-      )}
+      {isHome ? <main>{children}</main> : children}
 
       <Footer />
       <ContactBubble />

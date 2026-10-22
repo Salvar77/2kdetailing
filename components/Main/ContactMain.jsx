@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Logo from "../../assets/images/2k-logo-white-bez-tla.svg";
 import classes from "./ContactMain.module.scss";
 import Link from "next/link";
@@ -7,12 +7,6 @@ import Image from "next/image";
 import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa";
 
 const ContactMain = () => {
-  const [showServices, setShowServices] = useState(false);
-
-  const toggleServices = () => {
-    setShowServices((prev) => !prev);
-  };
-
   return (
     <section id="kontakt-główny" className={classes.contactMain}>
       <div className={classes.column}>
@@ -52,17 +46,23 @@ const ContactMain = () => {
         <nav className={classes.nav} role="navigation" aria-label="Główne menu">
           <ul>
             <li>
-              <Link href="/cennik" aria-label="Przejdź do sekcji O nas">
+              <Link href="/oferta" aria-label="Przejdź do oferty">
+                Oferta
+              </Link>
+            </li>
+            <li>
+              <Link href="/cennik" aria-label="Przejdź do cennika">
                 Cennik
               </Link>
             </li>
-
             <li>
-              <span onClick={toggleServices} aria-label="Pokaż usługi">
-                Oferta
-              </span>
+              <Link
+                href="/obsluga-eventow"
+                aria-label="Obsługa Eventów Motoryzacyjnych"
+              >
+                Obsługa Eventów
+              </Link>
             </li>
-
             <li>
               <Link href="/recenzje" aria-label="Przejdź do sekcji Recenzje">
                 Recenzje
@@ -130,69 +130,6 @@ const ContactMain = () => {
           </li>
         </ul>
       </div>
-
-      {showServices && (
-        <div className={classes.fullScreenModal}>
-          <button
-            className={classes.closeButton}
-            onClick={toggleServices}
-            aria-label="Zamknij usługi"
-          >
-            ×
-          </button>
-          <h3 className={classes.modalTitle}>Usługi:</h3>
-          <ul className={classes.servicesList}>
-            <li>
-              <Link href="/oferta/korekta-lakieru" onClick={toggleServices}>
-                Korekta lakieru
-              </Link>
-            </li>
-            <li>
-              <Link href="/oferta/powloka-ceramiczna" onClick={toggleServices}>
-                Powłoka ceramiczna i elastomerowa
-              </Link>
-            </li>
-            <li>
-              <Link href="/oferta/folia-ppf" onClick={toggleServices}>
-                Zabezpieczenie folią PPF
-              </Link>
-            </li>
-            <li>
-              <Link href="/oferta/pranie-tapicerki" onClick={toggleServices}>
-                Pranie tapicerki
-              </Link>
-            </li>
-            <li>
-              <Link href="/oferta/renowacja-skor" onClick={toggleServices}>
-                Renowacja skór
-              </Link>
-            </li>
-            <li>
-              <Link href="/oferta/detailing-wnetrza" onClick={toggleServices}>
-                Detailing wnętrza
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/oferta/regeneracja-reflektorow"
-                onClick={toggleServices}
-              >
-                Regeneracja reflektorów
-              </Link>
-            </li>
-            <li>
-              <Link href="/oferta/przyciemnianie-szyb" onClick={toggleServices}>
-                Przyciemnianie szyb
-              </Link>
-            </li>
-            <li>
-              <Link href="/oferta/auto-detailing" onClick={toggleServices}>
-                Auto Detailing – pakiet kompleksowy
-              </Link>
-            </li>
-          </ul>
-        </div>
-      )}
     </section>
   );
 };

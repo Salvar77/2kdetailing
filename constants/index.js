@@ -1,19 +1,20 @@
 import autodetailingWnetrza from "../assets/images/wlasciciel-2k-auto-detailing-detailing-wnetrza-opole.webp";
-import autodetailing2 from "../assets/images/2k-logo-black-biale-tlo.svg";
+import autodetailing2 from "../assets/images/auto-detailing-lexus-is-studio-2k-opole.webp";
 import leatherrenovation from "../assets/images/wlasciciel-2k-auto-detailing-renowacja-skor-opole.webp";
 import paintcorrection from "../assets/images/wlasciciel-2k-auto-detailing-korekta-lakieru-opole.webp";
 import ppf from "../assets/images/wlasciciel-2k-auto-detailing-folia-ppf-opole.webp";
-import ceramic from "../assets/images/2k-logo-black-biale-tlo.svg";
-import upholstery from "../assets/images/2k-logo-black-biale-tlo.svg";
-import headlight from "../assets/images/2k-logo-black-biale-tlo.svg";
+import ceramic from "../assets/images/powloka-ceramiczna-peugeot-508-kombi-studio-2k-opole.webp";
+import upholstery from "../assets/images/pranie-tapicerki-czyszczenie-wnetrza-opole-po.webp";
+import headlight from "../assets/images/regeneracja-reflektorow-opole-polerowanie-lamp-przed-po.webp";
+import headlightMercedes from "../assets/images/polerowanie-reflektorow-mercedes-opole-efekt.webp";
 import tinting from "../assets/images/2k-auto-detailing-opole-przyciemnianie-szyb-realizacja.webp";
-import autoDetailingPakiet from "../assets/images/2k-logo-black-biale-tlo.svg";
+import autoDetailingPakiet from "../assets/images/auto-detailing-lexus-is-studio-2k-opole.webp";
 import myjniaReczna from "../assets/images/wlasciciel-2k-auto-detailing-myjnia-reczna-opole.webp";
 import blogPost from "../assets/images/wlasciciel-2k-auto-detailing-detailing-wnetrza-opole.webp";
 import blogPost2 from "../assets/images/wlasciciel-2k-auto-detailing-renowacja-skor-opole.webp";
 import blogPost3 from "../assets/images/wlasciciel-2k-auto-detailing-korekta-lakieru-3-opole.webp";
 import blogPost4 from "../assets/images/wlasciciel-2k-auto-detailing-folia-ppf-opole.webp";
-import blogPost5 from "../assets/images/2k-logo-black-biale-tlo.svg";
+import blogPost5 from "../assets/images/powloka-ceramiczna-peugeot-508-kombi-studio-2k-opole.webp";
 
 // Importy dla PPF - obrazy wygenerowane przez AI
 import ppfFullFront from "../assets/images/ppf-full-front.png";
@@ -100,14 +101,15 @@ export const servicesData = [
   {
     id: "oferta/regeneracja-reflektorow",
     title: "Regeneracja reflektorów Opole",
-    image: headlight,
+    image: headlightMercedes,
     description: "Sprawdź",
     gradient: "linear-gradient(rgba(63,59,59,.5), rgba(40,31,31,.5))",
     additionalInfo:
       "<strong>Regeneracja reflektorów</strong> – przywracamy lampom fabryczną przejrzystość. Usuwamy zmatowienia i żółty nalot, poprawiając widoczność i Twoje bezpieczeństwo po zmroku.",
     relatedBlogPost: "/blog/regeneracja-reflektorow-przeglad-opole",
     altText:
-      "Polerowanie lamp samochodowych i zabezpieczenie UV – renowacja zniszczonych reflektorów.",
+      "Polerowanie lamp samochodowych i zabezpieczenie UV – renowacja zniszczonych reflektorów Mercedes Opole.",
+    objectPosition: "center",
   },
   {
     id: "oferta/przyciemnianie-szyb",
@@ -355,7 +357,7 @@ export const blogPosts = [
     description:
       "Zmatowiałe, pożółkłe reflektory to słabsze światło jesienią i ryzyko problemów na przeglądzie. Sprawdź, kiedy wystarczy regeneracja kloszy, a kiedy potrzebna jest wymiana.",
     link: "/blog/regeneracja-reflektorow-przeglad-opole",
-    image: headlight,
+    image: headlightMercedes,
   },
   {
     id: 11,

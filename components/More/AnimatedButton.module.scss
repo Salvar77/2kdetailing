@@ -88,6 +88,8 @@
   display: block;
   overflow: hidden;
   position: relative;
+  width: 100%;
+  text-align: center;
 }
 
 .btn31 .text {
@@ -95,6 +97,7 @@
   font-weight: 900;
   color: $white-smooth;
   position: relative;
+  text-align: center;
 }
 
 .btn31:hover .text {

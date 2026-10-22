@@ -21,7 +21,7 @@ const Galeria = () => {
   }, []);
 
   return (
-    <div className={classes.background}>
+    <main className={classes.background}>
       <section id="galeria" className={classes.realizations}>
         <h1>Galeria</h1>
         <motion.div
@@ -41,7 +41,7 @@ const Galeria = () => {
           ))}
         </motion.div>
       </section>
-    </div>
+    </main>
   );
 };
 

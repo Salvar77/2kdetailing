@@ -1,6 +1,5 @@
 import React from "react";
 import classes from "./Footer.module.scss";
-import Link from "next/link";
 import dynamic from "next/dynamic";
 
 const GoogleMap = dynamic(() => import("../More/GoogleMap"), { ssr: false });
@@ -15,6 +14,7 @@ const Footer = () => {
     <footer className={classes.footer}>
       <GoogleMap />
       <ContactMain />
+
       <div className={classes.footer__container}>
         <div className={classes.footer__text}>
           <p className={classes.footer__textInfo}>

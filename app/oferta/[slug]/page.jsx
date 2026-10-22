@@ -20,9 +20,9 @@ export async function generateMetadata({ params }) {
     mod = await import(`../../../content/services/${slug}.jsx`);
   } catch {}
 
-  const title = mod?.meta?.title ?? svc.title;
+  const title = mod?.meta?.seoTitle ?? mod?.meta?.title ?? svc.title;
   const description =
-    mod?.meta?.lead ?? svc.additionalInfo.replace(/<[^>]+>/g, "");
+    mod?.meta?.description ?? mod?.meta?.lead ?? svc.additionalInfo.replace(/<[^>]+>/g, "");
 
   const heroMeta =
     typeof mod?.meta?.hero === "string" ? mod.meta.hero : mod?.meta?.hero?.src;

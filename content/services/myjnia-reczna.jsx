@@ -5,6 +5,9 @@ import myjniaImg from "../../assets/images/wlasciciel-2k-auto-detailing-myjnia-r
 
 export const meta = {
   title: "Myjnia Ręczna Opole – Bezpieczne Mycie Samochodu",
+  seoTitle: "Myjnia Ręczna Opole – Detailing",
+  description:
+    "Bezpieczna myjnia ręczna w Opolu. Mycie na dwa wiadra, deironizacja felg i ochrona lakieru przed zarysowaniami. Umów mycie w 2K Auto Detailing Opole!",
   hero: myjniaImg,
   heroAltText:
     "Profesjonalna myjnia ręczna w Opolu - bezpieczne mycie lakieru metodą na dwa wiadra",

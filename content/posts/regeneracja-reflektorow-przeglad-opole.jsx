@@ -10,20 +10,30 @@ import {
   Clock,
 } from "lucide-react";
 import classes from "../../app/blog/[slug]/page.module.scss";
+import reflektorImg1 from "../../assets/images/regeneracja-reflektorow-opole-polerowanie-lamp-przed-po.webp";
+import reflektorImg2 from "../../assets/images/polerowanie-reflektorow-mercedes-opole-efekt-przed-po.webp";
+import reflektorLagunaPorownanie from "../../assets/images/polerowanie-reflektorow-renault-laguna-opole-porownanie.webp";
 
 export const meta = {
   id: 10,
   slug: "regeneracja-reflektorow-przeglad-opole",
   title: "Regeneracja reflektorów przed przeglądem – czy auto przejdzie?",
+  seoTitle: "Regeneracja Reflektorów Opole",
   subtitle: "REFLEKTORY, PRZEGLĄD I JAZDA PO ZMROKU",
   date: "2026-10-05",
-  hero: "/2k-logo-black-biale-tlo.png",
-  image: "/2k-logo-black-biale-tlo.png",
-  dynamicImage: "/2k-logo-black-biale-tlo.png",
+  hero: reflektorImg1.src,
+  image: reflektorImg1,
+  dynamicImage: reflektorImg1,
   mainImageAltText:
     "Regeneracja zmatowiałych reflektorów przed przeglądem technicznym – 2K Auto Detailing Opole",
   description:
-    "Zmatowiałe, pożółkłe reflektory to słabsze światło, gorsza widoczność jesienią i ryzyko problemów na przeglądzie. Sprawdź, kiedy wystarczy regeneracja kloszy, a kiedy potrzebna jest wymiana.",
+    "Zmatowiałe reflektory a przegląd techniczny. Kiedy wystarczy polerowanie lamp, a kiedy wymiana? Odzyskaj pełne światło w 2K Auto Detailing w Opolu!",
+  images: [reflektorImg1, reflektorLagunaPorownanie, reflektorImg2],
+  imagesAltText: [
+    "Przed i po regeneracji reflektorów – polerowanie zmatowiałego klosza Opel Corsa",
+    "Kolaż przed i po polerowaniu reflektorów Renault Laguna Coupé w 2K Auto Detailing Opole",
+    "Efekt polerowania reflektora Mercedes – pełna przejrzystość i zabezpieczenie UV w 2K Auto Detailing",
+  ],
 };
 
 export default function PostComponent() {

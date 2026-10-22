@@ -20,6 +20,7 @@ export const meta = {
   id: 11,
   slug: "przygotowanie-lakieru-na-zime-opole",
   title: "Jak przygotować lakier na zimę – sól, błoto i powłoka ceramiczna",
+  seoTitle: "Ochrona Lakieru na Zimę Opole",
   subtitle: "OCHRONA LAKIERU PRZED ZIMĄ",
   date: "2026-10-03",
   hero: korektaImg.src,
@@ -33,7 +34,7 @@ export const meta = {
     "Polerowanie karoserii przed aplikacją powłoki ochronnej",
   ],
   description:
-    "Sól drogowa, błoto pośniegowe i myjnie szczotkowe to największy wróg lakieru. Sprawdź, jak krok po kroku przygotować auto na zimę i dlaczego jesień to najlepszy moment na powłokę ceramiczną.",
+    "Jak zabezpieczyć lakier przed solą i mrozem w Opolu? Poznaj skuteczną ochronę karoserii i zalety powłoki ceramicznej. Zadbaj o auto w 2K Detailing Opole!",
 };
 
 export default function PostComponent() {

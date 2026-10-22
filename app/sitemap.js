@@ -53,6 +53,7 @@ const staticRoutes = [
     changeFrequency: "monthly",
   },
   { path: "/cennik", priority: 0.85, changeFrequency: "weekly" },
+  { path: "/obsluga-eventow", priority: 0.9, changeFrequency: "weekly" },
   { path: "/blog", priority: 0.8, changeFrequency: "weekly" },
   { path: "/recenzje", priority: 0.8, changeFrequency: "monthly" },
   { path: "/galeria", priority: 0.75, changeFrequency: "monthly" },

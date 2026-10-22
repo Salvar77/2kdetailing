@@ -49,10 +49,10 @@ const Oferta = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
-      <div className={classes.oferta}>
+      <main className={classes.oferta}>
         <h1 className={classes.oferta__title}>Usługi</h1>
         <Services />
-      </div>
+      </main>
     </>
   );
 };
