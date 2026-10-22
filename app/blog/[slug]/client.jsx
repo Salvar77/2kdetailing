@@ -51,14 +51,7 @@ export default function BlogPostClient({ slugFromParent }) {
     return img.src;
   };
 
-  let imageSrc;
-  if (slug === "powloka-ceramiczna-opole") {
-    imageSrc = isDesktop
-      ? "/galeria-powloka-ceramiczna-3.jpg"
-      : "/galeria-powloka-ceramiczna-1.jpg";
-  } else {
-    imageSrc = getImageSrc(meta.dynamicImage || meta.image);
-  }
+  const imageSrc = getImageSrc(meta.dynamicImage || meta.image);
 
   const imageStyles = {
     "detailing-wnetrza-opole": "specialImage2",

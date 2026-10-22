@@ -17,21 +17,22 @@ export const meta = {
   title: "Powłoka Ceramiczna – Hydrofobowość i Blask",
   subtitle: "ZACHWYCAJĄCA CERAMIKA NA LAKIER ",
   date: "2026-02-24",
-  image: "/2k-logo-black-biale-tlo.png",
-  dynamicImage: "/2k-logo-black-biale-tlo.png",
+  image: "/images/powloka-ceramiczna-peugeot-508-kombi-studio-2k-opole.webp",
+  dynamicImage:
+    "/images/powloka-ceramiczna-peugeot-508-kombi-studio-2k-opole.webp",
   mainImageAltText:
-    "Efekt hydrofobowy wody na powłoce ceramicznej 2K Auto Detailing",
+    "Aplikacja powłoki ceramicznej na lakier samochodu w 2K Auto Detailing Opole",
   images: [
-    "/2k-logo-black-biale-tlo.png",
-    "/2k-logo-black-biale-tlo.png",
-    "/2k-logo-black-biale-tlo.png",
-    "/2k-logo-black-biale-tlo.png",
+    "/images/powloka-ceramiczna-mercedes-klasa-s-w222-opole-przod.webp",
+    "/images/powloka-ceramiczna-lexus-lbx-zolty-opole-przod.webp",
+    "/images/powloka-ceramiczna-mazda-cx5-soul-red-opole-bok.webp",
+    "/images/zabezpieczenie-lakieru-bmw-m4-g82-mat-opole-tyl.webp",
   ],
   imagesAltText: [
-    "Woda perląca się na masce",
-    "Auto po wyjeździe",
-    "Detailing Opole",
-    "Struktura powłoki w Opolu",
+    "Mocny efekt hydrofobowy i ochrona lakieru Mercedes Klasa S",
+    "Szklisty blask i głębia koloru pod oświetleniem heksagonalnym – Lexus LBX",
+    "Zabezpieczenie lakieru ceramiczną powłoką ochronną na Mazdzie CX-5",
+    "Wykończenie lakieru powłoką ceramiczną na BMW M4 w studiu w Opolu",
   ],
   description:
     "Aplikujemy certyfikowane powłoki ceramiczne, które zapewniają spektakularny szklisty blask, silną hydrofobowość i długoletnią ochronę.",
