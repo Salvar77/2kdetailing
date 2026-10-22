@@ -4,9 +4,9 @@ import classes from "../../app/oferta/[slug]/page.module.scss";
 
 export const meta = {
   title: "Powłoka Ceramiczna Opole",
-  hero: "/2k-logo-white-czarne-tlo.png",
+  hero: "/images/powloka-ceramiczna-peugeot-508-kombi-studio-2k-opole.webp",
   heroAltText:
-    "Dokładna aplikacja powłoki ceramicznej zabezpieczającej lakier samochodu",
+    "Aplikacja powłoki ceramicznej w studiu 2K Auto Detailing Opole – Peugeot 508 SW z kasetonem 2K",
   lead: "Aplikujemy topowe powłoki Cleantle i Aqua 9H. Ochronisz lakier przed mikrozarysowaniami oraz chemią, zyskując obłędny, piękny szklany połysk.",
   slug: "powloka-ceramiczna",
   faq: [
@@ -120,8 +120,8 @@ export default function PowlokaCeramicznaPage() {
 
         <div className={classes.contentSection__image}>
           <Image
-            src="/2k-logo-white-czarne-tlo.png"
-            alt="Zabezpieczenie lakieru powłoką ceramiczną w 2K Auto Detailing Opole – efekt hydrofobowy"
+            src="/images/powloka-ceramiczna-mercedes-klasa-s-w222-opole-przod.webp"
+            alt="Zabezpieczenie lakieru powłoką ceramiczną w 2K Auto Detailing Opole – Mercedes Klasa S W222"
             width={600}
             height={400}
             layout="responsive"
@@ -206,8 +206,8 @@ export default function PowlokaCeramicznaPage() {
 
         <div className={classes.contentSection__image}>
           <Image
-            src="/2k-logo-white-czarne-tlo.png"
-            alt="Specjalista 2K Auto Detailing podczas aplikacji powłoki ceramicznej w Opolu"
+            src="/images/powloka-ceramiczna-lexus-lbx-zolty-opole-przod.webp"
+            alt="Specjalista 2K Auto Detailing po aplikacji powłoki ceramicznej w Opolu – Lexus LBX pod heksagonami"
             width={600}
             height={400}
             layout="responsive"

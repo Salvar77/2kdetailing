@@ -4,7 +4,7 @@ import classes from "../../app/oferta/[slug]/page.module.scss";
 
 export const meta = {
   title: "Regeneracja Reflektorów",
-  hero: "/2k-logo-white-czarne-tlo.png",
+  hero: "/images/regeneracja-reflektorow-opole-polerowanie-lamp-przed-po.webp",
   heroAltText:
     "Proces regeneracji reflektorów – polerowanie kloszy i przywracanie im pełnej przejrzystości",
   lead: "Odtwarzamy przejrzystość lamp usuwając zmatowienia. Zwiększ wydajność świateł oraz bezpieczeństwo na drodze bez ponoszenia kosztów wymiany kloszy.",
@@ -132,8 +132,8 @@ export default function RegeneracjaReflektorowPage() {
 
         <div className={classes.contentSection__image}>
           <Image
-            src="/2k-logo-white-czarne-tlo.png"
-            alt="Proces regeneracji reflektorów samochodowych w 2K Auto Detailing Opole – szlifowanie i polerowanie kloszy"
+            src="/images/polerowanie-reflektorow-mercedes-opole-efekt-przed-po.webp"
+            alt="Proces regeneracji reflektorów samochodowych w 2K Auto Detailing Opole – Mercedes przed i po"
             width={600}
             height={400}
             layout="responsive"
@@ -220,8 +220,8 @@ export default function RegeneracjaReflektorowPage() {
 
         <div className={classes.contentSection__image}>
           <Image
-            src="/2k-logo-white-czarne-tlo.png"
-            alt="Efekt regeneracji reflektorów w 2K Auto Detailing Opole – przejrzystość i głęboki połysk"
+            src="/images/polerowanie-reflektorow-renault-laguna-opole-porownanie.webp"
+            alt="Efekt regeneracji reflektorów w 2K Auto Detailing Opole – porównanie przed i po na Renault Laguna"
             width={600}
             height={400}
             layout="responsive"

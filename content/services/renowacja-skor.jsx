@@ -196,8 +196,8 @@ export default function RenowacjaSkorPage() {
 
         <div className={classes.contentSection__image}>
           <Image
-            src="/2k-logo-white-czarne-tlo.png"
-            alt="Specjalista 2K Auto Detailing podczas renowacji skórzanej tapicerki – przywracanie koloru"
+            src={skoryImg}
+            alt="Specjalista 2K Auto Detailing podczas renowacji skórzanej tapicerki w Opolu"
             width={600}
             height={400}
             layout="responsive"

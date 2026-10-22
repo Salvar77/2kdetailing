@@ -5,9 +5,9 @@ import Link from "next/link";
 
 export const meta = {
   title: "Auto Detailing",
-  hero: "/2k-logo-black-biale-tlo.png",
+  hero: "/images/auto-detailing-lexus-is-studio-2k-opole.webp",
   heroAltText:
-    "Pełen proces auto detailingu: mycie, polerowanie oraz pielęgnacja detali w pojeździe",
+    "Pełen proces auto detailingu w studiu 2K Auto Detailing Opole – czarny Lexus IS",
   lead: "Absolutny powrót do stanu salonowego. Od wieloetapowej reanimacji lakieru i folii PPF, aż po maksymalnie drobiazgowe, dogłębne czyszczenie wnętrza.",
   slug: "auto-detailing",
   faq: [
@@ -104,8 +104,8 @@ export default function AutoDetailingPage() {
 
         <div className={classes.contentSection__image}>
           <Image
-            src="/2k-logo-black-biale-tlo.png"
-            alt="Profesjonalny auto detailing w 2K Auto Detailing Opole – pełna metamorfoza samochodu"
+            src="/images/auto-detailing-mercedes-klasa-s-w222-opole-tyl.webp"
+            alt="Profesjonalny auto detailing w 2K Auto Detailing Opole – Mercedes Klasa S W222"
             width={600}
             height={400}
             layout="responsive"
@@ -178,8 +178,8 @@ export default function AutoDetailingPage() {
 
         <div className={classes.contentSection__image}>
           <Image
-            src="/2k-logo-black-biale-tlo.png"
-            alt="Zespół 2K Auto Detailing podczas kompleksowej pielęgnacji samochodu w Opolu"
+            src="/images/auto-detailing-audi-a4-b8-avant-opole-tyl.webp"
+            alt="Zespół 2K Auto Detailing podczas kompleksowej pielęgnacji samochodu w Opolu – Audi A4 Avant"
             width={600}
             height={400}
             layout="responsive"

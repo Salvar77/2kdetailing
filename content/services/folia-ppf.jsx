@@ -234,8 +234,8 @@ export default function FoliaPpfPage() {
 
         <div className={classes.contentSection__image}>
           <Image
-            src="/2k-logo-white-czarne-tlo.png"
-            alt="Specjalista 2K Auto Detailing podczas precyzyjnego montażu folii PPF w Opolu"
+            src="/images/folia-ochronna-ppf-bmw-m4-g82-opole-studio.webp"
+            alt="Specjalista 2K Auto Detailing podczas precyzyjnego montażu folii PPF na BMW M4 w Opolu"
             width={600}
             height={400}
             layout="responsive"

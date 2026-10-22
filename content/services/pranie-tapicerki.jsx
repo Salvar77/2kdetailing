@@ -4,9 +4,9 @@ import classes from "../../app/oferta/[slug]/page.module.scss";
 
 export const meta = {
   title: "Pranie Tapicerki Opole",
-  hero: "/2k-logo-white-czarne-tlo.png",
+  hero: "/pranie-tapicerki-czyszczenie-wnetrza-opole-po.jpg",
   heroAltText:
-    "Dogłębne pranie ekstrakcyjne materiałowych foteli w samochodzie",
+    "Dogłębne pranie ekstrakcyjne materiałowych foteli w samochodzie w 2K Detailing Opole",
   lead: "Głęboko skuteczna metoda ekstrakcyjna dla materiałowych wnętrz. Trwale neutralizujemy ciężkie plamy, osadzone alergeny i przesiąknięte zapachy.",
   slug: "pranie-tapicerki",
   faq: [
@@ -129,7 +129,7 @@ export default function PranieTapicerkiPage() {
 
         <div className={classes.contentSection__image}>
           <Image
-            src="/2k-logo-white-czarne-tlo.png"
+            src="/czyszczenie-wnetrza-samochodu-opole.jpg"
             alt="Profesjonalne pranie i czyszczenie wnętrza samochodu w 2K Auto Detailing Opole"
             width={600}
             height={400}
@@ -220,8 +220,8 @@ export default function PranieTapicerkiPage() {
 
         <div className={classes.contentSection__image}>
           <Image
-            src="/2k-logo-white-czarne-tlo.png"
-            alt="Specjalista 2K Auto Detailing podczas impregnacji tapicerki samochodowej w Opolu"
+            src="/pranie-tapicerki-czyszczenie-wnetrza-opole-przed.jpg"
+            alt="Specjalista 2K Auto Detailing podczas czyszczenia tapicerki samochodowej w Opolu"
             width={600}
             height={400}
             layout="responsive"

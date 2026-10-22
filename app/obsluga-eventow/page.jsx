@@ -1,18 +1,17 @@
 import EventPageClient from "./EventPageClient";
 
 export const metadata = {
-  title: "Obsługa Eventów Motoryzacyjnych i Targów – Silesia Ring, Opole",
+  title: "Obsługa Eventów i Silesia Ring",
   description:
-    "Profesjonalna obsługa eventów motoryzacyjnych, track days na torze Silesia Ring (Kamień Śląski, opolskie), targów i premier dealerskich. Mobilny auto detailing: własny sprzęt, mycie No Rinse i namioty.",
+    "Obsługa eventów motoryzacyjnych i premier w Opolu oraz na torze Silesia Ring. Mobilny auto detailing, technologia No Rinse. 2K Detailing Opole!",
   alternates: {
     canonical: "/obsluga-eventow",
   },
   openGraph: {
     url: "/obsluga-eventow",
-    title:
-      "Obsługa Eventów Motoryzacyjnych i Targów – 2K Auto Detailing Opole",
+    title: "Obsługa Eventów i Silesia Ring | 2K Auto Detailing Opole",
     description:
-      "Mobilny auto detailing na torze Silesia Ring (Kamień Śląski, woj. opolskie), premierach aut i targach w Polsce. Własny profesjonalny sprzęt, namioty i technologia No Rinse.",
+      "Obsługa eventów motoryzacyjnych i premier w Opolu oraz na torze Silesia Ring. Mobilny auto detailing, technologia No Rinse. 2K Detailing Opole!",
     images: [
       {
         url: "/images/obsluga-eventow-2k-detailing-silesia-ring.webp",

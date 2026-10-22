@@ -69,6 +69,9 @@ export default function BlogPostClient({ slugFromParent }) {
     "powloka-ceramiczna-opole": "styleFour",
     "auto-detailing-opole": "anotherSpecialImage",
     "czyszczenie-wnetrza-samochodu-opole": "styleCzyszczenie",
+    "przygotowanie-lakieru-na-zime-opole": "styleZima",
+    "parujace-szyby-w-samochodzie": "styleSzyby",
+    "regeneracja-reflektorow-przeglad-opole": "styleReflektory",
   };
   const customImageClass = imageStyles[slug] || "";
 
