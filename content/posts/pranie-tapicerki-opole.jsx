@@ -22,16 +22,14 @@ export const meta = {
   mainImageAltText:
     "Fotel samochodowy po dogłębnym praniu ekstrakcyjnym w 2K Auto Detailing Opole",
   images: [
-    "/pranie-tapicerki-czyszczenie-wnetrza-opole-przed.jpg",
     "/czyszczenie-wnetrza-samochodu-opole.jpg",
+    "/pranie-tapicerki-czyszczenie-wnetrza-opole-przed.jpg",
     "/images/wlasciciel-2k-auto-detailing-detailing-wnetrza-opole.webp",
-    "/pranie-tapicerki-czyszczenie-wnetrza-opole-po.jpg",
   ],
   imagesAltText: [
-    "Stan fotela samochodowego przed profesjonalnym praniem ekstrakcyjnym",
     "Kompleksowo wyczyszczone wnętrze pojazdu i wyprana wykładzina podłogowa",
+    "Stan fotela samochodowego przed profesjonalnym praniem ekstrakcyjnym",
     "Specjalista 2K Auto Detailing podczas czyszczenia i pielęgnacji tapicerki w Opolu",
-    "Efekt czystości, świeżości i zneutralizowanych zapachów po praniu foteli",
   ],
   description:
     "Bezpieczne pranie ekstrakcyjne i usuwanie trudnych plam. Zadbaj o świeży zapach i higieniczną czystość materiałowych foteli w Twoim aucie.",
