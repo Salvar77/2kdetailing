@@ -55,7 +55,7 @@ export default function BlogPostClient({ slugFromParent }) {
 
   const imageStyles = {
     "detailing-wnetrza-opole": "specialImage2",
-    "pranie-tapicerki-opole": "specialImage",
+    "pranie-tapicerki-opole": "stylePranie",
     "renowacja-skor-opole": "specialImage",
     "folia-ppf-opole": "styleThree",
     "korekta-lakieru-opole": "anotherSpecialImage",
