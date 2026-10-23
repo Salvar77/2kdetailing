@@ -5,7 +5,6 @@ import paintcorrection from "../assets/images/wlasciciel-2k-auto-detailing-korek
 import ppf from "../assets/images/wlasciciel-2k-auto-detailing-folia-ppf-opole.webp";
 import ceramic from "../assets/images/powloka-ceramiczna-peugeot-508-kombi-studio-2k-opole.webp";
 import upholstery from "../assets/images/pranie-tapicerki-czyszczenie-wnetrza-opole-po.webp";
-import headlight from "../assets/images/regeneracja-reflektorow-opole-polerowanie-lamp-przed-po.webp";
 import headlightMercedes from "../assets/images/polerowanie-reflektorow-mercedes-opole-efekt.webp";
 import tinting from "../assets/images/2k-auto-detailing-opole-przyciemnianie-szyb-realizacja.webp";
 import autoDetailingPakiet from "../assets/images/auto-detailing-lexus-is-studio-2k-opole.webp";
@@ -20,6 +19,7 @@ import blogPost5 from "../assets/images/powloka-ceramiczna-peugeot-508-kombi-stu
 import ppfFullFront from "../assets/images/ppf-full-front.png";
 import ppfBikini from "../assets/images/ppf-bikini.png";
 import ppfFullBody from "../assets/images/ppf-full-body.png";
+import ppfReflektory from "../assets/images/zabezpieczenie-reflektorow-ppf-folia-opole.webp";
 import czyszczenieWnetrzaOpole from "../assets/images/czyszczenie-wnetrza-samochodu-opole.jpg";
 import myjniaRecznaOpoleBlog from "../assets/images/myjnia-reczna-opole-4.jpg";
 import parujaceSzybyImg from "../assets/images/przyciemnianie-szyb-samochodowych-opole-po.webp";
@@ -338,7 +338,7 @@ export const ppfPackages = [
   {
     id: "ppf-reflektory",
     title: "Zabezpieczenie reflektorów (PPF)",
-    image: headlight,
+    image: ppfReflektory,
     price: "500",
     protectionLevel: 3,
     durability: "10 lat",
