@@ -99,7 +99,7 @@ export const servicesData = [
       "Kompleksowe czyszczenie i detailing kabiny auta w Opolu – pędzelkowanie detali i profesjonalna pielęgnacja wnętrza.",
   },
   {
-    id: "oferta/polerowanie-reflektorow",
+    id: "oferta/regeneracja-reflektorow",
     title: "Polerowanie reflektorów Opole",
     image: headlightMercedes,
     description: "Sprawdź",

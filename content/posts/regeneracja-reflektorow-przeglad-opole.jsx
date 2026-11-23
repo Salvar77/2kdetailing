@@ -67,7 +67,7 @@ export default function PostComponent() {
         zostaje albo wymiana lamp (często za kilka tysięcy złotych), albo{" "}
         <strong>
           <Link
-            href="/oferta/polerowanie-reflektorow"
+            href="/oferta/regeneracja-reflektorow"
             className={classes.textLink}
           >
             polerowanie reflektorów

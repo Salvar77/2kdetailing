@@ -23,16 +23,6 @@ const nextConfig = {
         destination: '/blog/czyszczenie-wnetrza-samochodu-opole',
         permanent: true,
       },
-      {
-        source: "/oferta/regeneracja-reflektorow",
-        destination: "/oferta/polerowanie-reflektorow",
-        permanent: true,
-      },
-      {
-        source: "/galeria/regeneracja-reflektorow",
-        destination: "/galeria/polerowanie-reflektorow",
-        permanent: true,
-      },
     ];
   },
 };

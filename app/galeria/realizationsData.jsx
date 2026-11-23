@@ -173,7 +173,7 @@ export const realizationsData = [
     mobileClass: "renowacjaSkorMobile",
   },
   {
-    id: "polerowanie-reflektorow",
+    id: "regeneracja-reflektorow",
     description: "Polerowanie reflektorów",
     images: [
       reflektorLagunaPorownanie,

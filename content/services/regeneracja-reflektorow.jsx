@@ -8,7 +8,7 @@ export const meta = {
   heroAltText:
     "Proces polerowania reflektorów – usuwanie zmatowień kloszy i przywracanie im pełnej przejrzystości",
   lead: "Odtwarzamy przejrzystość lamp usuwając zmatowienia. Zwiększ wydajność świateł oraz bezpieczeństwo na drodze bez ponoszenia kosztów wymiany kloszy.",
-  slug: "polerowanie-reflektorow",
+  slug: "regeneracja-reflektorow",
   faq: [
     {
       question: "Czy polerowanie reflektorów jest trwałe?",
@@ -300,7 +300,7 @@ export default function PolerowanieReflektorowPage() {
         </p>
         <div className={classes.buttonWrapper}>
           <a
-            href="/galeria/polerowanie-reflektorow"
+            href="/galeria/regeneracja-reflektorow"
             className={classes.buttonPrimary}
           >
             Przejdź do galerii polerowania
