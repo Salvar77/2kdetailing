@@ -17,20 +17,20 @@ import reflektorLagunaPorownanie from "../../assets/images/polerowanie-reflektor
 export const meta = {
   id: 10,
   slug: "regeneracja-reflektorow-przeglad-opole",
-  title: "Regeneracja reflektorów przed przeglądem – czy auto przejdzie?",
-  seoTitle: "Regeneracja Reflektorów Opole",
+  title: "Polerowanie reflektorów przed przeglądem – czy auto przejdzie?",
+  seoTitle: "Polerowanie Reflektorów Opole",
   subtitle: "REFLEKTORY, PRZEGLĄD I JAZDA PO ZMROKU",
   date: "2026-10-05",
   hero: reflektorImg1.src,
   image: reflektorImg1,
   dynamicImage: reflektorImg1,
   mainImageAltText:
-    "Regeneracja zmatowiałych reflektorów przed przeglądem technicznym – 2K Auto Detailing Opole",
+    "Polerowanie zmatowiałych reflektorów przed przeglądem technicznym – 2K Auto Detailing Opole",
   description:
     "Zmatowiałe reflektory a przegląd techniczny. Kiedy wystarczy polerowanie lamp, a kiedy wymiana? Odzyskaj pełne światło w 2K Auto Detailing w Opolu!",
   images: [reflektorImg1, reflektorLagunaPorownanie, reflektorImg2],
   imagesAltText: [
-    "Przed i po regeneracji reflektorów – polerowanie zmatowiałego klosza Opel Corsa",
+    "Przed i po polerowaniu reflektorów – polerowanie zmatowiałego klosza Opel Corsa",
     "Kolaż przed i po polerowaniu reflektorów Renault Laguna Coupé w 2K Auto Detailing Opole",
     "Efekt polerowania reflektora Mercedes – pełna przejrzystość i zabezpieczenie UV w 2K Auto Detailing",
   ],
@@ -67,17 +67,17 @@ export default function PostComponent() {
         zostaje albo wymiana lamp (często za kilka tysięcy złotych), albo{" "}
         <strong>
           <Link
-            href="/oferta/regeneracja-reflektorow"
+            href="/oferta/polerowanie-reflektorow"
             className={classes.textLink}
           >
-            regeneracja reflektorów
+            polerowanie reflektorów
           </Link>
         </strong>{" "}
         – czyli ułamek tej kwoty.
       </p>
       <p className={classes.textShadow}>
         Dlatego jeśli termin przeglądu zbliża się, a Twoje lampy wyglądają na
-        „mleczne”, warto zająć się nimi kilka dni wcześniej. Po regeneracji
+        „mleczne”, warto zająć się nimi kilka dni wcześniej. Po polerowaniu
         dobrze jest też poprosić diagnostę o sprawdzenie i ewentualną korektę
         ustawienia świateł – czysty klosz pokaże wtedy pełnię możliwości
         reflektora.
@@ -97,7 +97,7 @@ export default function PostComponent() {
       </p>
 
       <h2 className={classes.blogTitle}>
-        Jak wygląda regeneracja w 2K Auto Detailing?
+        Jak wygląda polerowanie reflektorów w 2K Auto Detailing?
       </h2>
       <ul>
         <li>
@@ -129,10 +129,10 @@ export default function PostComponent() {
       </p>
 
       <h2 className={classes.blogTitle}>
-        Kiedy regeneracja nie wystarczy?
+        Kiedy polerowanie nie wystarczy?
       </h2>
       <p className={classes.textShadow}>
-        Regeneracja działa na zewnętrzną powierzchnię klosza. Nie pomoże, jeśli
+        Polerowanie działa na zewnętrzną powierzchnię klosza. Nie pomoże, jeśli
         klosz jest pęknięty na wylot, reflektor jest nieszczelny i paruje od
         środka, albo odbłyśnik w środku lampy jest spalony lub skorodowany. W
         takich przypadkach uczciwie powiemy Ci, że lepszym rozwiązaniem będzie
@@ -161,7 +161,7 @@ export default function PostComponent() {
       </p>
 
       <h2 className={classes.blogContactTitle}>
-        Umów regenerację przed przeglądem
+        Umów polerowanie przed przeglądem
       </h2>
       <p className={classes.contactInfo}>
         Masz zmatowiałe lampy albo zbliża się termin badania technicznego?

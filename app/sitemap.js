@@ -33,7 +33,7 @@ const staticRoutes = [
     changeFrequency: "monthly",
   },
   {
-    path: "/oferta/regeneracja-reflektorow",
+    path: "/oferta/polerowanie-reflektorow",
     priority: 0.8,
     changeFrequency: "monthly",
   },
@@ -94,7 +94,7 @@ const gallerySlugs = [
   "folia-ppf",
   "pranie-tapicerki",
   "renowacja-skor",
-  "regeneracja-reflektorow",
+  "polerowanie-reflektorow",
   "przyciemnianie-szyb",
 ];
 

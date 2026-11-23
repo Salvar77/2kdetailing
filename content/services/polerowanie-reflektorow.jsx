@@ -3,52 +3,52 @@ import Link from "next/link";
 import classes from "../../app/oferta/[slug]/page.module.scss";
 
 export const meta = {
-  title: "Regeneracja Reflektorów",
+  title: "Polerowanie Reflektorów",
   hero: "/images/regeneracja-reflektorow-opole-polerowanie-lamp-przed-po.webp",
   heroAltText:
-    "Proces regeneracji reflektorów – polerowanie kloszy i przywracanie im pełnej przejrzystości",
+    "Proces polerowania reflektorów – usuwanie zmatowień kloszy i przywracanie im pełnej przejrzystości",
   lead: "Odtwarzamy przejrzystość lamp usuwając zmatowienia. Zwiększ wydajność świateł oraz bezpieczeństwo na drodze bez ponoszenia kosztów wymiany kloszy.",
-  slug: "regeneracja-reflektorow",
+  slug: "polerowanie-reflektorow",
   faq: [
     {
-      question: "Czy regeneracja reflektorów jest trwała?",
+      question: "Czy polerowanie reflektorów jest trwałe?",
       answer:
         "Tak, pod warunkiem zastosowania profesjonalnej powłoki ochronnej z filtrem UV. W 2K Auto Detailing zawsze zabezpieczamy odnowione reflektory wysokiej jakości powłoką, która chroni przed żółknięciem i matowieniem nawet przez 2-3 lata. Bez tej warstwy reflektory mogą wrócić do pierwotnego stanu w ciągu kilku miesięcy.",
     },
     {
-      question: "Czy można zregenerować każdy reflektor?",
+      question: "Czy można wypolerować każdy reflektor?",
       answer:
-        "Większość reflektorów wykonanych z poliwęglanu lub akrylu można skutecznie zregenerować. Wyjątkiem są reflektory z głębokimi pęknięciami sięgającymi do wewnątrz klosza, uszkodzeniami strukturalnymi lub zaawansowaną korozją odbłyśników. W takich przypadkach regeneracja może być niemożliwa lub nieopłacalna. Zawsze dokładnie oceniamy stan reflektorów przed rozpoczęciem prac.",
+        "Większość reflektorów wykonanych z poliwęglanu lub akrylu można skutecznie wypolerować. Wyjątkiem są reflektory z głębokimi pęknięciami sięgającymi do wewnątrz klosza, uszkodzeniami strukturalnymi lub zaawansowaną korozją odbłyśników. W takich przypadkach polerowanie może być niemożliwe lub nieopłacalne. Zawsze dokładnie oceniamy stan reflektorów przed rozpoczęciem prac.",
     },
     {
-      question: "Czy regeneracja reflektorów wpływa na ich szczelność?",
+      question: "Czy polerowanie reflektorów wpływa na ich szczelność?",
       answer:
-        "Nie, regeneracja reflektorów nie narusza ich szczelności. Proces obejmuje wyłącznie zewnętrzną powierzchnię klosza. Nie ingerujemy w obudowę reflektora, uszczelki ani elementy montażowe. Po zabiegu reflektory są tak samo szczelne jak przed regeneracją.",
+        "Nie, polerowanie reflektorów nie narusza ich szczelności. Proces obejmuje wyłącznie zewnętrzną powierzchnię klosza. Nie ingerujemy w obudowę reflektora, uszczelki ani elementy montażowe. Po zabiegu reflektory są tak samo szczelne jak przed polerowaniem.",
     },
     {
-      question: "Ile kosztuje regeneracja reflektorów?",
+      question: "Ile kosztuje polerowanie reflektorów?",
       answer:
-        "Cena zależy od stopnia zmatowienia, wielkości reflektorów oraz konieczności zastosowania dodatkowych etapów szlifowania. Standardowa regeneracja kompletu przednich reflektorów to koszt od 200 do 350 zł. To nawet 80% taniej niż wymiana lamp na nowe. Dokładną wycenę podajemy po bezpłatnej inspekcji.",
+        "Cena zależy od stopnia zmatowienia, wielkości reflektorów oraz konieczności zastosowania dodatkowych etapów szlifowania. Standardowe polerowanie kompletu przednich reflektorów to koszt od 200 do 350 zł. To nawet 80% taniej niż wymiana lamp na nowe. Dokładną wycenę podajemy po bezpłatnej inspekcji.",
     },
     {
-      question: "Czy mogę samodzielnie zregenerować reflektory?",
+      question: "Czy mogę samodzielnie wypolerować reflektory?",
       answer:
-        "Dostępne w sklepach zestawy „zrób to sam” rzadko przynoszą zadowalające efekty. Najczęściej zawierają zbyt delikatne papiery ścierne i brakuje im profesjonalnej powłoki UV. Efekt jest krótkotrwały (kilka tygodni), a nieumiejętne szlifowanie może trwale uszkodzić klosz. Regeneracja reflektorów wymaga doświadczenia, odpowiedniego sprzętu i wiedzy – dlatego warto zaufać profesjonalistom.",
+        "Dostępne w sklepach zestawy „zrób to sam” rzadko przynoszą zadowalające efekty. Najczęściej zawierają zbyt delikatne papiery ścierne i brakuje im profesjonalnej powłoki UV. Efekt jest krótkotrwały (kilka tygodni), a nieumiejętne szlifowanie może trwale uszkodzić klosz. Polerowanie reflektorów wymaga doświadczenia, odpowiedniego sprzętu i wiedzy – dlatego warto zaufać profesjonalistom.",
     },
     {
       question: "Czy z matowymi reflektorami przejdę przegląd techniczny?",
       answer:
-        "Może być z tym problem. Diagnosta sprawdza ustawienie i natężenie świateł oraz stan kloszy. Mocno zmatowiały, pożółkły lub porysowany klosz osłabia i rozprasza światło, przez co pomiar może wypaść poza normę, a przegląd nie zostanie podbity. Regeneracja przed badaniem przywraca kloszom przejrzystość i zwykle rozwiązuje problem. Po zabiegu warto poprosić diagnostę o sprawdzenie ustawienia świateł.",
+        "Może być z tym problem. Diagnosta sprawdza ustawienie i natężenie świateł oraz stan kloszy. Mocno zmatowiały, pożółkły lub porysowany klosz osłabia i rozprasza światło, przez co pomiar może wypaść poza normę, a przegląd nie zostanie podbity. Polerowanie przed badaniem przywraca kloszom przejrzystość i zwykle rozwiązuje problem. Po zabiegu warto poprosić diagnostę o sprawdzenie ustawienia świateł.",
     },
     {
-      question: "Kiedy najlepiej zregenerować reflektory?",
+      question: "Kiedy najlepiej wypolerować reflektory?",
       answer:
         "Najlepiej jesienią, przed sezonem krótkich dni, deszczu i mgieł, lub kilka dni przed terminem przeglądu technicznego. Im wcześniej zareagujesz na pierwsze zmatowienie, tym prostszy i tańszy jest zabieg.",
     },
   ],
 };
 
-export default function RegeneracjaReflektorowPage() {
+export default function PolerowanieReflektorowPage() {
   return (
     <>
       <section className={classes.contentSection}>
@@ -58,9 +58,9 @@ export default function RegeneracjaReflektorowPage() {
         <div className={classes.circleContainer4}></div>
 
         <div className={classes.contentSection__text}>
-          <h2>Regeneracja reflektorów – odzyskaj blask i pewność po zmroku</h2>
+          <h2>Polerowanie reflektorów – odzyskaj blask i pewność po zmroku</h2>
           <p>
-            <strong>Renowacja reflektorów</strong> to jedna z tych usług, które
+            <strong>Polerowanie reflektorów</strong> to jedna z tych usług, które
             mają bezpośredni wpływ na Twoje bezpieczeństwo. Zmatowiałe, pożółkłe
             klosze potrafią drastycznie ograniczyć zasięg świateł, co po zmroku
             staje się śmiertelnym zagrożeniem. W 2K Auto Detailing Opole
@@ -74,8 +74,8 @@ export default function RegeneracjaReflektorowPage() {
 
           <p className={classes.description}>
             Proces utleniania poliwęglanu to naturalne zjawisko spowodowane
-            przez słońce i chemię drogową. Nasz zabieg regeneracji usuwa tę
-            zniszczoną warstwę, docierając do "zdrowego" plastiku. Dzięki temu
+            przez słońce i chemię drogową. Nasz zabieg polerowania usuwa tę
+            zniszczoną warstwę, docierając do &quot;zdrowego&quot; plastiku. Dzięki temu
             Twoje reflektory przestają być matowe i mleczne, a strumień światła
             odzyskuje swoją pierwotną moc i skupienie. To najtańszy sposób na
             uniknięcie problemów podczas przeglądu technicznego.
@@ -94,7 +94,7 @@ export default function RegeneracjaReflektorowPage() {
             pracy zostaje z Tobą na lata, a nie na miesiąc.
           </p>
 
-          <h3>Jak wygląda profesjonalny proces odnowy lamp w naszym studio?</h3>
+          <h3>Jak wygląda profesjonalny proces polerowania lamp w naszym studio?</h3>
           <ul>
             <li>
               <strong>Precyzyjne maskowanie sąsiadujących elementów:</strong>{" "}
@@ -104,7 +104,7 @@ export default function RegeneracjaReflektorowPage() {
             </li>
             <li>
               <strong>Usuwanie zniszczonej powłoki (szlifowanie):</strong>{" "}
-              Stosujemy wieloetapowe szlifowanie "na mokro", zaczynając od
+              Stosujemy wieloetapowe szlifowanie &quot;na mokro&quot;, zaczynając od
               grubszych gradacji, a kończąc na papierach o ziarnistości 3000. To
               fundament jakiej wymaga każda rzetelna{" "}
               <Link href="/blog/korekta-lakieru-opole">korekta lakieru</Link> i
@@ -113,7 +113,7 @@ export default function RegeneracjaReflektorowPage() {
             <li>
               <strong>Polerowanie mechaniczne do wysokiego połysku:</strong>{" "}
               Przy użyciu maszyn typu Dual Action i dedykowanych past do
-              poliwęglanu wyprowadzamy powierzchnię na "lustro". Klosz staje się
+              poliwęglanu wyprowadzamy powierzchnię na &quot;lustro&quot;. Klosz staje się
               idealnie gładki.
             </li>
             <li>
@@ -133,7 +133,7 @@ export default function RegeneracjaReflektorowPage() {
         <div className={classes.contentSection__image}>
           <Image
             src="/images/polerowanie-reflektorow-mercedes-opole-efekt-przed-po.webp"
-            alt="Proces regeneracji reflektorów samochodowych w 2K Auto Detailing Opole – Mercedes przed i po"
+            alt="Proces polerowania reflektorów samochodowych w 2K Auto Detailing Opole – Mercedes przed i po"
             width={600}
             height={400}
             layout="responsive"
@@ -149,14 +149,14 @@ export default function RegeneracjaReflektorowPage() {
         <div className={classes.contentSection__text}>
           <h2>Dlaczego warto zaufać 2K Auto Detailing?</h2>
           <p>
-            Regeneracja reflektorów to proces, który wymaga nie tylko
+            Polerowanie reflektorów to proces, który wymaga nie tylko
             odpowiednich narzędzi, ale przede wszystkim doświadczenia i
             precyzji. W 2K Auto Detailing stawiamy na jakość, trwałość i pełną
             transparentność.
           </p>
           <ul>
             <li>
-              <strong>Ponad 10 lat doświadczenia:</strong> Odrestaurowaliśmy
+              <strong>Ponad 10 lat doświadczenia:</strong> Odnowiliśmy
               setki reflektorów – od popularnych aut miejskich, przez luksusowe
               limuzyny, po sportowe samochody. Wiemy, jak podejść do różnych
               typów kloszy (szkło, poliwęglan, akryl) i różnych stopni
@@ -165,7 +165,7 @@ export default function RegeneracjaReflektorowPage() {
             <li>
               <strong>Profesjonalny sprzęt i materiały:</strong> Używamy
               specjalistycznych maszyn polerskich, papierów ściernych 3M oraz
-              past dedykowanych do regeneracji reflektorów. Stosujemy wyłącznie
+              past dedykowanych do polerowania reflektorów. Stosujemy wyłącznie
               sprawdzone powłoki UV, które gwarantują długotrwałą ochronę lub w
               wielu przypadkach jest to solidna{" "}
               <Link href="/blog/powloka-ceramiczna-opole">
@@ -174,10 +174,10 @@ export default function RegeneracjaReflektorowPage() {
               .
             </li>
             <li>
-              <strong>Oszczędność pieniędzy:</strong> Regeneracja reflektorów to
+              <strong>Oszczędność pieniędzy:</strong> Polerowanie reflektorów to
               ułamek kosztu wymiany lamp na nowe (oszczędność nawet 70-80%). W
               wielu przypadkach oryginalne reflektory są już niedostępne lub ich
-              zakup jest nieopłacalny – regeneracja to jedyne rozsądne
+              zakup jest nieopłacalny – polerowanie to jedyne rozsądne
               rozwiązanie.
             </li>
             <li>
@@ -199,10 +199,10 @@ export default function RegeneracjaReflektorowPage() {
             </footer>
           </blockquote>
 
-          <h3>Ile trwa regeneracja reflektorów i jak się przygotować?</h3>
+          <h3>Ile trwa polerowanie reflektorów i jak się przygotować?</h3>
           <div>
             <p className={classes.contentSection__textP}>
-              <strong>Czas regeneracji:</strong> Standardowa regeneracja
+              <strong>Czas polerowania:</strong> Standardowe polerowanie
               kompletu reflektorów (przód) to około{" "}
               <strong>1,5 – 2,5 godziny</strong>. W przypadku bardzo
               zniszczonych kloszy, wymagających intensywnego szlifowania, czas
@@ -221,7 +221,7 @@ export default function RegeneracjaReflektorowPage() {
         <div className={classes.contentSection__image}>
           <Image
             src="/images/polerowanie-reflektorow-renault-laguna-opole-porownanie.webp"
-            alt="Efekt regeneracji reflektorów w 2K Auto Detailing Opole – porównanie przed i po na Renault Laguna"
+            alt="Efekt polerowania reflektorów w 2K Auto Detailing Opole – porównanie przed i po na Renault Laguna"
             width={600}
             height={400}
             layout="responsive"
@@ -235,7 +235,7 @@ export default function RegeneracjaReflektorowPage() {
         className={`${classes.contentSection} ${classes["contentSection--reverse"]}`}
       >
         <div className={classes.contentSection__text}>
-          <h2>Regeneracja reflektorów przed przeglądem i przed zimą</h2>
+          <h2>Polerowanie reflektorów przed przeglądem i przed zimą</h2>
           <p>
             Jesienią i zimą robi się ciemno już po 16:00, a deszcz, mgła i mokry
             asfalt dodatkowo „zjadają” światło. To moment, w którym zmatowiałe
@@ -249,11 +249,11 @@ export default function RegeneracjaReflektorowPage() {
             <strong>ustawienie i natężenie świateł</strong> oraz{" "}
             <strong>stan kloszy</strong>. Mocno zmatowiały lub pożółkły
             reflektor potrafi osłabić światło na tyle, że pomiar wypada poza
-            normę – a wtedy przegląd może nie zostać podbity. Regeneracja kilka
+            normę – a wtedy przegląd może nie zostać podbity. Polerowanie kilka
             dni przed badaniem to zwykle najtańszy sposób, żeby uniknąć
             problemu i kosztownej wymiany lamp. Więcej przeczytasz w artykule{" "}
             <Link href="/blog/regeneracja-reflektorow-przeglad-opole">
-              Regeneracja reflektorów przed przeglądem – czy auto przejdzie?
+              Polerowanie reflektorów przed przeglądem – czy auto przejdzie?
             </Link>
           </p>
 
@@ -270,7 +270,7 @@ export default function RegeneracjaReflektorowPage() {
               wyraźna.
             </li>
             <li>
-              <strong>Ochrona przed solą i piaskiem:</strong> po regeneracji
+              <strong>Ochrona przed solą i piaskiem:</strong> po polerowaniu
               zabezpieczamy klosze powłoką UV lub folią PPF, która chroni je
               przed zimowym piaskowaniem i chemią drogową.
             </li>
@@ -292,7 +292,7 @@ export default function RegeneracjaReflektorowPage() {
 
       {/* ✅ SEKCJA: CTA */}
       <section className={classes.callToActionSection}>
-        <h2>Zobacz nasze realizacje – regeneracja reflektorów</h2>
+        <h2>Zobacz nasze realizacje – polerowanie reflektorów</h2>
         <p>
           Zanim umówisz się na usługę, zobacz jak spektakularne efekty osiągamy.
           Przywracamy lampom fabryczną przejrzystość i blask, co możesz zobaczyć
@@ -300,25 +300,25 @@ export default function RegeneracjaReflektorowPage() {
         </p>
         <div className={classes.buttonWrapper}>
           <a
-            href="/galeria/regeneracja-reflektorow"
+            href="/galeria/polerowanie-reflektorow"
             className={classes.buttonPrimary}
           >
-            Przejdź do galerii regeneracji
+            Przejdź do galerii polerowania
           </a>
         </div>
       </section>
 
       {/* ✅ SEKCJA: FAQ */}
       <section className={classes.faqSection}>
-        <h2>Najczęściej zadawane pytania o regenerację reflektorów</h2>
+        <h2>Najczęściej zadawane pytania o polerowanie reflektorów</h2>
         <p className={classes.faqLeadText}>
-          Masz pytania dotyczące odnawiania reflektorów? Sprawdź odpowiedzi na
+          Masz pytania dotyczące polerowania reflektorów? Sprawdź odpowiedzi na
           najczęstsze wątpliwości naszych klientów.
         </p>
         <div className={classes.faqListWrapper}>
           <details className={classes.faqItem}>
             <summary className={classes.faqSummary}>
-              Czy regeneracja reflektorów jest trwała?
+              Czy polerowanie reflektorów jest trwałe?
             </summary>
             <p className={classes.faqAnswer}>
               Tak, pod warunkiem zastosowania profesjonalnej powłoki ochronnej z
@@ -332,14 +332,14 @@ export default function RegeneracjaReflektorowPage() {
 
           <details className={classes.faqItem}>
             <summary className={classes.faqSummary}>
-              Czy można zregenerować każdy reflektor?
+              Czy można wypolerować każdy reflektor?
             </summary>
             <p className={classes.faqAnswer}>
               Większość reflektorów wykonanych z poliwęglanu lub akrylu można
-              skutecznie zregenerować. Wyjątkiem są reflektory z głębokimi
+              skutecznie wypolerować. Wyjątkiem są reflektory z głębokimi
               pęknięciami sięgającymi do wewnątrz klosza, uszkodzeniami
               strukturalnymi lub zaawansowaną korozją odbłyśników. W takich
-              przypadkach regeneracja może być niemożliwa lub nieopłacalna.
+              przypadkach polerowanie może być niemożliwe lub nieopłacalne.
               Zawsze dokładnie oceniamy stan reflektorów przed rozpoczęciem
               prac.
             </p>
@@ -347,24 +347,24 @@ export default function RegeneracjaReflektorowPage() {
 
           <details className={classes.faqItem}>
             <summary className={classes.faqSummary}>
-              Czy regeneracja reflektorów wpływa na ich szczelność?
+              Czy polerowanie reflektorów wpływa na ich szczelność?
             </summary>
             <p className={classes.faqAnswer}>
-              Nie, regeneracja reflektorów nie narusza ich szczelności. Proces
+              Nie, polerowanie reflektorów nie narusza ich szczelności. Proces
               obejmuje wyłącznie zewnętrzną powierzchnię klosza. Nie ingerujemy
               w obudowę reflektora, uszczelki ani elementy montażowe. Po zabiegu
-              reflektory są tak samo szczelne jak przed regeneracją.
+              reflektory są tak samo szczelne jak przed polerowaniem.
             </p>
           </details>
 
           <details className={classes.faqItem}>
             <summary className={classes.faqSummary}>
-              Ile kosztuje regeneracja reflektorów?
+              Ile kosztuje polerowanie reflektorów?
             </summary>
             <p className={classes.faqAnswer}>
               Cena zależy od stopnia zmatowienia, wielkości reflektorów oraz
               konieczności zastosowania dodatkowych etapów szlifowania.
-              Standardowa regeneracja kompletu przednich reflektorów to koszt
+              Standardowe polerowanie kompletu przednich reflektorów to koszt
               <strong> od 200 do 350 zł</strong>. To nawet 80% taniej niż
               wymiana lamp na nowe. Dokładną wycenę podajemy po bezpłatnej
               inspekcji.
@@ -373,14 +373,14 @@ export default function RegeneracjaReflektorowPage() {
 
           <details className={classes.faqItem}>
             <summary className={classes.faqSummary}>
-              Czy mogę samodzielnie zregenerować reflektory?
+              Czy mogę samodzielnie wypolerować reflektory?
             </summary>
             <p className={classes.faqAnswer}>
               Dostępne w sklepach zestawy „zrób to sam” rzadko przynoszą
               zadowalające efekty. Najczęściej zawierają zbyt delikatne papiery
               ścierne i brakuje im profesjonalnej powłoki UV. Efekt jest
               krótkotrwały (kilka tygodni), a nieumiejętne szlifowanie może
-              trwale uszkodzić klosz. Regeneracja reflektorów wymaga
+              trwale uszkodzić klosz. Polerowanie reflektorów wymaga
               doświadczenia, odpowiedniego sprzętu i wiedzy – dlatego warto
               zaufać profesjonalistom.
             </p>
@@ -394,7 +394,7 @@ export default function RegeneracjaReflektorowPage() {
               Może być z tym problem. Diagnosta sprawdza ustawienie i natężenie
               świateł oraz stan kloszy. Mocno zmatowiały, pożółkły lub
               porysowany klosz osłabia i rozprasza światło, przez co pomiar może
-              wypaść poza normę, a przegląd nie zostanie podbity. Regeneracja
+              wypaść poza normę, a przegląd nie zostanie podbity. Polerowanie
               przed badaniem przywraca kloszom przejrzystość i zwykle rozwiązuje
               problem. Po zabiegu warto poprosić diagnostę o sprawdzenie
               ustawienia świateł.
@@ -403,7 +403,7 @@ export default function RegeneracjaReflektorowPage() {
 
           <details className={classes.faqItem}>
             <summary className={classes.faqSummary}>
-              Kiedy najlepiej zregenerować reflektory?
+              Kiedy najlepiej wypolerować reflektory?
             </summary>
             <p className={classes.faqAnswer}>
               Najlepiej <strong>jesienią</strong>, przed sezonem krótkich dni,

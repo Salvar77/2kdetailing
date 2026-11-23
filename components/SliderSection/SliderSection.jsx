@@ -50,7 +50,7 @@ const SliderSection = ({
       beforeImage: BeforeImage2,
       afterImage: AfterImage2,
       altBefore:
-        "Zmatowiały, pożółkły reflektor Renault Laguna Coupé przed regeneracją w Opolu",
+        "Zmatowiały, pożółkły reflektor Renault Laguna Coupé przed polerowaniem w Opolu",
       altAfter:
         "Krystalicznie przejrzysty reflektor po polerowaniu i zabezpieczeniu UV w 2K Auto Detailing Opole",
     },

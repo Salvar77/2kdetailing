@@ -177,7 +177,7 @@ export default function PostComponent() {
           href="/blog/regeneracja-reflektorow-przeglad-opole"
           className={classes.textLink}
         >
-          regeneracja reflektorów przed przeglądem
+          polerowanie reflektorów przed przeglądem
         </Link>
         . A jeśli chcesz zabezpieczyć auto przed solą i błotem, przeczytaj, jak{" "}
         <Link

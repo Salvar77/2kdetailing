@@ -159,8 +159,8 @@ export default function PostComponent() {
           <Wrench className="icon" />
           <strong>Reflektory</strong> – po zmroku liczy się każdy metr
           widoczności. Jeśli klosze są matowe, sprawdź, czym jest{" "}
-          <Link href="/oferta/regeneracja-reflektorow">
-            regeneracja reflektorów
+          <Link href="/oferta/polerowanie-reflektorow">
+            polerowanie reflektorów
           </Link>{" "}
           i{" "}
           <Link href="/blog/regeneracja-reflektorow-przeglad-opole">

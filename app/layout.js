@@ -79,7 +79,7 @@ const jsonLd = {
   logo: "https://www.2kdetailing.opole.pl/og/logo-2kdetailing-opole.png",
   image: "https://www.2kdetailing.opole.pl/og/logo-2kdetailing-opole.png",
   description:
-    "Profesjonalny auto detailing w Opolu. W ofercie m.in. korekta lakieru, powłoka ceramiczna i elastomerowa, folia PPF, renowacja skór, pranie tapicerki, przyciemnianie szyb oraz regeneracja reflektorów. Zadbamy o Twoje auto kompleksowo.",
+    "Profesjonalny auto detailing w Opolu. W ofercie m.in. korekta lakieru, powłoka ceramiczna i elastomerowa, folia PPF, renowacja skór, pranie tapicerki, przyciemnianie szyb oraz polerowanie reflektorów. Zadbamy o Twoje auto kompleksowo.",
   telephone: "+48797234734",
   email: "2kdetailingopole@gmail.com",
   address: {

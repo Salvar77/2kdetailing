@@ -99,16 +99,16 @@ export const servicesData = [
       "Kompleksowe czyszczenie i detailing kabiny auta w Opolu – pędzelkowanie detali i profesjonalna pielęgnacja wnętrza.",
   },
   {
-    id: "oferta/regeneracja-reflektorow",
-    title: "Regeneracja reflektorów Opole",
+    id: "oferta/polerowanie-reflektorow",
+    title: "Polerowanie reflektorów Opole",
     image: headlightMercedes,
     description: "Sprawdź",
     gradient: "linear-gradient(rgba(63,59,59,.5), rgba(40,31,31,.5))",
     additionalInfo:
-      "<strong>Regeneracja reflektorów</strong> – przywracamy lampom fabryczną przejrzystość. Usuwamy zmatowienia i żółty nalot, poprawiając widoczność i Twoje bezpieczeństwo po zmroku.",
+      "<strong>Polerowanie reflektorów</strong> – przywracamy lampom fabryczną przejrzystość. Usuwamy zmatowienia i żółty nalot, poprawiając widoczność i Twoje bezpieczeństwo po zmroku.",
     relatedBlogPost: "/blog/regeneracja-reflektorow-przeglad-opole",
     altText:
-      "Polerowanie lamp samochodowych i zabezpieczenie UV – renowacja zniszczonych reflektorów Mercedes Opole.",
+      "Polerowanie reflektorów samochodowych i zabezpieczenie UV – przywracanie przejrzystości lamp Mercedes Opole.",
     objectPosition: "center",
   },
   {
@@ -351,11 +351,11 @@ export const ppfPackages = [
 export const blogPosts = [
   {
     id: 10,
-    title: "Regeneracja reflektorów przed przeglądem – czy auto przejdzie?",
+    title: "Polerowanie reflektorów przed przeglądem – czy auto przejdzie?",
     subtitle: "REFLEKTORY I PRZEGLĄD",
     date: "2026-10-05",
     description:
-      "Zmatowiałe, pożółkłe reflektory to słabsze światło jesienią i ryzyko problemów na przeglądzie. Sprawdź, kiedy wystarczy regeneracja kloszy, a kiedy potrzebna jest wymiana.",
+      "Zmatowiałe, pożółkłe reflektory to słabsze światło jesienią i ryzyko problemów na przeglądzie. Sprawdź, kiedy wystarczy polerowanie kloszy, a kiedy potrzebna jest wymiana.",
     link: "/blog/regeneracja-reflektorow-przeglad-opole",
     image: headlightMercedes,
   },

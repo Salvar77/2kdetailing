@@ -173,8 +173,8 @@ export const realizationsData = [
     mobileClass: "renowacjaSkorMobile",
   },
   {
-    id: "regeneracja-reflektorow",
-    description: "Regeneracja reflektorów",
+    id: "polerowanie-reflektorow",
+    description: "Polerowanie reflektorów",
     images: [
       reflektorLagunaPorownanie,
       reflektor1,
@@ -186,8 +186,8 @@ export const realizationsData = [
     largeImage: reflektorLagunaPorownanie,
     largeImageWidth: 1920,
     gradient: "linear-gradient(rgba(63, 59, 59, 0.5), rgba(40, 31, 31, 0.5))",
-    customClass: "regeneracjaReflektorow",
-    mobileClass: "regeneracjaReflektorowMobile",
+    customClass: "polerowanieReflektorow",
+    mobileClass: "polerowanieReflektorowMobile",
   },
   {
     id: "przyciemnianie-szyb",
