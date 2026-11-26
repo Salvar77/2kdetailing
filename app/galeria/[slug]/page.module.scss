@@ -1,7 +1,7 @@
 @import "../../../styles/colors";
 
 .realizationDetail {
-  padding: 2rem 1rem;
+  padding: 2.5rem 1rem 4rem;
   color: #333;
   background: linear-gradient(
     195deg,
@@ -15,31 +15,19 @@
     font-size: 2.8rem;
     margin-bottom: 2rem;
     color: $white-smooth;
-    text-shadow: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.1);
+    text-shadow: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.25);
+
+    @media (min-width: 992px) {
+      font-size: 3.2rem;
+    }
   }
 
   &__box {
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 0 auto;
     border-radius: 1rem;
     padding: 1.5rem;
   }
-
-  //   &__images {
-  //     display: grid;
-  //     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  //     gap: 1.5rem;
-  //     justify-items: center;
-  //     align-items: start;
-  //     @media (min-width: 768px) {
-  //       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  //       gap: 2rem;
-  //     }
-
-  //     @media (min-width: 1024px) {
-  //       grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  //     }
-  //   }
 
   &__images {
     display: flex;
@@ -53,20 +41,31 @@
   }
 
   &__imageWrapper {
-    width: 100%;
-    max-width: 400px;
-    aspect-ratio: 3 / 2; // Consistent rectangular shape
-    border-radius: 0.8rem;
+    position: relative;
+    flex: 0 1 100%;
+    max-width: 100%;
+    aspect-ratio: 4 / 3;
+    padding: 0;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 1rem;
+    background-color: #0e1015;
     overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    font-family: inherit;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
     transition:
-      transform 0.3s ease,
-      box-shadow 0.3s ease;
+      transform 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+      box-shadow 0.35s ease,
+      border-color 0.35s ease;
     cursor: pointer;
 
-    &:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    @media (min-width: 640px) {
+      flex: 0 1 calc(50% - 1rem);
+      max-width: calc(50% - 1rem);
+    }
+
+    @media (min-width: 992px) {
+      flex: 0 1 calc(33.333% - 1.4rem);
+      max-width: 375px;
     }
 
     img {
@@ -74,8 +73,71 @@
       height: 100%;
       object-fit: cover;
       display: block;
+      transition: transform 0.55s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    &:hover,
+    &:focus-visible {
+      transform: translateY(-5px);
+      border-color: rgba($red-main, 0.65);
+      box-shadow:
+        0 14px 30px rgba(0, 0, 0, 0.5),
+        0 0 20px rgba($red-main, 0.22);
+      outline: none;
+
+      img {
+        transform: scale(1.05);
+      }
+
+      .itemOverlay {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
   }
+}
+
+.itemOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.65) 0%,
+    transparent 42%
+  );
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 1.4rem;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  pointer-events: none;
+  z-index: 2;
+
+  @media (hover: none) {
+    opacity: 0.85;
+    transform: none;
+    background: none;
+  }
+}
+
+.zoomIcon {
+  width: 3.8rem;
+  height: 3.8rem;
+  border-radius: 0.8rem;
+  background: rgba($red-main, 0.92);
+  color: $white-smooth;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.45);
+}
+
+.backWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
 }
 
 .resetButton {
@@ -84,11 +146,10 @@
   cursor: pointer;
   text-decoration: none;
   font-weight: bold;
-  padding: 1rem 1.5rem;
+  padding: 1rem 1.8rem;
   border: 0.2rem solid $dark-smooth;
   border-radius: 0.4rem;
   display: inline-block;
-  margin-bottom: 1rem;
   background-color: transparent;
   transition:
     background-color 0.3s,
@@ -121,7 +182,7 @@
   }
 
   &:hover {
-    border: 1px solid transparent;
+    border: 2px solid transparent;
     color: $dark-smooth;
   }
 
@@ -137,5 +198,156 @@
     right: 0.4rem;
     border-top: 4px solid $dark-smooth;
     border-left: 4px solid $dark-smooth;
+  }
+}
+
+/* LIGHTBOX */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(5, 5, 8, 0.94);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6.5rem 2rem 2.5rem;
+  user-select: none;
+
+  @media (min-width: 768px) {
+    padding: 7rem 7rem 3rem;
+  }
+}
+
+.lightboxTopBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 6rem;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10002;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65), transparent);
+
+  @media (min-width: 768px) {
+    padding: 0 3.2rem;
+  }
+}
+
+.lightboxCounter {
+  color: rgba($white-smooth, 0.9);
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.lightboxClose {
+  width: 4.2rem;
+  height: 4.2rem;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: $white-smooth;
+  font-size: 2rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition:
+    background-color 0.25s ease,
+    border-color 0.25s ease,
+    transform 0.25s ease;
+
+  &:hover {
+    background: $red-main;
+    border-color: $red-main;
+    transform: scale(1.06);
+  }
+}
+
+.lightboxStage {
+  position: relative;
+  max-width: 92vw;
+  max-height: 84dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  touch-action: pan-y;
+
+  @media (min-width: 768px) {
+    max-width: 84vw;
+    max-height: 85dvh;
+  }
+}
+
+.lightboxImg {
+  max-width: 92vw;
+  max-height: 84dvh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 0.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.75);
+
+  @media (min-width: 768px) {
+    max-width: 84vw;
+    max-height: 85dvh;
+  }
+}
+
+.lightboxNav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4.6rem;
+  height: 4.6rem;
+  border-radius: 50%;
+  background: rgba(20, 20, 25, 0.78);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: $white-smooth;
+  font-size: 3rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10001;
+  transition:
+    background-color 0.25s ease,
+    border-color 0.25s ease,
+    transform 0.25s ease;
+
+  &:hover {
+    background: $red-main;
+    border-color: $red-main;
+    transform: translateY(-50%) scale(1.08);
+  }
+
+  @media (max-width: 767px) {
+    width: 4rem;
+    height: 4rem;
+    font-size: 2.5rem;
+  }
+}
+
+.lightboxPrev {
+  left: 1rem;
+
+  @media (min-width: 768px) {
+    left: 2.4rem;
+  }
+}
+
+.lightboxNext {
+  right: 1rem;
+
+  @media (min-width: 768px) {
+    right: 2.4rem;
   }
 }
