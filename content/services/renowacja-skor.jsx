@@ -5,7 +5,10 @@ import Link from "next/link";
 import skoryImg from "../../assets/images/wlasciciel-2k-auto-detailing-renowacja-skor-opole.webp";
 
 export const meta = {
-  title: "Renowacja Skór",
+  title: "Renowacja Skór Samochodowych Opole",
+  seoTitle: "Renowacja Skór Samochodowych",
+  description:
+    "Profesjonalna renowacja i czyszczenie tapicerki skórzanej w Opolu (system Colourlock). Usuwamy przetarcia, pęknięcia i przywracamy fabryczny kolor skór.",
   hero: skoryImg,
   heroAltText:
     "Profesjonalna renowacja i naprawa uszkodzonej skórzanej tapicerki samochodowej",
@@ -51,7 +54,7 @@ export default function RenowacjaSkorPage() {
 
         <div className={classes.contentSection__text}>
           <h2>
-            Renowacja skór – przywróć wnętrzu luksusowy charakter i miękkość
+            Renowacja tapicerki skórzanej w Opolu – luksusowy charakter i miękkość
           </h2>
           <p>
             <Link href="/blog/renowacja-skor-opole">Skórzana tapicerka</Link> to
@@ -221,7 +224,7 @@ export default function RenowacjaSkorPage() {
       </section>
 
       <section className={classes.faqSection}>
-        <h2>Najczęściej zadawane pytania o renowację skór</h2>
+        <h2>Najczęściej zadawane pytania o renowację skór samochodowych</h2>
         <p className={classes.faqLeadText}>
           Masz wątpliwości dotyczące pielęgnacji i renowacji skórzanej
           tapicerki? Sprawdź odpowiedzi na najczęstsze pytania.

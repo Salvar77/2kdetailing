@@ -3,7 +3,10 @@ import Link from "next/link";
 import classes from "../../app/oferta/[slug]/page.module.scss";
 
 export const meta = {
-  title: "Polerowanie Reflektorów",
+  title: "Polerowanie Reflektorów Opole",
+  seoTitle: "Polerowanie Reflektorów Samochodowych",
+  description:
+    "Profesjonalne polerowanie reflektorów samochodowych w Opolu z ochroną UV lub folią PPF. Usuwamy żółty nalot i zmatowienia kloszy przed przeglądem.",
   hero: "/images/regeneracja-reflektorow-opole-polerowanie-lamp-przed-po.webp",
   heroAltText:
     "Proces polerowania reflektorów – usuwanie zmatowień kloszy i przywracanie im pełnej przejrzystości",
@@ -58,7 +61,7 @@ export default function PolerowanieReflektorowPage() {
         <div className={classes.circleContainer4}></div>
 
         <div className={classes.contentSection__text}>
-          <h2>Polerowanie reflektorów – odzyskaj blask i pewność po zmroku</h2>
+          <h2>Polerowanie reflektorów w Opolu – odzyskaj blask i pewność po zmroku</h2>
           <p>
             <strong>Polerowanie reflektorów</strong> to jedna z tych usług, które
             mają bezpośredni wpływ na Twoje bezpieczeństwo. Zmatowiałe, pożółkłe
@@ -310,7 +313,7 @@ export default function PolerowanieReflektorowPage() {
 
       {/* ✅ SEKCJA: FAQ */}
       <section className={classes.faqSection}>
-        <h2>Najczęściej zadawane pytania o polerowanie reflektorów</h2>
+        <h2>Najczęściej zadawane pytania o polerowanie reflektorów w Opolu</h2>
         <p className={classes.faqLeadText}>
           Masz pytania dotyczące polerowania reflektorów? Sprawdź odpowiedzi na
           najczęstsze wątpliwości naszych klientów.

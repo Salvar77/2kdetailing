@@ -5,7 +5,7 @@ import myjniaImg from "../../assets/images/wlasciciel-2k-auto-detailing-myjnia-r
 
 export const meta = {
   title: "Myjnia Ręczna Opole – Bezpieczne Mycie Samochodu",
-  seoTitle: "Myjnia Ręczna Opole – Detailing",
+  seoTitle: "Myjnia Ręczna i Mycie Detailingowe",
   description:
     "Bezpieczna myjnia ręczna w Opolu. Mycie na dwa wiadra, deironizacja felg i ochrona lakieru przed zarysowaniami. Umów mycie w 2K Auto Detailing Opole!",
   hero: myjniaImg,
@@ -128,7 +128,7 @@ export default function MyjniaRecznaPage() {
         className={`${classes.contentSection} ${classes["contentSection--reverse"]}`}
       >
         <div className={classes.contentSection__text}>
-          <h2>Standard EEAT – Eksperckość, Doświadczenie i Zaufanie</h2>
+          <h2>Doświadczenie i bezpieczna technologia mycia w Opolu</h2>
           <p>
             Jako specjaliści z wieloletnim stażem w branży auto detailingu w
             Opolu, wiemy, że każdy samochód traktujemy jak własny. Nasze

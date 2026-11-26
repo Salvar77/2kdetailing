@@ -23,6 +23,9 @@ export async function generateMetadata({ params }) {
   } catch {}
 
   const title = mod?.meta?.seoTitle ?? mod?.meta?.title ?? svc.title;
+  const ogTitle = mod?.meta?.title
+    ? `${mod.meta.title} | 2K Auto Detailing`
+    : title;
   const description =
     mod?.meta?.description ?? mod?.meta?.lead ?? svc.additionalInfo.replace(/<[^>]+>/g, "");
 
@@ -40,7 +43,7 @@ export async function generateMetadata({ params }) {
     alternates: { canonical: url },
     openGraph: {
       url,
-      title,
+      title: ogTitle,
       description,
       images: [{ url: ogImage, width: 1200, height: 630 }],
     },

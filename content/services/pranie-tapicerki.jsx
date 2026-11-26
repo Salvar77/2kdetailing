@@ -3,7 +3,10 @@ import Link from "next/link";
 import classes from "../../app/oferta/[slug]/page.module.scss";
 
 export const meta = {
-  title: "Pranie Tapicerki Opole",
+  title: "Pranie Tapicerki Samochodowej Opole",
+  seoTitle: "Pranie Tapicerki Samochodowej",
+  description:
+    "Ekstrakcyjne pranie tapicerki samochodowej w Opolu. Usuwamy głębokie plamy, alergeny i zapachy (ozonowanie w standardzie) oraz impregnujemy tkaniny.",
   hero: "/pranie-tapicerki-czyszczenie-wnetrza-opole-po.jpg",
   heroAltText:
     "Dogłębne pranie ekstrakcyjne materiałowych foteli w samochodzie w 2K Detailing Opole",
@@ -49,7 +52,7 @@ export default function PranieTapicerkiPage() {
 
         <div className={classes.contentSection__text}>
           <h2>
-            Pranie tapicerki Opole – przywróć wnętrzu sterylną czystość
+            Pranie tapicerki samochodowej w Opolu – sterylna czystość wnętrza
           </h2>
           <p>
             <Link href="/blog/pranie-tapicerki-opole">

@@ -4,7 +4,10 @@ import classes from "../../app/oferta/[slug]/page.module.scss";
 import wnetrzeImg from "../../assets/images/wlasciciel-2k-auto-detailing-detailing-wnetrza-opole.webp";
 
 export const meta = {
-  title: "Kompleksowe Czyszczenie Wnętrza Samochodu",
+  title: "Czyszczenie Wnętrza Samochodu Opole",
+  seoTitle: "Czyszczenie i Detailing Wnętrza Auta",
+  description:
+    "Kompleksowe czyszczenie i detailing wnętrza samochodu w Opolu. Pędzelkowanie detali, czyszczenie kokpitu, ozonowanie i matowe zabezpieczenie plastików.",
   hero: wnetrzeImg,
   heroAltText:
     "Precyzyjne pędzelkowanie i kompleksowe czyszczenie detali wewnątrz kabiny pasażerskiej",
@@ -49,7 +52,7 @@ export default function DetailingWnetrzaPage() {
         <div className={classes.circleContainer4}></div>
 
         <div className={classes.contentSection__text}>
-          <h2>Kompleksowe czyszczenie wnętrza samochodu – sterylne i pachnące nowością auto</h2>
+          <h2>Kompleksowe czyszczenie wnętrza samochodu w Opolu – sterylne i pachnące nowością auto</h2>
           <p>
             <Link href="/blog/detailing-wnetrza-opole">Kompleksowe czyszczenie wnętrza</Link>{" "}
             to nasza najbardziej drobiazgowa usługa. Nie ograniczamy się do

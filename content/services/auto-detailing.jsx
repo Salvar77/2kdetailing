@@ -4,7 +4,10 @@ import classes from "../../app/oferta/[slug]/page.module.scss";
 import Link from "next/link";
 
 export const meta = {
-  title: "Auto Detailing",
+  title: "Kompleksowy Auto Detailing Opole",
+  seoTitle: "Pakiet Kompleksowy – Pełna Odnowa Auta",
+  description:
+    "Kompleksowy pakiet auto detailingu w Opolu – pełna metamorfoza samochodu od A do Z: wieloetapowa korekta lakieru, ceramika lub PPF oraz detailing wnętrza.",
   hero: "/images/auto-detailing-lexus-is-studio-2k-opole.webp",
   heroAltText:
     "Pełen proces auto detailingu w studiu 2K Auto Detailing Opole – czarny Lexus IS",
@@ -40,7 +43,7 @@ export default function AutoDetailingPage() {
 
         <div className={classes.contentSection__text}>
           <h2>
-            Kompleksowy auto detailing – pełna metamorfoza Twojego pojazdu
+            Kompleksowy auto detailing w Opolu – pełna metamorfoza Twojego pojazdu
           </h2>
           <p>
             <Link href="/blog/auto-detailing-opole">Auto detailing</Link> to dla
