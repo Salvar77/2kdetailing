@@ -29,11 +29,37 @@
     padding: 1.5rem;
   }
 
-  &__images {
+  &__masonry {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
     gap: 1.5rem;
+    align-items: stretch;
+
+    @media (min-width: 640px) {
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 2rem;
+    }
+  }
+
+  &__masonryCompact {
+    .realizationDetail__column {
+      max-width: 520px;
+    }
+  }
+
+  &__column {
+    width: 100%;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    @media (min-width: 640px) {
+      flex: 1 1 0;
+      width: auto;
+    }
 
     @media (min-width: 768px) {
       gap: 2rem;
@@ -42,9 +68,9 @@
 
   &__imageWrapper {
     position: relative;
-    flex: 0 1 100%;
-    max-width: 100%;
-    aspect-ratio: 4 / 3;
+    width: 100%;
+    display: block;
+    line-height: 0;
     padding: 0;
     border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 1rem;
@@ -58,20 +84,9 @@
       border-color 0.35s ease;
     cursor: pointer;
 
-    @media (min-width: 640px) {
-      flex: 0 1 calc(50% - 1rem);
-      max-width: calc(50% - 1rem);
-    }
-
-    @media (min-width: 992px) {
-      flex: 0 1 calc(33.333% - 1.4rem);
-      max-width: 375px;
-    }
-
     img {
       width: 100%;
-      height: 100%;
-      object-fit: cover;
+      height: auto;
       display: block;
       transition: transform 0.55s cubic-bezier(0.16, 1, 0.3, 1);
     }

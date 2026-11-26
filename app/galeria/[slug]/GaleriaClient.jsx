@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect, useCallback } from "react";
+import React, { useState, useEffect, useCallback, useMemo } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
@@ -7,9 +7,54 @@ import classes from "./page.module.scss";
 
 const GaleriaClient = ({ realization }) => {
   const [activeIndex, setActiveIndex] = useState(null);
+  const [colCount, setColCount] = useState(3);
 
   const images = realization?.images || [];
   const total = images.length;
+
+  useEffect(() => {
+    const updateColumns = () => {
+      const w = window.innerWidth;
+      if (w < 640) setColCount(1);
+      else if (w < 992) setColCount(2);
+      else setColCount(3);
+    };
+    updateColumns();
+    window.addEventListener("resize", updateColumns);
+    return () => window.removeEventListener("resize", updateColumns);
+  }, []);
+
+  const effectiveCols = Math.max(1, Math.min(colCount, total || 1));
+
+  const columns = useMemo(() => {
+    const cols = Array.from({ length: effectiveCols }, () => ({
+      items: [],
+      height: 0,
+    }));
+
+    images.forEach((image, index) => {
+      let targetCol = 0;
+      if (index < effectiveCols) {
+        targetCol = index;
+      } else {
+        for (let c = 1; c < effectiveCols; c++) {
+          if (cols[c].height < cols[targetCol].height) {
+            targetCol = c;
+          }
+        }
+      }
+
+      const ratio =
+        typeof image === "object" && image?.width && image?.height
+          ? image.height / image.width
+          : 0.75;
+
+      cols[targetCol].items.push({ image, index });
+      cols[targetCol].height += ratio;
+    });
+
+    return cols;
+  }, [images, effectiveCols]);
 
   const closeLightbox = useCallback(() => {
     setActiveIndex(null);
@@ -81,51 +126,68 @@ const GaleriaClient = ({ realization }) => {
           {realization.description}
         </h1>
         <div className={classes.realizationDetail__box}>
-          <div className={classes.realizationDetail__images}>
-            {images.map((image, index) => {
-              const isStatic = typeof image === "object" && image !== null;
-              const src = isStatic ? image.src : image;
+          <div
+            className={`${classes.realizationDetail__masonry} ${
+              total <= 2 ? classes.realizationDetail__masonryCompact : ""
+            }`}
+          >
+            {columns.map((col, colIdx) => (
+              <div key={colIdx} className={classes.realizationDetail__column}>
+                {col.items.map(({ image, index }) => {
+                  const isStatic = typeof image === "object" && image !== null;
+                  const src = isStatic ? image.src : image;
+                  const imgWidth = isStatic && image.width ? image.width : 1200;
+                  const imgHeight = isStatic && image.height ? image.height : 900;
 
-              return (
-                <button
-                  key={index}
-                  type="button"
-                  className={classes.realizationDetail__imageWrapper}
-                  onClick={() => setActiveIndex(index)}
-                  aria-label={`Powiększ zdjęcie ${index + 1} z ${total}: ${realization.description}`}
-                >
-                  <Image
-                    src={src}
-                    alt={`${realization.description} – realizacja 2K Auto Detailing Opole (${index + 1})`}
-                    fill
-                    sizes="(max-width: 639px) 92vw, (max-width: 991px) 46vw, 375px"
-                    quality={75}
-                    priority={index < 3}
-                    placeholder={isStatic && image.blurDataURL ? "blur" : "empty"}
-                    blurDataURL={isStatic ? image.blurDataURL : undefined}
-                  />
-                  <span className={classes.itemOverlay} aria-hidden="true">
-                    <span className={classes.zoomIcon}>
-                      <svg
-                        width="20"
-                        height="20"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2.2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <circle cx="11" cy="11" r="7" />
-                        <line x1="21" y1="21" x2="16.65" y2="16.65" />
-                        <line x1="11" y1="8" x2="11" y2="14" />
-                        <line x1="8" y1="11" x2="14" y2="11" />
-                      </svg>
-                    </span>
-                  </span>
-                </button>
-              );
-            })}
+                  return (
+                    <button
+                      key={index}
+                      type="button"
+                      className={classes.realizationDetail__imageWrapper}
+                      onClick={() => setActiveIndex(index)}
+                      aria-label={`Powiększ zdjęcie ${index + 1} z ${total}: ${realization.description}`}
+                    >
+                      <Image
+                        src={src}
+                        alt={`${realization.description} – realizacja 2K Auto Detailing Opole (${index + 1})`}
+                        width={imgWidth}
+                        height={imgHeight}
+                        sizes={
+                          total <= 2
+                            ? "(max-width: 639px) 92vw, 520px"
+                            : "(max-width: 639px) 92vw, (max-width: 991px) 46vw, 375px"
+                        }
+                        quality={75}
+                        priority={index < 3}
+                        placeholder={
+                          isStatic && image.blurDataURL ? "blur" : "empty"
+                        }
+                        blurDataURL={isStatic ? image.blurDataURL : undefined}
+                      />
+                      <span className={classes.itemOverlay} aria-hidden="true">
+                        <span className={classes.zoomIcon}>
+                          <svg
+                            width="20"
+                            height="20"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2.2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          >
+                            <circle cx="11" cy="11" r="7" />
+                            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                            <line x1="11" y1="8" x2="11" y2="14" />
+                            <line x1="8" y1="11" x2="14" y2="11" />
+                          </svg>
+                        </span>
+                      </span>
+                    </button>
+                  );
+                })}
+              </div>
+            ))}
           </div>
         </div>
         <div className={classes.backWrapper}>
@@ -195,8 +257,14 @@ const GaleriaClient = ({ realization }) => {
               <Image
                 src={isStaticActive ? activeImage.src : activeImage}
                 alt={`${realization.description} – powiększenie (${activeIndex + 1}/${total})`}
-                width={isStaticActive && activeImage.width ? activeImage.width : 1600}
-                height={isStaticActive && activeImage.height ? activeImage.height : 1200}
+                width={
+                  isStaticActive && activeImage.width ? activeImage.width : 1600
+                }
+                height={
+                  isStaticActive && activeImage.height
+                    ? activeImage.height
+                    : 1200
+                }
                 sizes="95vw"
                 quality={90}
                 priority
