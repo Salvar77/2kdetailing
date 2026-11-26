@@ -1,6 +1,8 @@
 import { notFound } from "next/navigation";
+import Image from "next/image";
 import { servicesData } from "../../../constants";
-import OfertaClient from "./OfertaClient";
+import CTA from "../../../components/More/Cta";
+import classes from "./page.module.scss";
 
 export async function generateStaticParams() {
   return servicesData.map(({ id }) => ({
@@ -119,13 +121,57 @@ export default async function OfertaStrona({ params }) {
     jsonLdArray.push(faqJsonLd);
   }
 
+  const Content = mod?.default ?? null;
+  const meta = mod?.meta ?? null;
+
+  const heroSrc =
+    typeof meta?.hero === "string"
+      ? meta.hero
+      : (meta?.hero?.src ?? "/2k-logo-black-biale-tlo.png");
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdArray) }}
       />
-      <OfertaClient slugFromParent={slug} />
+      {meta && Content ? (
+        <div className={classes.pageWrapper}>
+          <div className={`${classes.whiteBlock} ${classes.whiteBlockLeft}`}></div>
+          <div className={`${classes.whiteBlock} ${classes.whiteBlockRight}`}></div>
+          <div className={`${classes.whiteBlock} ${classes.whiteBlockTop}`}></div>
+          <div
+            className={`${classes.whiteBlock} ${classes.whiteBlockBottom}`}
+          ></div>
+
+          <header className={classes.hero}>
+            <Image
+              src={heroSrc}
+              alt={meta.heroAltText || meta.title || "Hero zdjęcie"}
+              className={classes.hero__bg}
+              fill
+              priority
+              style={{ objectFit: "cover" }}
+            />
+            <div className={classes.hero__inner}>
+              <h1>{meta.title}</h1>
+              {meta.lead && <p className={classes.lead}>{meta.lead}</p>}
+            </div>
+          </header>
+          <main className={classes.serviceBody}>
+            <Content />
+          </main>
+          <CTA />
+        </div>
+      ) : (
+        <article className={classes.offer}>
+          <h1>{svc.title}</h1>
+          <div
+            className={classes.offer__text}
+            dangerouslySetInnerHTML={{ __html: svc.additionalInfo }}
+          />
+        </article>
+      )}
     </>
   );
 }

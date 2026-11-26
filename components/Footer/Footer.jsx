@@ -1,11 +1,9 @@
 import React from "react";
 import classes from "./Footer.module.scss";
 import dynamic from "next/dynamic";
+import ContactMain from "../Main/ContactMain";
 
 const GoogleMap = dynamic(() => import("../More/GoogleMap"), { ssr: false });
-const ContactMain = dynamic(() => import("../Main/ContactMain"), {
-  ssr: false,
-});
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();

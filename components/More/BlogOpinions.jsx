@@ -113,6 +113,14 @@ const BlogOpinions = ({ slug }) => {
 
   const targetTags = getTagsForSlug(slug);
 
+  const getStableOffset = (str) => {
+    let hash = 0;
+    for (let i = 0; i < str.length; i++) {
+      hash = (hash * 31 + str.charCodeAt(i)) % 1000;
+    }
+    return (hash / 1000) * 0.5;
+  };
+
   // Przydzielanie punktów trafności poszczególnym opiniom
   const scoredOpinions = ALL_OPINIONS.map((op) => {
     let score = 0;
@@ -123,10 +131,9 @@ const BlogOpinions = ({ slug }) => {
       if (tag === "ogolne") score += 1;
     });
 
-    // Delikatna losowość (od 0 do 0.5) by przy równym wyniku roszadowały się wpisy 
-    // i strona żyła a Google wykyrwało minimalne zmiany.
-    const randomization = Math.random() * 0.5;
-    return { ...op, score: score + randomization };
+    // Deterministyczny tie-breaker zależny od sluga (bezpieczny dla SSR/SSG)
+    const tieBreaker = getStableOffset(`${slug || ""}-${op.name}`);
+    return { ...op, score: score + tieBreaker };
   });
 
   // Sortowanie malejąco dla najlepszego EEAT

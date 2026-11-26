@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./page.module.scss";
-import { ContactWithAnimation, ContactContent } from "./DynamicComponents";
+import ContactWithAnimation from "../../components/More/ContactWithAnimation";
+import ContactContent from "./ContactContent";
 
 export const metadata = {
   title: "Kontakt i Rezerwacje",

@@ -1,5 +1,5 @@
 import { realizationsData } from "./realizationsData";
-import { Galeria } from "./DynamicGaleria";
+import Galeria from "./clientGaleria";
 
 export async function generateMetadata() {
   const pageTitle = "Galeria Realizacji | 2K Auto Detailing Opole";
